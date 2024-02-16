@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment
 import com.ch.al_mirats.databinding.FragmentHomeBinding
 import com.ch.al_mirats.dummy.DummyHomeDataSourceImpl
 import com.ch.al_mirats.presentation.home.adapter.HomeAdapter
+import com.ch.al_mirats.presentation.settings.SettingsFragment
 
 class HomeFragment : Fragment() {
 
@@ -30,12 +31,19 @@ class HomeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        setupRecyclerView()
+//        setupRecyclerView()
+        activateDarkMode()
     }
 
-    private fun setupRecyclerView() {
-        binding.rvHome.adapter = adapterHome
-        adapterHome.setItems(DummyHomeDataSourceImpl().getHomeData())
+//    private fun setupRecyclerView() {
+//        binding.rvHome.adapter = adapterHome
+//        adapterHome.setItems(DummyHomeDataSourceImpl().getHomeData())
+//    }
+
+    private fun activateDarkMode(){
+        binding.ivDarkMode.setOnClickListener {
+            SettingsFragment().show(childFragmentManager, null)
+        }
     }
 
 }

@@ -11,23 +11,23 @@ class DummyHomeDataSourceImpl() : DummyHomeDataSource {
         return mutableListOf(
             Feature(
                 imgUrl = "https://raw.githubusercontent.com/ryhanhxx/FlavourFairApp/master/app/src/main/res/drawable/img_burger_icon.webp",
-                name = "Burger",
-                desc = "Burger"
+                name = "Kalkulator Waris",
+                desc = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
             ),
             Feature(
                 imgUrl = "https://raw.githubusercontent.com/ryhanhxx/FlavourFairApp/master/app/src/main/res/drawable/img_mie_icon.webp",
-                name = "Mie",
-                desc = "Mie"
+                name = "Al-Quran",
+                desc = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
             ),
             Feature(
                 imgUrl = "https://raw.githubusercontent.com/ryhanhxx/FlavourFairApp/master/app/src/main/res/drawable/img_snack_icon.webp",
-                name = "Snack",
-                desc = "Snack"
+                name = "Tajweed",
+                desc = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
             ),
             Feature(
                 imgUrl = "https://raw.githubusercontent.com/ryhanhxx/FlavourFairApp/master/app/src/main/res/drawable/img_drink_icon.webp",
-                name = "Drink",
-                desc = "Drink"
+                name = "Panduan",
+                desc = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
             )
         )
     }

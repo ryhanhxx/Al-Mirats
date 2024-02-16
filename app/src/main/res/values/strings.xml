@@ -7,5 +7,20 @@
     <string name="title_feedback">Feedback</string>
     <string name="txt_welcome">Hallo, Selamat Datang di</string>
     <string name="txt_name">Al-Mirats</string>
+    <string name="txt_desc_feedback">Berikan masukan dan saran Anda untuk meningkatkan pengalaman menggunakan aplikasi. Kami menghargai kontribusi Anda dalam membuat Kalkulator Ahli Waris lebih baik!</string>
+    <string name="txt_feedback">Feedback</string>
+    <string name="txt_pilih">Pilih Sebagai</string>
+    <string name="txt_komentar">Masukan komentar anda</string>
+    <string name="txt_email">Masukkan email</string>
+    <string name="txt_materi">Materi</string>
+    <string name="txt_materi_desc">Di sini, Anda akan menemukan beberapa informasi yang praktis tentang waris, hukum terkait, dan panduan untuk memahami proses pembagian harta secara lebih baik.</string>
+    <string name="txt_card_kalkulator">Kalkulator Ahli Waris</string>
+    <string name="txt_card_desc_calculator">Sempurnakan pembagian warisan dengan mudah melalui fitur kalkulator kami yang akurat dan user-friendly.</string>
+    <string name="txt_panduan">Panduan</string>
+    <string name="txt_umpan_balik">Umpan Balik</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_settings">Settings</string>
+    <string name="txt_darkmode">Dark Mode</string>
 
 </resources>

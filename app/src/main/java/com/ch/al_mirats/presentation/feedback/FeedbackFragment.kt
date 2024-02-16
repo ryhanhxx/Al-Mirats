@@ -9,19 +9,17 @@ import com.ch.al_mirats.databinding.FragmentFeedbackBinding
 
 class FeedbackFragment : Fragment() {
 
-    private var _binding: FragmentFeedbackBinding? = null
+    private lateinit var binding: FragmentFeedbackBinding
 
     // This property is only valid between onCreateView and
     // onDestroyView.
-    private val binding get() = _binding!!
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentFeedbackBinding.inflate(inflater, container, false)
-        val root: View = binding.root
-        return root
+        binding = FragmentFeedbackBinding.inflate(inflater, container, false)
+        return binding.root
     }
 }

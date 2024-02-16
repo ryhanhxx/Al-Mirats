@@ -6,28 +6,40 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.ch.al_mirats.databinding.FragmentMateriBinding
+import com.ch.al_mirats.dummy.DummyHomeDataSourceImpl
+import com.ch.al_mirats.dummy.DummyMateriDataSourceImpl
+import com.ch.al_mirats.presentation.home.adapter.HomeAdapter
+import com.ch.al_mirats.presentation.materi.adapter.MateriAdapter
 
 class MateriFragment : Fragment() {
 
-    private var _binding: FragmentMateriBinding? = null
+    private lateinit var binding: FragmentMateriBinding
 
     // This property is only valid between onCreateView and
     // onDestroyView.
-    private val binding get() = _binding!!
+
+    private val adapterMateri: MateriAdapter by lazy {
+        MateriAdapter {
+
+        }
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-
-        _binding = FragmentMateriBinding.inflate(inflater, container, false)
-        val root: View = binding.root
-        return root
+        binding = FragmentMateriBinding.inflate(inflater, container, false)
+        return binding.root
     }
 
-    override fun onDestroyView() {
-        super.onDestroyView()
-        _binding = null
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        setupRecyclerView()
+    }
+
+    private fun setupRecyclerView() {
+        binding.rvHome.adapter = adapterMateri
+        adapterMateri.setItems(DummyMateriDataSourceImpl().getMateriData())
     }
 }
