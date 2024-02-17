@@ -32,7 +32,7 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 //        setupRecyclerView()
-        activateDarkMode()
+        darkMode()
     }
 
 //    private fun setupRecyclerView() {
@@ -40,7 +40,7 @@ class HomeFragment : Fragment() {
 //        adapterHome.setItems(DummyHomeDataSourceImpl().getHomeData())
 //    }
 
-    private fun activateDarkMode(){
+    private fun darkMode(){
         binding.ivDarkMode.setOnClickListener {
             SettingsFragment().show(childFragmentManager, null)
         }

@@ -59,13 +59,6 @@
                 android:layout_height="36dp"
                 android:layout_marginHorizontal="8dp"
                 android:src="@drawable/ic_night_mode" />
-
-            <ImageView
-                android:id="@+id/iv_grid"
-                android:layout_width="36dp"
-                android:layout_height="36dp"
-                android:layout_marginHorizontal="8dp"
-                android:src="@drawable/ic_grid" />
         </androidx.appcompat.widget.LinearLayoutCompat>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -120,7 +113,6 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/roboto_medium"
                             android:text="@string/txt_card_kalkulator"
-                            android:textColor="@color/primary_black"
                             android:textSize="20sp" />
 
                         <TextView
@@ -164,7 +156,6 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/roboto_medium"
                             android:text="@string/txt_panduan"
-                            android:textColor="@color/primary_black"
                             android:textSize="20sp" />
 
                         <TextView
@@ -194,7 +185,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:scaleType="centerCrop"
-                        tools:src="@drawable/img_feedback" />
+                        android:src="@drawable/img_feedback" />
 
                     <androidx.appcompat.widget.LinearLayoutCompat
                         android:layout_width="match_parent"
@@ -208,7 +199,6 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/roboto_medium"
                             android:text="@string/txt_umpan_balik"
-                            android:textColor="@color/primary_black"
                             android:textSize="20sp" />
 
                         <TextView

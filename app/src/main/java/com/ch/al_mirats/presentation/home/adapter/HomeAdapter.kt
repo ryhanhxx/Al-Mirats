@@ -47,7 +47,6 @@ class HomeAdapter(private val onItemClick: (Feature) -> Unit) :
         fun bind(item: Feature) {
             binding.ivImg.load(item.imgUrl)
             binding.tvName.text = item.name
-            binding.tvDesc.text = item.desc
             binding.root.setOnClickListener {
                 onItemClick.invoke(item)
             }
