@@ -54,5 +54,4 @@ class HomeFragment : Fragment() {
             }
         }
     }
-
 }
