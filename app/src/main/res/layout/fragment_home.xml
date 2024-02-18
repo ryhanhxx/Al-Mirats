@@ -64,12 +64,17 @@
             app:layout_constraintStart_toEndOf="@id/ll_title"
             app:layout_constraintTop_toTopOf="parent">
 
-            <ImageView
-                android:id="@+id/iv_dark_mode"
-                android:layout_width="36dp"
-                android:layout_height="36dp"
-                android:layout_marginHorizontal="8dp"
-                android:src="@drawable/ic_settings" />
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_dark_mode"-->
+<!--                android:layout_width="36dp"-->
+<!--                android:layout_height="36dp"-->
+<!--                android:layout_marginHorizontal="8dp"-->
+<!--                android:src="@drawable/ic_settings" />-->
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/sw_dark_mode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
         </androidx.appcompat.widget.LinearLayoutCompat>
 
     </androidx.constraintlayout.widget.ConstraintLayout>

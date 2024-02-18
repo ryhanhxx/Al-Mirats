@@ -33,7 +33,15 @@ class SettingsFragment : BottomSheetDialogFragment() {
     }
 
     private fun setupClickListeners() {
-        binding.swDarkMode.setOnCheckedChangeListener { _: CompoundButton?, isChecked: Boolean ->
+//        binding.swDarkMode.setOnCheckedChangeListener { _: CompoundButton?, isChecked: Boolean ->
+//            if (isChecked) {
+//                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+//            } else {
+//                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+//            }
+//        }
+
+        binding.swDarkMode.setOnCheckedChangeListener { _, isChecked ->
             if (isChecked) {
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
             } else {

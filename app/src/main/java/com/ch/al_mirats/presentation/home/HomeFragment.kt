@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
 import com.ch.al_mirats.databinding.FragmentHomeBinding
 import com.ch.al_mirats.dummy.DummyHomeDataSourceImpl
@@ -42,8 +43,15 @@ class HomeFragment : Fragment() {
     }
 
     private fun darkMode(){
-        binding.ivDarkMode.setOnClickListener {
-            SettingsFragment().show(childFragmentManager, null)
+//        binding.ivDarkMode.setOnClickListener {
+//            SettingsFragment().show(childFragmentManager, null)
+//        }
+        binding.swDarkMode.setOnCheckedChangeListener { _, isChecked ->
+            if (isChecked) {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+            } else {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+            }
         }
     }
 
