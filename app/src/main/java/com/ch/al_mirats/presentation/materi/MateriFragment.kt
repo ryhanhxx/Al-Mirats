@@ -5,10 +5,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.GridLayoutManager
 import com.ch.al_mirats.databinding.FragmentMateriBinding
 import com.ch.al_mirats.dummy.DummyHomeDataSourceImpl
+import com.ch.al_mirats.dummy.DummyMateriDataSource
 import com.ch.al_mirats.dummy.DummyMateriDataSourceImpl
+import com.ch.al_mirats.model.Materi
 import com.ch.al_mirats.presentation.home.adapter.HomeAdapter
+import com.ch.al_mirats.presentation.materi.adapter.AdapterLayoutMode
 import com.ch.al_mirats.presentation.materi.adapter.MateriAdapter
 
 class MateriFragment : Fragment() {
@@ -18,10 +22,13 @@ class MateriFragment : Fragment() {
     // This property is only valid between onCreateView and
     // onDestroyView.
 
-    private val adapterMateri: MateriAdapter by lazy {
-        MateriAdapter {
-
+    private val adapter: MateriAdapter by lazy {
+        MateriAdapter(AdapterLayoutMode.LINEAR){ materi: Materi ->
         }
+    }
+
+    private val datasource: DummyMateriDataSource by lazy {
+        DummyMateriDataSourceImpl()
     }
 
     override fun onCreateView(
@@ -35,11 +42,24 @@ class MateriFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        setupRecyclerView()
+        setupList()
+        setupSwitch()
     }
 
-    private fun setupRecyclerView() {
-        binding.rvHome.adapter = adapterMateri
-        adapterMateri.setItems(DummyMateriDataSourceImpl().getMateriData())
+    private fun setupList() {
+        val span = if(adapter.adapterLayoutMode == AdapterLayoutMode.LINEAR) 1 else 2
+        binding.rvMateri.apply {
+            layoutManager = GridLayoutManager(requireContext(),span)
+            adapter = this@MateriFragment.adapter
+        }
+        adapter.submitData(datasource.getMateriData())
+    }
+
+    private fun setupSwitch() {
+        binding.swGrid.setOnCheckedChangeListener { _, isChecked ->
+            (binding.rvMateri.layoutManager as GridLayoutManager).spanCount = if (isChecked) 2 else 1
+            adapter.adapterLayoutMode = if(isChecked) AdapterLayoutMode.GRID else AdapterLayoutMode.LINEAR
+            adapter.refreshList()
+        }
     }
 }

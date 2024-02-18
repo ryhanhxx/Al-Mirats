@@ -2,52 +2,64 @@ package com.ch.al_mirats.presentation.materi.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.recyclerview.widget.AsyncListDiffer
+import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.ch.al_mirats.databinding.ItemCardBinding
+import com.ch.al_mirats.databinding.ItemCardGridBinding
 import com.ch.al_mirats.model.Materi
+import com.ch.al_mirats.presentation.materi.viewholder.GridMateriViewHolder
+import com.ch.al_mirats.presentation.materi.viewholder.LinearMateriViewHolder
+import com.ch.al_mirats.utils.ViewHolderBinder
 
-class MateriAdapter (private val onItemClick: (Materi) -> Unit) :
-    RecyclerView.Adapter<MateriAdapter.MateriItemListViewHolder>() {
+class MateriAdapter (
+    var adapterLayoutMode: AdapterLayoutMode,
+    private val onClickListener: (Materi) -> Unit
+) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
-    private var items: MutableList<Materi> = mutableListOf()
+    private val dataDiffer = AsyncListDiffer(this, object : DiffUtil.ItemCallback<Materi>() {
+        override fun areItemsTheSame(oldItem: Materi, newItem: Materi): Boolean {
+            return oldItem.id == newItem.id
+        }
 
-    fun setItems(items: List<Materi>) {
-        this.items.clear()
-        this.items.addAll(items)
-        notifyDataSetChanged()
-    }
+        override fun areContentsTheSame(oldItem: Materi, newItem: Materi): Boolean {
+            return oldItem.hashCode() == newItem.hashCode()
+        }
+    })
 
-    fun addItems(items: List<Materi>) {
-        this.items.addAll(items)
-        notifyDataSetChanged()
-    }
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
+        return when (viewType) {
+            AdapterLayoutMode.GRID.ordinal -> (GridMateriViewHolder(
+                binding = ItemCardGridBinding.inflate(
+                    LayoutInflater.from(parent.context), parent, false
+                ), onClickListener
+            ))
 
-    fun clearItems() {
-        this.items.clear()
-        notifyDataSetChanged()
-    }
-
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MateriItemListViewHolder {
-        val binding =
-            ItemCardBinding.inflate(LayoutInflater.from(parent.context), parent, false)
-        return MateriItemListViewHolder(binding, onItemClick)
-    }
-
-    override fun onBindViewHolder(holder: MateriItemListViewHolder, position: Int) {
-        holder.bind(items[position])
-    }
-
-    override fun getItemCount(): Int = items.size
-
-    class MateriItemListViewHolder(
-        private val binding: ItemCardBinding,
-        private val onItemClick: (Materi) -> Unit
-    ) : RecyclerView.ViewHolder(binding.root) {
-        fun bind(item: Materi) {
-            binding.tvName.text = item.name
-            binding.root.setOnClickListener {
-                onItemClick.invoke(item)
+            else -> {
+                LinearMateriViewHolder(
+                    binding = ItemCardBinding.inflate(
+                        LayoutInflater.from(parent.context), parent, false
+                    ), onClickListener
+                )
             }
         }
+    }
+
+    override fun getItemCount(): Int = dataDiffer.currentList.size
+
+    override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
+        (holder as ViewHolderBinder<Materi>).bind(dataDiffer.currentList[position])
+    }
+
+    override fun getItemViewType(position: Int): Int {
+        return adapterLayoutMode.ordinal
+    }
+
+    fun submitData(data: List<Materi>) {
+        dataDiffer.submitList(data)
+    }
+
+    fun refreshList() {
+        notifyItemRangeChanged(0, dataDiffer.currentList.size)
     }
 }

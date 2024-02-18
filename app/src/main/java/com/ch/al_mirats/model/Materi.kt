@@ -9,4 +9,5 @@ data class Materi(
     val id: String = UUID.randomUUID().toString(),
     val imgUrl: String,
     val name: String,
+    val desc: String
 ) : Parcelable

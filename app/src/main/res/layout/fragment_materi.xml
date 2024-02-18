@@ -25,18 +25,18 @@
                 android:text="@string/txt_materi"
                 android:textColor="@color/primary_light_blue"
                 android:textSize="24sp"
-                app:layout_constraintEnd_toStartOf="@id/iv_grid"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/sw_grid"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <ImageView
-                android:id="@+id/iv_grid"
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/sw_grid"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
-                android:layout_marginHorizontal="8dp"
-                android:src="@drawable/ic_grid"
+                android:layout_height="wrap_content"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -49,13 +49,13 @@
             android:textSize="16sp" />
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rv_home"
+            android:id="@+id/rv_materi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="8dp"
             android:orientation="vertical"
             android:visibility="visible"
-            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
             app:layout_constraintTop_toBottomOf="@id/cl_header"
             tools:itemCount="5"
             tools:listitem="@layout/item_card" />

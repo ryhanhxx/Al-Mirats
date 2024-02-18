@@ -5,20 +5,22 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import com.ch.al_mirats.databinding.ItemCardBinding
+import com.ch.al_mirats.databinding.ItemCardGridBinding
 import com.ch.al_mirats.model.Feature
+import com.ch.al_mirats.model.Materi
 
-class HomeAdapter(private val onItemClick: (Feature) -> Unit) :
+class HomeAdapter(private val onItemClick: (Materi) -> Unit) :
     RecyclerView.Adapter<HomeAdapter.HomeItemListViewHolder>() {
 
-    private var items: MutableList<Feature> = mutableListOf()
+    private var items: MutableList<Materi> = mutableListOf()
 
-    fun setItems(items: List<Feature>) {
+    fun setItems(items: List<Materi>) {
         this.items.clear()
         this.items.addAll(items)
         notifyDataSetChanged()
     }
 
-    fun addItems(items: List<Feature>) {
+    fun addItems(items: List<Materi>) {
         this.items.addAll(items)
         notifyDataSetChanged()
     }
@@ -42,11 +44,12 @@ class HomeAdapter(private val onItemClick: (Feature) -> Unit) :
 
     class HomeItemListViewHolder(
         private val binding: ItemCardBinding,
-        private val onItemClick: (Feature) -> Unit
+        private val onItemClick: (Materi) -> Unit
     ) : RecyclerView.ViewHolder(binding.root) {
-        fun bind(item: Feature) {
+        fun bind(item: Materi) {
             binding.ivImg.load(item.imgUrl)
             binding.tvName.text = item.name
+            binding.tvDesc.text = item.desc
             binding.root.setOnClickListener {
                 onItemClick.invoke(item)
             }
