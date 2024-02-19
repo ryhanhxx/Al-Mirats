@@ -11,9 +11,4 @@
         android:icon="@drawable/ic_materi"
         android:title="@string/title_materi" />
 
-    <item
-        android:id="@+id/navigation_feedback"
-        android:icon="@drawable/ic_feedback"
-        android:title="@string/title_feedback" />
-
 </menu>

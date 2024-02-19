@@ -17,9 +17,4 @@
         android:label="@string/title_materi"
         tools:layout="@layout/fragment_materi" />
 
-    <fragment
-        android:id="@+id/navigation_feedback"
-        android:name="com.ch.al_mirats.presentation.feedback.FeedbackFragment"
-        android:label="@string/title_feedback"
-        tools:layout="@layout/fragment_feedback" />
 </navigation>
