@@ -70,10 +70,6 @@ dependencies {
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation("com.squareup.okhttp3:okhttp:4.11.0")
 
-    implementation("com.google.firebase:firebase-auth-ktx:22.1.2")
-    implementation("com.google.firebase:firebase-crashlytics:18.5.0")
-    implementation("com.google.firebase:firebase-analytics:21.4.0")
-
     implementation("androidx.recyclerview:recyclerview:1.3.1")
 
     debugImplementation("com.github.chuckerteam.chucker:library:4.0.0")
@@ -88,4 +84,6 @@ dependencies {
     testImplementation("app.cash.turbine:turbine:1.0.0")
 
     testImplementation("androidx.arch.core:core-testing:2.2.0")
+
+    implementation ("androidx.viewpager2:viewpager2:1.0.0")
 }
