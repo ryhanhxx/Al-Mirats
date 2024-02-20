@@ -7,5 +7,6 @@
         <item name="colorOnPrimary">@color/primary_light_blue</item>
         <!-- Customize your theme here. -->
         <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/primary_white</item>
     </style>
 </resources>

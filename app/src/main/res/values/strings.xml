@@ -22,5 +22,17 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="txt_settings">Settings</string>
     <string name="txt_darkmode">Dark Mode</string>
+    <string name="txt_about">Al-Mirats App</string>
+    <string name="txt_tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="txt_desc_app">Kalkulator Al-Mirats merupakan aplikasi mobile hasil proyek yang di hasilkan pada Mata Kuliah Terk Pengembangan Aplikasi Mobile yang dibuat sesuai ajaran Agama Islam. Aplikasi ini akan memudahkan anda untuk menghitung pembagian waris, dalam aplikasi ini anda juga bisa mempelajari terkait waris.</string>
+    <string name="txt_nama_aplikasi">Nama Aplikasi: Al-Mirats</string>
+    <string name="txt_tim">Tim Pengembang:</string>
+    <string name="txt_nama_pengembang">1. Arfan Prihardiasyah \n2. Bayu Mahesa \n3. Ryan Hidayat \n4. Haibraiel Rabbany F.Z \n5. Farhan Nur Fauziy \n6. Muhammad Rayhan Hakim</string>
+    <string name="txt_dosen">Herika Hayurani, S.Kom., M.Kom</string>
+    <string name="txt_dosen_pembimbing">Dosen Pembimbing:</string>
+    <string name="txt_klien">Klien</string>
+    <string name="txt_nama_klien">Dr. H. Karimulloh, M.A</string>
+    <string name="txt_sumber">Sumber Konten:</string>
+    <string name="txt_sumber_desc"><![CDATA[Kementrian Agama Republik Indonesia 2022. Al-Quran Digital. \nSupradiin.2020Fikih Mewaris & Hukum Kewarisan (Studi Analsisi Perbandingan)Sulawesi Selatan. Pustaka Almaida.]]></string>
 
 </resources>

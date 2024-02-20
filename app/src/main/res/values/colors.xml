@@ -31,9 +31,7 @@
 
     <!--    Text colors -->
     <color name="white">#FFFFFF</color>
-    <color name="white_2">#FAFAFA</color>
     <color name="black">#252525</color>
-    <color name="black_2">#252525</color>
 
     <!--   Icon Tint color -->
     <color name="purple_500">#0B60B0</color>

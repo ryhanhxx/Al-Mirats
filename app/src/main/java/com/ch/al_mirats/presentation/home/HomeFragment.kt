@@ -14,6 +14,7 @@ import androidx.viewpager2.widget.MarginPageTransformer
 import com.ch.al_mirats.R
 import com.ch.al_mirats.databinding.FragmentHomeBinding
 import com.ch.al_mirats.dummy.DummyMateriDataSourceImpl
+import com.ch.al_mirats.presentation.about.AboutActivity
 import com.ch.al_mirats.presentation.feedback.FeedbackActivity
 import com.ch.al_mirats.presentation.home.adapter.CarouselRVAdapter
 import com.ch.al_mirats.presentation.home.adapter.HomeAdapter
@@ -43,6 +44,18 @@ class HomeFragment : Fragment() {
         setupDarkMode()
         setupCarousel()
         setupNavigate()
+    }
+
+    private fun setupNavigate(){
+        binding.llFeedback.setOnClickListener{
+            val intent = Intent(activity, FeedbackActivity::class.java)
+            activity?.startActivity(intent)
+        }
+
+        binding.llAbout.setOnClickListener {
+            val intent = Intent(activity, AboutActivity::class.java)
+            activity?.startActivity(intent)
+        }
     }
 
     private fun setupRecyclerView() {
@@ -82,10 +95,5 @@ class HomeFragment : Fragment() {
         }
     }
 
-    private fun setupNavigate(){
-        binding.llFeedback.setOnClickListener{
-            val intent = Intent(activity, FeedbackActivity::class.java)
-            activity?.startActivity(intent)
-        }
-    }
+
 }
