@@ -13,20 +13,26 @@ import androidx.viewpager2.widget.CompositePageTransformer
 import androidx.viewpager2.widget.MarginPageTransformer
 import com.ch.al_mirats.R
 import com.ch.al_mirats.databinding.FragmentHomeBinding
-import com.ch.al_mirats.dummy.DummyMateriDataSourceImpl
+import com.ch.al_mirats.dummy.DummyTopMateriDataSourceImpl
+import com.ch.al_mirats.model.Materi
 import com.ch.al_mirats.presentation.about.AboutActivity
 import com.ch.al_mirats.presentation.feedback.FeedbackActivity
 import com.ch.al_mirats.presentation.home.adapter.CarouselRVAdapter
 import com.ch.al_mirats.presentation.home.adapter.HomeAdapter
+import com.ch.al_mirats.presentation.materi.MateriActivity
 
 class HomeFragment : Fragment() {
 
     private lateinit var binding: FragmentHomeBinding
 
     private val adapterHome: HomeAdapter by lazy {
-        HomeAdapter {
-
+        HomeAdapter {materi: Materi ->
+            navigateToDetailFragment(materi)
         }
+    }
+
+    private fun navigateToDetailFragment(materi: Materi) {
+        MateriActivity.startActivity(requireContext(), materi)
     }
 
     override fun onCreateView(
@@ -60,7 +66,7 @@ class HomeFragment : Fragment() {
 
     private fun setupRecyclerView() {
         binding.rvHome.adapter = adapterHome
-        adapterHome.setItems(DummyMateriDataSourceImpl().getMateriData())
+        adapterHome.setItems(DummyTopMateriDataSourceImpl().getTopMateriData(requireContext()))
     }
 
     private fun setupCarousel() {

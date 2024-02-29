@@ -7,11 +7,9 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import com.ch.al_mirats.databinding.FragmentMateriBinding
-import com.ch.al_mirats.dummy.DummyHomeDataSourceImpl
 import com.ch.al_mirats.dummy.DummyMateriDataSource
 import com.ch.al_mirats.dummy.DummyMateriDataSourceImpl
 import com.ch.al_mirats.model.Materi
-import com.ch.al_mirats.presentation.home.adapter.HomeAdapter
 import com.ch.al_mirats.presentation.materi.adapter.AdapterLayoutMode
 import com.ch.al_mirats.presentation.materi.adapter.MateriAdapter
 
@@ -19,16 +17,18 @@ class MateriFragment : Fragment() {
 
     private lateinit var binding: FragmentMateriBinding
 
-    // This property is only valid between onCreateView and
-    // onDestroyView.
-
     private val adapter: MateriAdapter by lazy {
         MateriAdapter(AdapterLayoutMode.LINEAR){ materi: Materi ->
+            navigateToDetailFragment(materi)
         }
     }
 
     private val datasource: DummyMateriDataSource by lazy {
         DummyMateriDataSourceImpl()
+    }
+
+    private fun navigateToDetailFragment(materi: Materi) {
+        MateriActivity.startActivity(requireContext(), materi)
     }
 
     override fun onCreateView(
@@ -52,7 +52,7 @@ class MateriFragment : Fragment() {
             layoutManager = GridLayoutManager(requireContext(),span)
             adapter = this@MateriFragment.adapter
         }
-        adapter.submitData(datasource.getMateriData())
+        adapter.submitData(datasource.getMateriData(requireContext()))
     }
 
     private fun setupSwitch() {

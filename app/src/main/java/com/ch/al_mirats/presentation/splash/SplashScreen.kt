@@ -12,7 +12,7 @@ import com.ch.al_mirats.presentation.main.MainActivity
 class SplashScreen : AppCompatActivity() {
     private lateinit var binding: ActivitySplashScreenBinding
 
-    private val SPLASH_TIME_OUT: Long = 3000 // Durasi splash screen dalam milidetik (3 detik)
+    private val SPLASH_TIME_OUT: Long = 1000 // Durasi splash screen dalam milidetik (3 detik)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

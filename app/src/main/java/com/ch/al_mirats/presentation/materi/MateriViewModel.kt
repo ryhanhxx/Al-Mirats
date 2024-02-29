@@ -1,13 +1,10 @@
 package com.ch.al_mirats.presentation.materi
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
+import android.os.Bundle
 import androidx.lifecycle.ViewModel
+import com.ch.al_mirats.model.Materi
 
-class MateriViewModel : ViewModel() {
+class MateriViewModel(private val extras: Bundle?) : ViewModel() {
+    val product = extras?.getParcelable<Materi>(MateriActivity.MATERIAL_KEY)
 
-    private val _text = MutableLiveData<String>().apply {
-        value = "This is dashboard Fragment"
-    }
-    val text: LiveData<String> = _text
 }

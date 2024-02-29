@@ -1,38 +1,74 @@
 <resources>
     <string name="app_name">Al-Mirats</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
-    <string name="title_materi">Materi</string>
-    <string name="title_feedback">Feedback</string>
-    <string name="txt_welcome">Hallo, Selamat Datang di</string>
-    <string name="txt_name">Al-Mirats</string>
-    <string name="txt_desc_feedback">Berikan masukan dan saran Anda untuk meningkatkan pengalaman menggunakan aplikasi. Kami menghargai kontribusi Anda dalam membuat Kalkulator Ahli Waris lebih baik!</string>
+    <string name="txt_home">Home</string>
+    <string name="txt_materi">Material</string>
     <string name="txt_feedback">Feedback</string>
-    <string name="txt_pilih">Pilih Sebagai</string>
-    <string name="txt_komentar">Masukan komentar anda</string>
-    <string name="txt_email">Masukkan email</string>
-    <string name="txt_materi">Materi</string>
-    <string name="txt_materi_desc">Di sini, Anda akan menemukan beberapa informasi yang praktis tentang waris, hukum terkait, dan panduan untuk memahami proses pembagian harta secara lebih baik.</string>
-    <string name="txt_card_kalkulator">Kalkulator Ahli Waris</string>
-    <string name="txt_card_desc_calculator">Sempurnakan pembagian warisan dengan mudah melalui fitur kalkulator kami yang akurat dan user-friendly.</string>
-    <string name="txt_panduan">Panduan</string>
-    <string name="txt_umpan_balik">Umpan Balik</string>
+    <string name="txt_welcome">Hello, Welcome to</string>
+    <string name="txt_name">Al-Mirats</string>
+    <string name="txt_desc_feedback">Provide your feedback and suggestions to improve your app experience. We appreciate your contributions to making the Heirs Calculator better!</string>
+    <string name="txt_komentar">Enter your comments</string>
+    <string name="txt_email">Enter your email</string>
+    <string name="txt_materi_desc">Here, you will find some practical information about inheritance, related laws, and a guide to better understanding the process of dividing assets.</string>
+    <string name="txt_card_desc_calculator">Easily fine-tune inheritance divisions with our accurate and user-friendly calculator feature.</string>
+    <string name="txt_panduan">Guide</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="txt_settings">Settings</string>
-    <string name="txt_darkmode">Dark Mode</string>
-    <string name="txt_about">Al-Mirats App</string>
-    <string name="txt_tentang_aplikasi">Tentang Aplikasi</string>
-    <string name="txt_desc_app">Kalkulator Al-Mirats merupakan aplikasi mobile hasil proyek yang di hasilkan pada Mata Kuliah Terk Pengembangan Aplikasi Mobile yang dibuat sesuai ajaran Agama Islam. Aplikasi ini akan memudahkan anda untuk menghitung pembagian waris, dalam aplikasi ini anda juga bisa mempelajari terkait waris.</string>
-    <string name="txt_nama_aplikasi">Nama Aplikasi: Al-Mirats</string>
-    <string name="txt_tim">Tim Pengembang:</string>
+    <string name="txt_tentang_aplikasi">About Application</string>
+    <string name="txt_desc_app">The Al-Mirats Calculator is a mobile application resulting from a project produced in the Mobile Application Development Terk Course which was created according to the teachings of the Islamic religion. This application will make it easier for you to calculate inheritance distribution, in this application you can also learn about inheritance.</string>
+    <string name="txt_nama_aplikasi">Application Name: Al-Mirats</string>
+    <string name="txt_tim">Development Team:</string>
     <string name="txt_nama_pengembang">1. Arfan Prihardiasyah \n2. Bayu Mahesa \n3. Ryan Hidayat \n4. Haibraiel Rabbany F.Z \n5. Farhan Nur Fauziy \n6. Muhammad Rayhan Hakim</string>
     <string name="txt_dosen">Herika Hayurani, S.Kom., M.Kom</string>
-    <string name="txt_dosen_pembimbing">Dosen Pembimbing:</string>
-    <string name="txt_klien">Klien</string>
+    <string name="txt_dosen_pembimbing">Supervisor:</string>
+    <string name="txt_klien">Client:</string>
     <string name="txt_nama_klien">Dr. H. Karimulloh, M.A</string>
-    <string name="txt_sumber">Sumber Konten:</string>
+    <string name="txt_sumber">Content Source:</string>
     <string name="txt_sumber_desc"><![CDATA[Kementrian Agama Republik Indonesia 2022. Al-Quran Digital. \nSupradiin.2020Fikih Mewaris & Hukum Kewarisan (Studi Analsisi Perbandingan)Sulawesi Selatan. Pustaka Almaida.]]></string>
+    <string name="txt_kalkulator">Inheritance Calculator</string>
+    <string name="txt_about">About</string>
+    <string name="txt_materi_teratas">Top Material</string>
+    <string name="txt_fitur_utama">Main Feature</string>
 
+<!--    TODO: MATERI-->
+    <string name="title_materi_1">What is Inheritance</string>
+    <string name="heading_materi_1">Definition and Terms in Inheritance Law</string>
+    <string name="desc_materi_1">According to Indonesian legal expert, Prof.Dr. Wirjono Prodjodikoro (1976), inheritance law is defined as the law that regulates the position of a persons assets after he dies (heirs), and the ways in which these assets are transferred to other people (heirs). Meanwhile, based on Presidential Instruction Number 1 of 1991, the definition of inheritance law is the law that regulates the transfer of ownership rights to the heirs inheritance, then determines who has the right to be an heir and how much each share will be.</string>
+    <string name="subheading_materi_1">The following are some terms in inheritance law:</string>
+    <string name="subdesc_materi_1">1. An heir is a person who dies and leaves property to be distributed to those entitled to it (Heirs).\n
+        \n2. Heirs are people who have the right to receive inheritance from the testator. There are heirs according to the provisions of the law called heirs under the general title (ab intestanto), there are heirs appointed by a will/testament called heirs under a special title (testamentary heirs).\n
+        \n3. Inheritance is all the heirs inheritance in the form of rights and obligations or all the assets left by the person who died after deducting all his debts.\n
+        \n4. A will is a decision made by a person (usually stated in a deed) which must be implemented after he dies. Wills due to unilateral actions can be revoked.\n
+        \n5. Legitime portie is an absolute part, namely a part of the inheritance that cannot be reduced by testament or other gifts by the testator. The heirs who are entitled to this section are called "legitimate" namely straight-line heirs according to the law</string>
+
+    <string name="title_materi_2">Verses Explaining About Inheritance</string>
+    <string name="heading_materi_2">Verses from the Qur-an about Inheritance</string>
+    <string name="desc_materi_2">There are several verses in the Qur-an that explain the distribution of inheritance. Among them is the word of Allah\n
+         \nلِلرِّجَالِ نَصِيبٌ مِمَّا تَرَكَ الْوَالِدَانِ وَالْأَقْرَبُون َ وَلِلنِّسَاءِ نَصِيبٌ مِمَّا تَرَكَ الْوَالِدَانِ وَالْأَقْروبَُُ \n
+         \nFor men there is the right to share in the assets inherited from their parents and relatives, and for women there is the right to share (also) in the assets inherited from their parents and relatives, whether a little or a lot according to the portion that has been determined. (QS. An Nisaa : 7)</string>
+    <string name="subheading_materi_2">Reference</string>
+    <string name="subdesc_materi_2">In the past, during the period of ignorance, the Arabs, due to their arbitrariness and harsh nature, did not give inheritance to weak people such as women and children, they only gave it to strong men. This is because, in their opinion, men are the ones who take part in war, and they are also the ones who have the right to receive the spoils of war. So Rabb, the Most Merciful, the Most Wise, wanted to establish a Shari ah that equalizes (the right to receive inheritance) between men and women, strong people and weak people. (Taisir Al-Karim Ar-Rahman fi Tafsir Kalam Al-Mannan, Page 201)</string>
+
+    <string name="title_materi_3">Pihak Siapa Saja yang Berhak Menerima Waris</string>
+    <string name="heading_materi_3"></string>
+    <string name="desc_materi_3"></string>
+    <string name="subheading_materi_3"></string>
+    <string name="subdesc_materi_3"></string>
+
+    <string name="title_materi_4">Bagaimana Struktur Bagian Waris Utama</string>
+    <string name="heading_materi_4"></string>
+    <string name="desc_materi_4"></string>
+    <string name="subheading_materi_4"></string>
+    <string name="subdesc_materi_4"></string>
+
+    <string name="title_materi_5">Bagaimana Struktur Bagian Waris Utama</string>
+    <string name="heading_materi_5"></string>
+    <string name="desc_materi_5"></string>
+    <string name="subheading_materi_5"></string>
+    <string name="subdesc_materi_5"></string>
+
+    <string name="title_materi_6">Definition of Aul and Radd in Waris</string>
+    <string name="heading_materi_6">What is meant by Aul</string>
+    <string name="desc_materi_6">Al-aul in Arabic has many meanings, including azh-zhulm (persecution) and unjust, as He said:\n\n That is closer to not committing wrongdoing. (an-Nisa: 3)\n\nAl-aul also means rising or overflowing. It is said alaa al-mau idzaa irtafaa which means the rising water is overflowing.\n\nAuls example is: \nThe portion of a husband who should get half ½ can change to a third ⅓ in certain circumstances, such as if the subject matter is increased from the original six 6 to nine 9. So in this case a husband who should get 3/6 and a half only gets 3/9 and a half</string>
+    <string name="subheading_materi_6">What does Radd mean?</string>
+    <string name="subdesc_materi_6">Ar-radd in Arabic means return/return or also means turn/turn away. As stated in the following words of Allah:\n\nMoses said: That is (the place) we are looking for. Then the two of them returned, following their original footsteps. \" (al-Kahf: 64)\n\nAnd Allah dispels those who disbelieve whose condition is full of irritation…\" (al-Ahzab: 25)\n\nIn a prayer it is said \"Allahumma radda kaidahum annii\" " (O Allah, turn away/banish their deceptions against me).\n\nAs for ar-radd according to the terms of faraid science scholars, it is a reduction in the subject matter and an increase/increase in the number of ashhabul furudh parts. Ar-radd is the opposite of al-aul.\nFor example, in a situation (in the distribution of inheritance rights) the ashhabul furudh have received their respective rights, but it turns out that the inheritance still remains - meanwhile there is no other relative figure as ashabah — then the remaining inheritance is given or returned to the ashhabul furudh according to their respective shares.</string>
 </resources>

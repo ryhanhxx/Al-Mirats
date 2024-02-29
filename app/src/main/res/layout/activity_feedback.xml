@@ -50,19 +50,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ll_header" />
 
-    <TextView
-        android:id="@+id/tv_pilih"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginVertical="16dp"
-        android:fontFamily="@font/roboto_medium"
-        android:text="@string/txt_pilih"
-        android:textColor="?android:textColorPrimary"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_desc" />
-
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/ti_email"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
@@ -75,7 +62,7 @@
         app:boxCornerRadiusTopEnd="10dp"
         app:boxCornerRadiusTopStart="10dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tv_pilih">
+        app:layout_constraintTop_toBottomOf="@id/tv_desc">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/et_inputEmail"
@@ -123,11 +110,12 @@
     <ProgressBar
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyle"
-        android:visibility="gone"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        tools:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@id/btn_kirimMasukan"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/btn_kirimMasukan" />
+        app:layout_constraintTop_toBottomOf="@+id/ti_comment" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

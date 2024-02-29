@@ -8,6 +8,10 @@ import java.util.UUID
 data class Materi(
     val id: String = UUID.randomUUID().toString(),
     val imgUrl: String,
-    val name: String,
-    val desc: String
+    val title: String,
+    val heading: String,
+    val desc: String,
+    val subHeading: String,
+    val subDesc: String,
+    val source: String,
 ) : Parcelable
