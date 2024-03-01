@@ -56,7 +56,7 @@ class MateriAdapter (
         return adapterLayoutMode.ordinal
     }
 
-    fun submitData(data: List<Materi>) {
+    fun setItems(data: List<Materi>) {
         dataDiffer.submitList(data)
     }
 

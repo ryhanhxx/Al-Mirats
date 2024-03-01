@@ -28,8 +28,10 @@
     <string name="txt_about">About</string>
     <string name="txt_materi_teratas">Top Material</string>
     <string name="txt_fitur_utama">Main Feature</string>
+    <string name="txt_tutorial_desc">This tutorial guide will guide you step by step in understanding and utilizing the advanced features offered by Al Mirats.</string>
+    <string name="txt_tutorial">Guide</string>
 
-<!--    TODO: MATERI-->
+    <!--    TODO: MATERI-->
     <string name="title_materi_1">What is Inheritance</string>
     <string name="heading_materi_1">Definition and Terms in Inheritance Law</string>
     <string name="desc_materi_1">According to Indonesian legal expert, Prof.Dr. Wirjono Prodjodikoro (1976), inheritance law is defined as the law that regulates the position of a persons assets after he dies (heirs), and the ways in which these assets are transferred to other people (heirs). Meanwhile, based on Presidential Instruction Number 1 of 1991, the definition of inheritance law is the law that regulates the transfer of ownership rights to the heirs inheritance, then determines who has the right to be an heir and how much each share will be.</string>
@@ -71,4 +73,6 @@
     <string name="desc_materi_6">Al-aul in Arabic has many meanings, including azh-zhulm (persecution) and unjust, as He said:\n\n That is closer to not committing wrongdoing. (an-Nisa: 3)\n\nAl-aul also means rising or overflowing. It is said alaa al-mau idzaa irtafaa which means the rising water is overflowing.\n\nAuls example is: \nThe portion of a husband who should get half ½ can change to a third ⅓ in certain circumstances, such as if the subject matter is increased from the original six 6 to nine 9. So in this case a husband who should get 3/6 and a half only gets 3/9 and a half</string>
     <string name="subheading_materi_6">What does Radd mean?</string>
     <string name="subdesc_materi_6">Ar-radd in Arabic means return/return or also means turn/turn away. As stated in the following words of Allah:\n\nMoses said: That is (the place) we are looking for. Then the two of them returned, following their original footsteps. \" (al-Kahf: 64)\n\nAnd Allah dispels those who disbelieve whose condition is full of irritation…\" (al-Ahzab: 25)\n\nIn a prayer it is said \"Allahumma radda kaidahum annii\" " (O Allah, turn away/banish their deceptions against me).\n\nAs for ar-radd according to the terms of faraid science scholars, it is a reduction in the subject matter and an increase/increase in the number of ashhabul furudh parts. Ar-radd is the opposite of al-aul.\nFor example, in a situation (in the distribution of inheritance rights) the ashhabul furudh have received their respective rights, but it turns out that the inheritance still remains - meanwhile there is no other relative figure as ashabah — then the remaining inheritance is given or returned to the ashhabul furudh according to their respective shares.</string>
+
+
 </resources>

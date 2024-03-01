@@ -12,7 +12,7 @@ import com.ch.al_mirats.R
 class CarouselRVAdapter(private val carouselDataList: MutableList<Int>) :
     RecyclerView.Adapter<CarouselRVAdapter.CarouselItemViewHolder>() {
 
-    class CarouselItemViewHolder(view: View) : RecyclerView.ViewHolder(view)
+
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CarouselItemViewHolder {
         val viewHolder = LayoutInflater.from(parent.context).inflate(R.layout.item_carousel, parent, false)
@@ -27,5 +27,10 @@ class CarouselRVAdapter(private val carouselDataList: MutableList<Int>) :
     override fun getItemCount(): Int {
         return carouselDataList.size
     }
+
+    class CarouselItemViewHolder(view: View) :
+        RecyclerView.ViewHolder(
+        view
+    )
 
 }

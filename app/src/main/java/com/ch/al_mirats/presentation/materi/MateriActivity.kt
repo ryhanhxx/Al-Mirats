@@ -24,12 +24,12 @@ class MateriActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
-        showProductData(viewModel.product)
+        showMateriData(viewModel.materi)
 
         setOnClickBack()
     }
 
-    private fun showProductData(materi: Materi?) {
+    private fun showMateriData(materi: Materi?) {
         materi?.apply {
             binding.ivImg.load(this.imgUrl) {
                 crossfade(true)

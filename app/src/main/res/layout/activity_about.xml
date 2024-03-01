@@ -42,7 +42,7 @@
                     android:fontFamily="@font/roboto_bold"
                     android:text="@string/txt_tentang_aplikasi"
                     android:textColor="@color/primary_light_blue"
-                    android:textSize="24sp"
+                    android:textSize="20sp"
                     app:layout_constraintStart_toEndOf="@id/iv_back"
                     app:layout_constraintTop_toTopOf="parent" />
             </androidx.appcompat.widget.LinearLayoutCompat>
@@ -74,7 +74,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto"
                     android:text="@string/txt_desc_app"
-                    android:textSize="16sp" />
+                    android:textSize="14sp" />
             </androidx.appcompat.widget.LinearLayoutCompat>
 
 
@@ -124,7 +124,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto"
                     android:text="@string/txt_dosen"
-                    android:textSize="16sp" />
+                    android:textSize="14sp" />
 
             </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -148,7 +148,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto"
                     android:text="@string/txt_nama_klien"
-                    android:textSize="16sp" />
+                    android:textSize="14sp" />
 
             </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -172,7 +172,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto"
                     android:text="@string/txt_sumber_desc"
-                    android:textSize="16sp" />
+                    android:textSize="14sp" />
 
             </androidx.appcompat.widget.LinearLayoutCompat>
 

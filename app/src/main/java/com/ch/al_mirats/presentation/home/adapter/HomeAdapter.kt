@@ -18,16 +18,6 @@ class HomeAdapter(private val onItemClick: (Materi) -> Unit) :
         notifyDataSetChanged()
     }
 
-    fun addItems(items: List<Materi>) {
-        this.items.addAll(items)
-        notifyDataSetChanged()
-    }
-
-    fun clearItems() {
-        this.items.clear()
-        notifyDataSetChanged()
-    }
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HomeItemListViewHolder {
         val binding =
             ItemCardBinding.inflate(LayoutInflater.from(parent.context), parent, false)

@@ -20,6 +20,7 @@ import com.ch.al_mirats.presentation.feedback.FeedbackActivity
 import com.ch.al_mirats.presentation.home.adapter.CarouselRVAdapter
 import com.ch.al_mirats.presentation.home.adapter.HomeAdapter
 import com.ch.al_mirats.presentation.materi.MateriActivity
+import com.ch.al_mirats.presentation.tutorial.TutorialActivity
 
 class HomeFragment : Fragment() {
 
@@ -60,6 +61,10 @@ class HomeFragment : Fragment() {
 
         binding.llAbout.setOnClickListener {
             val intent = Intent(activity, AboutActivity::class.java)
+            activity?.startActivity(intent)
+        }
+        binding.llTutorial.setOnClickListener{
+            val intent = Intent(activity, TutorialActivity::class.java)
             activity?.startActivity(intent)
         }
     }

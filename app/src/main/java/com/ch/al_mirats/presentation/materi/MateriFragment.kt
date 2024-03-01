@@ -52,7 +52,7 @@ class MateriFragment : Fragment() {
             layoutManager = GridLayoutManager(requireContext(),span)
             adapter = this@MateriFragment.adapter
         }
-        adapter.submitData(datasource.getMateriData(requireContext()))
+        adapter.setItems(datasource.getMateriData(requireContext()))
     }
 
     private fun setupSwitch() {

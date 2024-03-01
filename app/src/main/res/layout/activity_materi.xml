@@ -33,7 +33,7 @@
             android:layout_gravity="center"
             android:fontFamily="@font/roboto_bold"
             android:textColor="@color/primary_light_blue"
-            android:textSize="24sp"
+            android:textSize="20sp"
             app:layout_constraintStart_toEndOf="@id/iv_back"
             app:layout_constraintTop_toTopOf="parent"
             tools:text="Title Material" />
@@ -76,7 +76,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_medium"
                     android:textColor="?android:textColorPrimary"
-                    android:textSize="20sp"
+                    android:textSize="18sp"
                     tools:text="Title Material" />
 
                 <TextView
@@ -102,7 +102,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_medium"
                     android:textColor="?android:textColorPrimary"
-                    android:textSize="20sp"
+                    android:textSize="18sp"
                     tools:text="Subtitle Material" />
 
                 <TextView
@@ -112,7 +112,7 @@
                     android:fontFamily="@font/roboto"
                     android:justificationMode="inter_word"
                     android:padding="4dp"
-                    android:textSize="16sp"
+                    android:textSize="14sp"
                     tools:text="Description Material" />
             </androidx.appcompat.widget.LinearLayoutCompat>
 
