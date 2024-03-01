@@ -13,7 +13,7 @@ class DummyTopMateriDataSourceImpl() : DummyTopMateriDataSource {
 
         return mutableListOf(
             Materi(
-                imgUrl = "https://raw.githubusercontent.com/ryhanhxx/img_asset/main/img_kalkulator.webp",
+                imgUrl = "https://raw.githubusercontent.com/ryhanhxx/img_asset/main/IMG_MATERI_1.jpg",
                 title = context.resources.getString(R.string.title_materi_1),
                 heading = context.resources.getString(R.string.heading_materi_1),
                 desc = context.resources.getString(R.string.desc_materi_1),
@@ -31,7 +31,7 @@ class DummyTopMateriDataSourceImpl() : DummyTopMateriDataSource {
                 source = "https://alukhuwah.com/2022/06/24/faraidh-ayat-al-quran-seputar-warisan/"
             ),
             Materi(
-                imgUrl = "https://raw.githubusercontent.com/ryhanhxx/img_asset/main/img_kalkulator.webp",
+                imgUrl = "https://raw.githubusercontent.com/ryhanhxx/img_asset/main/IMG_MATERI_2.jpg",
                 title = context.resources.getString(R.string.title_materi_6),
                 heading = context.resources.getString(R.string.heading_materi_6),
                 desc = context.resources.getString(R.string.desc_materi_6),

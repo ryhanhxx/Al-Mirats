@@ -44,7 +44,6 @@
         android:layout_marginVertical="8dp"
         android:fontFamily="@font/roboto"
         android:text="@string/txt_desc_feedback"
-        android:textColor="?android:textColorPrimary"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
