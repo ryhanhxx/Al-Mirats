@@ -1,0 +1,14 @@
+package com.ch.al_mirats.model
+
+import android.os.Parcelable
+import kotlinx.android.parcel.Parcelize
+import java.util.UUID
+
+@Parcelize
+data class Harta (
+    val id: String = UUID.randomUUID().toString(),
+    val harta: Double,
+    val hutang: Double,
+    val wasiat: Double,
+    val jenazah: Double
+): Parcelable

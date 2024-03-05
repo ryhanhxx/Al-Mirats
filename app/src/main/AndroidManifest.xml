@@ -15,6 +15,9 @@
         android:theme="@style/Theme.AlMirats"
         tools:targetApi="31">
         <activity
+            android:name=".presentation.kalkulator.HartaResultActivity"
+            android:exported="false" />
+        <activity
             android:name=".presentation.fatwa.FatwaActivity"
             android:exported="false" />
         <activity

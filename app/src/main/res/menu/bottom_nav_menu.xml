@@ -13,6 +13,6 @@
 
     <item
         android:id="@+id/navigation_fatwa"
-        android:icon="@drawable/ic_materi"
+        android:icon="@drawable/ic_fatwa"
         android:title="@string/txt_fatwa" />
 </menu>
