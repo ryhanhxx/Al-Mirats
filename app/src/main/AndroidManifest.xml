@@ -15,6 +15,12 @@
         android:theme="@style/Theme.AlMirats"
         tools:targetApi="31">
         <activity
+            android:name=".presentation.fatwa.FatwaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.kalkulator.CalculatorActivity"
+            android:exported="false" />
+        <activity
             android:name=".presentation.tutorial.TutorialDetailActivity"
             android:exported="false" />
         <activity

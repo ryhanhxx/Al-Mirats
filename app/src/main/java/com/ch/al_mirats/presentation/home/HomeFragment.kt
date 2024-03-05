@@ -1,8 +1,9 @@
 package com.ch.al_mirats.presentation.home
 
 import android.content.Intent
-import android.content.res.Resources
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,23 +12,30 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.CompositePageTransformer
 import androidx.viewpager2.widget.MarginPageTransformer
+import androidx.viewpager2.widget.ViewPager2
 import com.ch.al_mirats.R
 import com.ch.al_mirats.databinding.FragmentHomeBinding
 import com.ch.al_mirats.dummy.DummyTopMateriDataSourceImpl
 import com.ch.al_mirats.model.Materi
 import com.ch.al_mirats.presentation.about.AboutActivity
 import com.ch.al_mirats.presentation.feedback.FeedbackActivity
-import com.ch.al_mirats.presentation.home.adapter.CarouselRVAdapter
+import com.ch.al_mirats.presentation.home.adapter.CarouselAdapter
 import com.ch.al_mirats.presentation.home.adapter.HomeAdapter
+import com.ch.al_mirats.presentation.kalkulator.CalculatorActivity
 import com.ch.al_mirats.presentation.materi.MateriActivity
 import com.ch.al_mirats.presentation.tutorial.TutorialActivity
+
 
 class HomeFragment : Fragment() {
 
     private lateinit var binding: FragmentHomeBinding
+    private lateinit var handler: Handler
+    private lateinit var imageList: ArrayList<Int>
+
+    private lateinit var adapterCarousel: CarouselAdapter
 
     private val adapterHome: HomeAdapter by lazy {
-        HomeAdapter {materi: Materi ->
+        HomeAdapter { materi: Materi ->
             navigateToDetailFragment(materi)
         }
     }
@@ -49,12 +57,14 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         setupRecyclerView()
         setupDarkMode()
-        setupCarousel()
         setupNavigate()
+        setupCarousel()
+        setupTransformer()
+        runningCarousel()
     }
 
-    private fun setupNavigate(){
-        binding.llFeedback.setOnClickListener{
+    private fun setupNavigate() {
+        binding.llFeedback.setOnClickListener {
             val intent = Intent(activity, FeedbackActivity::class.java)
             activity?.startActivity(intent)
         }
@@ -63,8 +73,12 @@ class HomeFragment : Fragment() {
             val intent = Intent(activity, AboutActivity::class.java)
             activity?.startActivity(intent)
         }
-        binding.llTutorial.setOnClickListener{
+        binding.llTutorial.setOnClickListener {
             val intent = Intent(activity, TutorialActivity::class.java)
+            activity?.startActivity(intent)
+        }
+        binding.llKalkulator.setOnClickListener {
+            val intent = Intent(activity, CalculatorActivity::class.java)
             activity?.startActivity(intent)
         }
     }
@@ -74,26 +88,53 @@ class HomeFragment : Fragment() {
         adapterHome.setItems(DummyTopMateriDataSourceImpl().getTopMateriData(requireContext()))
     }
 
+    private fun runningCarousel() {
+        binding.viewPager2.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() {
+            override fun onPageSelected(position: Int) {
+                super.onPageSelected(position)
+                handler.removeCallbacks(runnable)
+                handler.postDelayed(runnable, 5000)
+            }
+        })
+    }
+
+    override fun onPause() {
+        super.onPause()
+
+        handler.removeCallbacks(runnable)
+    }
+
+    override fun onResume() {
+        super.onResume()
+
+        handler.postDelayed(runnable, 2000)
+    }
+
+    private val runnable = Runnable {
+        binding.viewPager2.currentItem = binding.viewPager2.currentItem + 1
+    }
+
+    private fun setupTransformer() {
+        val transformer = CompositePageTransformer()
+        transformer.addTransformer(MarginPageTransformer(40))
+        binding.viewPager2.setPageTransformer(transformer)
+    }
+
     private fun setupCarousel() {
-        binding.vBanner.apply {
-            clipChildren = false  // No clipping the left and right items
-            clipToPadding = false  // Show the viewpager in full width without clipping the padding
-            offscreenPageLimit = 3  // Render the left and right items
-            (getChildAt(0) as RecyclerView).overScrollMode =
-                RecyclerView.OVER_SCROLL_NEVER // Remove the scroll effect
-        }
+        handler = Handler(Looper.myLooper()!!)
+        imageList = ArrayList()
 
-        val demoData = mutableListOf(
-            R.drawable.img_banner,
-            R.drawable.img_banner,
-            R.drawable.img_banner
-        )
+        imageList.add(R.drawable.img_banner)
+        imageList.add(R.drawable.img_banner)
+        imageList.add(R.drawable.img_banner)
 
-        binding.vBanner.adapter = CarouselRVAdapter(demoData)
+        adapterCarousel = CarouselAdapter(imageList, binding.viewPager2)
 
-        val compositePageTransformer = CompositePageTransformer()
-        compositePageTransformer.addTransformer(MarginPageTransformer((20 * Resources.getSystem().displayMetrics.density).toInt()))
-        binding.vBanner.setPageTransformer(compositePageTransformer)
+        binding.viewPager2.adapter = adapterCarousel
+        binding.viewPager2.offscreenPageLimit = 3
+        binding.viewPager2.clipToPadding = false
+        binding.viewPager2.clipChildren = false
+        binding.viewPager2.getChildAt(0).overScrollMode = RecyclerView.OVER_SCROLL_NEVER
     }
 
     private fun setupDarkMode() {

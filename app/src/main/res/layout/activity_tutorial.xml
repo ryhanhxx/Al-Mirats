@@ -33,7 +33,7 @@
             android:layout_gravity="center"
             android:fontFamily="@font/roboto_bold"
             android:textColor="@color/primary_light_blue"
-            android:textSize="20sp"
+            android:textSize="24sp"
             app:layout_constraintStart_toEndOf="@id/iv_back"
             app:layout_constraintTop_toTopOf="parent"
             android:text="@string/txt_tutorial" />

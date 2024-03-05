@@ -7,4 +7,7 @@ import kotlinx.android.parcel.Parcelize
 data class Tutorial (
     val title: String,
     val imgUrl: String,
+    val descOne: String,
+    val descTwo: String,
+    val descThree: String,
 ): Parcelable

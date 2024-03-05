@@ -32,7 +32,7 @@
             android:fontFamily="@font/roboto_bold"
             android:text="@string/txt_feedback"
             android:textColor="@color/primary_light_blue"
-            android:textSize="20sp"
+            android:textSize="24sp"
             app:layout_constraintStart_toEndOf="@id/iv_back"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.appcompat.widget.LinearLayoutCompat>
@@ -89,7 +89,7 @@
             android:id="@+id/et_inputKomen"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:gravity="start"/>
+            android:gravity="start" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -111,10 +111,10 @@
         style="?android:attr/progressBarStyle"
         android:layout_width="48dp"
         android:layout_height="48dp"
-        tools:visibility="visible"
         app:layout_constraintBottom_toTopOf="@id/btn_kirimMasukan"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ti_comment" />
+        app:layout_constraintTop_toBottomOf="@+id/ti_comment"
+        android:visibility="invisible" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

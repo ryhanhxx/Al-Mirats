@@ -11,4 +11,8 @@
         android:icon="@drawable/ic_materi"
         android:title="@string/txt_materi" />
 
+    <item
+        android:id="@+id/navigation_fatwa"
+        android:icon="@drawable/ic_materi"
+        android:title="@string/txt_fatwa" />
 </menu>

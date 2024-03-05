@@ -80,18 +80,12 @@ dependencies {
     debugImplementation("com.github.chuckerteam.chucker:library:4.0.0")
     releaseImplementation("com.github.chuckerteam.chucker:library-no-op:4.0.0")
 
-    // koin
-    implementation("io.insert-koin:koin-android:3.5.0")
-
-    testImplementation("io.mockk:mockk-android:1.13.8")
-    testImplementation("io.mockk:mockk-agent:1.13.8")
-    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.2")
-    testImplementation("app.cash.turbine:turbine:1.0.0")
-
     testImplementation("androidx.arch.core:core-testing:2.2.0")
 
     implementation ("androidx.viewpager2:viewpager2:1.0.0")
 
-    implementation ("com.codesgood:justifiedtextview:1.1.0")
+    implementation ("com.pierfrancescosoffritti.androidyoutubeplayer:chromecast-sender:0.28")
+
+    implementation ("com.github.MikeOrtiz:TouchImageView:1.4.1")
 
 }

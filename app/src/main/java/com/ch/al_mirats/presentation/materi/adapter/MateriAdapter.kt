@@ -5,12 +5,12 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.ch.al_mirats.databinding.ItemCardBinding
 import com.ch.al_mirats.databinding.ItemCardGridBinding
-import com.ch.al_mirats.databinding.ItemMateriCardBinding
+import com.ch.al_mirats.databinding.ItemCardListBinding
 import com.ch.al_mirats.model.Materi
 import com.ch.al_mirats.presentation.materi.viewholder.GridMateriViewHolder
 import com.ch.al_mirats.presentation.materi.viewholder.LinearMateriViewHolder
+import com.ch.al_mirats.utils.AdapterLayoutMode
 import com.ch.al_mirats.utils.ViewHolderBinder
 
 class MateriAdapter (
@@ -38,7 +38,7 @@ class MateriAdapter (
 
             else -> {
                 LinearMateriViewHolder(
-                    binding = ItemMateriCardBinding.inflate(
+                    binding = ItemCardListBinding.inflate(
                         LayoutInflater.from(parent.context), parent, false
                     ), onClickListener
                 )

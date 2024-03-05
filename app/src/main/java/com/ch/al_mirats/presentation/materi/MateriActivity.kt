@@ -2,13 +2,16 @@ package com.ch.al_mirats.presentation.materi
 
 import android.content.Context
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.viewModels
+import androidx.appcompat.app.AppCompatActivity
 import coil.load
-import com.ch.al_mirats.R
 import com.ch.al_mirats.databinding.ActivityMateriBinding
+import com.ch.al_mirats.dummy.DummyTopMateriDataSourceImpl
 import com.ch.al_mirats.model.Materi
+import com.ch.al_mirats.presentation.materi.adapter.MateriAdapter
+import com.ch.al_mirats.presentation.materi.adapter.MateriRecommendAdapter
+import com.ch.al_mirats.utils.AdapterLayoutMode
 import com.ch.al_mirats.utils.GenericViewModelFactory
 
 class MateriActivity : AppCompatActivity() {
@@ -21,12 +24,23 @@ class MateriActivity : AppCompatActivity() {
         GenericViewModelFactory.create(MateriViewModel(intent?.extras))
     }
 
+    private val adapterMateri: MateriRecommendAdapter by lazy {
+        MateriRecommendAdapter{ materi: Materi ->
+            navigateToDetailFragment(materi)
+        }
+    }
+
+    private fun navigateToDetailFragment(materi: Materi) {
+        MateriActivity.startActivity(this, materi)
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
         showMateriData(viewModel.materi)
 
         setOnClickBack()
+        setupRecyclerView()
     }
 
     private fun showMateriData(materi: Materi?) {
@@ -41,6 +55,11 @@ class MateriActivity : AppCompatActivity() {
             binding.tvSubDesc.text = this.subDesc
             binding.tvSource.text = this.source
         }
+    }
+
+    private fun setupRecyclerView() {
+        binding.rvMateri.adapter = adapterMateri
+        adapterMateri.setItems(DummyTopMateriDataSourceImpl().getTopMateriData(this))
     }
 
     private fun setOnClickBack(){

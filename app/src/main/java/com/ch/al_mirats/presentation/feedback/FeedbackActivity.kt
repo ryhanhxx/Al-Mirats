@@ -20,10 +20,6 @@ class FeedbackActivity : AppCompatActivity() {
     private val binding: ActivityFeedbackBinding by lazy{
         ActivityFeedbackBinding.inflate(layoutInflater)
     }
-    private lateinit var inputEmail: EditText
-    private lateinit var inputKomen: EditText
-    private lateinit var btnKirim: Button
-    private lateinit var progressBar: ProgressBar
 
     private var db= Firebase.firestore
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -32,16 +28,11 @@ class FeedbackActivity : AppCompatActivity() {
 
         setOnClickBack()
 
-        inputEmail = findViewById(R.id.et_inputEmail)
-        inputKomen = findViewById(R.id.et_inputKomen)
-        btnKirim = findViewById(R.id.btn_kirimMasukan)
-        progressBar = findViewById(R.id.progressBar)
 
+        binding.btnKirimMasukan.setOnClickListener {
 
-        btnKirim.setOnClickListener {
-
-            val sInputEmail = inputEmail.text.toString().trim()
-            val sInputKomen = inputKomen.text.toString().trim()
+            val sInputEmail = binding.etInputEmail.text.toString().trim()
+            val sInputKomen = binding.etInputKomen.text.toString().trim()
 
             if (sInputEmail.isBlank()) {
                 binding.etInputEmail.error = "Email harus diisi"
@@ -64,17 +55,17 @@ class FeedbackActivity : AppCompatActivity() {
                 "komen" to sInputKomen
             )
 
-            progressBar.visibility = View.VISIBLE
+            binding.progressBar.visibility = View.VISIBLE
 
             db.collection("user").document().set(userMap)
                 .addOnSuccessListener {
-                    progressBar.visibility = View.GONE
+                    binding.progressBar.visibility = View.GONE
                     Toast.makeText(this, "Berhasil mengirim feedback", Toast.LENGTH_SHORT).show()
-                    inputEmail.text.clear()
-                    inputKomen.text.clear()
+                    binding.etInputEmail.text?.clear()
+                    binding.etInputKomen.text?.clear()
                 }
                 .addOnFailureListener {
-                    progressBar.visibility = View.GONE
+                    binding.progressBar.visibility = View.GONE
                     Toast.makeText(this, "Gagal mengirim feedback", Toast.LENGTH_SHORT).show()
                 }
         }

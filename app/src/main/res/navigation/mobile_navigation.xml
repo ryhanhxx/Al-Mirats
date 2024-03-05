@@ -16,5 +16,10 @@
         android:name="com.ch.al_mirats.presentation.materi.MateriFragment"
         android:label="@string/txt_materi"
         tools:layout="@layout/fragment_materi" />
+    <fragment
+        android:id="@+id/navigation_fatwa"
+        android:name="com.ch.al_mirats.presentation.fatwa.FatwaFragment"
+        android:label="@string/txt_fatwa"
+        tools:layout="@layout/fragment_fatwa" />
 
 </navigation>

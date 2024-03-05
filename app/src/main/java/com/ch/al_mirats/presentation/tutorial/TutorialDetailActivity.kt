@@ -34,6 +34,9 @@ class TutorialDetailActivity : AppCompatActivity() {
                 crossfade(true)
             }
             binding.tvTitle.text = this.title
+            binding.tvTutorial1.text = this.descOne
+            binding.tvTutorial2.text = this.descTwo
+            binding.tvTutorial3.text = this.descThree
         }
     }
 

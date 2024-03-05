@@ -2,14 +2,13 @@ package com.ch.al_mirats.presentation.materi.viewholder
 
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-import com.ch.al_mirats.databinding.ItemCardBinding
 import com.ch.al_mirats.databinding.ItemCardGridBinding
-import com.ch.al_mirats.databinding.ItemMateriCardBinding
+import com.ch.al_mirats.databinding.ItemCardListBinding
 import com.ch.al_mirats.model.Materi
 import com.ch.al_mirats.utils.ViewHolderBinder
 
 class LinearMateriViewHolder(
-    private val binding: ItemMateriCardBinding,
+    private val binding: ItemCardListBinding,
     private val onItemClick: (Materi) -> Unit
 ) : RecyclerView.ViewHolder(binding.root), ViewHolderBinder<Materi> {
     override fun bind(item: Materi) {

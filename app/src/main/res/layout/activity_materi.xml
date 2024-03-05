@@ -27,21 +27,21 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/tv_title"
+            android:id="@+id/tv_materi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:fontFamily="@font/roboto_bold"
+            android:text="@string/txt_materi"
             android:textColor="@color/primary_light_blue"
-            android:textSize="20sp"
+            android:textSize="24sp"
             app:layout_constraintStart_toEndOf="@id/iv_back"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:text="Title Material" />
+            app:layout_constraintTop_toTopOf="parent" />
     </androidx.appcompat.widget.LinearLayoutCompat>
 
-    <ScrollView
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:scrollbars="none">
 
         <androidx.appcompat.widget.LinearLayoutCompat
@@ -50,25 +50,30 @@
             android:layout_marginVertical="8dp"
             android:orientation="vertical">
 
-            <androidx.cardview.widget.CardView
+            <ImageView
+                android:id="@+id/iv_img"
                 android:layout_width="match_parent"
                 android:layout_height="158dp"
-                app:cardCornerRadius="10dp">
-
-                <ImageView
-                    android:id="@+id/iv_img"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:scaleType="centerCrop"
-                    tools:src="@tools:sample/avatars" />
-            </androidx.cardview.widget.CardView>
-
+                android:scaleType="centerCrop"
+                tools:src="@tools:sample/avatars" />
 
             <androidx.appcompat.widget.LinearLayoutCompat
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="8dp"
                 android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/roboto_bold"
+                    android:textColor="@color/primary_light_blue"
+                    android:textSize="22sp"
+                    app:layout_constraintStart_toEndOf="@id/iv_back"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="Title" />
 
                 <TextView
                     android:id="@+id/tv_heading"
@@ -120,13 +125,30 @@
                 android:id="@+id/tv_source"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginVertical="12dp"
+                android:layout_marginVertical="8dp"
                 android:fontFamily="@font/roboto"
                 android:textSize="14sp"
                 tools:text="Source" />
 
+            <TextView
+                android:id="@+id/tv_recommend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="6dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="@string/txt_materi_disarankan"
+                android:textColor="@color/primary_light_blue"
+                android:textSize="22sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_materi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="visible"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:listitem="@layout/item_card_materi_recommend" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
-    </ScrollView>
-
-
+    </androidx.core.widget.NestedScrollView>
 </androidx.appcompat.widget.LinearLayoutCompat>

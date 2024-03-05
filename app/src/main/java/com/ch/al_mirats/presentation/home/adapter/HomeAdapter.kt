@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-import com.ch.al_mirats.databinding.ItemCardBinding
+import com.ch.al_mirats.databinding.ItemCardHomeBinding
 import com.ch.al_mirats.model.Materi
 
 class HomeAdapter(private val onItemClick: (Materi) -> Unit) :
@@ -20,7 +20,7 @@ class HomeAdapter(private val onItemClick: (Materi) -> Unit) :
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HomeItemListViewHolder {
         val binding =
-            ItemCardBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+            ItemCardHomeBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return HomeItemListViewHolder(binding, onItemClick)
     }
 
@@ -31,7 +31,7 @@ class HomeAdapter(private val onItemClick: (Materi) -> Unit) :
     override fun getItemCount(): Int = items.size
 
     class HomeItemListViewHolder(
-        private val binding: ItemCardBinding,
+        private val binding: ItemCardHomeBinding,
         private val onItemClick: (Materi) -> Unit
     ) : RecyclerView.ViewHolder(binding.root) {
         fun bind(item: Materi) {

@@ -10,7 +10,7 @@ import com.ch.al_mirats.databinding.FragmentMateriBinding
 import com.ch.al_mirats.dummy.DummyMateriDataSource
 import com.ch.al_mirats.dummy.DummyMateriDataSourceImpl
 import com.ch.al_mirats.model.Materi
-import com.ch.al_mirats.presentation.materi.adapter.AdapterLayoutMode
+import com.ch.al_mirats.utils.AdapterLayoutMode
 import com.ch.al_mirats.presentation.materi.adapter.MateriAdapter
 
 class MateriFragment : Fragment() {
@@ -62,4 +62,6 @@ class MateriFragment : Fragment() {
             adapter.refreshList()
         }
     }
+
+
 }
