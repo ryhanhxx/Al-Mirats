@@ -14,6 +14,7 @@ import com.ch.al_mirats.utils.GenericViewModelFactory
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayer
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.AbstractYouTubePlayerListener
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+import java.util.regex.Pattern
 
 
 class FatwaActivity : AppCompatActivity() {
@@ -30,8 +31,14 @@ class FatwaActivity : AppCompatActivity() {
         showFatwaData(viewModel.fatwa)
 
         setOnClickBack()
-        playVideo()
+        viewModel.fatwa?.videoUrl?.let { playVideo(it) }
 
+    }
+
+    private fun setOnClickBack(){
+        binding.ivBack.setOnClickListener {
+            finish()
+        }
     }
 
     private fun showFatwaData(fatwa: Fatwa?) {
@@ -44,30 +51,19 @@ class FatwaActivity : AppCompatActivity() {
         }
     }
 
-    private fun setOnClickBack(){
-        binding.ivBack.setOnClickListener {
-            finish()
-        }
-    }
-
-    private fun playVideo(){
+    private fun playVideo(videoId: String) {
         val youTubePlayerView: YouTubePlayerView = binding.youtubePlayerView
         lifecycle.addObserver(youTubePlayerView)
 
-        youTubePlayerView.addYouTubePlayerListener(object : AbstractYouTubePlayerListener() {
-            override fun onReady(youTubePlayer: YouTubePlayer) {
-                val videoId = "S0Q4gqBUs7c"
-                youTubePlayer.loadVideo(videoId, 0f)
+        youTubePlayerView.addYouTubePlayerListener(
+            object : AbstractYouTubePlayerListener() {
+                override fun onReady(youTubePlayer: YouTubePlayer) {
+                    youTubePlayer.loadVideo(videoId, 0f)
+                }
             }
-        })
-
-//        val webView = binding.webView
-//        val video =
-//            "<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/watch?v=oMfuX_bhrDw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
-//        webView.loadData(video, "text/html", "utf-8")
-//        webView.settings.javaScriptEnabled = true
-//        webView.webChromeClient = WebChromeClient()
+        )
     }
+
     companion object {
         const val FATWA_KEY = "FATWA_KEY"
         fun startActivity(context: Context, fatwa: Fatwa?) {

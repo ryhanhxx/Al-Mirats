@@ -9,6 +9,8 @@ import coil.load
 import com.ch.al_mirats.databinding.ActivityMateriBinding
 import com.ch.al_mirats.dummy.DummyTopMateriDataSourceImpl
 import com.ch.al_mirats.model.Materi
+import com.ch.al_mirats.presentation.home.HomeFragment
+import com.ch.al_mirats.presentation.main.MainActivity
 import com.ch.al_mirats.presentation.materi.adapter.MateriAdapter
 import com.ch.al_mirats.presentation.materi.adapter.MateriRecommendAdapter
 import com.ch.al_mirats.utils.AdapterLayoutMode
@@ -64,7 +66,9 @@ class MateriActivity : AppCompatActivity() {
 
     private fun setOnClickBack(){
         binding.ivBack.setOnClickListener {
-            finish()
+            val intent = Intent(this, MainActivity::class.java)
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
+            startActivity(intent)
         }
     }
 

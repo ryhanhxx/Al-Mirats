@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:fontFamily="@font/roboto_bold"
-            android:text="@string/txt_kalkulator"
+            android:text="Hasil Harta"
             android:textColor="@color/primary_light_blue"
             android:textSize="24sp"
             app:layout_constraintStart_toEndOf="@id/iv_back"
@@ -49,7 +49,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/roboto_medium"
-            android:text="Harta Pewaris"
+            android:text="@string/txt_harta"
             android:textSize="16sp" />
 
         <TextView
@@ -71,7 +71,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/roboto_medium"
-            android:text="Hutang Pewaris"
+            android:text="@string/txt_hutang"
             android:textSize="16sp" />
 
         <TextView
@@ -115,7 +115,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/roboto_medium"
-            android:text="Perawat Jenazah"
+            android:text="@string/txt_jenazah"
             android:textSize="16sp" />
 
         <TextView
@@ -137,15 +137,37 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/roboto_medium"
-            android:text="Jenis Kelamin"
+            android:text="@string/txt_gender"
             android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/tv_kelamin"
+            android:id="@+id/tv_gender"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/roboto"
             tools:text="Jenis Kelamin"
+            android:textSize="14sp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginVertical="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/txt_total"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            tools:text="Rp.0"
             android:textSize="14sp" />
     </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -156,7 +178,7 @@
         android:backgroundTint="@color/primary_dark_blue"
         android:fontFamily="@font/roboto_bold"
         android:text="Selanjutnya"
-        android:layout_marginVertical="318dp"
+        android:layout_marginVertical="258dp"
         android:textColor="@color/primary_white"
         app:cornerRadius="10dp" />
 </androidx.appcompat.widget.LinearLayoutCompat>

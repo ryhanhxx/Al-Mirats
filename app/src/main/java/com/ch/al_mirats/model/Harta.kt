@@ -6,9 +6,10 @@ import java.util.UUID
 
 @Parcelize
 data class Harta (
-    val id: String = UUID.randomUUID().toString(),
-    val harta: Double,
-    val hutang: Double,
-    val wasiat: Double,
-    val jenazah: Double
+//    val id: String = UUID.randomUUID().toString(),
+    val harta: Double = 0.0 ,
+    val hutang: Double = 0.0,
+    val wasiat: Double = 0.0,
+    val jenazah: Double = 0.0,
+    val gender: Boolean = true
 ): Parcelable

@@ -34,9 +34,14 @@
     <string name="txt_tutorial">Guide</string>
     <string name="txt_laki">Male</string>
     <string name="txt_perempuan">Female</string>
-    <string name="txt_pilih_jenis_kelamin">Select the gender of the heir:</string>
+    <string name="txt_pilih_jenis_kelamin">Select the gender:</string>
     <string name="txt_informasi">Information</string>
     <string name="txt_materi_disarankan">Material Recommendation</string>
+    <string name="txt_harta">Assets</string>
+    <string name="txt_hutang">Debt</string>
+    <string name="txt_jenazah">Perawat Jenazah</string>
+    <string name="txt_gender">Gender</string>
+    <string name="txt_total">Total Assets</string>
 
     <!--    TODO: MATERI-->
     <string name="title_materi_1">What is Inheritance</string>

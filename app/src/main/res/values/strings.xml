@@ -37,6 +37,11 @@
     <string name="txt_pilih_jenis_kelamin">Pilih Jenis Kelamin Pewaris:</string>
     <string name="txt_informasi">Informasi</string>
     <string name="txt_materi_disarankan">Materi Disarankan</string>
+    <string name="txt_harta">Harta Pewaris</string>
+    <string name="txt_hutang">Hutang Pewaris</string>
+    <string name="txt_jenazah">Perawat Jenazah</string>
+    <string name="txt_gender">Jenis Kelamin</string>
+    <string name="txt_total">Total Harta</string>
 
     <!--    TODO: MATERI-->
     <string name="title_materi_1">Apa Itu Waris</string>
