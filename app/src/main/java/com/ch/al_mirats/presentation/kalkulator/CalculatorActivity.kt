@@ -34,17 +34,19 @@ class CalculatorActivity : AppCompatActivity() {
             if( id == R.id.rb_laki){
                 genderState = "Laki-Laki"
             }else if (id == R.id.rb_perempuan){
-                genderState = "Perempuan}"
+                genderState = "Perempuan"
+            }else {
+                genderState = "Laki-Laki"
             }
 
-        binding.btnSubmit.setOnClickListener {
-                if(binding.etHarta.toString().isEmpty()){
+            binding.btnSubmit.setOnClickListener {
+                if(binding.etHarta.toString().isBlank() && binding.etHarta.text.toString() < 0.toString()){
                     Toast.makeText(this, "HARTA HARUS DIISI !", Toast.LENGTH_SHORT).show().toString()
-                }else if(binding.etHutang.toString().isEmpty()){
+                }else if(binding.etHutang.toString().isBlank() && binding.etHutang.text.toString() < 0.toString()){
                     Toast.makeText(this, "HUTANG HARUS DIISI !", Toast.LENGTH_SHORT).show().toString()
-                }else if (binding.etWasiat.toString().isEmpty()){
+                }else if (binding.etWasiat.toString().isBlank() && binding.etWasiat.text.toString() < 0.toString()){
                     Toast.makeText(this, "WASIAT HARUS DIISI !", Toast.LENGTH_SHORT).show().toString()
-                }else if (binding.etJenazah.toString().isEmpty()) {
+                }else if (binding.etJenazah.toString().isBlank() && binding.etJenazah.text.toString() < 0.toString()) {
                     Toast.makeText(this, "PERAWATAN JENAZAH HARUS DIISI !", Toast.LENGTH_SHORT).show().toString()
                 }else {
                     val harta = binding.etHarta.text.toString().toLong()
@@ -52,14 +54,12 @@ class CalculatorActivity : AppCompatActivity() {
                     val wasiat = binding.etWasiat.text.toString().toLong()
                     val jenazah = binding.etJenazah.text.toString().toLong()
 
-                    // Menghitung total jumlah (kecuali gender)
                     val total = harta - hutang - wasiat - jenazah
                     if(harta > hutang && harta > wasiat && harta > jenazah){
                         Toast.makeText(this, "SUCCESS", Toast.LENGTH_SHORT).show().toString()
                     }else {
                         Toast.makeText(this, "HARTA HABIS !", Toast.LENGTH_SHORT).show().toString()
                     }
-
                     val sendHarta = Intent(this, HartaResultActivity::class.java).apply {
                         putExtra("HARTA", harta)
                         putExtra("HUTANG", hutang)

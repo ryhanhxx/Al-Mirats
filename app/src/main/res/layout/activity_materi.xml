@@ -147,7 +147,7 @@
                 android:orientation="horizontal"
                 android:visibility="visible"
                 app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                tools:listitem="@layout/item_card_materi_recommend" />
+                tools:listitem="@layout/item_card_recommend" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
     </androidx.core.widget.NestedScrollView>

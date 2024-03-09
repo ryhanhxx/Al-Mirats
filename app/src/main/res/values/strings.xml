@@ -103,4 +103,7 @@
     <string name="desc_tutorial_4_1">1. Anda Dapat Melihat Berbagai macam informasi dari aplikasi ini.</string>
     <string name="desc_tutorial_4_2">2. Informasi tersebut mencakup tujuan dari aplikasi, serta tim pengembang, dosen pembimbing dan sumber referensi aplikasi ini dibuat.</string>
     <string name="desc_tutorial_4_3"></string>
+
+    <!--    TODO: FATWA-->
+    <string name="desc_fatwa_1"></string>
 </resources>

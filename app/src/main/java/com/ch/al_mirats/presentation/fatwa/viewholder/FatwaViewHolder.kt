@@ -12,7 +12,7 @@ class LinearFatwaViewHolder(
     private val onItemClick: (Fatwa) -> Unit
 ) : RecyclerView.ViewHolder(binding.root), ViewHolderFatwaBinder<Fatwa> {
     override fun bind(item: Fatwa) {
-        binding.ivImg.load(item.imgUrl){
+        binding.ivImg.load(item.imgUrl) {
             crossfade(true)
         }
         binding.tvTitle.text = item.title
@@ -28,7 +28,7 @@ class GridFatwaViewHolder(
     private val onItemClick: (Fatwa) -> Unit
 ) : RecyclerView.ViewHolder(binding.root), ViewHolderFatwaBinder<Fatwa> {
     override fun bind(item: Fatwa) {
-        binding.ivImg.load(item.imgUrl){
+        binding.ivImg.load(item.imgUrl) {
             crossfade(true)
         }
         binding.tvTitle.text = item.title

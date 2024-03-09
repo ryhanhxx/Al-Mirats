@@ -103,4 +103,7 @@
     <string name="desc_tutorial_4_1">1. You can see various kinds of information from this application.</string>
     <string name="desc_tutorial_4_2">2. This information includes the purpose of the application, as well as the development team, supervisors and reference sources for this application.</string>
     <string name="desc_tutorial_4_3"></string>
+
+    <!--    TODO: FATWA-->
+    <string name="desc_fatwa_1"></string>
 </resources>

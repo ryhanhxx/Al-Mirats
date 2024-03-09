@@ -13,7 +13,7 @@ import com.ch.al_mirats.presentation.fatwa.viewholder.LinearFatwaViewHolder
 import com.ch.al_mirats.utils.AdapterLayoutMode
 import com.ch.al_mirats.utils.ViewHolderFatwaBinder
 
-class FatwaAdapter (
+class FatwaAdapter(
     var adapterLayoutMode: AdapterLayoutMode,
     private val onClickListener: (Fatwa) -> Unit
 ) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {

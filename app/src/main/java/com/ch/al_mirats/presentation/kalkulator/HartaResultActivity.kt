@@ -15,31 +15,33 @@ class HartaResultActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
-        getHarta()
-        sendData()
-    }
 
-    private fun getHarta(){
+        val harta = intent.getLongExtra("HARTA", 0).toCurrencyFormat()
+        val hutang = intent.getLongExtra("HUTANG", 0).toCurrencyFormat()
+        val wasiat = intent.getLongExtra("WASIAT", 0).toCurrencyFormat()
+        val jenazah = intent.getLongExtra("JENAZAH", 0).toCurrencyFormat()
+        val gender = intent.getStringExtra("GENDER").toString()
+        val total = intent.getLongExtra("TOTAL", 0).toCurrencyFormat()
 
-        binding.tvHarta.text = intent.getLongExtra("HARTA", 0).toCurrencyFormat()
-        binding.tvHutang.text = intent.getLongExtra("HUTANG", 0).toCurrencyFormat()
-        binding.tvWasiat.text = intent.getLongExtra("WASIAT", 0).toCurrencyFormat()
-        binding.tvJenazah.text = intent.getLongExtra("JENAZAH", 0).toCurrencyFormat()
-        binding.tvGender.text = intent.getStringExtra("GENDER")
-        binding.tvTotal.text= intent.getLongExtra("TOTAL", 0).toCurrencyFormat()
-    }
+        binding.tvHarta.text = harta
+        binding.tvHutang.text = hutang
+        binding.tvWasiat.text = wasiat
+        binding.tvJenazah.text = jenazah
+        binding.tvGender.text = gender
+        binding.tvTotal.text= total
 
-    private fun sendData(){
-        val intent = Intent(this, WarisActivity::class.java).apply {
-            // Menambahkan data ke Intent
-            putExtra("HARTA", intent.getLongExtra("HARTA", 0))
-            putExtra("HUTANG", intent.getLongExtra("HUTANG", 0))
-            putExtra("WASIAT", intent.getLongExtra("WASIAT", 0))
-            putExtra("JENAZAH", intent.getLongExtra("JENAZAH", 0))
-            putExtra("GENDER", intent.getStringExtra("GENDER"))
-            putExtra("TOTAL", intent.getLongExtra("TOTAL", 0))
+        binding.btnSubmit.setOnClickListener {
+            val intent = Intent(this, WarisActivity::class.java).apply {
+                putExtra("HARTA", harta)
+                putExtra("HUTANG", hutang)
+                putExtra("WASIAT", wasiat)
+                putExtra("JENAZAH", jenazah)
+                putExtra("GENDER", gender)
+                putExtra("TOTAL", total)
+            }
+            startActivity(intent)
         }
-// Memulai NextActivity dengan Intent yang telah dikonfigurasi
-        startActivity(intent)
     }
+
+
 }

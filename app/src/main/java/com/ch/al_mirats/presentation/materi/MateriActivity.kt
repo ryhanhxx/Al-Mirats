@@ -7,6 +7,7 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import coil.load
 import com.ch.al_mirats.databinding.ActivityMateriBinding
+import com.ch.al_mirats.dummy.DummyMateriRecommendDataSourceImpl
 import com.ch.al_mirats.dummy.DummyTopMateriDataSourceImpl
 import com.ch.al_mirats.model.Materi
 import com.ch.al_mirats.presentation.home.HomeFragment
@@ -27,7 +28,7 @@ class MateriActivity : AppCompatActivity() {
     }
 
     private val adapterMateri: MateriRecommendAdapter by lazy {
-        MateriRecommendAdapter{ materi: Materi ->
+        MateriRecommendAdapter { materi: Materi ->
             navigateToDetailFragment(materi)
         }
     }
@@ -61,10 +62,10 @@ class MateriActivity : AppCompatActivity() {
 
     private fun setupRecyclerView() {
         binding.rvMateri.adapter = adapterMateri
-        adapterMateri.setItems(DummyTopMateriDataSourceImpl().getTopMateriData(this))
+        adapterMateri.setItems(DummyMateriRecommendDataSourceImpl().getMateriRecommendData(this))
     }
 
-    private fun setOnClickBack(){
+    private fun setOnClickBack() {
         binding.ivBack.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
