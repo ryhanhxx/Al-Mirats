@@ -55,7 +55,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:hint="@string/txt_email"
+        android:hint="Masukkan subject"
         app:boxCornerRadiusBottomEnd="10dp"
         app:boxCornerRadiusBottomStart="10dp"
         app:boxCornerRadiusTopEnd="10dp"
@@ -64,7 +64,7 @@
         app:layout_constraintTop_toBottomOf="@id/tv_desc">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/et_inputEmail"
+            android:id="@+id/et_subject"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -86,7 +86,7 @@
         app:layout_constraintTop_toBottomOf="@id/ti_email">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/et_inputKomen"
+            android:id="@+id/et_comment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="start" />

@@ -1,6 +1,7 @@
 package com.ch.al_mirats.presentation.kalkulator
 
 import android.os.Bundle
+import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -19,23 +20,23 @@ class CalculatorResultActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
-        finalResult()
 
-        val harta = intent.getLongExtra("HARTA", 0)
-        val hutang = intent.getLongExtra("HUTANG", 0)
-        val wasiat = intent.getLongExtra("WASIAT", 0)
-        val jenazah = intent.getLongExtra("JENAZAH", 0)
+        val harta = intent.getStringExtra("HARTA")
+        val hutang = intent.getStringExtra("HUTANG")
+        val wasiat = intent.getStringExtra("WASIAT")
+        val jenazah = intent.getStringExtra("JENAZAH")
         val gender = intent.getStringExtra("GENDER")
-        val total = intent.getLongExtra("TOTAL", 0)
-        val bapak = intent.getBooleanExtra("BAPAK", false)
-        val ibu = intent.getBooleanExtra("IBU", false)
+        val total = intent.getStringExtra("TOTAL")
+        val bapak = intent.getStringExtra("BAPAK")
+        val ibu = intent.getStringExtra("IBU")
         val posisi = intent.getStringExtra("POSISI")
-        val anakLaki = intent.getLongExtra("ANAK_LAKI", 0)
-        val anakPerempuan = intent.getLongExtra("ANAK_PEREMPUAN", 0)
+        val anakLaki = intent.getStringExtra("ANAK_LAKI")
+        val anakPerempuan = intent.getStringExtra("ANAK_PEREMPUAN")
+
+//        binding.cvHasil2.visibility = View.INVISIBLE
+//        binding.cvHasil3.visibility = View.INVISIBLE
+//        binding.cvHasil4.visibility = View.INVISIBLE
     }
 
-    private fun finalResult(){
-
-    }
 
 }

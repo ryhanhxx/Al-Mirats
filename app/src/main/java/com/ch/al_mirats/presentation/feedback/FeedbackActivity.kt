@@ -1,6 +1,8 @@
 package com.ch.al_mirats.presentation.feedback
 
 import android.content.Context
+import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.AttributeSet
@@ -28,46 +30,54 @@ class FeedbackActivity : AppCompatActivity() {
 
         setOnClickBack()
 
-
         binding.btnKirimMasukan.setOnClickListener {
 
-            val sInputEmail = binding.etInputEmail.text.toString().trim()
-            val sInputKomen = binding.etInputKomen.text.toString().trim()
+            val subject = binding.etSubject.text.toString().trim()
+            val comment = binding.etComment.text.toString().trim()
 
-            if (sInputEmail.isBlank()) {
-                binding.etInputEmail.error = "Email harus diisi"
-                binding.etInputEmail.requestFocus()
+            if (subject.isBlank()) {
+                binding.etSubject.error = "Subject harus diisi!"
+                binding.etSubject.requestFocus()
                 return@setOnClickListener
             }
-            if (!Patterns.EMAIL_ADDRESS.matcher(sInputEmail).matches()) {
-                binding.etInputEmail.error = "Format email tidak valid"
-                binding.etInputEmail.requestFocus()
-                return@setOnClickListener
-            }
-            if (sInputKomen.isBlank()) {
-                Toast.makeText(this, "Komentar anda belum terisi", Toast.LENGTH_SHORT).show()
-                binding.etInputKomen.requestFocus()
+            if (comment.isBlank()) {
+                Toast.makeText(this, "Komentar anda belum terisi!", Toast.LENGTH_SHORT).show()
+                binding.etComment.requestFocus()
                 return@setOnClickListener
             }
 
-            val userMap = hashMapOf(
-                "email" to sInputEmail,
-                "komen" to sInputKomen
-            )
+//            val userMap = hashMapOf(
+//                "email" to sInputEmail,
+//                "komen" to sInputKomen
+//            )
 
             binding.progressBar.visibility = View.VISIBLE
 
-            db.collection("user").document().set(userMap)
-                .addOnSuccessListener {
-                    binding.progressBar.visibility = View.GONE
-                    Toast.makeText(this, "Berhasil mengirim feedback", Toast.LENGTH_SHORT).show()
-                    binding.etInputEmail.text?.clear()
-                    binding.etInputKomen.text?.clear()
-                }
-                .addOnFailureListener {
-                    binding.progressBar.visibility = View.GONE
-                    Toast.makeText(this, "Gagal mengirim feedback", Toast.LENGTH_SHORT).show()
-                }
+            val intent = Intent(Intent.ACTION_SENDTO).apply {
+                data = Uri.parse("mailto:almiratsdev@gmail.com")
+                putExtra(Intent.EXTRA_SUBJECT, subject)
+                putExtra(Intent.EXTRA_TEXT, comment)
+            }
+
+            if(intent.resolveActivity(packageManager) != null){
+                startActivity(intent)
+            }else {
+                Toast.makeText(this, "Required app is not installed", Toast.LENGTH_SHORT).show()
+            }
+
+
+
+//            db.collection("user").document().set(userMap)
+//                .addOnSuccessListener {
+//                    binding.progressBar.visibility = View.GONE
+//                    Toast.makeText(this, "Berhasil mengirim feedback", Toast.LENGTH_SHORT).show()
+//                    binding.etInputEmail.text?.clear()
+//                    binding.etInputKomen.text?.clear()
+//                }
+//                .addOnFailureListener {
+//                    binding.progressBar.visibility = View.GONE
+//                    Toast.makeText(this, "Gagal mengirim feedback", Toast.LENGTH_SHORT).show()
+//                }
         }
     }
 
