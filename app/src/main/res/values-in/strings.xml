@@ -62,23 +62,28 @@
     <string name="subheading_materi_2">Reference</string>
     <string name="subdesc_materi_2">In the past, during the period of ignorance, the Arabs, due to their arbitrariness and harsh nature, did not give inheritance to weak people such as women and children, they only gave it to strong men. This is because, in their opinion, men are the ones who take part in war, and they are also the ones who have the right to receive the spoils of war. So Rabb, the Most Merciful, the Most Wise, wanted to establish a Shari ah that equalizes (the right to receive inheritance) between men and women, strong people and weak people. (Taisir Al-Karim Ar-Rahman fi Tafsir Kalam Al-Mannan, Page 201)</string>
 
-    <string name="title_materi_3">Pihak Siapa Saja yang Berhak Menerima Waris</string>
-    <string name="heading_materi_3"></string>
-    <string name="desc_materi_3"></string>
-    <string name="subheading_materi_3"></string>
-    <string name="subdesc_materi_3"></string>
+    <string name="title_materi_3">Which Parties Have the Right to Receive Inheritance</string>
+    <string name="heading_materi_3">the party entitled to receive it</string>
+    <string name="desc_materi_3">The recipients of the inheritance are called heirs, and Islamic inheritance law has determined the order and portion of each heir. Heirs can consist of the nuclear family such as children, husband or wife, as well as wider family such as parents, siblings and even distant relatives.</string>
+    <string name="subheading_materi_3">Reference</string>
+    <string name="subdesc_materi_3">1. Al-Qur\'an, Surah An-Nisa (4:11-12)\n
+        2. Hadis Riwayat Bukhari dan Muslim\n
+        3. Hukum Waris Islam oleh Prof. Dr. Quraish Shihab\n
+        4. Fatwa Majelis Ulama Indonesia (MUI) atau otoritas keagamaan setempat.\n</string>
 
-    <string name="title_materi_4">Bagaimana Struktur Bagian Waris Utama</string>
+    <string name="title_materi_4">What is the Structure of the Main Inheritance Division</string>
     <string name="heading_materi_4"></string>
     <string name="desc_materi_4"></string>
     <string name="subheading_materi_4"></string>
     <string name="subdesc_materi_4"></string>
 
-    <string name="title_materi_5">Bagaimana Struktur Bagian Waris Utama</string>
-    <string name="heading_materi_5"></string>
-    <string name="desc_materi_5"></string>
-    <string name="subheading_materi_5"></string>
-    <string name="subdesc_materi_5"></string>
+    <string name="title_materi_5">Whose Parties are Blocked by the Main Heirs</string>
+    <string name="heading_materi_5">Whose Party is Obstructed</string>
+    <string name="desc_materi_5">In Islamic inheritance law, there is the concept of "main heir" who has a higher right to inherit than other heirs. The main heirs involve children, husband/wife, and parents. They have higher rights and get a fixed share of the inheritance. Other heirs, such as siblings, may be prevented from getting certain shares if the primary heir is still alive.
+         For example, if there are surviving children, spouse, or parents, siblings may receive a smaller share or even be prevented from receiving an inheritance.</string>
+    <string name="subheading_materi_5">Reference</string>
+    <string name="subdesc_materi_5">Referensi website yang dapat memberikan informasi lebih lanjut mengenai hukum waris Islam adalah Lembaga Fatwa Majelis Ulama Indonesia (MUI):
+https://www.fatwamui.or.id/</string>
 
     <string name="title_materi_6">Definition of Aul and Radd in Waris</string>
     <string name="heading_materi_6">What is meant by Aul</string>
@@ -105,5 +110,28 @@
     <string name="desc_tutorial_4_3"></string>
 
     <!--    TODO: FATWA-->
-    <string name="desc_fatwa_1"></string>
+    <string name="title_fatwa_1">Haven\'t paid the fasting debt and then dies, will the heirs make up for it or what?</string>
+    <string name="title_fatwa_2">Haven\'t performed aqiqah yet, is the aqiqah obtained from his father\'s inheritance or does the child perform aqiqah himself?</string>
+    <string name="title_fatwa_3">Can male and female inheritance be equal?</string>
+    <string name="title_fatwa_4">What if the inheritance is greater for those who have contributed more to the deceased?</string>
+    <string name="title_fatwa_5">Is there a verse in the Koran that requires us to divide inheritance according to Sharia?</string>
+    <string name="title_fatwa_6">What is the Law on Distributing Inheritance Not According to Allah SWT\'s Law?</string>
+    <string name="title_fatwa_7">Wills for Heirs, Are They Required to Be Executed</string>
+
+    <string name="desc_fatwa_1">In Islam, paying debts is an obligation that must be fulfilled. If someone dies before paying off the fasting debt, his heirs are responsible for making up for or paying the debt. Qadha is the replacement or implementation of something that is delayed. In this context, heirs can pay fasting debts that have not been completed by the deceased.</string>
+    <string name="desc_fatwa_2">In Islam, diaqiqah is the slaughter of animals for newborn children. The law is the father\'s responsibility to carry out the diaqiqah of his inherited property. The father can perform the aqiqah for his child himself or ask someone else to do it on his behalf.</string>
+    <string name="desc_fatwa_3">In Islam, the share of inheritance between men and women is not equal. Men\'s share of inheritance is greater than women\'s in some situations. In inheritance, a daughter gets half the inheritance of a son.</string>
+    <string name="desc_fatwa_4">In Islam, the basic principle of dividing inheritance is fair and in accordance with the provisions stipulated in the Koran. Even though someone has contributed more to the deceased, the distribution of inheritance still follows the established provisions of Islamic inheritance law. It is not permitted to give a larger portion to one heir based solely on certain services.</string>
+    <string name="desc_fatwa_5">In the Al-Qur\'an there are verses that regulate the distribution of inheritance according to sharia. One verse that explains this is in Surah An-Nisa (4:11-12):
+         "11. Allah conveys His command to you regarding (distribution of inheritance) to your children: the share of one son is equal to the share of two daughters, and if there are more than two daughters, then they get two-thirds of the property who is left behind; and if she is only a daughter, then she will share half. And to the parents (heirs) of each of them one-sixth of the property he left behind, if he has children; and if he has no children and his parents inherit the property then his mother gets one-third. And if the one who leaves him has brothers or sisters, then each of them gets one-sixth. And if the person who leaves him has many brothers and sisters, then his sister gets one-sixth ; and to each of his brothers a portion. (That is) Allah's decree which He has given you; and Allah is All-Knowing, All-Wise."</string>
+    <string name="desc_fatwa_6">Distributing inheritance not in accordance with Allah SWT\'s law (syar\'i) is considered a serious violation in Islam. Canceling or changing the inheritance provisions that have been determined by Islamic law can be considered an illegal action and can lead to sin. In Islam, observance of Allah\'s inheritance laws is an obligation, and violation of them can result in legal and moral consequences.</string>
+    <string name="desc_fatwa_7">Wills in Islam are permitted, but there are certain limitations and conditions that must be followed. A will can only cover one third of the inheritance and must not harm the heirs determined by Islamic inheritance law. In this case, the will is not required to be fully implemented, but must comply with these provisions.</string>
+
+    <string name="source_fatwa_1">1. Al-Qur\'an, Surah Al-Baqarah (2:180)\n2. Hadith History of Bukhari and Muslim\n3. Fatwa of the Indonesian Ulema Council (MUI) or local religious authority</string>
+    <string name="source_fatwa_2">1. Hadith History of Ahmad and Abu Dawud\n2. Fatwa of the Indonesian Ulema Council (MUI) or local religious authority.</string>
+    <string name="source_fatwa_3">1. Al–Qur\'an, Surah An–Nisa (4:11–12)\n2. Hadith History of Bukhari and Muslim\n3. Islamic Inheritance Law by Prof. Dr. Quraish Shihab</string>
+    <string name="source_fatwa_4">1. Al-Qur\'an, Surah An-Nisa (4:7)\n2. Hadith History of Bukhari and Muslim\n3. Fatwa of the Indonesian Ulema Council (MUI) or local religious authority.</string>
+    <string name="source_fatwa_5">Al–Qur\'an, Surah An–Nisa (4:11–12), Tafsir al-Jalalayn, Tafsir Ibn Kathir</string>
+    <string name="source_fatwa_6">Al-Qur\'an, Surah An-Nisa (4:14): "And whoever breaks the agreement made with Allah after the agreement remains, and breaks what Allah has commanded to be connected, and create chaos on the face of the earth, then they are the ones who lose."</string>
+    <string name="source_fatwa_7">Al–Qur\'an, Surah An–Nisa (4:11–12): "Allah conveys His command to you regarding (distribution of inheritance) your children: the share of a son equal to the share of two daughters, and if the daughters are more than two, then they get two-thirds of the property left behind; and if she is only a daughter, then she gets half."</string>
 </resources>

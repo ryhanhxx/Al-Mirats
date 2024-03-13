@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.SearchView
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import com.ch.al_mirats.databinding.FragmentMateriBinding
@@ -46,6 +47,10 @@ class MateriFragment : Fragment() {
         setupSwitch()
     }
 
+    private fun setSearchView(){
+        //TODO: Searchview from dummy
+    }
+
     private fun setupList() {
         val span = if(adapter.adapterLayoutMode == AdapterLayoutMode.LINEAR) 1 else 2
         binding.rvMateri.apply {
@@ -62,6 +67,4 @@ class MateriFragment : Fragment() {
             adapter.refreshList()
         }
     }
-
-
 }

@@ -70,6 +70,7 @@ class FatwaActivity : AppCompatActivity() {
 //            }
             binding.tvTitle.text = this.title
             binding.tvDesc.text = this.desc
+            binding.tvSource.text = this.source
         }
     }
 

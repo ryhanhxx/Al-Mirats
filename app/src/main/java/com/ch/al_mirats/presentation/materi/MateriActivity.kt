@@ -8,13 +8,9 @@ import androidx.appcompat.app.AppCompatActivity
 import coil.load
 import com.ch.al_mirats.databinding.ActivityMateriBinding
 import com.ch.al_mirats.dummy.DummyMateriRecommendDataSourceImpl
-import com.ch.al_mirats.dummy.DummyTopMateriDataSourceImpl
 import com.ch.al_mirats.model.Materi
-import com.ch.al_mirats.presentation.home.HomeFragment
 import com.ch.al_mirats.presentation.main.MainActivity
-import com.ch.al_mirats.presentation.materi.adapter.MateriAdapter
 import com.ch.al_mirats.presentation.materi.adapter.MateriRecommendAdapter
-import com.ch.al_mirats.utils.AdapterLayoutMode
 import com.ch.al_mirats.utils.GenericViewModelFactory
 
 class MateriActivity : AppCompatActivity() {
