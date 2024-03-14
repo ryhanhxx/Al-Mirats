@@ -21,7 +21,7 @@ import com.ch.al_mirats.presentation.about.AboutActivity
 import com.ch.al_mirats.presentation.feedback.FeedbackActivity
 import com.ch.al_mirats.presentation.home.adapter.CarouselAdapter
 import com.ch.al_mirats.presentation.home.adapter.HomeAdapter
-import com.ch.al_mirats.presentation.kalkulator.CalculatorActivity
+import com.ch.al_mirats.presentation.kalkulator.harta.HartaActivity
 import com.ch.al_mirats.presentation.materi.MateriActivity
 import com.ch.al_mirats.presentation.tutorial.TutorialActivity
 
@@ -78,7 +78,7 @@ class HomeFragment : Fragment() {
             activity?.startActivity(intent)
         }
         binding.llKalkulator.setOnClickListener {
-            val intent = Intent(activity, CalculatorActivity::class.java)
+            val intent = Intent(activity, HartaActivity::class.java)
             activity?.startActivity(intent)
         }
     }

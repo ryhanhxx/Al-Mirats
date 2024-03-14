@@ -15,19 +15,22 @@
         android:theme="@style/Theme.AlMirats"
         tools:targetApi="31">
         <activity
-            android:name=".presentation.kalkulator.CalculatorResultActivity"
+            android:name=".presentation.kalkulator.gender.JenisKelaminPewarisActivity"
             android:exported="false" />
         <activity
-            android:name=".presentation.kalkulator.WarisActivity"
+            android:name=".presentation.kalkulator.hasil_pembagian.HasilKalkulatorActivity"
             android:exported="false" />
         <activity
-            android:name=".presentation.kalkulator.HartaResultActivity"
+            android:name=".presentation.kalkulator.data_waris.WarisUtamaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.kalkulator.harta.TableHartaActivity"
             android:exported="false" />
         <activity
             android:name=".presentation.fatwa.FatwaActivity"
             android:exported="false" />
         <activity
-            android:name=".presentation.kalkulator.CalculatorActivity"
+            android:name=".presentation.kalkulator.harta.HartaActivity"
             android:exported="false" />
         <activity
             android:name=".presentation.tutorial.TutorialDetailActivity"
