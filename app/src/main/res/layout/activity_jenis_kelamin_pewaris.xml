@@ -8,7 +8,7 @@
     android:padding="12dp"
     tools:context=".presentation.kalkulator.gender.JenisKelaminPewarisActivity">
 
-    <androidx.appcompat.widget.LinearLayoutCompat
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/ll_header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,21 +23,33 @@
             android:layout_height="38dp"
             android:layout_gravity="center"
             android:src="@drawable/ic_left"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/tv_title"
-            android:layout_width="match_parent"
+            android:id="@+id/txt_title"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:fontFamily="@font/roboto_bold"
             android:text="@string/txt_kalkulator"
             android:textColor="@color/primary_light_blue"
             android:textSize="24sp"
-            app:layout_constraintStart_toEndOf="@id/iv_back"
+            app:layout_constraintEnd_toStartOf="@+id/btn_delete"
+            app:layout_constraintStart_toEndOf="@id/btn_back"
             app:layout_constraintTop_toTopOf="parent" />
-    </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <ImageView
+            android:id="@+id/btn_delete"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_restart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.appcompat.widget.LinearLayoutCompat
         app:layout_constraintTop_toBottomOf="@id/ll_header"
@@ -57,7 +69,7 @@
             android:textSize="18sp" />
 
         <RadioGroup
-            android:id="@+id/rg_gender"
+            android:id="@+id/rg_jenisKelaminPewaris"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -66,13 +78,13 @@
                 android:id="@+id/rb_laki"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/txt_laki" />
+                android:text="Suami" />
 
             <RadioButton
                 android:id="@+id/rb_perempuan"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/txt_perempuan" />
+                android:text="Istri" />
         </RadioGroup>
 
     </androidx.appcompat.widget.LinearLayoutCompat>

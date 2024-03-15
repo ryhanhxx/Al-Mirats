@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/table_second_primary"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="2dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TeksTablePembagianDefault"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:background="@drawable/table_primary"
+                android:gravity="center"
+                android:text="Ahli Waris"
+                android:textColor="@color/white" />
+
+            <TextView
+                style="@style/TeksTablePembagianDefault"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="4dp"
+                android:layout_weight="17.5"
+                android:background="@drawable/table_primary"
+                android:gravity="center"
+                android:text="Bagian"
+                android:textColor="@color/white" />
+
+            <TextView
+                style="@style/TeksTablePembagianDefault"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="4dp"
+                android:layout_weight="12.5"
+                android:background="@drawable/table_primary"
+                android:gravity="center"
+                android:text="Jumlah Orang"
+                android:textColor="@color/white" />
+
+            <TextView
+                style="@style/TeksTablePembagianDefault"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="4dp"
+                android:layout_weight="20"
+                android:background="@drawable/table_primary"
+                android:gravity="center"
+                android:text="Harta Bagian"
+                android:textColor="@color/white" />
+
+            <TextView
+                style="@style/TeksTablePembagianDefault"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="4dp"
+                android:layout_weight="20"
+                android:background="@drawable/table_primary"
+                android:gravity="center"
+                android:text="Harta Per Orang"
+                android:textColor="@color/white" />
+
+            <TextView
+                style="@style/TeksTablePembagianDefault"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="4dp"
+                android:layout_weight="10"
+                android:maxLines="1"
+                android:background="@drawable/table_primary"
+                android:gravity="center"
+                android:text="Keterangan"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_tableHasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            tools:listitem="@layout/table_hasil_default_recycle_view" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TeksTablePembagianDefault"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="25"
+                android:background="@drawable/table_primary"
+                android:gravity="center"
+                android:text="Total Pembagian Harta"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/txt_totalPembagianHarta"
+                style="@style/TeksTablePembagianDefault"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="4dp"
+                android:layout_weight="25"
+                android:background="@drawable/table_primary"
+                android:gravity="center"
+                android:text="Rp. 100.000"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

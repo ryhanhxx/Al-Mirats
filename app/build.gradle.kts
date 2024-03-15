@@ -4,6 +4,7 @@ plugins {
     id("kotlin-parcelize")
     id("androidx.navigation.safeargs.kotlin")
     id("com.google.gms.google-services")
+    id("kotlin-kapt")
 }
 
 android {
@@ -68,13 +69,7 @@ dependencies {
 
     implementation("io.coil-kt:coil:2.4.0")
 
-    implementation("androidx.datastore:datastore-preferences:1.0.0")
-
-    implementation("androidx.room:room-ktx:2.5.2")
-
-    implementation("com.squareup.retrofit2:retrofit:2.9.0")
-    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
-    implementation("com.squareup.okhttp3:okhttp:4.11.0")
+    implementation("androidx.room:room-ktx:2.6.1")
 
     implementation("androidx.recyclerview:recyclerview:1.3.1")
 
@@ -88,5 +83,11 @@ dependencies {
     implementation ("com.pierfrancescosoffritti.androidyoutubeplayer:chromecast-sender:0.28")
 
     implementation ("com.github.MikeOrtiz:TouchImageView:1.4.1")
+
+    implementation("androidx.room:room-runtime:2.6.1")
+    implementation("com.uncopt:android.justified:1.0")
+    kapt("androidx.room:room-compiler:2.6.1")
+
+    implementation ("androidx.room:room-paging:2.6.1")
 
 }
