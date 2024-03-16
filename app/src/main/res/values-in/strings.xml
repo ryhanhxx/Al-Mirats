@@ -42,6 +42,21 @@
     <string name="txt_jenazah">Perawat Jenazah</string>
     <string name="txt_gender">Gender</string>
     <string name="txt_total">Total Assets</string>
+    <string name="txt_hint_harta">Enter the Heir\'s Assets</string>
+    <string name="txt_hint_hutang">Enter Heir\'s Debt</string>
+    <string name="txt_wasiat">Heir\'s Testament</string>
+    <string name="txt_hint_wasiat">Enter the Testator\'s</string>
+    <string name="txt_hint_jenazah">Enter Mortuary Care</string>
+    <string name="txt_selanjutnya">Next</string>
+    <string name="txt_ahli_waris">Heir</string>
+    <string name="txt_bagian">Partition</string>
+    <string name="txt_jumlah_orang">Number of people</string>
+    <string name="txt_harta_bagian">Sectional Property</string>
+    <string name="txt_harta_perorang">Individual Assets</string>
+    <string name="txt_keterangan">information</string>
+    <string name="txt_total_pembagian">Total Distribution of Assets</string>
+    <string name="txt_jumlah">Total</string>
+    <string name="txt_total_harta_bersih">Total Net Assets</string>
 
     <!--    TODO: MATERI-->
     <string name="title_materi_1">What is Inheritance</string>
@@ -72,8 +87,8 @@
         4. Fatwa Majelis Ulama Indonesia (MUI) atau otoritas keagamaan setempat.\n</string>
 
     <string name="title_materi_4">What is the Structure of the Main Inheritance Division</string>
-    <string name="heading_materi_4"></string>
-    <string name="desc_materi_4"></string>
+    <string name="heading_materi_4">Section for primary heirs</string>
+    <string name="desc_materi_4">Primary heirs are individuals who hold the foremost entitlement to inherit an estate, commonly including spouses and children, although in certain legal frameworks, this designation may extend to encompass living parents or siblings. The distribution of assets within an estate entails dividing the deceased\'s property among primary heirs in accordance with applicable legal regulations. This distribution process may employ various methods, such as proportional allocation or assigning specific percentages to each heir. Testamentary inheritance introduces the possibility of a will dictating asset distribution in a manner distinct from standard inheritance laws, provided that the will adheres to relevant legal stipulations. Subsequently, managing and settling the estate typically entails tasks such as debt repayment, fulfillment of obligations, and overseeing estate administration following the allocation of assets among heirs.</string>
     <string name="subheading_materi_4"></string>
     <string name="subdesc_materi_4"></string>
 
@@ -82,7 +97,7 @@
     <string name="desc_materi_5">In Islamic inheritance law, there is the concept of "main heir" who has a higher right to inherit than other heirs. The main heirs involve children, husband/wife, and parents. They have higher rights and get a fixed share of the inheritance. Other heirs, such as siblings, may be prevented from getting certain shares if the primary heir is still alive.
          For example, if there are surviving children, spouse, or parents, siblings may receive a smaller share or even be prevented from receiving an inheritance.</string>
     <string name="subheading_materi_5">Reference</string>
-    <string name="subdesc_materi_5">Referensi website yang dapat memberikan informasi lebih lanjut mengenai hukum waris Islam adalah Lembaga Fatwa Majelis Ulama Indonesia (MUI):
+    <string name="subdesc_materi_5">A reference website that can provide further information regarding Islamic inheritance law is the Fatwa Institute of the Indonesian Ulema Council (MUI):
 https://www.fatwamui.or.id/</string>
 
     <string name="title_materi_6">Definition of Aul and Radd in Waris</string>

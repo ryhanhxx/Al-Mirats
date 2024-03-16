@@ -31,7 +31,7 @@
                 android:layout_weight="20"
                 android:background="@drawable/table_primary"
                 android:gravity="center"
-                android:text="Ahli Waris"
+                android:text="@string/txt_ahli_waris"
                 android:textColor="@color/white" />
 
             <TextView
@@ -42,7 +42,7 @@
                 android:layout_weight="17.5"
                 android:background="@drawable/table_primary"
                 android:gravity="center"
-                android:text="Bagian"
+                android:text="@string/txt_bagian"
                 android:textColor="@color/white" />
 
             <TextView
@@ -53,7 +53,7 @@
                 android:layout_weight="12.5"
                 android:background="@drawable/table_primary"
                 android:gravity="center"
-                android:text="Jumlah Orang"
+                android:text="@string/txt_jumlah_orang"
                 android:textColor="@color/white" />
 
             <TextView
@@ -64,7 +64,7 @@
                 android:layout_weight="20"
                 android:background="@drawable/table_primary"
                 android:gravity="center"
-                android:text="Harta Bagian"
+                android:text="@string/txt_harta_bagian"
                 android:textColor="@color/white" />
 
             <TextView
@@ -75,7 +75,7 @@
                 android:layout_weight="20"
                 android:background="@drawable/table_primary"
                 android:gravity="center"
-                android:text="Harta Per Orang"
+                android:text="@string/txt_harta_perorang"
                 android:textColor="@color/white" />
 
             <TextView
@@ -87,7 +87,7 @@
                 android:maxLines="1"
                 android:background="@drawable/table_primary"
                 android:gravity="center"
-                android:text="Keterangan"
+                android:text="@string/txt_keterangan"
                 android:textColor="@color/white" />
         </LinearLayout>
 
@@ -116,7 +116,7 @@
                 android:layout_weight="25"
                 android:background="@drawable/table_primary"
                 android:gravity="center"
-                android:text="Total Pembagian Harta"
+                android:text="@string/txt_total_pembagian"
                 android:textColor="@color/white" />
 
             <TextView

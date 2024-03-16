@@ -70,7 +70,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto_medium"
-                android:text="Harta Pewaris"
+                android:text="@string/txt_harta"
                 android:textSize="14sp" />
 
             <com.google.android.material.textfield.TextInputLayout
@@ -79,7 +79,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:hint="Masukkan Harta Pewaris"
+                android:hint="@string/txt_hint_harta"
                 app:boxCornerRadiusBottomEnd="10dp"
                 app:boxCornerRadiusBottomStart="10dp"
                 app:boxCornerRadiusTopEnd="10dp"
@@ -117,7 +117,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto_medium"
-                android:text="Hutang Pewaris"
+                android:text="@string/txt_hutang"
                 android:textSize="14sp" />
 
             <com.google.android.material.textfield.TextInputLayout
@@ -126,7 +126,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:hint="Masukkan Hutang Pewaris"
+                android:hint="@string/txt_hint_hutang"
                 app:boxCornerRadiusBottomEnd="10dp"
                 app:boxCornerRadiusBottomStart="10dp"
                 app:boxCornerRadiusTopEnd="10dp"
@@ -164,7 +164,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto_medium"
-                android:text="Wasiat Pewaris"
+                android:text="@string/txt_wasiat"
                 android:textSize="14sp" />
 
             <com.google.android.material.textfield.TextInputLayout
@@ -173,7 +173,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:hint="Masukkan Wasiat Pewaris"
+                android:hint="@string/txt_hint_wasiat"
                 app:boxCornerRadiusBottomEnd="10dp"
                 app:boxCornerRadiusBottomStart="10dp"
                 app:boxCornerRadiusTopEnd="10dp"
@@ -211,7 +211,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto_medium"
-                android:text="Perawatan Jenazah"
+                android:text="@string/txt_jenazah"
                 android:textSize="14sp" />
 
             <com.google.android.material.textfield.TextInputLayout
@@ -220,7 +220,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:hint="Masukkan Perawatan Jenazah"
+                android:hint="@string/txt_hint_jenazah"
                 app:boxCornerRadiusBottomEnd="10dp"
                 app:boxCornerRadiusBottomStart="10dp"
                 app:boxCornerRadiusTopEnd="10dp"
@@ -256,7 +256,7 @@
         android:layout_height="54dp"
         android:backgroundTint="@color/primary_dark_blue"
         android:fontFamily="@font/roboto_bold"
-        android:text="Selanjutnya"
+        android:text="@string/txt_selanjutnya"
         android:textColor="@color/primary_white"
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent" />

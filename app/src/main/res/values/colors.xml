@@ -31,6 +31,7 @@
 
     <!--    Text colors -->
     <color name="white">#FFFFFF</color>
+    <color name="grey">#efeff0</color>
     <color name="black">#252525</color>
 
     <!--   Icon Tint color -->

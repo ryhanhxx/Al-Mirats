@@ -39,9 +39,24 @@
     <string name="txt_materi_disarankan">Materi Disarankan</string>
     <string name="txt_harta">Harta Pewaris</string>
     <string name="txt_hutang">Hutang Pewaris</string>
-    <string name="txt_jenazah">Perawat Jenazah</string>
+    <string name="txt_jenazah">Perawatan Jenazah</string>
     <string name="txt_gender">Jenis Kelamin</string>
     <string name="txt_total">Total Harta</string>
+    <string name="txt_hint_harta">Masukkan Harta Pewaris</string>
+    <string name="txt_hint_hutang">Masukkan Hutang Pewaris</string>
+    <string name="txt_wasiat">Wasiat Pewaris</string>
+    <string name="txt_hint_wasiat">Masukkan Wasiat Pewaris</string>
+    <string name="txt_hint_jenazah">Masukkan Perawatan Jenazah</string>
+    <string name="txt_selanjutnya">Selanjutnya</string>
+    <string name="txt_ahli_waris">Ahli Waris</string>
+    <string name="txt_bagian">Bagian</string>
+    <string name="txt_jumlah_orang">Jumlah Orang</string>
+    <string name="txt_harta_bagian">Harta Bagian</string>
+    <string name="txt_harta_perorang">Harta Per Orang</string>
+    <string name="txt_keterangan">Keterangan</string>
+    <string name="txt_total_pembagian">Total Pembagian Harta</string>
+    <string name="txt_jumlah">Jumlah</string>
+    <string name="txt_total_harta_bersih">Total Harta Bersih</string>
 
     <!--    TODO: MATERI-->
     <string name="title_materi_1">Apa Itu Waris</string>
@@ -72,8 +87,11 @@
        4. Fatwa Majelis Ulama Indonesia (MUI) atau otoritas keagamaan setempat.\n</string>
 
     <string name="title_materi_4">Bagaimana Struktur Bagian Waris Utama</string>
-    <string name="heading_materi_4"></string>
-    <string name="desc_materi_4"></string>
+    <string name="heading_materi_4">Bagian untuk waris utama</string>
+    <string name="desc_materi_4">1. Ahli Waris Primer: Merujuk kepada kelompok-kelompok orang yang memiliki hak utama atas harta peninggalan, seperti suami/istri dan anak-anak. Di beberapa sistem hukum, ahli waris primer dapat juga mencakup orangtua atau saudara kandung yang masih hidup.\n
+        \n2. Pembagian Harta: Harta peninggalan biasanya dibagi di antara ahli waris primer sesuai dengan aturan hukum yang berlaku. Pembagian ini dapat dilakukan dengan berbagai metode, seperti pembagian proporsional atau berdasarkan persentase tertentu untuk setiap ahli waris. \n
+        \n3. Pewarisan Wasiat: Dalam beberapa kasus, peninggalan seseorang dapat memuat wasiat yang mengatur pembagian harta dengan cara yang berbeda dari aturan hukum waris biasa. Wasiat ini harus mematuhi ketentuan hukum yang berlaku. \n
+        \n4. Pengelolaan dan Penyelesaian Harta: Setelah pembagian harta, biasanya ada proses pengelolaan dan penyelesaian harta yang mencakup pembayaran utang dan beban lainnya serta administrasi harta peninggalan.</string>
     <string name="subheading_materi_4"></string>
     <string name="subdesc_materi_4"></string>
 
@@ -133,4 +151,7 @@
     <string name="source_fatwa_5">Al–Qur\'an, Surah An–Nisa (4:11–12), Tafsir al-Jalalayn, Tafsir Ibnu Kathir</string>
     <string name="source_fatwa_6">Al-Qur\'an, Surah An-Nisa (4:14): "Dan barangsiapa yang melanggar perjanjian yang diadakan di sisi Allah sesudah perjanjian itu tetap, dan memutuskan apa yang diperintahkan Allah untuk dihubungkan, dan membuat kacau balau di muka bumi, maka mereka itulah orang-orang yang rugi."</string>
     <string name="source_fatwa_7">Al–Qur\'an, Surah An–Nisa (4:11–12): "Allah menyampaikan perintah-Nya kepadamu tentang (pembagian harta pusaka) anak-anakmu: bahagian seorang anak laki-laki sama dengan bahagian dua orang anak perempuan, dan jika anak-anak perempuan itu lebih dari dua, maka mereka mendapat dua pertiga harta yang ditinggalkan itu; dan jika dia hanya seorang anak perempuan, maka baginya separo."</string>
+
+
+
 </resources>
