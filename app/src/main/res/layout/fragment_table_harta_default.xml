@@ -32,7 +32,7 @@
                 android:layout_weight="50"
                 android:background="@drawable/table_primary"
                 android:gravity="center"
-                android:text="Keterangan"
+                android:text="@string/txt_keterangan"
                 android:textColor="@color/white" />
 
             <TextView
@@ -43,7 +43,7 @@
                 android:layout_weight="50"
                 android:background="@drawable/table_primary"
                 android:gravity="center"
-                android:text="Jumlah"
+                android:text="@string/txt_jumlah"
                 android:textColor="@color/white" />
 
         </LinearLayout>
@@ -65,7 +65,7 @@
                 android:background="@drawable/table_content"
                 android:gravity="start|center"
                 android:paddingLeft="5dp"
-                android:text="Harta Pewaris"
+                android:text="@string/txt_harta"
                 android:textColor="@color/white" />
 
             <TextView
@@ -100,7 +100,7 @@
                 android:background="@drawable/table_content"
                 android:gravity="start|center"
                 android:paddingLeft="5dp"
-                android:text="Hutang Pewaris"
+                android:text="@string/txt_hutang"
                 android:textColor="@color/white" />
 
             <TextView
@@ -134,7 +134,7 @@
                 android:background="@drawable/table_content"
                 android:gravity="start|center"
                 android:paddingLeft="5dp"
-                android:text="Wasiat Pewaris"
+                android:text="@string/txt_wasiat"
                 android:textColor="@color/white" />
 
             <TextView
@@ -168,7 +168,7 @@
                 android:background="@drawable/table_content"
                 android:gravity="start|center"
                 android:paddingLeft="5dp"
-                android:text="Biaya Perawatan Jenazah"
+                android:text="@string/txt_jenazah"
                 android:textColor="@color/white" />
 
             <TextView
@@ -202,7 +202,7 @@
                 android:layout_weight="25"
                 android:background="@drawable/table_primary"
                 android:gravity="center"
-                android:text="Total Harta Bersih"
+                android:text="@string/txt_total_harta_bersih"
                 android:textColor="@color/white" />
 
             <TextView

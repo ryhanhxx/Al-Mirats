@@ -47,9 +47,26 @@ class MateriFragment : Fragment() {
         setupSwitch()
     }
 
-    private fun setSearchView(){
-        //TODO: Searchview from dummy
-    }
+//    private fun setSearchView() {
+//        binding.svSearch.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
+//            override fun onQueryTextSubmit(query: String?): Boolean {
+//                return false
+//            }
+//
+//            override fun onQueryTextChange(newText: String?): Boolean {
+//                newText?.let {
+//                    val filteredMateriList = if (it.isBlank()) {
+//                        // If query is empty, show all data
+//                        datasource2.getMateriData(context)
+//                    } else {
+//                        datasource2.searchMateriByTitle(it)
+//                    }
+//                    adapter.setItems(filteredMateriList)
+//                }
+//                return true
+//            }
+//        })
+//    }
 
     private fun setupList() {
         val span = if(adapter.adapterLayoutMode == AdapterLayoutMode.LINEAR) 1 else 2

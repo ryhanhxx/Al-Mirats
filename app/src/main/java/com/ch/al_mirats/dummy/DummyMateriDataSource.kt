@@ -6,11 +6,16 @@ import com.ch.al_mirats.model.Materi
 
 interface DummyMateriDataSource {
     fun getMateriData(context:Context): List<Materi>
+
+    fun searchMusicByTitle(context: Context, query: String): List<Materi>
 }
 
 class DummyMateriDataSourceImpl() : DummyMateriDataSource {
-    override fun getMateriData(context:Context): List<Materi> {
+    override fun searchMusicByTitle(context: Context, query: String): List<Materi> {
+        return getMateriData(context).filter { it.title.contains(query, ignoreCase = true) }
+    }
 
+    override fun getMateriData(context:Context): List<Materi> {
         return mutableListOf(
             Materi(
                 imgUrl = "https://raw.githubusercontent.com/ryhanhxx/img_asset/main/img_kalkulator.webp",
@@ -77,4 +82,5 @@ class DummyMateriDataSourceImpl() : DummyMateriDataSource {
             )
         )
     }
+
 }
