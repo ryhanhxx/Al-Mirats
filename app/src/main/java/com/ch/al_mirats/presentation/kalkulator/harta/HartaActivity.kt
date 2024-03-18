@@ -37,11 +37,8 @@ class HartaActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityHartaBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        val title: TextView = binding.txtTitle
         val buttonBack: ImageView = binding.btnBack
         val buttonDelete: ImageView = binding.btnDelete
-
-        title.text = "Harta"
 
         if (binding.inputHarta.text.isNullOrEmpty() || binding.inputHutang.text.isNullOrEmpty()
             || binding.inputWasiat.text.isNullOrEmpty() || binding.inputBiayaPerawatanJenazah.text.isNullOrEmpty()

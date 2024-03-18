@@ -57,6 +57,13 @@
     <string name="txt_total_pembagian">Total Distribution of Assets</string>
     <string name="txt_jumlah">Total</string>
     <string name="txt_total_harta_bersih">Total Net Assets</string>
+    <string name="txt_jumlah_istri">Number of Wives</string>
+    <string name="txt_jumlah_anak_laki_laki">Number of boys</string>
+    <string name="txt_jumlah_anak_perempuan">Number of daughters</string>
+    <string name="txt_jumlah_cucu_laki_laki">Number of grandsons</string>
+    <string name="txt_jumlah_cucu_perempuan">Number of granddaughters</string>
+    <string name="txt_pilih_anggota">Select existing family members</string>
+    <string name="txt_pasangan">Does the testator have a spouse?</string>
 
     <!--    TODO: MATERI-->
     <string name="title_materi_1">What is Inheritance</string>
@@ -149,4 +156,6 @@ https://www.fatwamui.or.id/</string>
     <string name="source_fatwa_5">Al–Qur\'an, Surah An–Nisa (4:11–12), Tafsir al-Jalalayn, Tafsir Ibn Kathir</string>
     <string name="source_fatwa_6">Al-Qur\'an, Surah An-Nisa (4:14): "And whoever breaks the agreement made with Allah after the agreement remains, and breaks what Allah has commanded to be connected, and create chaos on the face of the earth, then they are the ones who lose."</string>
     <string name="source_fatwa_7">Al–Qur\'an, Surah An–Nisa (4:11–12): "Allah conveys His command to you regarding (distribution of inheritance) your children: the share of a son equal to the share of two daughters, and if the daughters are more than two, then they get two-thirds of the property left behind; and if she is only a daughter, then she gets half."</string>
+
+
 </resources>

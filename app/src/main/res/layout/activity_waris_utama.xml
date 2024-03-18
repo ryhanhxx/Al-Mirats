@@ -69,7 +69,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto_medium"
-                android:text="Pilih anggota keluarga yang masih ada"
+                android:text="@string/txt_pilih_anggota"
                 android:textSize="16sp" />
 
             <LinearLayout
@@ -115,7 +115,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto_medium"
-                android:text="Apakah anda memiliki suami?"
+                android:text="@string/txt_pasangan"
                 android:textSize="16sp" />
 
             <CheckBox
@@ -144,7 +144,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_medium"
-                    android:text="Jumlah Istri"
+                    android:text="@string/txt_jumlah_istri"
                     android:textSize="16sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@id/ll_value_1"
@@ -190,7 +190,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_medium"
-                    android:text="Jumlah anak laki-laki"
+                    android:text="@string/txt_jumlah_anak_laki_laki"
                     android:textSize="16sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@id/ll_value_2"
@@ -236,7 +236,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_medium"
-                    android:text="Jumlah anak perempuan"
+                    android:text="@string/txt_jumlah_anak_perempuan"
                     android:textSize="16sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@id/ll_value_3"
@@ -282,7 +282,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_medium"
-                    android:text="Jumlah cucu laki-laki"
+                    android:text="@string/txt_jumlah_cucu_laki_laki"
                     android:textSize="16sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@id/ll_value_4"
@@ -328,7 +328,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_medium"
-                    android:text="Jumlah anak perempuan"
+                    android:text="@string/txt_jumlah_cucu_perempuan"
                     android:textSize="16sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@id/ll_value_5"

@@ -24,12 +24,10 @@ class HasilKalkulatorActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityHasilKalkulatorBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        val title: TextView = binding.txtTitle
         val buttonBack: ImageView = binding.btnBack
         val buttonDelete: ImageView = binding.btnDelete
         buttonDelete.visibility = View.GONE
 
-        title.text = "Pembagian"
 
         val hutang = intent.getLongExtra("hutang", 0).toDouble()
         val wasiat = intent.getLongExtra("wasiat", 0).toDouble()

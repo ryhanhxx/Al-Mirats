@@ -30,12 +30,10 @@ class WarisUtamaActivity : AppCompatActivity() {
         binding = ActivityWarisUtamaBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val title: TextView = binding.txtTitle
         val buttonBack: ImageView = binding.btnBack
         val buttonDelete: ImageView = binding.btnDelete
         binding.edIstri.filters = arrayOf(InputFilter.LengthFilter(1))
         buttonDelete.visibility = View.GONE
-        title.text = "Keluarga"
 
         val harta = intent.getLongExtra("harta", 0)
         val hutang = intent.getLongExtra("hutang", 0)

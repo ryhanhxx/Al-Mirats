@@ -28,13 +28,10 @@ class JenisKelaminPewarisActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityJenisKelaminPewarisBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        val title: TextView = binding.txtTitle
         val buttonBack: ImageView = binding.btnBack
         val buttonDelete: ImageView = binding.btnDelete
         val rgJenisKelaminPewaris: RadioGroup = binding.rgJenisKelaminPewaris
         buttonDelete.visibility = View.GONE
-
-        title.text = "Jenis Kelamin"
 
         val harta = intent.getLongExtra("harta", 0)
         val hutang = intent.getLongExtra("hutang", 0)
@@ -59,7 +56,6 @@ class JenisKelaminPewarisActivity : AppCompatActivity() {
                     R.id.rb_perempuan -> "Perempuan"
                     else -> "Laki-Laki"
                 }
-
                 intent.putExtra("jenisKelaminPewaris", jenisKelaminPewaris)
                 startActivity(intent)
 

@@ -21,7 +21,7 @@
                 android:id="@+id/v_bg"
                 android:layout_width="match_parent"
                 android:layout_height="78dp"
-                android:background="@drawable/img_header"
+                android:background="@drawable/bg_header"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -111,7 +111,7 @@
                 android:text="@string/txt_fitur_utama"
                 android:textColor="?android:textColorPrimary"
                 android:textSize="24sp"
-                app:layout_constraintTop_toBottomOf="@id/v_bg"/>
+                app:layout_constraintTop_toBottomOf="@id/v_bg" />
 
             <androidx.appcompat.widget.LinearLayoutCompat
                 android:id="@+id/ll_fitur_utama"
@@ -122,129 +122,105 @@
                 android:orientation="horizontal"
                 app:layout_constraintTop_toBottomOf="@id/tv_fitur">
 
-                <androidx.cardview.widget.CardView
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/ll_kalkulator"
                     android:layout_width="88dp"
                     android:layout_height="88dp"
                     android:layout_margin="4dp"
+                    android:orientation="vertical"
                     app:layout_constraintTop_toBottomOf="@id/tv_fitur">
 
-                    <androidx.appcompat.widget.LinearLayoutCompat
-                        android:id="@+id/ll_kalkulator"
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/img_calculator" />
+
+                    <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical">
+                        android:layout_marginVertical="4dp"
+                        android:maxLines="1"
+                        android:text="@string/txt_kalkulator"
+                        android:textAlignment="center"
+                        android:textColor="?android:textColorPrimary" />
 
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:src="@drawable/img_calculator" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginVertical="4dp"
-                            android:maxLines="1"
-                            android:text="@string/txt_kalkulator"
-                            android:textAlignment="center"
-                            android:textColor="?android:textColorPrimary" />
-
-                    </androidx.appcompat.widget.LinearLayoutCompat>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/ll_tutorial"
                     android:layout_width="88dp"
                     android:layout_height="88dp"
                     android:layout_margin="4dp"
+                    android:orientation="vertical"
                     app:layout_constraintTop_toBottomOf="@id/tv_fitur">
 
-                    <androidx.appcompat.widget.LinearLayoutCompat
-                        android:id="@+id/ll_tutorial"
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/img_help" />
+
+                    <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical">
+                        android:layout_marginVertical="4dp"
+                        android:maxLines="1"
+                        android:text="@string/txt_panduan"
+                        android:textAlignment="center"
+                        android:textColor="?android:textColorPrimary" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
 
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:src="@drawable/img_help" />
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginVertical="4dp"
-                            android:maxLines="1"
-                            android:text="@string/txt_panduan"
-                            android:textAlignment="center"
-                            android:textColor="?android:textColorPrimary" />
-
-                    </androidx.appcompat.widget.LinearLayoutCompat>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/ll_feedback"
                     android:layout_width="88dp"
                     android:layout_height="88dp"
                     android:layout_margin="4dp"
+                    android:orientation="vertical"
                     app:layout_constraintTop_toBottomOf="@id/tv_fitur">
 
-                    <androidx.appcompat.widget.LinearLayoutCompat
-                        android:id="@+id/ll_feedback"
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/img_feedback" />
+
+                    <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical">
+                        android:layout_marginVertical="4dp"
+                        android:maxLines="1"
+                        android:text="@string/txt_feedback"
+                        android:textAlignment="center"
+                        android:textColor="?android:textColorPrimary" />
 
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:src="@drawable/img_feedback" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginVertical="4dp"
-                            android:maxLines="1"
-                            android:text="@string/txt_feedback"
-                            android:textAlignment="center"
-                            android:textColor="?android:textColorPrimary" />
-
-                    </androidx.appcompat.widget.LinearLayoutCompat>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/ll_about"
                     android:layout_width="88dp"
                     android:layout_height="88dp"
                     android:layout_margin="4dp"
+                    android:orientation="vertical"
                     app:layout_constraintTop_toBottomOf="@id/tv_fitur">
 
-                    <androidx.appcompat.widget.LinearLayoutCompat
-                        android:id="@+id/ll_about"
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/img_about" />
+
+                    <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical">
+                        android:layout_marginVertical="4dp"
+                        android:maxLines="1"
+                        android:text="@string/txt_about"
+                        android:textAlignment="center"
+                        android:textColor="?android:textColorPrimary" />
 
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:src="@drawable/img_about" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginVertical="4dp"
-                            android:maxLines="1"
-                            android:text="@string/txt_about"
-                            android:textAlignment="center"
-                            android:textColor="?android:textColorPrimary" />
-
-                    </androidx.appcompat.widget.LinearLayoutCompat>
-
-                </androidx.cardview.widget.CardView>
+                </androidx.appcompat.widget.LinearLayoutCompat>
 
             </androidx.appcompat.widget.LinearLayoutCompat>
 

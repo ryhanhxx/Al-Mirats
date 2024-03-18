@@ -57,6 +57,13 @@
     <string name="txt_total_pembagian">Total Pembagian Harta</string>
     <string name="txt_jumlah">Jumlah</string>
     <string name="txt_total_harta_bersih">Total Harta Bersih</string>
+    <string name="txt_jumlah_istri">Jumlah Istri</string>
+    <string name="txt_jumlah_anak_laki_laki">Jumlah anak laki-laki</string>
+    <string name="txt_jumlah_anak_perempuan">Jumlah anak perempuan</string>
+    <string name="txt_jumlah_cucu_laki_laki">Jumlah cucu laki-laki</string>
+    <string name="txt_jumlah_cucu_perempuan">Jumlah cucu perempuan</string>
+    <string name="txt_pilih_anggota">Pilih anggota keluarga yang masih ada</string>
+    <string name="txt_pasangan">Apakah pewaris memiliki pasangan?</string>
 
     <!--    TODO: MATERI-->
     <string name="title_materi_1">Apa Itu Waris</string>

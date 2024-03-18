@@ -22,12 +22,9 @@ class TableHartaActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityTableHartaBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        val title: TextView = binding.txtTitle
         val buttonBack: ImageView = binding.btnBack
         val buttonDelete: ImageView = binding.btnDelete
         buttonDelete.visibility = View.GONE
-
-        title.text = "Harta"
 
         binding.fabZoomIn.visibility = View.VISIBLE
         binding.fabZoomOut.visibility = View.GONE
