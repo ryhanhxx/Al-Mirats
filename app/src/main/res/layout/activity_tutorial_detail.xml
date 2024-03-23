@@ -31,8 +31,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:maxLines="2"
             android:fontFamily="@font/roboto_bold"
+            android:maxLines="2"
             android:textColor="@color/primary_light_blue"
             android:textSize="24sp"
             app:layout_constraintStart_toEndOf="@id/iv_back"
@@ -40,47 +40,62 @@
             tools:text="Tutorial" />
     </androidx.appcompat.widget.LinearLayoutCompat>
 
-        <ImageView
-            android:id="@+id/iv_img"
-            android:layout_marginVertical="8dp"
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
-            android:layout_height="458dp"
-            android:layout_gravity="center"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:src="@tools:sample/avatars" />
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/tv_tutorial"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/txt_informasi"
-        android:fontFamily="@font/roboto_medium"
-        android:textSize="20sp"/>
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/youtube_player_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="8dp"
+                app:autoPlay="false" />
 
-    <TextView
-        android:id="@+id/tv_tutorial_1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:text="Tutorial_1"
-        android:fontFamily="@font/roboto"
-        android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/tv_gambar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="8dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Panduan"
+                android:textColor="@color/primary_light_blue"
+                android:textSize="20sp" />
 
-    <TextView
-        android:id="@+id/tv_tutorial_2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:text="Tutorial_2"
-        android:fontFamily="@font/roboto"
-        android:textSize="14sp"/>
+            <ImageView
+                android:id="@+id/iv_img"
+                android:layout_width="match_parent"
+                android:layout_height="458dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="8dp"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:src="@tools:sample/avatars" />
 
-    <TextView
-        android:id="@+id/tv_tutorial_3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:text="Tutorial_2"
-        android:fontFamily="@font/roboto"
-        android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/tv_tutorial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:text="@string/txt_informasi"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:textSize="16sp"
+                tools:text="Tutorial" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
 
 
 </androidx.appcompat.widget.LinearLayoutCompat>

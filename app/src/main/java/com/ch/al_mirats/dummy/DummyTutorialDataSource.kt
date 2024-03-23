@@ -13,33 +13,35 @@ class DummyTutorialDataSourceImpl() : DummyTutorialDataSource {
 
         return mutableListOf(
             Tutorial(
-                title = "Panduan Penggunaan Kalkulator",
-                imgUrl = "",
-                descOne = "1",
-                descTwo = "",
-                descThree = ""
+                title = context.getString(R.string.title_tutorial_1),
+                videoUrl = "pYy69BYUIxw",
+                imgUrl = "https://raw.githubusercontent.com/ryhanhxx/img_asset/main/IMG_KALKULATOR.png",
+                desc = context.getString(R.string.desc_tutorial_1)
             ),
             Tutorial(
-                title = "Panduan Pengunaan Umpan Balik",
+                title = context.getString(R.string.title_tutorial_2),
+                videoUrl = "VtkLKuOr9UM",
                 imgUrl = "https://raw.githubusercontent.com/ryhanhxx/img_asset/main/IMG_FEEDBACK.png",
-                descOne = context.getString(R.string.desc_tutorial_2_1),
-                descTwo = context.getString(R.string.desc_tutorial_2_2),
-                descThree = context.getString(R.string.desc_tutorial_2_3)
+                desc = context.getString(R.string.desc_tutorial_2)
             ),
             Tutorial(
-                title = "Panduan Cara Membaca Materi",
+                title = context.getString(R.string.title_tutorial_3),
+                videoUrl = "ZJQK_A5zueM",
                 imgUrl = "https://raw.githubusercontent.com/ryhanhxx/img_asset/main/IMG_MATERI.png",
-                descOne = context.getString(R.string.desc_tutorial_3_1),
-                descTwo = context.getString(R.string.desc_tutorial_3_2),
-                descThree = context.getString(R.string.desc_tutorial_3_3)
+                desc = context.getString(R.string.desc_tutorial_3),
             ),
             Tutorial(
-                title = "Panduan Cara Membaca Tentang Aplikasi",
+                title = context.getString(R.string.title_tutorial_4),
+                videoUrl = "6hyScFfqzGY",
                 imgUrl = "https://raw.githubusercontent.com/ryhanhxx/img_asset/main/IMG_ABOUT.png",
-                descOne = context.getString(R.string.desc_tutorial_4_1),
-                descTwo = context.getString(R.string.desc_tutorial_4_2),
-                descThree = context.getString(R.string.desc_tutorial_4_3)
+                desc = context.getString(R.string.desc_tutorial_4),
             ),
-            )
+            Tutorial(
+                title = context.getString(R.string.title_tutorial_5),
+                videoUrl = "NatpNvZptJM",
+                imgUrl = "https://raw.githubusercontent.com/ryhanhxx/img_asset/main/IMG_FATWA.png",
+                desc = context.getString(R.string.desc_tutorial_5),
+            ),
+        )
     }
 }

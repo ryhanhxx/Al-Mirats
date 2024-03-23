@@ -116,22 +116,29 @@
     <string name="subdesc_materi_6">Ar-radd dalam bahasa Arab berarti kembali/kembalikan atau juga bermakna berpaling/palingkan. Seperti terdapat dalam firman Allah berikut:\n\nMusa berkata: Itulah (tempat) yang kita cari. Lalu keduanya kembali, mengikuti jejak mereka semula. \" (al-Kahfi: 64)\n\nDan Allah menghalau orang-orang yang kafir itu yang keadaan mereka penuh kejengkelan …\" (al-Ahzab: 25)\n\nDalam sebuah doa disebutkan \"Allahumma radda kaidahum annii\" (Ya Allah, palingkanlah/halaulah tipu daya mereka terhadapku).\n\nAdapun ar-radd menurut istilah ulama ilmu faraid ialah berkurangnya pokok masalah dan bertambahnya/lebihnya jumlah bagian ashhabul furudh. Ar-radd merupakan kebalikan dari al-aul.\nSebagai misal, dalam suatu keadaan (dalam pembagian hak waris) para ashhabul furudh telah menerima haknya masing-masing, tetapi ternyata harta warisan itu masih tersisa —sementara itu tidak ada sosok kerabat lain sebagai ashabah— maka sisa harta waris itu diberikan atau dikembalikan lagi kepada para ashhabul furudh sesuai dengan bagian mereka masing-masing.</string>
 
     <!--    TODO: TUTORIAL-->
+    <string name="title_tutorial_1">Panduan Penggunaan Kalkulator</string>
+    <string name="desc_tutorial_1">1. Isi terlebih dahulu harta pewaris\n
+    2. Isi hutang pewaris\n
+    3. Isi wasiat pewaris\n
+    4. Isi biaya perawatan untuk jenazah\n
+    5. Tekan tombol selanjutnya untuk melihat rincian harta pewaris</string>
 
-    <string name="desc_tutorial_1_1"></string>
-    <string name="desc_tutorial_1_2"></string>
-    <string name="desc_tutorial_1_3"></string>
+    <string name="title_tutorial_2">Panduan Pengunaan Umpan Balik</string>
+    <string name="desc_tutorial_2">1. Isi email terlebih dahulu. \n
+        2. Isi komentar yang anda inginkan.\n
+        3. Tekan tombol untuk kirim komentar anda.</string>
 
-    <string name="desc_tutorial_2_1">1. Isi email terlebih dahulu.</string>
-    <string name="desc_tutorial_2_2">2. Isi komentar yang anda inginkan.</string>
-    <string name="desc_tutorial_2_3">3. Tekan tombol untuk kirim komentar anda.</string>
+    <string name="title_tutorial_3">Panduan Cara Membaca Materi</string>
+    <string name="desc_tutorial_3">1. Tekan tombol berikut, untuk melihat materi secara list atau grid.\n
+        2. Tekan materi yang tersedia untuk melihat detail materi.</string>
 
-    <string name="desc_tutorial_3_1">1. Tekan tombol berikut, untuk melihat materi secara list atau grid.</string>
-    <string name="desc_tutorial_3_2">2. Tekan materi yang tersedia untuk melihat detail materi.</string>
-    <string name="desc_tutorial_3_3"></string>
+    <string name="title_tutorial_4">Panduan Cara Membaca Tentang Aplikasi</string>
+    <string name="desc_tutorial_4">1. Anda dapat melihat berbagai macam informasi dari aplikasi ini\n
+        2. Informasi tersebut mencakup tujuan dari aplikasi, serta tim pengembang, dosen pembimbing dan sumber referensi aplikasi ini dibuat.</string>
 
-    <string name="desc_tutorial_4_1">1. Anda Dapat Melihat Berbagai macam informasi dari aplikasi ini.</string>
-    <string name="desc_tutorial_4_2">2. Informasi tersebut mencakup tujuan dari aplikasi, serta tim pengembang, dosen pembimbing dan sumber referensi aplikasi ini dibuat.</string>
-    <string name="desc_tutorial_4_3"></string>
+    <string name="title_tutorial_5">Panduan Cara Membaca Fatwa</string>
+    <string name="desc_tutorial_5">1. Anda dapat menonton video fatwa\n
+        2. Anda dapat membaca rangkuman dari video teresbut</string>
 
     <!--    TODO: FATWA-->
     <string name="title_fatwa_1">Belum Bayar Hutang Puasa Lalu Meninggal Dunia, Ahli Waris Mengqadha Atau Bagaimana?</string>

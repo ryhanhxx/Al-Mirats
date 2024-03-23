@@ -114,22 +114,28 @@ https://www.fatwamui.or.id/</string>
     <string name="subdesc_materi_6">Ar-radd in Arabic means return/return or also means turn/turn away. As stated in the following words of Allah:\n\nMoses said: That is (the place) we are looking for. Then the two of them returned, following their original footsteps. \" (al-Kahf: 64)\n\nAnd Allah dispels those who disbelieve whose condition is full of irritation…\" (al-Ahzab: 25)\n\nIn a prayer it is said \"Allahumma radda kaidahum annii\" " (O Allah, turn away/banish their deceptions against me).\n\nAs for ar-radd according to the terms of faraid science scholars, it is a reduction in the subject matter and an increase/increase in the number of ashhabul furudh parts. Ar-radd is the opposite of al-aul.\nFor example, in a situation (in the distribution of inheritance rights) the ashhabul furudh have received their respective rights, but it turns out that the inheritance still remains - meanwhile there is no other relative figure as ashabah — then the remaining inheritance is given or returned to the ashhabul furudh according to their respective shares.</string>
 
     <!--    TODO: TUTORIAL-->
+    <string name="title_tutorial_1">Calculator Usage Guide</string>
+    <string name="desc_tutorial_1">1. Fill in the heirs assets first\n
+     2. Fill in the heirs debt\n
+     3. Fill in the testators will\n
+     4. Fill in the care costs for the corpse\n</string>
 
-    <string name="desc_tutorial_1_1"></string>
-    <string name="desc_tutorial_1_2"></string>
-    <string name="desc_tutorial_1_3"></string>
+    <string name="title_tutorial_2">Guidelines for Using Feedback</string>
+    <string name="desc_tutorial_2">1. Fill your email first.\n
+        2. Fill in the comments you want.\n
+        3. Press the button to send your comment.</string>
 
-    <string name="desc_tutorial_2_1">1. Fill your email first.</string>
-    <string name="desc_tutorial_2_2">2. Fill in the comments you want.</string>
-    <string name="desc_tutorial_2_3">3. Press the button to send your comment.</string>
+    <string name="title_tutorial_3">Guide on How to Read Material</string>
+    <string name="desc_tutorial_3">1. Press the following button to view the material in a list or grid.\n
+        2. Select an available material to view material details.</string>
 
-    <string name="desc_tutorial_3_1">1. Press the following button to view the material in a list or grid.</string>
-    <string name="desc_tutorial_3_2">2. Select an available material to view material details.</string>
-    <string name="desc_tutorial_3_3"></string>
+    <string name="title_tutorial_4">Guide How to Read About the App</string>
+    <string name="desc_tutorial_4">1. You can see various kinds of information from this application.\n
+        2. This information includes the purpose of the application, as well as the development team, supervisors and reference sources for this application</string>
 
-    <string name="desc_tutorial_4_1">1. You can see various kinds of information from this application.</string>
-    <string name="desc_tutorial_4_2">2. This information includes the purpose of the application, as well as the development team, supervisors and reference sources for this application.</string>
-    <string name="desc_tutorial_4_3"></string>
+    <string name="title_tutorial_5">Guide on How to Read Fatwas</string>
+    <string name="desc_tutorial_5">1. You can watch the fatwa video\n
+        2. You can read the summary of the video</string>
 
     <!--    TODO: FATWA-->
     <string name="title_fatwa_1">Haven\'t paid the fasting debt and then dies, will the heirs make up for it or what?</string>

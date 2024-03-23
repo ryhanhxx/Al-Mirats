@@ -9,6 +9,9 @@ import coil.load
 import com.ch.al_mirats.databinding.ActivityTutorialDetailBinding
 import com.ch.al_mirats.model.Tutorial
 import com.ch.al_mirats.utils.GenericViewModelFactory
+import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayer
+import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.AbstractYouTubePlayerListener
+import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
 
 class TutorialDetailActivity : AppCompatActivity() {
 
@@ -25,6 +28,7 @@ class TutorialDetailActivity : AppCompatActivity() {
         setContentView(binding.root)
         showTutorialData(viewModel.tutorial)
 
+        viewModel.tutorial?.videoUrl?.let { playVideo(it) }
         setOnClickBack()
     }
 
@@ -34,10 +38,21 @@ class TutorialDetailActivity : AppCompatActivity() {
                 crossfade(true)
             }
             binding.tvTitle.text = this.title
-            binding.tvTutorial1.text = this.descOne
-            binding.tvTutorial2.text = this.descTwo
-            binding.tvTutorial3.text = this.descThree
+            binding.tvDesc.text = this.desc
         }
+    }
+
+    private fun playVideo(videoId: String) {
+        val youTubePlayerView: YouTubePlayerView = binding.youtubePlayerView
+        lifecycle.addObserver(youTubePlayerView)
+
+        youTubePlayerView.addYouTubePlayerListener(
+            object : AbstractYouTubePlayerListener() {
+                override fun onReady(youTubePlayer: YouTubePlayer) {
+                    youTubePlayer.loadVideo(videoId, 0f)
+                }
+            }
+        )
     }
 
     private fun setOnClickBack(){

@@ -65,9 +65,6 @@ class FatwaActivity : AppCompatActivity() {
 
     private fun showFatwaData(fatwa: Fatwa?) {
         fatwa?.apply {
-//            binding.ivImg.load(this.imgUrl) {
-//                crossfade(true)
-//            }
             binding.tvTitle.text = this.title
             binding.tvDesc.text = this.desc
             binding.tvSource.text = this.source

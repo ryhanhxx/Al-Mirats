@@ -1,20 +1,12 @@
 package com.ch.al_mirats.presentation.feedback
 
-import android.content.Context
 import android.content.Intent
 import android.net.Uri
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.AttributeSet
-import android.util.Patterns
 import android.view.View
-import android.widget.Button
-import android.widget.EditText
-import android.widget.ProgressBar
 import android.widget.Toast
-import com.ch.al_mirats.R
+import androidx.appcompat.app.AppCompatActivity
 import com.ch.al_mirats.databinding.ActivityFeedbackBinding
-import com.google.firebase.firestore.firestore
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 
@@ -53,15 +45,29 @@ class FeedbackActivity : AppCompatActivity() {
 
             binding.progressBar.visibility = View.VISIBLE
 
-            val intent = Intent(Intent.ACTION_SENDTO).apply {
-                data = Uri.parse("mailto:almiratsdev@gmail.com")
-                putExtra(Intent.EXTRA_SUBJECT, subject)
-                putExtra(Intent.EXTRA_TEXT, comment)
-            }
+//            val intent = Intent(Intent.ACTION_SENDTO).apply {
+//                data = Uri.parse("mailto:almiratsdev@gmail.com")
+//                putExtra(Intent.EXTRA_SUBJECT, subject)
+//                putExtra(Intent.EXTRA_TEXT, comment)
+//                setType("message/rfc822");
+//            }
 
-            if(intent.resolveActivity(packageManager) != null){
+            val intent = Intent(Intent.ACTION_SEND)
+            intent.type = "text/plain"
+            intent.putExtra(Intent.EXTRA_EMAIL, arrayOf("almiratsdev@gmail.com"))
+            intent.putExtra(Intent.EXTRA_SUBJECT, subject)
+            intent.putExtra(Intent.EXTRA_TEXT, comment)
+
+//            if(intent.resolveActivity(packageManager) != null){
+//               startActivity(Intent.createChooser(email, "Choose an Email client :"))
+//               startActivity(intent)
+//            }else {
+//                Toast.makeText(this, "Required app is not installed", Toast.LENGTH_SHORT).show()
+//            }
+
+            try{
                 startActivity(intent)
-            }else {
+            }catch (e: Exception){
                 Toast.makeText(this, "Required app is not installed", Toast.LENGTH_SHORT).show()
             }
 
