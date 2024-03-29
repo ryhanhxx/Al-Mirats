@@ -95,14 +95,20 @@
 
     <string name="title_materi_4">What is the Structure of the Main Inheritance Division</string>
     <string name="heading_materi_4">Section for primary heirs</string>
-    <string name="desc_materi_4">Primary heirs are individuals who hold the foremost entitlement to inherit an estate, commonly including spouses and children, although in certain legal frameworks, this designation may extend to encompass living parents or siblings. The distribution of assets within an estate entails dividing the deceased\'s property among primary heirs in accordance with applicable legal regulations. This distribution process may employ various methods, such as proportional allocation or assigning specific percentages to each heir. Testamentary inheritance introduces the possibility of a will dictating asset distribution in a manner distinct from standard inheritance laws, provided that the will adheres to relevant legal stipulations. Subsequently, managing and settling the estate typically entails tasks such as debt repayment, fulfillment of obligations, and overseeing estate administration following the allocation of assets among heirs.</string>
+    <string name="desc_materi_4">A. Husband: The husband has the right to receive an inheritance share from the deceased wifes assets, if the wife does not have children or other descendants. The husbands share is one-fourth of the wifes assets if the wife has no children, and one-eighth if the wife has children.\n
+         \nB. Wife: The wife has the right to receive an inheritance share from the deceased husbands assets, if the husband has no children. The wifes share is one-fourth of the husbands property if the husband has no children, and one-eighth if the husband has children.\n
+         \nC. Children: Children have great inheritance rights in Islam. Boys get twice as much as girls. The share of children depends on the number of children who died, the number of sons and daughters who are still alive.\n
+         \nD. Parents: Parents also have an inheritance share in the assets of their deceased children. The parents share depends on whether the deceased child had children or not.\n
+         \nE. Siblings: Siblings, both male and female, also have an inheritance share in the property left by their sibling.\n</string>
     <string name="subheading_materi_4"></string>
     <string name="subdesc_materi_4"></string>
 
     <string name="title_materi_5">Whose Parties are Blocked by the Main Heirs</string>
     <string name="heading_materi_5">Whose Party is Obstructed</string>
-    <string name="desc_materi_5">In Islamic inheritance law, there is the concept of "main heir" who has a higher right to inherit than other heirs. The main heirs involve children, husband/wife, and parents. They have higher rights and get a fixed share of the inheritance. Other heirs, such as siblings, may be prevented from getting certain shares if the primary heir is still alive.
-         For example, if there are surviving children, spouse, or parents, siblings may receive a smaller share or even be prevented from receiving an inheritance.</string>
+    <string name="desc_materi_5">In Islamic inheritance law, there are parties who are prevented from receiving the main inheritance. These obstructed parties are called "mahrum." They have no inheritance rights if there are other living heirs. The following are some examples of obstructed parties:\n
+         \nA. Heirs who are not Muslim: Parties who do not convert to Islam usually do not have inheritance rights to the assets of Muslim heirs. This includes non-Muslims such as parents, siblings, or children who do not follow Islam.\n
+         \nB. Murderer: A person who kills another heir intentionally will not have the right to inherit the property of the murder victim. This is called the rule of "murder through inheritance rights."\n
+         \nC. Guardian in a Will: A person appointed as a guardian in a will, usually to manage inherited assets, has no inheritance rights to the assets.</string>
     <string name="subheading_materi_5">Reference</string>
     <string name="subdesc_materi_5">A reference website that can provide further information regarding Islamic inheritance law is the Fatwa Institute of the Indonesian Ulema Council (MUI):
 https://www.fatwamui.or.id/</string>
