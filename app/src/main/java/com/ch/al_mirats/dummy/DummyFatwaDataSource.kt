@@ -54,13 +54,6 @@ class DummyFatwaDataSourceImpl() : DummyFatwaDataSource {
                 videoUrl = "WYy2ZBv_ZIs",
                 source = ""
             ),
-            Fatwa(
-                title = context.getString(R.string.title_fatwa_7),
-                imgUrl = "https://raw.githubusercontent.com/ryhanhxx/img_asset/main/IMG_MATERI_3.jpg",
-                desc = context.getString(R.string.desc_fatwa_7),
-                videoUrl = "U5UzIUkUZUE",
-                source = ""
-            ),
         )
     }
 }
