@@ -124,9 +124,9 @@ class HomeFragment : Fragment() {
         handler = Handler(Looper.myLooper()!!)
         imageList = ArrayList()
 
-        imageList.add(R.drawable.img_banner)
-        imageList.add(R.drawable.img_banner)
-        imageList.add(R.drawable.img_banner)
+        imageList.add(R.drawable.img_banner1)
+        imageList.add(R.drawable.img_banner2)
+        imageList.add(R.drawable.img_banner3)
 
         adapterCarousel = CarouselAdapter(imageList, binding.viewPager2)
 
