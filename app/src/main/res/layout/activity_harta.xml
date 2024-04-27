@@ -91,7 +91,7 @@
                     android:id="@+id/input_harta"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="text"
+                    android:inputType="number"
                     android:maxLines="1" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -138,7 +138,7 @@
                     android:id="@+id/input_hutang"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="text"
+                    android:inputType="number"
                     android:maxLines="1" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -185,7 +185,7 @@
                     android:id="@+id/input_wasiat"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="text"
+                    android:inputType="number"
                     android:maxLines="1" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -232,7 +232,7 @@
                     android:id="@+id/input_biayaPerawatanJenazah"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="text"
+                    android:inputType="number"
                     android:maxLines="1" />
 
             </com.google.android.material.textfield.TextInputLayout>
