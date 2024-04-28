@@ -53,7 +53,7 @@
                 android:layout_height="138dp"
                 android:layout_gravity="center"
                 android:layout_marginVertical="8dp"
-                android:src="@drawable/ic_splash" />
+                android:src="@drawable/ic_splash_screen" />
 
             <androidx.appcompat.widget.LinearLayoutCompat
                 android:id="@+id/ll_desc"
