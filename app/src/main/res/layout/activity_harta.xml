@@ -34,7 +34,7 @@
             android:layout_gravity="center"
             android:fontFamily="@font/roboto_bold"
             android:text="@string/txt_kalkulator"
-            android:textColor="@color/primary_light_blue"
+            android:textColor="?android:textColorSecondary"
             android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/btn_delete"
@@ -103,7 +103,7 @@
                 android:fontFamily="@font/roboto_medium"
                 android:text="Rp.0"
                 android:textAlignment="textEnd"
-                android:textColor="@color/primary_light_blue"
+                android:textColor="@color/color_on_secondary_light"
                 android:textSize="14sp" />
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -150,7 +150,7 @@
                 android:fontFamily="@font/roboto_medium"
                 android:text="Rp.0"
                 android:textAlignment="textEnd"
-                android:textColor="@color/primary_light_blue"
+                android:textColor="@color/color_on_secondary_light"
                 android:textSize="14sp" />
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -197,7 +197,7 @@
                 android:fontFamily="@font/roboto_medium"
                 android:text="Rp.0"
                 android:textAlignment="textEnd"
-                android:textColor="@color/primary_light_blue"
+                android:textColor="@color/color_on_secondary_light"
                 android:textSize="14sp" />
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -244,7 +244,7 @@
                 android:fontFamily="@font/roboto_medium"
                 android:text="Rp.0"
                 android:textAlignment="textEnd"
-                android:textColor="@color/primary_light_blue"
+                android:textColor="@color/color_on_secondary_light"
                 android:textSize="14sp" />
         </androidx.appcompat.widget.LinearLayoutCompat>
 

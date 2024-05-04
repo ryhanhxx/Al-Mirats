@@ -32,6 +32,7 @@ class GridFatwaViewHolder(
             crossfade(true)
         }
         binding.tvTitle.text = item.title
+        binding.tvDesc.text = item.desc
         binding.root.setOnClickListener {
             onItemClick.invoke(item)
         }

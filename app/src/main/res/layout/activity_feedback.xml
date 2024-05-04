@@ -31,7 +31,7 @@
             android:layout_gravity="center"
             android:fontFamily="@font/roboto_bold"
             android:text="@string/txt_feedback"
-            android:textColor="@color/primary_light_blue"
+            android:textColor="?android:textColorSecondary"
             android:textSize="24sp"
             app:layout_constraintStart_toEndOf="@id/iv_back"
             app:layout_constraintTop_toTopOf="parent" />

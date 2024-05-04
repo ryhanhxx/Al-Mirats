@@ -3,11 +3,11 @@
     <style name="Theme.AlMirats" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/primary_light_blue</item>
-        <item name="colorPrimaryVariant">@color/primary_dark_blue</item>
+        <item name="colorPrimaryVariant">@color/primary_lighten_blue</item>
         <item name="colorOnPrimary">@color/primary_light_blue</item>
         <!-- Customize your theme here. -->
         <item name="android:windowBackground">@color/background_dark</item>
         <item name="android:textColorPrimary">@color/white</item>
-        <item name="android:textColorSecondary">@color/primary_white</item>
+        <item name="android:textColorSecondary">@color/primary_lighten_blue</item>
     </style>
 </resources>

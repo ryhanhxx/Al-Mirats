@@ -15,7 +15,6 @@ class FeedbackActivity : AppCompatActivity() {
         ActivityFeedbackBinding.inflate(layoutInflater)
     }
 
-    private var db= Firebase.firestore
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
@@ -38,19 +37,7 @@ class FeedbackActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
-//            val userMap = hashMapOf(
-//                "email" to sInputEmail,
-//                "komen" to sInputKomen
-//            )
-
             binding.progressBar.visibility = View.VISIBLE
-
-//            val intent = Intent(Intent.ACTION_SENDTO).apply {
-//                data = Uri.parse("mailto:almiratsdev@gmail.com")
-//                putExtra(Intent.EXTRA_SUBJECT, subject)
-//                putExtra(Intent.EXTRA_TEXT, comment)
-//                setType("message/rfc822");
-//            }
 
             val intent = Intent(Intent.ACTION_SEND)
             intent.type = "text/plain"
@@ -58,32 +45,11 @@ class FeedbackActivity : AppCompatActivity() {
             intent.putExtra(Intent.EXTRA_SUBJECT, subject)
             intent.putExtra(Intent.EXTRA_TEXT, comment)
 
-//            if(intent.resolveActivity(packageManager) != null){
-//               startActivity(Intent.createChooser(email, "Choose an Email client :"))
-//               startActivity(intent)
-//            }else {
-//                Toast.makeText(this, "Required app is not installed", Toast.LENGTH_SHORT).show()
-//            }
-
             try{
                 startActivity(intent)
             }catch (e: Exception){
                 Toast.makeText(this, "Required app is not installed", Toast.LENGTH_SHORT).show()
             }
-
-
-
-//            db.collection("user").document().set(userMap)
-//                .addOnSuccessListener {
-//                    binding.progressBar.visibility = View.GONE
-//                    Toast.makeText(this, "Berhasil mengirim feedback", Toast.LENGTH_SHORT).show()
-//                    binding.etInputEmail.text?.clear()
-//                    binding.etInputKomen.text?.clear()
-//                }
-//                .addOnFailureListener {
-//                    binding.progressBar.visibility = View.GONE
-//                    Toast.makeText(this, "Gagal mengirim feedback", Toast.LENGTH_SHORT).show()
-//                }
         }
     }
 

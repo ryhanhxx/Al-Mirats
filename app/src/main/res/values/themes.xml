@@ -3,13 +3,13 @@
     <style name="Theme.AlMirats" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/primary_light_blue</item>
-        <item name="colorPrimaryVariant">@color/primary_dark_blue</item>
+        <item name="colorPrimaryVariant">@color/primary_lighten_blue</item>
         <item name="colorOnPrimary">@color/primary_light_blue</item>
 
         <!-- Background and text colors for light mode. -->
         <item name="android:windowBackground">@color/background_light</item>
         <item name="android:textColorPrimary">@color/black</item>
-        <item name="android:textColorSecondary">@color/primary_dark_blue</item>
+        <item name="android:textColorSecondary">@color/primary_light_blue</item>
 
         <item name="android:statusBarColor">@color/primary_light_blue</item>
     </style>

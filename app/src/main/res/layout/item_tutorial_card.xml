@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/roboto_medium"
             android:maxLines="1"
-            android:textColor="?android:textColorPrimary"
+            android:textColor="?android:textColorSecondary"
             android:textSize="18sp"
             tools:text="Title" />
 
