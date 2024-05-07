@@ -24,7 +24,7 @@ class DummyMateriDataSourceImpl() : DummyMateriDataSource {
                 desc = context.getString(R.string.desc_materi_1),
                 subHeading =  context.getString(R.string.subheading_materi_1),
                 subDesc = context.getString(R.string.subdesc_materi_1),
-                source = "https://keltunggulwulung.malangkota.go.id/2022/11/02/pengertian-dan-istilah-dalam-hukum-waris/"
+                imgUrl2 = ""
             ),
             Materi(
                 imgUrl = "https://raw.githubusercontent.com/HaibraielRabbany/img_asset/main/img_materi1.jpg",
@@ -33,7 +33,7 @@ class DummyMateriDataSourceImpl() : DummyMateriDataSource {
                 desc =  context.getString(R.string.desc_materi_2),
                 subHeading = context.getString(R.string.subheading_materi_2),
                 subDesc = context.getString(R.string.subdesc_materi_2),
-                source = "https://alukhuwah.com/2022/06/24/faraidh-ayat-al-quran-seputar-warisan/"
+                imgUrl2 = ""
             ),
             Materi(
                 imgUrl = "https://raw.githubusercontent.com/HaibraielRabbany/img_asset/main/img_materi2.jpg",
@@ -42,7 +42,7 @@ class DummyMateriDataSourceImpl() : DummyMateriDataSource {
                 desc =  context.getString(R.string.desc_materi_3),
                 subHeading = context.getString(R.string.subheading_materi_3),
                 subDesc = context.getString(R.string.subdesc_materi_3),
-                source = ""
+                imgUrl2 = ""
             ),
             Materi(
                 imgUrl = "https://raw.githubusercontent.com/HaibraielRabbany/img_asset/main/img_materi3.jpg",
@@ -51,7 +51,7 @@ class DummyMateriDataSourceImpl() : DummyMateriDataSource {
                 desc = context.getString(R.string.desc_materi_4),
                 subHeading = context.getString(R.string.subheading_materi_4),
                 subDesc = context.getString(R.string.subdesc_materi_4),
-                source = ""
+                imgUrl2 = ""
             ),
             Materi(
                 imgUrl = "https://raw.githubusercontent.com/HaibraielRabbany/img_asset/main/img_materi4.jpg",
@@ -60,7 +60,7 @@ class DummyMateriDataSourceImpl() : DummyMateriDataSource {
                 desc = context.getString(R.string.desc_materi_5),
                 subHeading = context.getString(R.string.subheading_materi_5),
                 subDesc = context.getString(R.string.subdesc_materi_5),
-                source = ""
+                imgUrl2 = ""
             ),
             Materi(
                 imgUrl = "https://raw.githubusercontent.com/HaibraielRabbany/img_asset/main/img_materi5.jpg",
@@ -69,16 +69,16 @@ class DummyMateriDataSourceImpl() : DummyMateriDataSource {
                 desc = context.getString(R.string.desc_materi_6),
                 subHeading = context.getString(R.string.subheading_materi_6),
                 subDesc = context.getString(R.string.subdesc_materi_6),
-                source = ""
+                imgUrl2 = ""
             ),
             Materi(
                 imgUrl = "https://raw.githubusercontent.com/HaibraielRabbany/img_asset/main/img_materi6.jpg",
                 title = "Bagian Ahli Waris Utama",
                 heading = "",
-                desc = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+                desc = "",
                 subHeading = "",
                 subDesc = "",
-                source = ""
+                imgUrl2 = "https://raw.githubusercontent.com/ryhanhxx/img_asset/main/img_materi_utama.png"
             )
         )
     }

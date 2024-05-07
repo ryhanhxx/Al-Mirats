@@ -52,7 +52,10 @@ class MateriActivity : AppCompatActivity() {
             binding.tvDesc.text = this.desc
             binding.tvSubHeading.text = this.subHeading
             binding.tvSubDesc.text = this.subDesc
-            binding.tvSource.text = this.source
+//            binding.tvSource.text = this.source
+            binding.ivImg2.load(this.imgUrl2) {
+                crossfade(true)
+            }
         }
     }
 
