@@ -92,7 +92,7 @@
     <Button
         android:id="@+id/btn_lanjut"
         android:layout_width="match_parent"
-        android:layout_height="54dp"
+        android:layout_height="62dp"
         android:backgroundTint="@color/primary_dark_blue"
         android:fontFamily="@font/roboto_bold"
         android:text="@string/txt_selanjutnya"
