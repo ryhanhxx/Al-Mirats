@@ -67,9 +67,9 @@ class DummyMateriRecommendDataSourceImpl() : DummyMateriRecommendDataSource {
             ),
             Materi(
                 imgUrl = "https://raw.githubusercontent.com/HaibraielRabbany/img_asset/main/img_materi6.jpg",
-                title = "Bagian Ahli Waris Utama",
-                heading = "Sturktur dari ahli waris utama",
-                desc = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+                title = context.getString(R.string.title_materi_7),
+                heading = context.getString(R.string.heading_materi_7),
+                desc =  context.getString(R.string.desc_materi_7),
                 subHeading = "",
                 subDesc = "",
                 imgUrl2 = ""

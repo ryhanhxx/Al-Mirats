@@ -7,14 +7,9 @@ import com.ch.al_mirats.model.Materi
 interface DummyMateriDataSource {
     fun getMateriData(context:Context): List<Materi>
 
-    fun searchMusicByTitle(context: Context, query: String): List<Materi>
 }
 
 class DummyMateriDataSourceImpl() : DummyMateriDataSource {
-    override fun searchMusicByTitle(context: Context, query: String): List<Materi> {
-        return getMateriData(context).filter { it.title.contains(query, ignoreCase = true) }
-    }
-
     override fun getMateriData(context:Context): List<Materi> {
         return mutableListOf(
             Materi(
@@ -51,7 +46,7 @@ class DummyMateriDataSourceImpl() : DummyMateriDataSource {
                 desc = context.getString(R.string.desc_materi_4),
                 subHeading = context.getString(R.string.subheading_materi_4),
                 subDesc = context.getString(R.string.subdesc_materi_4),
-                imgUrl2 = ""
+                imgUrl2 = "https://raw.githubusercontent.com/ryhanhxx/img_asset/main/img_materi_utama.png"
             ),
             Materi(
                 imgUrl = "https://raw.githubusercontent.com/HaibraielRabbany/img_asset/main/img_materi4.jpg",
@@ -73,14 +68,13 @@ class DummyMateriDataSourceImpl() : DummyMateriDataSource {
             ),
             Materi(
                 imgUrl = "https://raw.githubusercontent.com/HaibraielRabbany/img_asset/main/img_materi6.jpg",
-                title = "Bagian Ahli Waris Utama",
-                heading = "",
-                desc = "",
+                title = context.getString(R.string.title_materi_7),
+                heading = context.getString(R.string.heading_materi_7),
+                desc =  context.getString(R.string.desc_materi_7),
                 subHeading = "",
                 subDesc = "",
-                imgUrl2 = "https://raw.githubusercontent.com/ryhanhxx/img_asset/main/img_materi_utama.png"
+                imgUrl2 = ""
             )
         )
     }
-
 }

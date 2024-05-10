@@ -39,7 +39,7 @@
     <string name="txt_materi_disarankan">Material Recommendation</string>
     <string name="txt_harta">Assets</string>
     <string name="txt_hutang">Debt</string>
-    <string name="txt_jenazah">Perawat Jenazah</string>
+    <string name="txt_jenazah">Cadaver Costs</string>
     <string name="txt_gender">Gender</string>
     <string name="txt_total">Total Assets</string>
     <string name="txt_hint_harta">Enter the Heir\'s Assets</string>
@@ -56,7 +56,7 @@
     <string name="txt_keterangan">information</string>
     <string name="txt_total_pembagian">Total Distribution of Assets</string>
     <string name="txt_jumlah">Total</string>
-    <string name="txt_total_harta_bersih">Total Net Assets</string>
+    <string name="txt_total_harta_bersih">Total Assets</string>
     <string name="txt_jumlah_istri">Number of Wives</string>
     <string name="txt_jumlah_anak_laki_laki">Number of boys</string>
     <string name="txt_jumlah_anak_perempuan">Number of daughters</string>
@@ -67,14 +67,11 @@
 
     <!--    TODO: MATERI-->
     <string name="title_materi_1">What is Inheritance</string>
-    <string name="heading_materi_1">Definition and Terms in Inheritance Law</string>
-    <string name="desc_materi_1">According to Indonesian legal expert, Prof.Dr. Wirjono Prodjodikoro (1976), inheritance law is defined as the law that regulates the position of a persons assets after he dies (heirs), and the ways in which these assets are transferred to other people (heirs). Meanwhile, based on Presidential Instruction Number 1 of 1991, the definition of inheritance law is the law that regulates the transfer of ownership rights to the heirs inheritance, then determines who has the right to be an heir and how much each share will be.</string>
-    <string name="subheading_materi_1">The following are some terms in inheritance law:</string>
-    <string name="subdesc_materi_1">1. An heir is a person who dies and leaves property to be distributed to those entitled to it (Heirs).\n
-        \n2. Heirs are people who have the right to receive inheritance from the testator. There are heirs according to the provisions of the law called heirs under the general title (ab intestanto), there are heirs appointed by a will/testament called heirs under a special title (testamentary heirs).\n
-        \n3. Inheritance is all the heirs inheritance in the form of rights and obligations or all the assets left by the person who died after deducting all his debts.\n
-        \n4. A will is a decision made by a person (usually stated in a deed) which must be implemented after he dies. Wills due to unilateral actions can be revoked.\n
-        \n5. Legitime portie is an absolute part, namely a part of the inheritance that cannot be reduced by testament or other gifts by the testator. The heirs who are entitled to this section are called "legitimate" namely straight-line heirs according to the law</string>
+    <string name="heading_materi_1">Definition Inheritance</string>
+    <string name="desc_materi_1">What is meant by "inheritance" is property or money left behind by the person who died. Inheritance can consist of many types of assets, including money, investments, and other items of value. The following differences are between the phrases “inheritance” and “will”.
+        \n\nInheritance is property that is distributed based on legal provisions, be it Islamic law or state law. A will, on the other hand, is a document that contains the personal wishes of the owner of the property, and needs to be executed in accordance with applicable law.</string>
+    <string name="subheading_materi_1">Inheritance According to Islamic Law</string>
+    <string name="subdesc_materi_1">In Islamic law, the Qur\'an has special guidelines regarding inheritance. These rules will determine how the assets left behind will be divided among successors, and the Islamic inheritance system is based on the idea of justice. Heirs in Islamic law include husband, wife, children, parents, and siblings. Ensuring that inheritance assets are allocated fairly based on family relationships and degree of dependency is a key objective of the Islamic inheritance system.</string>
 
     <string name="title_materi_2">Verses Explaining About Inheritance</string>
     <string name="heading_materi_2">Verses from the Qur-an about Inheritance</string>
@@ -91,7 +88,7 @@
     <string name="subdesc_materi_3">1. Al-Qur\'an, Surah An-Nisa (4:11-12)\n
         2. Hadis Riwayat Bukhari dan Muslim\n
         3. Hukum Waris Islam oleh Prof. Dr. Quraish Shihab\n
-        4. Fatwa Majelis Ulama Indonesia (MUI) atau otoritas keagamaan setempat.\n</string>
+        4. Fatwa Majelis Ulama Indonesia (MUI) atau otoritas keagamaan setempat.</string>
 
     <string name="title_materi_4">What is the Structure of the Main Inheritance Division</string>
     <string name="heading_materi_4">Section for primary heirs</string>
@@ -99,7 +96,7 @@
          \nB. Wife: The wife has the right to receive an inheritance share from the deceased husbands assets, if the husband has no children. The wifes share is one-fourth of the husbands property if the husband has no children, and one-eighth if the husband has children.\n
          \nC. Children: Children have great inheritance rights in Islam. Boys get twice as much as girls. The share of children depends on the number of children who died, the number of sons and daughters who are still alive.\n
          \nD. Parents: Parents also have an inheritance share in the assets of their deceased children. The parents share depends on whether the deceased child had children or not.\n
-         \nE. Siblings: Siblings, both male and female, also have an inheritance share in the property left by their sibling.\n</string>
+         \nE. Siblings: Siblings, both male and female, also have an inheritance share in the property left by their sibling.</string>
     <string name="subheading_materi_4"></string>
     <string name="subdesc_materi_4"></string>
 
@@ -111,25 +108,34 @@
          \nC. Guardian in a Will: A person appointed as a guardian in a will, usually to manage inherited assets, has no inheritance rights to the assets.</string>
     <string name="subheading_materi_5">Reference</string>
     <string name="subdesc_materi_5">A reference website that can provide further information regarding Islamic inheritance law is the Fatwa Institute of the Indonesian Ulema Council (MUI):
-https://www.fatwamui.or.id/</string>
+        https://www.fatwamui.or.id/</string>
 
-    <string name="title_materi_6">Definition of Aul and Radd in Waris</string>
+    <string name="title_materi_6">Understanding Aul and Radd in Waris</string>
     <string name="heading_materi_6">What is meant by Aul</string>
-    <string name="desc_materi_6">Al-aul in Arabic has many meanings, including azh-zhulm (persecution) and unjust, as He said:\n\n That is closer to not committing wrongdoing. (an-Nisa: 3)\n\nAl-aul also means rising or overflowing. It is said alaa al-mau idzaa irtafaa which means the rising water is overflowing.\n\nAuls example is: \nThe portion of a husband who should get half ½ can change to a third ⅓ in certain circumstances, such as if the subject matter is increased from the original six 6 to nine 9. So in this case a husband who should get 3/6 and a half only gets 3/9 and a half</string>
-    <string name="subheading_materi_6">What does Radd mean?</string>
-    <string name="subdesc_materi_6">Ar-radd in Arabic means return/return or also means turn/turn away. As stated in the following words of Allah:\n\nMoses said: That is (the place) we are looking for. Then the two of them returned, following their original footsteps. \" (al-Kahf: 64)\n\nAnd Allah dispels those who disbelieve whose condition is full of irritation…\" (al-Ahzab: 25)\n\nIn a prayer it is said \"Allahumma radda kaidahum annii\" " (O Allah, turn away/banish their deceptions against me).\n\nAs for ar-radd according to the terms of faraid science scholars, it is a reduction in the subject matter and an increase/increase in the number of ashhabul furudh parts. Ar-radd is the opposite of al-aul.\nFor example, in a situation (in the distribution of inheritance rights) the ashhabul furudh have received their respective rights, but it turns out that the inheritance still remains - meanwhile there is no other relative figure as ashabah — then the remaining inheritance is given or returned to the ashhabul furudh according to their respective shares.</string>
+    <string name="desc_materi_6">Aul is a recalculation carried out to ensure that all heirs receive their fair share in accordance with Islamic law.
+        \n\nAul\'s example is:
+        \nThe share of a husband who should get half ½ can change to one third ⅓ in certain circumstances, such as if the subject matter is increased from the original six 6 to nine 9. So in this case a husband who should get 3/ 6 half only gets 3/9 one third.</string>
+    <string name="subheading_materi_6">What is meant by Radd</string>
+    <string name="subdesc_materi_6">Radd, on the other hand, is the return of all or part of the inherited assets received by unrightful heirs.
+        \n\nFor example, in a situation (in the distribution of inheritance rights) the heirs have received their respective rights, but it turns out that the inheritance still remains while there is no other relative as ashabah, then the remaining inheritance is given or returned again. to the ashhabul furudh according to their respective parts.</string>
+
+    <string name="title_materi_7">Main Heir Section</string>
+    <string name="heading_materi_7">Calculation of Main Heirs Share</string>
+    <string name="desc_materi_7">1. Distribution of inheritance to sons\na. Forever be Ashobah (remnant).\nb. Kadiah Ashobah (remainder) for men is like the share of two women.\n
+        \n2. Distribution of inheritance to daughters\na. Ashobah (Ashobah bil Ghoir) if with boys.\nb. 1/2 if alone and not with boys.\nc. 2/3 if two or more and not with boys.\n
+        \n3. Distribution of inheritance to Husband\na. 1/2 (Half), if not with children or grandchildren (Male / Female).\nb. 1/4 (Quarter), if with children or grandchildren (Male / Female).\n
+        \n4. Distribution of inheritance to Wife:\na. 1/4 (Quarter), if not with children or grandchildren (Male / Female).\nb. 1/8 (One eighth), if with children or grandchildren (Male / Female).\n
+        \n5. Distribution of inheritance to father:\na. Ashobah (remnant), if there are no children (male/female).\nb. 1/6 (One Sixth) + Ashobah, if with a son daughter/granddaughter.\nc. 1/6 (One sixth), if with sons / grandsons.\n
+        \n6. Distribution of inheritance to mother:\na. 1/3 (One third), if not with children or grandchildren, either male or female or 2 / more siblings.\nb. 1/6 (One sixth), if with children or grandchildren, either male/female or 2/more siblings.</string>
+    <string name="subheading_materi_7"></string>
+    <string name="subdesc_materi_7"></string>
 
     <!--    TODO: TUTORIAL-->
     <string name="title_tutorial_1">Calculator Usage Guide</string>
-    <string name="desc_tutorial_1">1. Fill in the heirs assets first\n
-     2. Fill in the heirs debt\n
-     3. Fill in the testators will\n
-     4. Fill in the care costs for the corpse\n</string>
+    <string name="desc_tutorial_1">1. Fill in the heirs assets first\n2. Fill in the heirs debt\n3. Fill in the testators will\n4. Fill in the care costs for the corpse\n</string>
 
-    <string name="title_tutorial_2">Guidelines for Using Feedback</string>
-    <string name="desc_tutorial_2">1. Fill your email first.\n
-        2. Fill in the comments you want.\n
-        3. Press the button to send your comment.</string>
+    <string name="title_tutorial_2">Guide to Using Feedback</string>
+    <string name="desc_tutorial_2">1. Fill in the title first. \n2. Fill in the comments you want.\n3. Press the button to send your comment and select via Gmail.</string>
 
     <string name="title_tutorial_3">Guide on How to Read Material</string>
     <string name="desc_tutorial_3">1. Press the following button to view the material in a list or grid.\n
