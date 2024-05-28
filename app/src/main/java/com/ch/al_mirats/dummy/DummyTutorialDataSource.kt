@@ -20,25 +20,25 @@ class DummyTutorialDataSourceImpl() : DummyTutorialDataSource {
             ),
             Tutorial(
                 title = context.getString(R.string.title_tutorial_2),
-                videoUrl = "VtkLKuOr9UM",
+                videoUrl = "uty6VhU-gJ0",
                 imgUrl = "https://raw.githubusercontent.com/ryhanhxx/img_asset/main/IMG_FEEDBACK.png",
                 desc = context.getString(R.string.desc_tutorial_2)
             ),
             Tutorial(
                 title = context.getString(R.string.title_tutorial_3),
-                videoUrl = "ZJQK_A5zueM",
+                videoUrl = "xAOfOCcG2gA",
                 imgUrl = "https://raw.githubusercontent.com/ryhanhxx/img_asset/main/IMG_MATERI.png",
                 desc = context.getString(R.string.desc_tutorial_3),
             ),
             Tutorial(
                 title = context.getString(R.string.title_tutorial_4),
-                videoUrl = "6hyScFfqzGY",
+                videoUrl = "og7U5sDLJqY",
                 imgUrl = "https://raw.githubusercontent.com/ryhanhxx/img_asset/main/IMG_ABOUT.png",
                 desc = context.getString(R.string.desc_tutorial_4),
             ),
             Tutorial(
                 title = context.getString(R.string.title_tutorial_5),
-                videoUrl = "NatpNvZptJM",
+                videoUrl = "9q0Dt2NGDDs",
                 imgUrl = "https://raw.githubusercontent.com/ryhanhxx/img_asset/main/IMG_FATWA.png",
                 desc = context.getString(R.string.desc_tutorial_5),
             ),
