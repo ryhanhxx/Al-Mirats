@@ -32,28 +32,48 @@ class TableHartaActivity : AppCompatActivity() {
         var harta = intent.getLongExtra("harta", 0)
         val hutang = intent.getLongExtra("hutang", 0)
         val wasiat = intent.getLongExtra("wasiat", 0)
-        val biayaPerawatanJenazah = intent.getLongExtra("biayaPerawatanJenazah",0)
+        val biayaPerawatanJenazah = intent.getLongExtra("biayaPerawatanJenazah", 0)
 
         val angkaHarta = ConvertToRupiah().convertToRupiahFormat(harta.toDouble())
         val angkaHutang = ConvertToRupiah().convertToRupiahFormat(hutang.toDouble())
         val angkaWasiat = ConvertToRupiah().convertToRupiahFormat(wasiat.toDouble())
-        val angkaBiayaPerawatanJenazah = ConvertToRupiah().convertToRupiahFormat(biayaPerawatanJenazah.toDouble())
-        val angkaHartaBersih = ConvertToRupiah().convertToRupiahFormat((harta - hutang - wasiat - biayaPerawatanJenazah).toDouble())
+        val angkaBiayaPerawatanJenazah =
+            ConvertToRupiah().convertToRupiahFormat(biayaPerawatanJenazah.toDouble())
+        val angkaHartaBersih =
+            ConvertToRupiah().convertToRupiahFormat((harta - hutang - wasiat - biayaPerawatanJenazah).toDouble())
 
         val fragmentDefault = TableHartaDefaultFragment()
-        fragmentDefault.setData(angkaHarta, angkaHutang, angkaWasiat, angkaBiayaPerawatanJenazah, angkaHartaBersih)
+        fragmentDefault.setData(
+            angkaHarta,
+            angkaHutang,
+            angkaWasiat,
+            angkaBiayaPerawatanJenazah,
+            angkaHartaBersih
+        )
         loadFragment(fragmentDefault)
 
         binding.fabZoomIn.setOnClickListener {
             val fragment = TableHartaZoomFragment()
-            fragment.setData(angkaHarta, angkaHutang, angkaWasiat, angkaBiayaPerawatanJenazah, angkaHartaBersih)
+            fragment.setData(
+                angkaHarta,
+                angkaHutang,
+                angkaWasiat,
+                angkaBiayaPerawatanJenazah,
+                angkaHartaBersih
+            )
             loadFragment(fragment)
             binding.fabZoomIn.visibility = View.GONE
             binding.fabZoomOut.visibility = View.VISIBLE
         }
         binding.fabZoomOut.setOnClickListener {
             val fragment = TableHartaDefaultFragment()
-            fragment.setData(angkaHarta, angkaHutang, angkaWasiat, angkaBiayaPerawatanJenazah, angkaHartaBersih)
+            fragment.setData(
+                angkaHarta,
+                angkaHutang,
+                angkaWasiat,
+                angkaBiayaPerawatanJenazah,
+                angkaHartaBersih
+            )
             loadFragment(fragment)
             binding.fabZoomIn.visibility = View.VISIBLE
             binding.fabZoomOut.visibility = View.GONE
@@ -70,12 +90,14 @@ class TableHartaActivity : AppCompatActivity() {
             finish()
         }
     }
+
     @SuppressLint("MissingSuperCall")
     override fun onBackPressed() {
         val intent = Intent(this, HartaActivity::class.java)
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
         startActivity(intent)
     }
+
     private fun loadFragment(fragment: Fragment) {
         val fragmentManager: FragmentManager = supportFragmentManager
         val transaction: FragmentTransaction = fragmentManager.beginTransaction()

@@ -1,4 +1,4 @@
-package com.ch.al_mirats.presentation.kalkulator.data_waris
+package com.ch.al_mirats.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
@@ -15,6 +15,11 @@ data class WarisDataEntity(
     val ibu: Boolean,
     val istri: Int,
     val suami: Boolean,
+    val ayahnya_ayah: Boolean,
+    val ibunya_ayah: Boolean,
+    val saudara_seayah_seibu: Int,
+    val saudari_seayah_seibu: Int,
+    val ibunya_ibu: Boolean,
     val anakLaki: Int,
     val anakPerempuan: Int,
     val cucuLaki: Int,

@@ -9,7 +9,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.ch.al_mirats.R
-import com.ch.al_mirats.presentation.kalkulator.data_waris.WarisData
+import com.ch.al_mirats.model.WarisData
 import com.example.kalkulatoralmirats.data_waris.WarisAdapterDefault
 
 class TablePembagianDefaultFragment : Fragment() {

@@ -31,7 +31,14 @@ class TableHartaDefaultFragment : Fragment() {
         angkaHartaBersih.text = hartaBersih
         return view
     }
-    fun setData(harta: String, hutang: String, wasiat: String, biayaPerawatanJenazah: String, hartaBersih: String) {
+
+    fun setData(
+        harta: String,
+        hutang: String,
+        wasiat: String,
+        biayaPerawatanJenazah: String,
+        hartaBersih: String
+    ) {
         this.harta = harta
         this.hutang = hutang
         this.wasiat = wasiat

@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.ch.al_mirats.R
-import com.ch.al_mirats.presentation.kalkulator.data_waris.WarisData
+import com.ch.al_mirats.model.WarisData
 import com.ch.al_mirats.presentation.kalkulator.data_waris.WarisViewHolder
 
 class WarisAdapterDefault(private val dataList: ArrayList<WarisData>) : RecyclerView.Adapter<WarisViewHolder>() {

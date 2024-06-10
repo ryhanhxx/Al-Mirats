@@ -1,4 +1,4 @@
-package com.ch.al_mirats.presentation.kalkulator.data_waris
+package com.ch.al_mirats.model
 
 data class WarisData(
     val ahliWaris: String,

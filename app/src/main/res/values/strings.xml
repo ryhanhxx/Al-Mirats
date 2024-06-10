@@ -1,174 +1,185 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Al-Mirats</string>
-    <string name="txt_home">Beranda</string>
-    <string name="txt_materi">Materi</string>
-    <string name="txt_feedback">Umpan Balik</string>
+    <string name="txt_home">Home</string>
+    <string name="txt_materi">Material</string>
+    <string name="txt_feedback">Feedback</string>
     <string name="txt_fatwa">Fatwa</string>
-    <string name="txt_welcome">Hallo, Selamat Datang di</string>
+    <string name="txt_welcome">Hello, Welcome to</string>
     <string name="txt_name">Al-Mirats</string>
-    <string name="txt_desc_feedback">Berikan masukan dan saran Anda untuk meningkatkan pengalaman menggunakan aplikasi. Kami menghargai kontribusi Anda dalam membuat Kalkulator Ahli Waris lebih baik!</string>
-    <string name="txt_komentar">Masukkan komentar anda</string>
-    <string name="txt_email">Masukkan email</string>
-    <string name="txt_materi_desc">Di sini, Anda akan menemukan beberapa informasi yang praktis tentang waris, dan hukum terkait.</string>
-    <string name="txt_card_desc_calculator">Sempurnakan pembagian warisan dengan mudah melalui fitur kalkulator kami yang akurat dan user-friendly.</string>
-    <string name="txt_panduan">Panduan</string>
+    <string name="txt_desc_feedback">Provide your feedback and suggestions to improve your app experience, We are thankful for your contribution toward making our Inheritance Calculator the best it can be!</string>
+    <string name="txt_komentar">Enter your comments</string>
+    <string name="txt_email">Enter your email</string>
+    <string name="txt_materi_desc">Following are some practical details on inheritance and related laws and a guideline that helps you understand the process of dividing the assets better manner</string>
+    <string name="txt_card_desc_calculator">Quickly calibrate the inheritance by distribution using our easy-to-use, accurate calculator feature.</string>
+    <string name="txt_panduan">Guide</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="txt_tentang_aplikasi">Tentang Aplikasi</string>
-    <string name="txt_desc_app">Kalkulator Al-Mirats merupakan aplikasi mobile hasil proyek yang di hasilkan pada Mata Kuliah Terk Pengembangan Aplikasi Mobile yang dibuat sesuai ajaran Agama Islam. Aplikasi ini akan memudahkan anda untuk menghitung pembagian waris, dalam aplikasi ini anda juga bisa mempelajari terkait waris.</string>
-    <string name="txt_nama_aplikasi">Nama Aplikasi: Al-Mirats</string>
-    <string name="txt_tim">Tim Pengembang:</string>
+    <string name="txt_tentang_aplikasi">About Application</string>
+    <string name="txt_desc_app"> Al-Mirats Calculator is a Mobile Phone Application. This project was done during the Terk Course of Mobile Application Development and was developed according to the teachings of the Islamic religion. This application helps you to quickly calculate the distribution of inheritance. In this application, you can also learn about inheritance.</string>
+    <string name="txt_nama_aplikasi">Application Name: Al-Mirats</string>
+    <string name="txt_tim">Development Team:</string>
     <string name="txt_nama_pengembang">1. Arfan Prihardiasyah \n2. Bayu Mahesa \n3. Ryan Hidayat \n4. Haibraiel Rabbany F.Z \n5. Farhan Nur Fauziy \n6. Muhammad Rayhan Hakim</string>
     <string name="txt_dosen">Herika Hayurani, S.Kom., M.Kom</string>
-    <string name="txt_dosen_pembimbing">Dosen Pembimbing:</string>
-    <string name="txt_klien">Klien</string>
+    <string name="txt_dosen_pembimbing">Supervisor:</string>
+    <string name="txt_klien">Client:</string>
     <string name="txt_nama_klien">Dr. H. Karimulloh, M.A</string>
-    <string name="txt_sumber">Sumber Konten:</string>
+    <string name="txt_sumber">Content Source:</string>
     <string name="txt_sumber_desc"><![CDATA[Kementrian Agama Republik Indonesia 2022. Al-Quran Digital. \nSupradiin.2020Fikih Mewaris & Hukum Kewarisan (Studi Analsisi Perbandingan)Sulawesi Selatan. Pustaka Almaida.]]></string>
-    <string name="txt_kalkulator">Kalkulator Waris</string>
-    <string name="txt_about">Tentang</string>
-    <string name="txt_materi_teratas">Materi Teratas</string>
-    <string name="txt_fitur_utama">Fitur Utama</string>
-    <string name="txt_tutorial_desc">Panduan tutorial ini akan membimbing Anda langkah demi langkah dalam memahami dan memanfaatkan fitur-fitur canggih yang ditawarkan oleh Al Mirats.</string>
-    <string name="txt_tutorial">Tutorial</string>
-    <string name="txt_laki">Laki-Laki</string>
-    <string name="txt_perempuan">Perempuan</string>
-    <string name="txt_pilih_jenis_kelamin">Pilih Jenis Kelamin Pewaris:</string>
-    <string name="txt_informasi">Informasi</string>
-    <string name="txt_materi_disarankan">Materi Disarankan</string>
-    <string name="txt_harta">Harta Pewaris</string>
-    <string name="txt_hutang">Hutang Pewaris</string>
-    <string name="txt_jenazah">Biaya Perawatan Jenazah</string>
-    <string name="txt_gender">Jenis Kelamin</string>
-    <string name="txt_total">Total Harta</string>
-    <string name="txt_hint_harta">Masukkan Harta Pewaris</string>
-    <string name="txt_hint_hutang">Masukkan Hutang Pewaris</string>
-    <string name="txt_wasiat">Wasiat Pewaris</string>
-    <string name="txt_hint_wasiat">Masukkan Wasiat Pewaris</string>
-    <string name="txt_hint_jenazah">Masukkan Perawatan Jenazah</string>
-    <string name="txt_selanjutnya">Selanjutnya</string>
-    <string name="txt_ahli_waris">Ahli Waris</string>
-    <string name="txt_bagian">Bagian</string>
-    <string name="txt_jumlah_orang">Jumlah Orang</string>
-    <string name="txt_harta_bagian">Harta Bagian</string>
-    <string name="txt_harta_perorang">Harta Per Orang</string>
-    <string name="txt_keterangan">Keterangan</string>
-    <string name="txt_total_pembagian">Total Pembagian Harta</string>
-    <string name="txt_jumlah">Jumlah</string>
-    <string name="txt_total_harta_bersih">Total Harta Bersih</string>
-    <string name="txt_jumlah_istri">Jumlah Istri</string>
-    <string name="txt_jumlah_anak_laki_laki">Jumlah anak laki-laki</string>
-    <string name="txt_jumlah_anak_perempuan">Jumlah anak perempuan</string>
-    <string name="txt_jumlah_cucu_laki_laki">Jumlah cucu laki-laki</string>
-    <string name="txt_jumlah_cucu_perempuan">Jumlah cucu perempuan</string>
-    <string name="txt_pilih_anggota">Pilih anggota keluarga yang masih ada</string>
-    <string name="txt_pasangan">Apakah pewaris memiliki pasangan?</string>
+    <string name="txt_kalkulator">Inheritance Calculator</string>
+    <string name="txt_about">About</string>
+    <string name="txt_materi_teratas">Top Material</string>
+    <string name="txt_fitur_utama">Main Feature</string>
+    <string name="txt_tutorial_desc">This tutorial guide will guide you step by step in understanding and utilizing the advanced features offered by Al Mirats.</string>
+    <string name="txt_tutorial">Guide</string>
+    <string name="txt_laki">Male</string>
+    <string name="txt_perempuan">Female</string>
+    <string name="txt_pilih_jenis_kelamin">Select the gender:</string>
+    <string name="txt_informasi">Information</string>
+    <string name="txt_materi_disarankan">Material Recommendation</string>
+    <string name="txt_harta">Assets</string>
+    <string name="txt_hutang">Debt</string>
+    <string name="txt_jenazah">Cadaver Costs</string>
+    <string name="txt_gender">Gender</string>
+    <string name="txt_total">Total Assets</string>
+    <string name="txt_hint_harta">Enter the assets</string>
+    <string name="txt_hint_hutang">Enter the debt</string>
+    <string name="txt_wasiat">Testament</string>
+    <string name="txt_hint_wasiat">Enter the testment</string>
+    <string name="txt_hint_jenazah">Enter mortuary care</string>
+    <string name="txt_selanjutnya">Next</string>
+    <string name="txt_ahli_waris">Heir</string>
+    <string name="txt_bagian">Partition</string>
+    <string name="txt_jumlah_orang">Total</string>
+    <string name="txt_harta_bagian">Sectional Property</string>
+    <string name="txt_harta_perorang">Individual Assets</string>
+    <string name="txt_keterangan">information</string>
+    <string name="txt_total_pembagian">Total Distribution of Assets</string>
+    <string name="txt_jumlah">Total</string>
+    <string name="txt_total_harta_bersih">Total Assets</string>
+    <string name="txt_jumlah_istri">Number of Wifes</string>
+    <string name="txt_jumlah_anak_laki_laki">Number of boys</string>
+    <string name="txt_jumlah_anak_perempuan">Number of daughters</string>
+    <string name="txt_jumlah_cucu_laki_laki">Number of grandsons</string>
+    <string name="txt_jumlah_cucu_perempuan">Number of granddaughters</string>
+    <string name="txt_pilih_anggota">Select existing family members</string>
+    <string name="txt_pasangan">Does the testator have a partner?</string>
+    <string name="txt_jumlah_saudara_seayah_seibu">Number of brother</string>
+    <string name="txt_jumlah_saudari_seayah_seibu">Number of sister</string>
+    <string name="txt_title">Enter the title</string>
+    <string name="txt_bapak">Father</string>
+    <string name="txt_ibu">Mother</string>
+    <string name="txt_kakek">Father\'s father</string>
+    <string name="txt_nenek_ayah">Mother\'s father</string>
+    <string name="txt_nenek_ibu">Mother\'s Mother</string>
+    <string name="txt_suami">Husband</string>
 
     <!--    TODO: MATERI-->
-    <string name="title_materi_1">Apa Itu Waris</string>
-    <string name="heading_materi_1">Pengertian Waris</string>
-    <string name="desc_materi_1">Yang dimaksud dengan “warisan” adalah harta atau uang yang ditinggalkan oleh orang yang meninggal. Warisan dapat terdiri dari berbagai jenis aset, termasuk uang, investasi, dan barang berharga lainnya. Perbedaan berikut antara frasa “warisan” dan “wasiat”.
-    \n\nWarisan adalah harta yang didistribusikan berdasarkan ketentuan hukum, baik itu hukum Islam atau hukum negara. Wasiat, di sisi lain, adalah dokumen yang berisi  keinginan pribadi pemilik harta, dan perlu dilaksanakan sesuai dengan hukum yang berlaku.</string>
-    <string name="subheading_materi_1">Warisan Menurut Hukum Islam</string>
-    <string name="subdesc_materi_1">Dalam hukum Islam, Al-Quran mempunyai pedoman khusus mengenai pewarisan. Aturan-aturan ini akan menentukan bagaimana aset yang ditinggalkan akan dibagi di antara para penerus, dan sistem warisan Islam didasarkan pada gagasan keadilan. Ahli waris dalam hukum Islam termasuk suami, istri, anak-anak, orang tua, dan saudara kandung. Memastikan bahwa aset warisan dialokasikan secara adil berdasarkan hubungan keluarga dan tingkat ketergantungan adalah tujuan utama sistem warisan Islam.</string>
+    <string name="title_materi_1">What is Inheritance</string>
+    <string name="heading_materi_1">Definition Inheritance</string>
+    <string name="desc_materi_1">The word "inheritance" means the property or money left by the deceased. Inheritance will be constituted of many things, such as money, investments, or any other value. The contrasts that are here are between the words "inheritance" and the word "will." This means that inheritance is a property given by law, whether Islamic or civil. A will, on the other hand, is a document that explains the individual desires of the property owner and must be executed by the relevant law.</string>
+    <string name="subheading_materi_1">Inheritance According to Islamic Law</string>
+    <string name="subdesc_materi_1">The provisions related to inheritance under the principles of the Qur\'an, which are provided for in Islamic law, provide specific provisions. The laws would generally relate to the disposal of the assets upon the death of a person to their successors. In an Islamic inheritance, the system is based on considerations of justice. In Islamic law, the heirs are a husband, wife, children, parents, and siblings. The main aim of the Islamic inheritance system is that the family relationships and the level of dependence of the beneficiaries justify the level of inheritance assets received.</string>
 
-    <string name="title_materi_2">Ayat-Ayat yang Menjelaskan Tentang Waris</string>
-    <string name="heading_materi_2">Ayat Al Qur’an Seputar Warisan</string>
-    <string name="desc_materi_2">"Ada beberapa ayat dalam Al Qur’an yang menjelaskan tentang pembagian warisan. Di antaranya adalah firman Allah\n
-        \nلِلرِّجَالِ نَصِيبٌ مِمَّا تَرَكَ الْوَالِدَانِ وَالْأَقْرَبُونَ وَلِلنِّسَاءِ نَصِيبٌ مِمَّا تَرَكَ الْوَالِدَانِ وَالْأَقْرَبُونَ مِمَّا قَلَّ مِنْهُ أَوْ كَثُرَ نَصِيبًا مَفْرُوضًا\n
-        \nBagi laki-laki ada hak bagian dari harta peninggalan kedua orang tua dan kerabatnya, dan bagi perempuan ada hak bagian (pula) dari harta peninggalan kedua orang tua dan kerabatnya, baik sedikit atau banyak menurut bagian yang telah ditetapkan.(QS. An Nisaa’ : 7)"</string>
-    <string name="subheading_materi_2">Referensi</string>
-    <string name="subdesc_materi_2">Dahulu bangsa Arab di masa jahiliyah disebabkan karena kesewenangan dan sifat keras, mereka tidak memberikan warisan kepada orang-orang lemah seperti wanita dan anak-anak, hanya memberikannya kepada laki-laki yang kuat. Hal itu, karena menurut  anggapan mereka laki-laki lah yang ikut serta dalam peperangan, dan mereka pula lah yang  berhak menerima harta rampasan perang. Maka Rabb Yang Maha Penyayang lagi Maha Bijaksana berkehendak untuk menetapkan syari’at yang menyamakan (hak menerima warisan) antara laki-laki dan perempuan, orang kuat dan orang lemah. (Taisir Al-Karim Ar-Rahman fi Tafsir Kalam Al-Mannan, Hal. 201).</string>
+    <string name="title_materi_2">Verses Explaining About Inheritance</string>
+    <string name="heading_materi_2">Verses from the Qur-an about Inheritance</string>
+    <string name="desc_materi_2">There are several verses in the Qur-an that explain the distribution of inheritance. Among them is the word of Allah\n
+         \nلِلرِّجَالِ نَصِيبٌ مِمَّا تَرَكَ الْوَالِدَانِ وَالْأَقْرَبُون َ وَلِلنِّسَاءِ نَصِيبٌ مِمَّا تَرَكَ الْوَالِدَانِ وَالْأَقْروبَُُ \n
+         \nFor men there is the right to share in the assets inherited from their parents and relatives, and for women there is the right to share (also) in the assets inherited from their parents and relatives, whether a little or a lot according to the portion that has been determined. (QS. An Nisaa : 7)</string>
+    <string name="subheading_materi_2">Reference</string>
+    <string name="subdesc_materi_2">In the pre-Islamic period, the Arabs being unreasonable and rude in behavior used to inherit the stronger ones like men. The weak people, like women and children, remain ignorant just on behalf of being cowardly. According to their opinion, men are those who make war and peace, and besides, men only have the right to obtain the assets they get through their endless efforts. Thus, the Most Merciful, the All-wise, wanted a law that brings everybody on one level about men and women, strong people and weak people, a law initiated by Ar-Rabb. (Taisir Al-Karim Ar-Rahman fi Tafsir Kalam Al-Mannan, Page 201</string>
 
-    <string name="title_materi_3">Pihak Siapa Saja yang Berhak Menerima Waris</string>
-    <string name="heading_materi_3">Pihak yang berhak menerima</string>
-    <string name="desc_materi_3">Penerima waris tersebut disebut sebagai ahli waris, dan hukum waris Islam telah menentukan urutan dan bagian masing-masing ahli waris. Ahli waris dapat terdiri dari keluarga inti seperti anak-anak, suami atau istri, serta keluarga yang lebih luas seperti orang tua, saudara-saudara, dan bahkan kerabat jauh.</string>
-    <string name="subheading_materi_3">Referensi</string>
+    <string name="title_materi_3">Which Parties Have the Right to Receive Inheritance</string>
+    <string name="heading_materi_3">the party entitled to receive it</string>
+    <string name="desc_materi_3">Those who receive the inheritance are called heirs, and Islamic inheritance law has determined the order and portion of each heir. Heirs can either consist of the nuclear family, such as children, husband, or wife, or even wider members of the family, like the parents, siblings, and even distant relatives.</string>
+    <string name="subheading_materi_3">Reference</string>
     <string name="subdesc_materi_3">1. Al-Qur\'an, Surah An-Nisa (4:11-12)\n
-       2. Hadis Riwayat Bukhari dan Muslim\n
-       3. Hukum Waris Islam oleh Prof. Dr. Quraish Shihab\n
-       4. Fatwa Majelis Ulama Indonesia (MUI) atau otoritas keagamaan setempat.</string>
+        2. Hadis Riwayat Bukhari dan Muslim\n
+        3. Hukum Waris Islam oleh Prof. Dr. Quraish Shihab\n
+        4. Fatwa Majelis Ulama Indonesia (MUI) atau otoritas keagamaan setempat.</string>
 
-    <string name="title_materi_4">Bagaimana Struktur Bagian Waris Utama</string>
-    <string name="heading_materi_4">Bagian untuk waris utama</string>
-    <string name="desc_materi_4">A. Suami: Suami berhak menerima bagian waris dari harta istri yang meninggal, jika istri tidak memiliki anak atau keturunan lainnya. Bagian suami adalah seperempat dari harta istri jika istri tidak memiliki keturunan, dan seperdelapan jika istri memiliki keturunan.\n
-        \nB. Istri: Istri berhak menerima bagian waris dari harta suami yang meninggal, jika suami tidak memiliki keturunan. Bagian istri adalah seperempat dari harta suami jika suami tidak memiliki keturunan, dan seperdelapan jika suami memiliki keturunan.\n
-        \nC. Anak: Anak memiliki hak waris yang besar dalam Islam. Anak laki-laki mendapatkan bagian dua kali lipat dari anak perempuan.\n
-        \nD. Orang tua: Orang tua juga memiliki bagian waris dalam harta anak-anak mereka yang meninggal. Bagian orang tua bergantung pada apakah anak yang meninggal memiliki keturunan atau tidak.\n
-        \nE. Saudara-saudara kandung: Saudara-saudara kandung, baik laki-laki maupun perempuan, juga memiliki bagian waris dalam harta yang ditinggalkan oleh saudara mereka.</string>
+    <string name="title_materi_4">What is the Structure of the Main Inheritance Division</string>
+    <string name="heading_materi_4">Section for primary heirs</string>
+    <string name="desc_materi_4">A. Husband: He is due a part of the inheritance from the estate of the wife who has passed away if the wife has no children or any descendant from her children. The shares of the husband, in this case, are equal to a quarter of the wife\'s estate if she did not have children and an eighth if she has.\n
+            \nB. Wife: If the husband has no children, the share of the inheritance that has to go to the wife is from the left-over part of the deceased husband\'s assets. In the absence of children, the wife\'s share is one-fourth of the husband\'s property; in the presence of children, the share is one-eighth.\n
+            \nC. Children: The inheritance rights are excellent for children in Islam. For example, the boys get double the amount that the girls get. The amount that children get depends on the number of children that died and the number of sons and daughters surviving.\n
+            \nD. Parents: The legal heirs also include parents whose portion would be determined depending on if their deceased child had children.\n
+            \nE. Siblings: Both brothers and sisters, whether few or many in number, inherit a portion of the share of the property left by a brother or sister.</string>
     <string name="subheading_materi_4"></string>
     <string name="subdesc_materi_4"></string>
 
-    <string name="title_materi_5">Pihak Siapa yang Terhalang oleh Ahli Waris Utama</string>
-    <string name="heading_materi_5">Pihak yang terhalang</string>
-    <string name="desc_materi_5">Dalam hukum waris Islam, terdapat pihak-pihak yang terhalang dari menerima bagian waris utama. Pihak-pihak yang terhalang ini disebut dengan "mahrum." Mereka tidak memiliki hak waris jika ada ahli waris lain yang hidup. Berikut adalah beberapa contoh pihak yang terhalang:\n
-        \nA. Ahli Waris yang Tidak Muslim: Pihak yang tidak memeluk agama Islam biasanya tidak memiliki hak waris atas harta dari ahli waris Muslim. Ini termasuk non-Muslim seperti orang tua, saudara kandung, atau anak-anak yang tidak menganut Islam.\n
-        \nB. Pembunuh: Seseorang yang membunuh ahli waris lainnya dengan sengaja tidak akan memiliki hak untuk mewarisi harta dari korban pembunuhan tersebut. Hal ini disebut dengan aturan "pembunuhan melalui hak waris."\n
-        \nC. Wali di dalam Wasiat: Seseorang yang ditunjuk sebagai wali di dalam wasiat, biasanya untuk mengelola harta warisan, tidak memiliki hak waris atas harta tersebut.</string>
-    <string name="subheading_materi_5">Referensi</string>
-    <string name="subdesc_materi_5">Referensi website yang dapat memberikan informasi lebih lanjut mengenai hukum waris Islam adalah Lembaga Fatwa Majelis Ulama Indonesia (MUI):https://www.fatwamui.or.id/</string>
+    <string name="title_materi_5">Whose Parties are Blocked by the Main Heirs</string>
+    <string name="heading_materi_5">Whose Party is Obstructed</string>
+    <string name="desc_materi_5">In Islam, there are some folks who can\'t inherit unless they\'re the absolute last ones left. These folks are called "mahrum." They can\'t get the main share of the inheritance if there are other relatives around. Here\'s why some people might be in this category:
+        \n1. Not Muslim: If someone isn\'t Muslim, they usually can\'t inherit from a Muslim relative. This includes parents, siblings, or even kids who haven\'t converted to Islam.\n
+        \n2. Killer: If you kill someone who might inherit, you\'re automatically kicked out of the inheritance line. There\'s a whole rule about it called "murder through inheritance rights." Basically, don\'t kill for money!\n
+        \n3. Guardian: If you\'re chosen in a will to take care of inherited stuff, that doesn\'t mean you get to keep it. You\'re just there to manage things, not take them for yourself.</string>
+    <string name="subheading_materi_5">Reference</string>
+    <string name="subdesc_materi_5">A reference website that can provide further information regarding Islamic inheritance law is the Fatwa Institute of the Indonesian Ulema Council (MUI):
+        https://www.fatwamui.or.id/</string>
 
-    <string name="title_materi_6">Pengertian Aul dan Radd dalam Waris</string>
-    <string name="heading_materi_6">Apa yang dimaksud dengan Aul</string>
-    <string name="desc_materi_6">Aul adalah perhitungan ulang yang dilakukan untuk memastikan bahwa semua ahli waris menerima bagian yang adil sesuai dengan hukum Islam.
-        \n\nContoh Aul misalnya: \nbagian seorang suami yang semestinya mendapat setengah ½ dapat berubah menjadi sepertiga ⅓ dalam keadaan tertentu, seperti bila pokok masalahnya dinaikkan dari semula enam 6 menjadi sembilan 9. Maka dalam hal ini seorang suami yang semestinya mendapat bagian 3/6 setengah hanya memperoleh 3/9 sepertiga.</string>
-    <string name="subheading_materi_6">Apa yang dimaksud dengan Radd</string>
-    <string name="subdesc_materi_6">Radd, sebaliknya, adalah pengembalian seluruh atau sebagian harta warisan yang diterima oleh ahli waris yang tidak berhak.
-        \n\nSebagai misal, dalam suatu keadaan (dalam pembagian hak waris) para ahli waris telah menerima haknya masing-masing, tetapi ternyata harta warisan itu masih tersisa sementara itu tidak ada sosok kerabat lain sebagai ashabah maka sisa harta waris itu diberikan atau dikembalikan lagi kepada para ashhabul furudh sesuai dengan bagian mereka masing-masing.</string>
+    <string name="title_materi_6">Understanding Aul and Radd in Waris</string>
+    <string name="heading_materi_6">What is meant by Aul</string>
+    <string name="desc_materi_6">Aul is a recalculation carried out to ensure that all heirs receive their fair share in accordance with Islamic law.
+        \n\nAul\'s example is:
+        \nThe share of a husband who should get half ½ can change to one third ⅓ in certain circumstances, such as if the subject matter is increased from the original six 6 to nine 9. So in this case a husband who should get 3/ 6 half only gets 3/9 one third.</string>
+    <string name="subheading_materi_6">What is meant by Radd</string>
+    <string name="subdesc_materi_6">Radd, on the other hand, is the return of all or part of the inherited assets received by unrightful heirs.
+        \n\nFor example, in a situation (in the distribution of inheritance rights) the heirs have received their respective rights, but it turns out that the inheritance still remains while there is no other relative as ashabah, then the remaining inheritance is given or returned again. to the ashhabul furudh according to their respective parts.</string>
 
-    <string name="title_materi_7">Bagian Ahli Waris Utama</string>
-    <string name="heading_materi_7">Perhitungan Bagian Ahli Waris Utama</string>
-    <string name="desc_materi_7">1. Pembagian waris pada anak Laki-Laki\na. Selamanya menjadi Ashobah (sisa).\nb. Kadiah Ashobah (sisa) bagi laki-laki seperti bagian dua perempuan.\n
-        \n2. Pembagian waris pada anak Perempuan\na. Ashobah (Ashobah bil Ghoir) jika bersama anak laki.\nb. 1/2 jika seorang diri dan tidak bersama anak laki-laki.\nc. 2/3 jika berdua atau lebih dan tidak bersama anak laki-laki.\n
-        \n3. Pembagian waris pada Suami\na. 1/2 (Setengah), jika tidak bersama anak atau cucu (Laki-laki / Perempuan).\nb. 1/4 (Seperempat), jika bersama anak atau cucu (Laki-laki / Perempuan).\n
-        \n4. Pembagian waris pada Istri:\na. 1/4 (Seperempat), jika tidak bersama anak atau cucu (Laki-laki / Perempuan).\nb. 1/8 (Seperdelapan), jika bersama anak atau cucu (Laki-laki / Perempuan).\n
-        \n5. Pembagian waris pada Ayah:\na. Ashobah (sisa), jika tidak ada anak (Laki-laki / Perempuan).\nb. 1/6 (Seperenam) + Ashobah, jika bersama anak perempuan / cucu perempuan dari anak laki-laki.\nc. 1/6 (Seperenam), jika bersama anak laki-laki / cucu laki-laki.\n
-        \n6. Pembagian waris pada Ibu:\na. 1/3 (Sepertiga), jika tidak bersama anak atau cucu, baik laki-laki / perempuan atau 2 / lebih saudara.\nb. 1/6 (Seperenam), jika bersama anak atau cucu, baik laki-laki / perempuan atau 2 / lebih saudara.</string>
+    <string name="title_materi_7">Main Heir Section</string>
+    <string name="heading_materi_7">Calculation of Main Heirs Share</string>
+    <string name="desc_materi_7">1. Distribution of inheritance to sons\na. Forever be Ashobah (remnant).\nb. Kadiah Ashobah (remainder) for men is like the share of two women.\n
+        \n2. Distribution of inheritance to daughters\na. Ashobah (Ashobah bil Ghoir) if with boys.\nb. 1/2 if alone and not with boys.\nc. 2/3 if two or more and not with boys.\n
+        \n3. Distribution of inheritance to Husband\na. 1/2 (Half), if not with children or grandchildren (Male / Female).\nb. 1/4 (Quarter), if with children or grandchildren (Male / Female).\n
+        \n4. Distribution of inheritance to Wife:\na. 1/4 (Quarter), if not with children or grandchildren (Male / Female).\nb. 1/8 (One eighth), if with children or grandchildren (Male / Female).\n
+        \n5. Distribution of inheritance to father:\na. Ashobah (remnant), if there are no children (male/female).\nb. 1/6 (One Sixth) + Ashobah, if with a son daughter/granddaughter.\nc. 1/6 (One sixth), if with sons / grandsons.\n
+        \n6. Distribution of inheritance to mother:\na. 1/3 (One third), if not with children or grandchildren, either male or female or 2 / more siblings.\nb. 1/6 (One sixth), if with children or grandchildren, either male/female or 2/more siblings.</string>
     <string name="subheading_materi_7"></string>
     <string name="subdesc_materi_7"></string>
 
     <!--    TODO: TUTORIAL-->
-    <string name="title_tutorial_1">Panduan Penggunaan Kalkulator</string>
-    <string name="desc_tutorial_1">1. Isi terlebih dahulu harta pewaris\n2. Isi hutang pewaris\n3. Isi wasiat pewaris\n4. Isi biaya perawatan untuk jenazah\n5. Tekan tombol selanjutnya untuk melihat rincian harta pewaris</string>
+    <string name="title_tutorial_1">Calculator Usage Guide</string>
+    <string name="desc_tutorial_1">1. Fill in the heirs assets first\n2. Fill in the heirs debt\n3. Fill in the testators will\n4. Fill in the care costs for the corpse\n</string>
 
-    <string name="title_tutorial_2">Panduan Pengunaan Umpan Balik</string>
-    <string name="desc_tutorial_2">1. Isi judul terlebih dahulu. \n2. Isi komentar yang anda inginkan.\n3. Tekan tombol untuk kirim komentar anda dan pilih melalui Gmail.</string>
+    <string name="title_tutorial_2">Guide to Using Feedback</string>
+    <string name="desc_tutorial_2">1. Fill in the title first. \n2. Fill in the comments you want.\n3. Press the button to send your comment and select via Gmail.</string>
 
-    <string name="title_tutorial_3">Panduan Cara Membaca Materi</string>
-    <string name="desc_tutorial_3">1. Tekan tombol berikut, untuk melihat materi secara list atau grid.\n
-        2. Tekan materi yang tersedia untuk melihat detail materi.</string>
+    <string name="title_tutorial_3">Guide on How to Read Material</string>
+    <string name="desc_tutorial_3">1. Press the following button to view the material in a list or grid.\n
+        2. Select an available material to view material details.</string>
 
-    <string name="title_tutorial_4">Panduan Cara Membaca Tentang Aplikasi</string>
-    <string name="desc_tutorial_4">1. Anda dapat melihat berbagai macam informasi dari aplikasi ini\n
-        2. Informasi tersebut mencakup tujuan dari aplikasi, serta tim pengembang, dosen pembimbing dan sumber referensi aplikasi ini dibuat.</string>
+    <string name="title_tutorial_4">Guide How to Read About the App</string>
+    <string name="desc_tutorial_4">1. You can see various kinds of information from this application.\n
+        2. This app lets you explore all sorts of details about it, like what it\'s for, who built it, and where they got their info.</string>
 
-    <string name="title_tutorial_5">Panduan Cara Membaca Fatwa</string>
-    <string name="desc_tutorial_5">1. Anda dapat menonton video fatwa\n
-        2. Anda dapat membaca rangkuman dari video teresbut</string>
+    <string name="title_tutorial_5">Guide on How to Read Fatwas</string>
+    <string name="desc_tutorial_5">1. You can watch the fatwa video\n
+        2. You can read the summary of the video</string>
 
     <!--    TODO: FATWA-->
-    <string name="title_fatwa_1">Belum Bayar Hutang Puasa Lalu Meninggal Dunia, Ahli Waris Mengqadha Atau Bagaimana?</string>
-    <string name="title_fatwa_2">Bolehkah Bagian Waris Laki Laki Dan Wanita Disamakan?</string>
-    <string name="title_fatwa_3">Bagaimana Jika Harta Waris Lebih Banyak Bagi Yang Lebih Berjasa Kepada Almarhum?</string>
-    <string name="title_fatwa_4">Apakah Ada Ayat Al-Quran Yang Mengharuskan Kita Membagi Waris Secara Syar’i?</string>
-    <string name="title_fatwa_5">Apa Hukumnya Membagi Waris Tidak Dengan Hukum Allah SWT?</string>
-    <string name="title_fatwa_6">Wasiat Untuk Ahli Waris, Apakah Wajib Dilaksanakan</string>
+    <string name="title_fatwa_1">Haven\'t paid the fasting debt and then dies, will the heirs make up for it or what?</string>
+    <string name="title_fatwa_2">Can male and female inheritance be equal?</string>
+    <string name="title_fatwa_3">What if the inheritance is greater for those who have contributed more to the deceased?</string>
+    <string name="title_fatwa_4">Is there a verse in the Koran that requires us to divide inheritance according to Sharia?</string>
+    <string name="title_fatwa_5">What is the Law on Distributing Inheritance Not According to Allah SWT\'s Law?</string>
+    <string name="title_fatwa_6">Wills for Heirs, Are They Required to Be Executed</string>
 
-    <string name="desc_fatwa_1">Mengenai hutang puasa yang belum dibayar sebelum seseorang meninggal, pendapat mayoritas ulama adalah bahwa Ahli Waris tidak berkewajiban untuk mengqadha (mengganti) puasa yang belum dilakukan oleh si almarhum. Ini karena kewajiban ibadah puasa adalah personal dan tidak dapat digantikan oleh orang lain setelah kematian seseorang.</string>
-    <string name="desc_fatwa_2">Dalam Islam, bagian waris antara laki-laki dan perempuan tidak disamakan. Bagian waris laki-laki lebih besar dibandingkan perempuan dalam beberapa situasi. Dalam warisan, seorang anak perempuan mendapatkan setengah bagian waris dari anak laki-laki.</string>
-    <string name="desc_fatwa_3">Dalam Islam, prinsip dasar pembagian harta waris adalah adil dan sesuai dengan ketentuan yang telah ditetapkan dalam Al-Qur\'an. Meskipun seseorang lebih berjasa kepada almarhum, pembagian harta waris tetap mengikuti ketentuan hukum waris Islam yang telah ditetapkan. Tidak diperbolehkan memberikan porsi lebih besar kepada satu ahli waris hanya berdasarkan jasa-jasa tertentu.</string>
-    <string name="desc_fatwa_4">dalam Al-Qur\'an terdapat ayat-ayat yang mengatur pembagian harta waris secara syar\'i. Salah satu ayat yang menjelaskan hal ini terdapat dalam Surah An-Nisa (4:11-12):
-        "11. Allah menyampaikan perintah-Nya kepadamu tentang (pembagian harta pusaka) anak-anakmu: bahagian seorang anak laki-laki sama dengan bahagian dua orang anak perempuan, dan jika anak-anak perempuan itu lebih dari dua, maka mereka mendapat dua pertiga harta yang ditinggalkan itu; dan jika dia hanya seorang anak perempuan, maka baginya separo. Dan kepada orang tua (pewaris) masing-masing dari keduanya seperenam dari harta yang ditinggalkannya, jika dia mempunyai anak; dan jika dia tidak mempunyai anak dan orang tuanya mewarisi harta itu, maka ibunya mendapat sepertiga. Dan jika yang meninggalkan itu mempunyai saudara laki-laki atau saudara perempuan, maka masing-masing dari keduanya mendapat seperenam. Dan jika yang meninggalkan itu mempunyai banyak saudara laki-laki dan saudara perempuan, maka bagi saudara perempuannya seperenam; dan bagi saudara laki-lakinya masing-masinglah sebahagian. (Itu adalah) ketetapan Allah yang diberikan-Nya kepadamu; dan Allah Maha Mengetahui lagi Maha Bijaksana."</string>
-    <string name="desc_fatwa_5">Membagi waris tidak sesuai dengan hukum Allah SWT (syar\'i) dianggap sebagai pelanggaran serius dalam Islam. Membatalkan atau mengubah ketentuan waris yang telah ditetapkan oleh syariat Islam dapat dianggap sebagai tindakan yang tidak sah dan dapat mendatangkan dosa. Dalam Islam, ketaatan terhadap hukum waris Allah adalah kewajiban, dan pelanggaran terhadapnya dapat mengakibatkan konsekuensi hukum dan moral.</string>
-    <string name="desc_fatwa_6">Wasiat dalam Islam diperbolehkan, tetapi ada batasan dan ketentuan tertentu yang harus diikuti. Wasiat hanya dapat mencakup sepertiga dari harta peninggalan dan tidak boleh merugikan ahli waris yang sudah ditentukan oleh hukum waris Islam. Dalam hal ini, wasiat tidak wajib dilaksanakan sepenuhnya, namun harus mematuhi ketentuan-ketentuan tersebut.</string>
+    <string name="desc_fatwa_1">Most Islamic scholars agree that their loved ones (heirs) shouldn\'t have to fast for them. Fasting is a very personal act of devotion, and it can\'t be done by someone else after you\'re gone..</string>
+    <string name="desc_fatwa_2">Dividing inheritance in Islam can be complicated. Sometimes sons inherit more than daughters. Imagine a family inheritance as a pie. In certain situations, a son might get a bigger slice than a daughter. There are reasons behind this in Islamic law, but it\'s important to remember that women can still inherit property and money in Islam.</string>
+    <string name="desc_fatwa_3">Dividing inheritance in Islam is meant to be fair, following guidelines laid out in the Quran. Even if someone took care of their loved one a lot, the inheritance gets split according to these established rules. You can\'t give someone extra just because they helped out more..</string>
+    <string name="desc_fatwa_4">In the Al-Qur\'an there are verses that regulate the distribution of inheritance according to sharia. One verse that explains this is in Surah An-Nisa (4:11-12):
+         "11. Allah conveys His command to you regarding (distribution of inheritance) to your children: the share of one son is equal to the share of two daughters, and if there are more than two daughters, then they get two-thirds of the property who is left behind; and if she is only a daughter, then she will share half. And to the parents (heirs) of each of them one-sixth of the property he left behind, if he has children; and if he has no children and his parents inherit the property then his mother gets one-third. And if the one who leaves him has brothers or sisters, then each of them gets one-sixth. And if the person who leaves him has many brothers and sisters, then his sister gets one-sixth ; and to each of his brothers a portion. (That is) Allah\'s decree which He has given you; and Allah is All-Knowing, All-Wise."</string>
+    <string name="desc_fatwa_5">In Islam, there are ways to divide inheritance that follow Allah\'s teachings. Going against these guidelines is a big deal. It\'s like changing the rules in the middle of a game. Following these inheritance laws is important, and ignoring them can lead to problems here on earth and in the afterlife.</string>
+    <string name="desc_fatwa_6">In Islam, you can definitely make a will, but there are some ground rules. You can only give away a third of your stuff, and it can\'t mess with who gets what according to Islamic inheritance law. Basically, your will can\'t leave your loved ones (heirs) out in the cold.</string>
 
-    <string name="source_fatwa_1">1. Al-Qur\'an, Surah Al-Baqarah (2:180)\n2. Hadis Riwayat Bukhari dan Muslim\n3. Fatwa Majelis Ulama Indonesia (MUI) atau otoritas keagamaan setempat</string>
-    <string name="source_fatwa_2">1. Al–Qur\'an, Surah An–Nisa (4:11–12)\n2. Hadis Riwayat Bukhari dan Muslim\n3. Hukum Waris Islam oleh Prof. Dr. Quraish Shihab</string>
-    <string name="source_fatwa_3">1. Al-Qur\'an, Surah An-Nisa (4:7)\n2. Hadis Riwayat Bukhari dan Muslim\n3. Fatwa Majelis Ulama Indonesia (MUI) atau otoritas keagamaan setempat.</string>
-    <string name="source_fatwa_4">Al–Qur\'an, Surah An–Nisa (4:11–12), Tafsir al-Jalalayn, Tafsir Ibnu Kathir</string>
-    <string name="source_fatwa_5">Al-Qur\'an, Surah An-Nisa (4:14): "Dan barangsiapa yang melanggar perjanjian yang diadakan di sisi Allah sesudah perjanjian itu tetap, dan memutuskan apa yang diperintahkan Allah untuk dihubungkan, dan membuat kacau balau di muka bumi, maka mereka itulah orang-orang yang rugi."</string>
-    <string name="source_fatwa_6">Al–Qur\'an, Surah An–Nisa (4:11–12): "Allah menyampaikan perintah-Nya kepadamu tentang (pembagian harta pusaka) anak-anakmu: bahagian seorang anak laki-laki sama dengan bahagian dua orang anak perempuan, dan jika anak-anak perempuan itu lebih dari dua, maka mereka mendapat dua pertiga harta yang ditinggalkan itu; dan jika dia hanya seorang anak perempuan, maka baginya separo."</string>
+    <string name="source_fatwa_1">1. Al-Qur\'an, Surah Al-Baqarah (2:180)\n2. Hadith History of Bukhari and Muslim\n3. Fatwa of the Indonesian Ulema Council (MUI) or local religious authority</string>
+    <string name="source_fatwa_2">1. Al–Qur\'an, Surah An–Nisa (4:11–12)\n2. Hadith History of Bukhari and Muslim\n3. Islamic Inheritance Law by Prof. Dr. Quraish Shihab</string>
+    <string name="source_fatwa_3">1. Al-Qur\'an, Surah An-Nisa (4:7)\n2. Hadith History of Bukhari and Muslim\n3. Fatwa of the Indonesian Ulema Council (MUI) or local religious authority.</string>
+    <string name="source_fatwa_4">Al–Qur\'an, Surah An–Nisa (4:11–12), Tafsir al-Jalalayn, Tafsir Ibn Kathir</string>
+    <string name="source_fatwa_5">Al-Qur\'an, Surah An-Nisa (4:14): "And whoever breaks the agreement made with Allah after the agreement remains, and breaks what Allah has commanded to be connected, and create chaos on the face of the earth, then they are the ones who lose."</string>
+    <string name="source_fatwa_6">Al–Qur\'an, Surah An–Nisa (4:11–12): "Allah conveys His command to you regarding (distribution of inheritance) your children: the share of a son equal to the share of two daughters, and if the daughters are more than two, then they get two-thirds of the property left behind; and if she is only a daughter, then she gets half."</string>
+
 
 
 </resources>

@@ -178,82 +178,82 @@ class HartaActivity : AppCompatActivity() {
         }
     }
 
-        private fun editTextToTextView(editText: EditText, textView: TextView) {
-            editText.addTextChangedListener(object : TextWatcher {
-                override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
-                }
+    private fun editTextToTextView(editText: EditText, textView: TextView) {
+        editText.addTextChangedListener(object : TextWatcher {
+            override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
+            }
 
-                override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
-                    val inputText: String = s.toString()
-                    if (inputText.isNullOrEmpty()) {
-                        textView.text = "Rp. 0"
-                    } else {
-                        textView.text = convertToRupiahFormat(inputText.toDouble())
-                    }
-                }
-
-                override fun afterTextChanged(p0: Editable?) {
-                }
-
-                fun convertToRupiahFormat(angka: Double): String {
-                    val localeID = Locale("id", "ID")
-                    val currencyFormat = NumberFormat.getCurrencyInstance(localeID)
-
-                    currencyFormat.currency = Currency.getInstance("IDR")
-                    currencyFormat.maximumFractionDigits = 0
-
-                    return "Rp. " + currencyFormat.format(angka).substring(2)
-                }
-            })
-        }
-
-        private fun getTextWatcher(
-            editText1: EditText,
-            editText2: EditText,
-            editText3: EditText,
-            editText4: EditText,
-            button: ImageView
-        ): TextWatcher {
-            return object : TextWatcher {
-                override fun beforeTextChanged(
-                    charSequence: CharSequence?,
-                    start: Int,
-                    count: Int,
-                    after: Int
-                ) {
-
-                }
-
-                override fun onTextChanged(
-                    charSequence: CharSequence?,
-                    start: Int,
-                    before: Int,
-                    count: Int
-                ) {
-
-                }
-
-                override fun afterTextChanged(editable: Editable?) {
-                    lifecycleScope.launch(Dispatchers.Main) {
-                        if (editText1.text.isNullOrEmpty() &&
-                            editText2.text.isNullOrEmpty() &&
-                            editText3.text.isNullOrEmpty() &&
-                            editText4.text.isNullOrEmpty()
-                        ) {
-                            button.visibility = View.INVISIBLE
-                        } else {
-                            button.visibility = View.VISIBLE
-                        }
-                    }
+            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
+                val inputText: String = s.toString()
+                if (inputText.isNullOrEmpty()) {
+                    textView.text = "Rp. 0"
+                } else {
+                    textView.text = convertToRupiahFormat(inputText.toDouble())
                 }
             }
 
+            override fun afterTextChanged(p0: Editable?) {
+            }
+
+            fun convertToRupiahFormat(angka: Double): String {
+                val localeID = Locale("id", "ID")
+                val currencyFormat = NumberFormat.getCurrencyInstance(localeID)
+
+                currencyFormat.currency = Currency.getInstance("IDR")
+                currencyFormat.maximumFractionDigits = 0
+
+                return "Rp. " + currencyFormat.format(angka).substring(2)
+            }
+        })
+    }
+
+    private fun getTextWatcher(
+        editText1: EditText,
+        editText2: EditText,
+        editText3: EditText,
+        editText4: EditText,
+        button: ImageView
+    ): TextWatcher {
+        return object : TextWatcher {
+            override fun beforeTextChanged(
+                charSequence: CharSequence?,
+                start: Int,
+                count: Int,
+                after: Int
+            ) {
+
+            }
+
+            override fun onTextChanged(
+                charSequence: CharSequence?,
+                start: Int,
+                before: Int,
+                count: Int
+            ) {
+
+            }
+
+            override fun afterTextChanged(editable: Editable?) {
+                lifecycleScope.launch(Dispatchers.Main) {
+                    if (editText1.text.isNullOrEmpty() &&
+                        editText2.text.isNullOrEmpty() &&
+                        editText3.text.isNullOrEmpty() &&
+                        editText4.text.isNullOrEmpty()
+                    ) {
+                        button.visibility = View.INVISIBLE
+                    } else {
+                        button.visibility = View.VISIBLE
+                    }
+                }
+            }
         }
 
-        @SuppressLint("MissingSuperCall")
-        override fun onBackPressed() {
-            val intent = Intent(this, MainActivity::class.java)
-            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
-            startActivity(intent)
-        }
     }
+
+    @SuppressLint("MissingSuperCall")
+    override fun onBackPressed() {
+        val intent = Intent(this, MainActivity::class.java)
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
+        startActivity(intent)
+    }
+}

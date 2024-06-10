@@ -6,7 +6,6 @@ import android.util.Log
 import android.view.View
 import android.widget.ImageView
 import android.widget.RadioGroup
-import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
@@ -49,7 +48,8 @@ class JenisKelaminPewarisActivity : AppCompatActivity() {
             intent.putExtra("biayaPerawatanJenazah", biayaPerawatanJenazah)
             val selectedRadioButtonId = rgJenisKelaminPewaris.checkedRadioButtonId
             if (selectedRadioButtonId == -1) {
-                Toast.makeText(this, "Silakan pilih Jenis Kelamin Pewaris!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Silakan pilih Jenis Kelamin Pewaris!", Toast.LENGTH_SHORT)
+                    .show()
             } else {
                 val jenisKelaminPewaris: String = when (selectedRadioButtonId) {
                     R.id.rb_laki -> "Laki-Laki"
@@ -67,6 +67,7 @@ class JenisKelaminPewarisActivity : AppCompatActivity() {
             finish()
         }
     }
+
     private fun checkIfDatabaseNotEmpty() {
         lifecycleScope.launch {
             val isDatabaseNotEmpty = withContext(Dispatchers.IO) {

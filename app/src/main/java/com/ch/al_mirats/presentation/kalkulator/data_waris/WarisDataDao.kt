@@ -4,6 +4,7 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
+import com.ch.al_mirats.model.WarisDataEntity
 
 @Dao
 interface WarisDataDao {
