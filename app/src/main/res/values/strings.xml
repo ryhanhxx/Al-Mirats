@@ -59,20 +59,27 @@
     <string name="txt_total_harta_bersih">Total Assets</string>
     <string name="txt_jumlah_istri">Number of Wifes</string>
     <string name="txt_jumlah_anak_laki_laki">Number of boys</string>
-    <string name="txt_jumlah_anak_perempuan">Number of daughters</string>
-    <string name="txt_jumlah_cucu_laki_laki">Number of grandsons</string>
+    <string name="txt_jumlah_anak_perempuan">Number of daughters (From boys)</string>
+    <string name="txt_jumlah_cucu_laki_laki">Number of grandsons (From boys)</string>
     <string name="txt_jumlah_cucu_perempuan">Number of granddaughters</string>
     <string name="txt_pilih_anggota">Select existing family members</string>
     <string name="txt_pasangan">Does the testator have a partner?</string>
     <string name="txt_jumlah_saudara_seayah_seibu">Number of brother</string>
     <string name="txt_jumlah_saudari_seayah_seibu">Number of sister</string>
     <string name="txt_title">Enter the title</string>
-    <string name="txt_bapak">Father</string>
+    <string name="txt_ayah">Father</string>
     <string name="txt_ibu">Mother</string>
-    <string name="txt_kakek">Father\'s father</string>
-    <string name="txt_nenek_ayah">Mother\'s father</string>
-    <string name="txt_nenek_ibu">Mother\'s Mother</string>
+    <string name="txt_ayah_dari_ayah">Father\'s father</string>
+    <string name="txt_ibu_dari_ayah">Mother\'s father</string>
+    <string name="txt_ibu_dari_ibu">Mother\'s Mother</string>
     <string name="txt_suami">Husband</string>
+    <string name="txt_istri">Wife</string>
+    <string name="txt_saudara_seayah_seibu">Brother</string>
+    <string name="txt_saudari_seayah_seibu">Sister</string>
+    <string name="txt_anak_laki">Son</string>
+    <string name="txt_anak_perempuan">Daughter</string>
+    <string name="txt_cucu_laki">Grand Son</string>
+    <string name="txt_cucu_perempuan">Grand Daughter</string>
 
     <!--    TODO: MATERI-->
     <string name="title_materi_1">What is Inheritance</string>

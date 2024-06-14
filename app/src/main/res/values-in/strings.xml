@@ -60,17 +60,24 @@
     <string name="txt_jumlah_istri">Jumlah Istri</string>
     <string name="txt_jumlah_anak_laki_laki">Jumlah anak laki-laki</string>
     <string name="txt_jumlah_anak_perempuan">Jumlah anak perempuan</string>
-    <string name="txt_jumlah_cucu_laki_laki">Jumlah cucu laki-laki</string>
-    <string name="txt_jumlah_cucu_perempuan">Jumlah cucu perempuan</string>
+    <string name="txt_jumlah_cucu_laki_laki">Jumlah cucu laki-laki (Dari anak laki)</string>
+    <string name="txt_jumlah_cucu_perempuan">Jumlah cucu perempuan (Dari anak laki)</string>
     <string name="txt_pilih_anggota">Pilih anggota keluarga yang masih ada</string>
     <string name="txt_pasangan">Apakah pewaris memiliki pasangan?</string>
     <string name="txt_title">Masukkan Judul</string>
-    <string name="txt_bapak">Ayah</string>
+    <string name="txt_ayah">Ayah</string>
     <string name="txt_ibu">Ibu</string>
-    <string name="txt_kakek">Ayah dari ayah</string>
-    <string name="txt_nenek_ayah">Ibu dari ayah</string>
-    <string name="txt_nenek_ibu">Ibu dari ibu</string>
+    <string name="txt_ayah_dari_ayah">Ayah dari ayah (Kakek)</string>
+    <string name="txt_ibu_dari_ayah">Ibu dari ayah (Nenek)</string>
+    <string name="txt_ibu_dari_ibu">Ibu dari ibu</string>
     <string name="txt_suami">Suami</string>
+    <string name="txt_istri">Istri</string>
+    <string name="txt_saudara_seayah_seibu">Saudara Seayah Seibu</string>
+    <string name="txt_saudari_seayah_seibu">Saudari Seayah Seibu</string>
+    <string name="txt_anak_laki">Anak Laki Laki</string>
+    <string name="txt_anak_perempuan">Anak Perempuan</string>
+    <string name="txt_cucu_laki">Cucu Laki Laki</string>
+    <string name="txt_cucu_perempuan">Cucu Perempuan</string>
 
     <!--    TODO: MATERI-->
     <string name="title_materi_1">Apa Itu Waris</string>
@@ -176,8 +183,8 @@
     <string name="source_fatwa_4">Al–Qur\'an, Surah An–Nisa (4:11–12), Tafsir al-Jalalayn, Tafsir Ibnu Kathir</string>
     <string name="source_fatwa_5">Al-Qur\'an, Surah An-Nisa (4:14): "Dan barangsiapa yang melanggar perjanjian yang diadakan di sisi Allah sesudah perjanjian itu tetap, dan memutuskan apa yang diperintahkan Allah untuk dihubungkan, dan membuat kacau balau di muka bumi, maka mereka itulah orang-orang yang rugi."</string>
     <string name="source_fatwa_6">Al–Qur\'an, Surah An–Nisa (4:11–12): "Allah menyampaikan perintah-Nya kepadamu tentang (pembagian harta pusaka) anak-anakmu: bahagian seorang anak laki-laki sama dengan bahagian dua orang anak perempuan, dan jika anak-anak perempuan itu lebih dari dua, maka mereka mendapat dua pertiga harta yang ditinggalkan itu; dan jika dia hanya seorang anak perempuan, maka baginya separo."</string>
-    <string name="txt_jumlah_saudara_seayah_seibu">Jumlah Saudara Seayah Seibu</string>
-    <string name="txt_jumlah_saudari_seayah_seibu">Jumlah Saudari Seayah Seibu</string>
+    <string name="txt_jumlah_saudara_seayah_seibu">Jumlah Saudara Sekandung</string>
+    <string name="txt_jumlah_saudari_seayah_seibu">Jumlah Saudari Sekandung</string>
 
 
 </resources>

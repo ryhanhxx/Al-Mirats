@@ -233,8 +233,8 @@ fun TidakAdaSuamiDanIstriSamaDenganNolLogic(
                                 bagianCucuLaki = "Ashobah"
                                 bagianCucuPerempuan = "Ashobah"
                                 sisaHarta = harta - hartaIbunyaIbu
-                                hartaCucuLaki = harta * (cucuLaki + cucuLaki) / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()
-                                hartaCucuPerempuan = (harta * (cucuPerempuan / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()))
+                                hartaCucuLaki = sisaHarta * (cucuLaki + cucuLaki) / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()
+                                hartaCucuPerempuan = (sisaHarta * (cucuPerempuan / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()))
                             }
                         }
                     }else if(adaSaudariSeayahSeibu == 1 && adaSaudaraSeayahSeibu == 0){
@@ -302,8 +302,8 @@ fun TidakAdaSuamiDanIstriSamaDenganNolLogic(
                                 bagianCucuLaki = "Ashobah"
                                 bagianCucuPerempuan = "Ashobah"
                                 sisaHarta = harta - hartaIbunyaIbu
-                                hartaCucuLaki = harta * (cucuLaki + cucuLaki) / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()
-                                hartaCucuPerempuan = (harta * (cucuPerempuan / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()))
+                                hartaCucuLaki = sisaHarta * (cucuLaki + cucuLaki) / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()
+                                hartaCucuPerempuan = (sisaHarta * (cucuPerempuan / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()))
                             }
                         }
                     }else if (adaSaudariSeayahSeibu > 1 && adaSaudaraSeayahSeibu == 0){
@@ -371,8 +371,8 @@ fun TidakAdaSuamiDanIstriSamaDenganNolLogic(
                                 bagianCucuLaki = "Ashobah"
                                 bagianCucuPerempuan = "Ashobah"
                                 sisaHarta = harta - hartaIbunyaIbu
-                                hartaCucuLaki = harta * (cucuLaki + cucuLaki) / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()
-                                hartaCucuPerempuan = (harta * (cucuPerempuan / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()))
+                                hartaCucuLaki = sisaHarta * (cucuLaki + cucuLaki) / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()
+                                hartaCucuPerempuan = (sisaHarta * (cucuPerempuan / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()))
                             }
                         }
                     }else if(adaSaudariSeayahSeibu == 0 && adaSaudaraSeayahSeibu >= 1){
@@ -440,8 +440,8 @@ fun TidakAdaSuamiDanIstriSamaDenganNolLogic(
                                 bagianCucuLaki = "Ashobah"
                                 bagianCucuPerempuan = "Ashobah"
                                 sisaHarta = harta - hartaIbunyaIbu
-                                hartaCucuLaki = harta * (cucuLaki + cucuLaki) / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()
-                                hartaCucuPerempuan = (harta * (cucuPerempuan / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()))
+                                hartaCucuLaki = sisaHarta * (cucuLaki + cucuLaki) / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()
+                                hartaCucuPerempuan = (sisaHarta * (cucuPerempuan / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()))
                             }
                         }
                     }else{
@@ -6622,10 +6622,10 @@ fun TidakAdaSuamiDanIstriSamaDenganNolLogic(
                     if ((adaSaudaraSeayahSeibu == 0 && adaSaudariSeayahSeibu == 0) || (adaSaudaraSeayahSeibu >= 1 && adaSaudariSeayahSeibu == 0) || (adaSaudaraSeayahSeibu == 0 && adaSaudariSeayahSeibu >= 1) || (adaSaudaraSeayahSeibu >= 1 && adaSaudariSeayahSeibu >=1 )){
                         if (cucuLaki == 0 && cucuPerempuan == 0){
                             if (!adaIbunyaIbu || adaIbunyaIbu){
-                                bagianAyah = "1/6 → 1/2"
-                                hartaAyah = harta * 1/2
-                                bagianIbu = "1/6 → 1/2"
-                                hartaIbu = harta * 1/2
+                                bagianAyah = "Ashobah"
+                                hartaAyah = harta * 2/3
+                                bagianIbu = "1/3 → 1/3"
+                                hartaIbu = harta * 1/3
                             }
                         }else if(cucuPerempuan == 1 && cucuLaki == 0){
                             if (!adaIbunyaIbu || adaIbunyaIbu){
