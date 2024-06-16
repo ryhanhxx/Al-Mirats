@@ -78,20 +78,19 @@
     <string name="txt_anak_perempuan">Anak Perempuan</string>
     <string name="txt_cucu_laki">Cucu Laki Laki</string>
     <string name="txt_cucu_perempuan">Cucu Perempuan</string>
+    <string name="txt_jumlah_saudara_seayah_seibu">Jumlah Saudara Sekandung</string>
+    <string name="txt_jumlah_saudari_seayah_seibu">Jumlah Saudari Sekandung</string>
 
     <!--    TODO: MATERI-->
     <string name="title_materi_1">Apa Itu Waris</string>
     <string name="heading_materi_1">Pengertian Waris</string>
-    <string name="desc_materi_1">Yang dimaksud dengan “warisan” adalah harta atau uang yang ditinggalkan oleh orang yang meninggal. Warisan dapat terdiri dari berbagai jenis aset, termasuk uang, investasi, dan barang berharga lainnya. Perbedaan berikut antara frasa “warisan” dan “wasiat”.
-    \n\nWarisan adalah harta yang didistribusikan berdasarkan ketentuan hukum, baik itu hukum Islam atau hukum negara. Wasiat, di sisi lain, adalah dokumen yang berisi  keinginan pribadi pemilik harta, dan perlu dilaksanakan sesuai dengan hukum yang berlaku.</string>
+    <string name="desc_materi_1">Yang dimaksud dengan “warisan” adalah harta atau uang yang ditinggalkan oleh orang yang meninggal. Warisan dapat terdiri dari berbagai jenis aset, termasuk uang, investasi, dan barang berharga lainnya. Perbedaan berikut antara frasa “warisan” dan “wasiat”.\n\nWarisan adalah harta yang didistribusikan berdasarkan ketentuan hukum, baik itu hukum Islam atau hukum negara. Wasiat, di sisi lain, adalah dokumen yang berisi  keinginan pribadi pemilik harta, dan perlu dilaksanakan sesuai dengan hukum yang berlaku.</string>
     <string name="subheading_materi_1">Warisan Menurut Hukum Islam</string>
     <string name="subdesc_materi_1">Dalam hukum Islam, Al-Quran mempunyai pedoman khusus mengenai pewarisan. Aturan-aturan ini akan menentukan bagaimana aset yang ditinggalkan akan dibagi di antara para penerus, dan sistem warisan Islam didasarkan pada gagasan keadilan. Ahli waris dalam hukum Islam termasuk suami, istri, anak-anak, orang tua, dan saudara kandung. Memastikan bahwa aset warisan dialokasikan secara adil berdasarkan hubungan keluarga dan tingkat ketergantungan adalah tujuan utama sistem warisan Islam.</string>
 
     <string name="title_materi_2">Ayat-Ayat yang Menjelaskan Tentang Waris</string>
     <string name="heading_materi_2">Ayat Al Qur’an Seputar Warisan</string>
-    <string name="desc_materi_2">"Ada beberapa ayat dalam Al Qur’an yang menjelaskan tentang pembagian warisan. Di antaranya adalah firman Allah\n
-        \nلِلرِّجَالِ نَصِيبٌ مِمَّا تَرَكَ الْوَالِدَانِ وَالْأَقْرَبُونَ وَلِلنِّسَاءِ نَصِيبٌ مِمَّا تَرَكَ الْوَالِدَانِ وَالْأَقْرَبُونَ مِمَّا قَلَّ مِنْهُ أَوْ كَثُرَ نَصِيبًا مَفْرُوضًا\n
-        \nBagi laki-laki ada hak bagian dari harta peninggalan kedua orang tua dan kerabatnya, dan bagi perempuan ada hak bagian (pula) dari harta peninggalan kedua orang tua dan kerabatnya, baik sedikit atau banyak menurut bagian yang telah ditetapkan.(QS. An Nisaa’ : 7)"</string>
+    <string name="desc_materi_2">"Ada beberapa ayat dalam Al Qur’an yang menjelaskan tentang pembagian warisan. Di antaranya adalah firman Allah\n\nلِلرِّجَالِ نَصِيبٌ مِمَّا تَرَكَ الْوَالِدَانِ وَالْأَقْرَبُونَ وَلِلنِّسَاءِ نَصِيبٌ مِمَّا تَرَكَ الْوَالِدَانِ وَالْأَقْرَبُونَ مِمَّا قَلَّ مِنْهُ أَوْ كَثُرَ نَصِيبًا مَفْرُوضًا\n\nBagi laki-laki ada hak bagian dari harta peninggalan kedua orang tua dan kerabatnya, dan bagi perempuan ada hak bagian (pula) dari harta peninggalan kedua orang tua dan kerabatnya, baik sedikit atau banyak menurut bagian yang telah ditetapkan.(QS. An Nisaa’ : 7)"</string>
     <string name="subheading_materi_2">Referensi</string>
     <string name="subdesc_materi_2">Dahulu bangsa Arab di masa jahiliyah disebabkan karena kesewenangan dan sifat keras, mereka tidak memberikan warisan kepada orang-orang lemah seperti wanita dan anak-anak, hanya memberikannya kepada laki-laki yang kuat. Hal itu, karena menurut  anggapan mereka laki-laki lah yang ikut serta dalam peperangan, dan mereka pula lah yang  berhak menerima harta rampasan perang. Maka Rabb Yang Maha Penyayang lagi Maha Bijaksana berkehendak untuk menetapkan syari’at yang menyamakan (hak menerima warisan) antara laki-laki dan perempuan, orang kuat dan orang lemah. (Taisir Al-Karim Ar-Rahman fi Tafsir Kalam Al-Mannan, Hal. 201).</string>
 
@@ -99,10 +98,7 @@
     <string name="heading_materi_3">Pihak yang berhak menerima</string>
     <string name="desc_materi_3">Penerima waris tersebut disebut sebagai ahli waris, dan hukum waris Islam telah menentukan urutan dan bagian masing-masing ahli waris. Ahli waris dapat terdiri dari keluarga inti seperti anak-anak, suami atau istri, serta keluarga yang lebih luas seperti orang tua, saudara-saudara, dan bahkan kerabat jauh.</string>
     <string name="subheading_materi_3">Referensi</string>
-    <string name="subdesc_materi_3">1. Al-Qur\'an, Surah An-Nisa (4:11-12)\n
-       2. Hadis Riwayat Bukhari dan Muslim\n
-       3. Hukum Waris Islam oleh Prof. Dr. Quraish Shihab\n
-       4. Fatwa Majelis Ulama Indonesia (MUI) atau otoritas keagamaan setempat.</string>
+    <string name="subdesc_materi_3">1. Al Qur\'an, Surah An–Nisa (4:11–12)\n2. Hadis Riwayat Bukhari dan Muslim\n3. Hukum Waris Islam oleh Prof. Dr. Quraish Shihab\n4. Fatwa Majelis Ulama Indonesia (MUI) atau otoritas keagamaan setempat.</string>
 
     <string name="title_materi_4">Bagaimana Struktur Bagian Waris Utama</string>
     <string name="heading_materi_4">Bagian untuk waris utama</string>
@@ -125,11 +121,9 @@
 
     <string name="title_materi_6">Pengertian Aul dan Radd dalam Waris</string>
     <string name="heading_materi_6">Apa yang dimaksud dengan Aul</string>
-    <string name="desc_materi_6">Aul adalah perhitungan ulang yang dilakukan untuk memastikan bahwa semua ahli waris menerima bagian yang adil sesuai dengan hukum Islam.
-        \n\nContoh Aul misalnya: \nbagian seorang suami yang semestinya mendapat setengah ½ dapat berubah menjadi sepertiga ⅓ dalam keadaan tertentu, seperti bila pokok masalahnya dinaikkan dari semula enam 6 menjadi sembilan 9. Maka dalam hal ini seorang suami yang semestinya mendapat bagian 3/6 setengah hanya memperoleh 3/9 sepertiga.</string>
+    <string name="desc_materi_6">Aul adalah perhitungan ulang yang dilakukan untuk memastikan bahwa semua ahli waris menerima bagian yang adil sesuai dengan hukum Islam.\n\nContoh Aul misalnya: \nbagian seorang suami yang semestinya mendapat setengah ½ dapat berubah menjadi sepertiga ⅓ dalam keadaan tertentu, seperti bila pokok masalahnya dinaikkan dari semula enam 6 menjadi sembilan 9. Maka dalam hal ini seorang suami yang semestinya mendapat bagian 3/6 setengah hanya memperoleh 3/9 sepertiga.</string>
     <string name="subheading_materi_6">Apa yang dimaksud dengan Radd</string>
-    <string name="subdesc_materi_6">Radd, sebaliknya, adalah pengembalian seluruh atau sebagian harta warisan yang diterima oleh ahli waris yang tidak berhak.
-        \n\nSebagai misal, dalam suatu keadaan (dalam pembagian hak waris) para ahli waris telah menerima haknya masing-masing, tetapi ternyata harta warisan itu masih tersisa sementara itu tidak ada sosok kerabat lain sebagai ashabah maka sisa harta waris itu diberikan atau dikembalikan lagi kepada para ashhabul furudh sesuai dengan bagian mereka masing-masing.</string>
+    <string name="subdesc_materi_6">Radd, sebaliknya, adalah pengembalian seluruh atau sebagian harta warisan yang diterima oleh ahli waris yang tidak berhak.\n\nSebagai misal, dalam suatu keadaan (dalam pembagian hak waris) para ahli waris telah menerima haknya masing-masing, tetapi ternyata harta warisan itu masih tersisa sementara itu tidak ada sosok kerabat lain sebagai ashabah (sisa) maka sisa harta waris itu diberikan atau dikembalikan lagi kepada para ashhabul furudh (ahli waris yang telah ditentukan) sesuai dengan bagian mereka masing-masing.</string>
 
     <string name="title_materi_7">Bagian Ahli Waris Utama</string>
     <string name="heading_materi_7">Perhitungan Bagian Ahli Waris Utama</string>
@@ -142,6 +136,12 @@
     <string name="subheading_materi_7"></string>
     <string name="subdesc_materi_7"></string>
 
+    <string name="title_materi_8">Pengertian Ashobah, Mahjub dan Baitul Mal</string>
+    <string name="heading_materi_8">Ashobah dan Mahjub</string>
+    <string name="desc_materi_8">Ashabah dari segi istilah bermakna ahli waris yang tidak mendapatkan bagian tertentu tetapi mendapatkan bagian sisa dari pihak yang mendapatkan bagian tertentu (dzawil furudh).\n\nMahjub yaitu ahli waris yang terhalang oleh ahli waris yang dekat hubungan kekerabatannya. Jika tidak ada hambatan, maka mahjub tersebut berhak mendapatkan warisan.</string>
+    <string name="subheading_materi_8">Baitul Mal</string>
+    <string name="subdesc_materi_8">Organisasi yang dikenal sebagai Baitul Mal, juga dikenal sebagai al-jihat, bertugas mengelola seluruh aset publik, termasuk pendapatan dan pengeluaran pemerintah.</string>
+
     <!--    TODO: TUTORIAL-->
     <string name="title_tutorial_1">Panduan Penggunaan Kalkulator</string>
     <string name="desc_tutorial_1">1. Isi terlebih dahulu harta pewaris\n2. Isi hutang pewaris\n3. Isi wasiat pewaris\n4. Isi biaya perawatan untuk jenazah\n5. Tekan tombol selanjutnya untuk melihat rincian harta pewaris</string>
@@ -150,16 +150,13 @@
     <string name="desc_tutorial_2">1. Isi judul terlebih dahulu. \n2. Isi komentar yang anda inginkan.\n3. Tekan tombol untuk kirim komentar anda dan pilih melalui Gmail.</string>
 
     <string name="title_tutorial_3">Panduan Cara Membaca Materi</string>
-    <string name="desc_tutorial_3">1. Tekan tombol berikut, untuk melihat materi secara list atau grid.\n
-        2. Tekan materi yang tersedia untuk melihat detail materi.</string>
+    <string name="desc_tutorial_3">1. Tekan tombol berikut, untuk melihat materi secara list atau grid.\n2. Tekan materi yang tersedia untuk melihat detail materi.</string>
 
     <string name="title_tutorial_4">Panduan Cara Membaca Tentang Aplikasi</string>
-    <string name="desc_tutorial_4">1. Anda dapat melihat berbagai macam informasi dari aplikasi ini\n
-        2. Informasi tersebut mencakup tujuan dari aplikasi, serta tim pengembang, dosen pembimbing dan sumber referensi aplikasi ini dibuat.</string>
+    <string name="desc_tutorial_4">1. Anda dapat melihat berbagai macam informasi dari aplikasi ini\n2. Informasi tersebut mencakup tujuan dari aplikasi, serta tim pengembang, dosen pembimbing dan sumber referensi aplikasi ini dibuat.</string>
 
     <string name="title_tutorial_5">Panduan Cara Membaca Fatwa</string>
-    <string name="desc_tutorial_5">1. Anda dapat menonton video fatwa\n
-        2. Anda dapat membaca rangkuman dari video teresbut</string>
+    <string name="desc_tutorial_5">1. Anda dapat menonton video fatwa\n2. Anda dapat membaca rangkuman dari video teresbut</string>
 
     <!--    TODO: FATWA-->
     <string name="title_fatwa_1">Belum Bayar Hutang Puasa Lalu Meninggal Dunia, Ahli Waris Mengqadha Atau Bagaimana?</string>
@@ -177,14 +174,7 @@
     <string name="desc_fatwa_5">Membagi waris tidak sesuai dengan hukum Allah SWT (syar\'i) dianggap sebagai pelanggaran serius dalam Islam. Membatalkan atau mengubah ketentuan waris yang telah ditetapkan oleh syariat Islam dapat dianggap sebagai tindakan yang tidak sah dan dapat mendatangkan dosa. Dalam Islam, ketaatan terhadap hukum waris Allah adalah kewajiban, dan pelanggaran terhadapnya dapat mengakibatkan konsekuensi hukum dan moral.</string>
     <string name="desc_fatwa_6">Wasiat dalam Islam diperbolehkan, tetapi ada batasan dan ketentuan tertentu yang harus diikuti. Wasiat hanya dapat mencakup sepertiga dari harta peninggalan dan tidak boleh merugikan ahli waris yang sudah ditentukan oleh hukum waris Islam. Dalam hal ini, wasiat tidak wajib dilaksanakan sepenuhnya, namun harus mematuhi ketentuan-ketentuan tersebut.</string>
 
-    <string name="source_fatwa_1">1. Al-Qur\'an, Surah Al-Baqarah (2:180)\n2. Hadis Riwayat Bukhari dan Muslim\n3. Fatwa Majelis Ulama Indonesia (MUI) atau otoritas keagamaan setempat</string>
-    <string name="source_fatwa_2">1. Al–Qur\'an, Surah An–Nisa (4:11–12)\n2. Hadis Riwayat Bukhari dan Muslim\n3. Hukum Waris Islam oleh Prof. Dr. Quraish Shihab</string>
-    <string name="source_fatwa_3">1. Al-Qur\'an, Surah An-Nisa (4:7)\n2. Hadis Riwayat Bukhari dan Muslim\n3. Fatwa Majelis Ulama Indonesia (MUI) atau otoritas keagamaan setempat.</string>
-    <string name="source_fatwa_4">Al–Qur\'an, Surah An–Nisa (4:11–12), Tafsir al-Jalalayn, Tafsir Ibnu Kathir</string>
-    <string name="source_fatwa_5">Al-Qur\'an, Surah An-Nisa (4:14): "Dan barangsiapa yang melanggar perjanjian yang diadakan di sisi Allah sesudah perjanjian itu tetap, dan memutuskan apa yang diperintahkan Allah untuk dihubungkan, dan membuat kacau balau di muka bumi, maka mereka itulah orang-orang yang rugi."</string>
-    <string name="source_fatwa_6">Al–Qur\'an, Surah An–Nisa (4:11–12): "Allah menyampaikan perintah-Nya kepadamu tentang (pembagian harta pusaka) anak-anakmu: bahagian seorang anak laki-laki sama dengan bahagian dua orang anak perempuan, dan jika anak-anak perempuan itu lebih dari dua, maka mereka mendapat dua pertiga harta yang ditinggalkan itu; dan jika dia hanya seorang anak perempuan, maka baginya separo."</string>
-    <string name="txt_jumlah_saudara_seayah_seibu">Jumlah Saudara Sekandung</string>
-    <string name="txt_jumlah_saudari_seayah_seibu">Jumlah Saudari Sekandung</string>
+
 
 
 </resources>

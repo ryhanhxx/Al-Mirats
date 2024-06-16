@@ -66,6 +66,15 @@ class DummyMateriRecommendDataSourceImpl() : DummyMateriRecommendDataSource {
                 imgUrl2 = ""
             ),
             Materi(
+                imgUrl = "https://raw.githubusercontent.com/HaibraielRabbany/img_asset/main/img_materi2.jpg",
+                title = context.getString(R.string.title_materi_8),
+                heading = context.getString(R.string.heading_materi_8),
+                desc = context.getString(R.string.desc_materi_8),
+                subHeading = context.getString(R.string.subheading_materi_8),
+                subDesc = context.getString(R.string.subdesc_materi_8),
+                imgUrl2 = ""
+            ),
+            Materi(
                 imgUrl = "https://raw.githubusercontent.com/HaibraielRabbany/img_asset/main/img_materi6.jpg",
                 title = context.getString(R.string.title_materi_7),
                 heading = context.getString(R.string.heading_materi_7),
