@@ -22,12 +22,12 @@ class DummyTopMateriDataSourceImpl() : DummyTopMateriDataSource {
                 imgUrl2 = ""
             ),
             Materi(
-                imgUrl = "https://raw.githubusercontent.com/HaibraielRabbany/img_asset/main/img_materi1.jpg",
-                title = context.getString(R.string.title_materi_2),
-                heading = context.getString(R.string.heading_materi_2),
-                desc = context.getString(R.string.desc_materi_2),
-                subHeading = context.getString(R.string.subheading_materi_2),
-                subDesc = context.getString(R.string.subdesc_materi_2),
+                imgUrl = "https://raw.githubusercontent.com/HaibraielRabbany/img_asset/main/img_materi2.jpg",
+                title = context.getString(R.string.title_materi_8),
+                heading = context.getString(R.string.heading_materi_8),
+                desc = context.getString(R.string.desc_materi_8),
+                subHeading = context.getString(R.string.subheading_materi_8),
+                subDesc = context.getString(R.string.subdesc_materi_8),
                 imgUrl2 = ""
             ),
             Materi(
@@ -40,14 +40,15 @@ class DummyTopMateriDataSourceImpl() : DummyTopMateriDataSource {
                 imgUrl2 = ""
             ),
             Materi(
-                imgUrl = "https://raw.githubusercontent.com/HaibraielRabbany/img_asset/main/img_materi2.jpg",
-                title = context.getString(R.string.title_materi_3),
-                heading = context.getString(R.string.heading_materi_3),
-                desc = context.getString(R.string.desc_materi_3),
-                subHeading = context.getString(R.string.subheading_materi_3),
-                subDesc = context.getString(R.string.subdesc_materi_3),
+                imgUrl = "https://raw.githubusercontent.com/HaibraielRabbany/img_asset/main/img_materi1.jpg",
+                title = context.getString(R.string.title_materi_2),
+                heading = context.getString(R.string.heading_materi_2),
+                desc = context.getString(R.string.desc_materi_2),
+                subHeading = context.getString(R.string.subheading_materi_2),
+                subDesc = context.getString(R.string.subdesc_materi_2),
                 imgUrl2 = ""
-            )
+            ),
+
         )
     }
 }

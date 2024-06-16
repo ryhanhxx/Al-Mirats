@@ -199,60 +199,60 @@ class HasilKalkulatorActivity : AppCompatActivity() {
 
         if (adaIbu || adaAyah || adaSuami || istri >= 1 || anakPerempuan >= 1 || anakLaki >= 1 || cucuLaki >= 1 || cucuPerempuan >= 1 || adaAyahnyaAyah || adaIbunyaAyah || adaIbunyaIbu || adaSaudaraSeayahSeibu >= 1 || adaSaudariSeayahSeibu >= 1){
             if (adaAyah) {
-                data.add(WarisData("Ayah",bagianAyah, 1,
+                data.add(WarisData(getString(R.string.txt_ayah),bagianAyah, 1,
                     ConvertToRupiah().convertToRupiahFormat(hartaAyah), ConvertToRupiah().convertToRupiahFormat(hartaAyah), keterangan))
             }
             if (adaIbu){
-                data.add(WarisData("Ibu",bagianIbu, 1,
+                data.add(WarisData(getString(R.string.txt_ibu),bagianIbu, 1,
                     ConvertToRupiah().convertToRupiahFormat(hartaIbu), ConvertToRupiah().convertToRupiahFormat(hartaIbu), keterangan))
             }
             if(jenisKelaminPewaris == "Laki-Laki"){
                 if (istri >= 1) {
-                    data.add(WarisData("Istri",bagianIstri, istri,
+                    data.add(WarisData(getString(R.string.txt_istri),bagianIstri, istri,
                         ConvertToRupiah().convertToRupiahFormat(hartaIstri), ConvertToRupiah().convertToRupiahFormat(hartaIstri/istri), keterangan))
                 }
             }else{
                 if (adaSuami) {
-                    data.add(WarisData("Suami",bagianSuami, 1,
+                    data.add(WarisData(getString(R.string.txt_suami),bagianSuami, 1,
                         ConvertToRupiah().convertToRupiahFormat(hartaSuami), ConvertToRupiah().convertToRupiahFormat(hartaSuami), keterangan))
                 }
             }
             if (adaAyahnyaAyah) {
                 data.add(
-                    WarisData("Ayahnya ayah", bagianAyahnyaAyah, 1,
+                    WarisData(getString(R.string.txt_ayah_dari_ayah), bagianAyahnyaAyah, 1,
                     ConvertToRupiah().convertToRupiahFormat(hartaAyahnyaAyah), ConvertToRupiah().convertToRupiahFormat(hartaAyahnyaAyah), keterangan)
                 )
             }
             if (adaIbunyaAyah) {
-                data.add(WarisData("Ibunya ayah", bagianIbunyaAyah, 1,
+                data.add(WarisData(getString(R.string.txt_ibu_dari_ayah), bagianIbunyaAyah, 1,
                     ConvertToRupiah().convertToRupiahFormat(hartaIbunyaAyah), ConvertToRupiah().convertToRupiahFormat(hartaIbunyaAyah), keterangan))
             }
             if (adaSaudaraSeayahSeibu >= 1) {
-                data.add(WarisData("Saudara seayah-seibu", bagianSaudaraSeayahSeibu, adaSaudaraSeayahSeibu,
+                data.add(WarisData(getString(R.string.txt_saudara_seayah_seibu), bagianSaudaraSeayahSeibu, adaSaudaraSeayahSeibu,
                     ConvertToRupiah().convertToRupiahFormat(hartaSaudaraSeayahSeibu), ConvertToRupiah().convertToRupiahFormat(hartaSaudaraSeayahSeibu/adaSaudaraSeayahSeibu), keterangan))
             }
             if (adaSaudariSeayahSeibu >= 1) {
-                data.add(WarisData("Saudari seayah-seibu", bagianSaudariSeayahSeibu, adaSaudariSeayahSeibu,
+                data.add(WarisData(getString(R.string.txt_saudari_seayah_seibu), bagianSaudariSeayahSeibu, adaSaudariSeayahSeibu,
                     ConvertToRupiah().convertToRupiahFormat(hartaSaudariSeayahSeibu), ConvertToRupiah().convertToRupiahFormat(hartaSaudariSeayahSeibu/adaSaudariSeayahSeibu), keterangan))
             }
             if (adaIbunyaIbu) {
-                data.add(WarisData("Ibunya Ibu", bagianIbunyaIbu, 1,
+                data.add(WarisData(getString(R.string.txt_ibu_dari_ibu), bagianIbunyaIbu, 1,
                     ConvertToRupiah().convertToRupiahFormat(hartaIbunyaIbu), ConvertToRupiah().convertToRupiahFormat(hartaIbunyaIbu), keterangan))
             }
             if (anakLaki >= 1) {
-                data.add(WarisData("Anak Laki-Laki",bagianAnakLaki, anakLaki,
+                data.add(WarisData(getString(R.string.txt_anak_laki),bagianAnakLaki, anakLaki,
                     ConvertToRupiah().convertToRupiahFormat(hartaAnakLaki), ConvertToRupiah().convertToRupiahFormat(hartaAnakLaki/anakLaki), keterangan))
             }
             if (anakPerempuan >= 1) {
-                data.add(WarisData("Anak Perempuan",bagianAnakPerempuan, anakPerempuan,
+                data.add(WarisData(getString(R.string.txt_anak_perempuan),bagianAnakPerempuan, anakPerempuan,
                     ConvertToRupiah().convertToRupiahFormat(hartaAnakPerempuan), ConvertToRupiah().convertToRupiahFormat(hartaAnakPerempuan/anakPerempuan), keterangan))
             }
             if (cucuLaki >= 1) {
-                data.add(WarisData("Cucu Laki-Laki",bagianCucuLaki, cucuLaki,
+                data.add(WarisData(getString(R.string.txt_cucu_laki),bagianCucuLaki, cucuLaki,
                     ConvertToRupiah().convertToRupiahFormat(hartaCucuLaki), ConvertToRupiah().convertToRupiahFormat(hartaCucuLaki/cucuLaki), keterangan))
             }
             if (cucuPerempuan >= 1) {
-                data.add(WarisData("Cucu Perempuan",bagianCucuPerempuan, cucuPerempuan,
+                data.add(WarisData(getString(R.string.txt_cucu_perempuan),bagianCucuPerempuan, cucuPerempuan,
                     ConvertToRupiah().convertToRupiahFormat(hartaCucuPerempuan), ConvertToRupiah().convertToRupiahFormat(hartaCucuPerempuan/cucuPerempuan), keterangan))
             }
         } else{
