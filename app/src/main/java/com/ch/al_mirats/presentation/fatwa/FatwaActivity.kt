@@ -67,7 +67,6 @@ class FatwaActivity : AppCompatActivity() {
         fatwa?.apply {
             binding.tvTitle.text = this.title
             binding.tvDesc.text = this.desc
-            binding.tvSource.text = this.source
         }
     }
 

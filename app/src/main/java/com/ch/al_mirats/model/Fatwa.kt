@@ -10,6 +10,5 @@ data class Fatwa (
     val imgUrl: String,
     val videoUrl: String,
     val title: String,
-    val source: String,
     val desc: String
 ): Parcelable
