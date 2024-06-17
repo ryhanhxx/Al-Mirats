@@ -3,15 +3,15 @@
 ![alt text](https://github.com/ryhanhxx/Al-Mirats/blob/master/app/screenshot/Thumbnail.png)
 
 <h2>Description</h2>
-<p>The Inheritance Calculator application is designed to simplify and accurately compute the distribution of assets among heirs according to specified inheritance laws.</p>
+<p>Feeling overwhelmed by how to divide your belongings after you're gone?  The Al Mirats is a handy tool that helps you figure out how to split things up among your loved ones according to the law where you live.</p>
 
-<h2>Feature's </h2>
+<h2>Feature</h2>
 <ul>
-    <li>• Inheritance Calculator</li>
-    <li>• Material's </li>
-    <li>• Feedback </li>
-    <li>• Tutorial App</li>
-    <li>• About App</li>
+    <li>Inheritance Calculator</li>
+    <li>Material's </li>
+    <li>Feedback </li>
+    <li>Tutorial App</li>
+    <li>About App</li>
 </ul>
 
 <h2>Contact</h2>
