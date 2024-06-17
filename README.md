@@ -2,11 +2,20 @@
 
 ![alt text](https://github.com/ryhanhxx/Al-Mirats/blob/master/app/screenshot/Thumbnail.png)
 
-The Inheritance Calculator application is designed to simplify and accurately compute the distribution of assets among heirs according to specified inheritance laws.<br />
+<h2>Description</h2>
 <br />
-Feature's: <br />
-• Inheritance Calculator<br />
-• Material's <br />
-• Feedback <br />
-• Tutorial App <br />
-• About App <br />
+<p>The Inheritance Calculator application is designed to simplify and accurately compute the distribution of assets among heirs according to specified inheritance laws.</p>
+<br />
+
+<h2>Feature's </h2>
+<ul>
+    <li>• Inheritance Calculator</li>
+    <li>• Material's </li>
+    <li>• Feedback </li>
+    <li>• Tutorial App</li>
+    <li>• About App</li>
+</ul>
+<br />
+
+<h2>Contact</h2>
+<p>Untuk informasi lebih lanjut, hubungi <a href="mailto:almiratsdev@gmail.com">Al Mirats Developer</a>.</p>
