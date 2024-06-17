@@ -1,4 +1,4 @@
-<h1><b>Project Al Mirats 2024.</b></h1>
+<h1><b>Al Mirats</b></h1>
 
 ![alt text](https://github.com/ryhanhxx/Al-Mirats/blob/master/app/screenshot/Thumbnail.png)
 
