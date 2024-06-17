@@ -1,7 +1,8 @@
-Project Al Mirats 2024.
+Project Al Mirats 2024.<br />
 
-![alt text](https://ibb.co.com/mtM7LGs)
 
+
+The Inheritance Calculator application is designed to simplify and accurately compute the distribution of assets among heirs according to specified inheritance laws.<br />
 Feature's: <br />
 • Inheritance Calculator<br />
 • Material's <br />
