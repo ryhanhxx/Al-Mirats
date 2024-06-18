@@ -4518,16 +4518,16 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                 bagianIstri = "1/4 → 1/4"
                                 if (jenisKelaminPewaris.equals("Laki-Laki")){
                                     hartaIstri = harta * 2/8
-                                    bagianAyah = "1/6 → 3/8"
-                                    hartaAyah = harta * 3/8
-                                    bagianIbu = "1/6 → 3/8"
-                                    hartaIbu = harta * 3/8
+                                    bagianAyah = "Ashobah"
+                                    hartaAyah = harta * 4/8
+                                    bagianIbu = "U"
+                                    hartaIbu = harta * 2/8
                                 }else if(jenisKelaminPewaris.equals("Perempuan")){
-                                    hartaSuami = harta*(2.0/4.0)
-                                    bagianAyah = "1/6 → 1/4"
-                                    hartaAyah = harta * 1/4
-                                    bagianIbu = "1/6 → 1/4"
-                                    hartaIbu = harta * 1/4
+                                    hartaSuami = harta*(3.0/6.0)
+                                    bagianAyah = "Ashobah"
+                                    hartaAyah = harta * 2/6
+                                    bagianIbu = "U"
+                                    hartaIbu = harta * 1/6
                                 }
                             }
                         }else if(cucuPerempuan == 1 && cucuLaki == 0){

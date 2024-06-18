@@ -6622,10 +6622,10 @@ fun TidakAdaSuamiDanIstriSamaDenganNolLogic(
                     if ((adaSaudaraSeayahSeibu == 0 && adaSaudariSeayahSeibu == 0) || (adaSaudaraSeayahSeibu >= 1 && adaSaudariSeayahSeibu == 0) || (adaSaudaraSeayahSeibu == 0 && adaSaudariSeayahSeibu >= 1) || (adaSaudaraSeayahSeibu >= 1 && adaSaudariSeayahSeibu >=1 )){
                         if (cucuLaki == 0 && cucuPerempuan == 0){
                             if (!adaIbunyaIbu || adaIbunyaIbu){
-                                bagianAyah = "1/6 → 1/2"
-                                hartaAyah = harta * 1/2
-                                bagianIbu = "1/6 → 1/2"
-                                hartaIbu = harta * 1/2
+                                bagianAyah = "Ashobah"
+                                hartaAyah = harta * 2/3
+                                bagianIbu = "1/3 → 1/3"
+                                hartaIbu = harta * 1/3
                             }
                         }else if(cucuPerempuan == 1 && cucuLaki == 0){
                             if (!adaIbunyaIbu || adaIbunyaIbu){
