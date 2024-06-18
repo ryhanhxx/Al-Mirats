@@ -69,9 +69,9 @@
     <string name="txt_title">Enter the title</string>
     <string name="txt_ayah">Father</string>
     <string name="txt_ibu">Mother</string>
-    <string name="txt_ayah_dari_ayah">Father\'s father</string>
-    <string name="txt_ibu_dari_ayah">Mother\'s father</string>
-    <string name="txt_ibu_dari_ibu">Mother\'s Mother</string>
+    <string name="txt_ayah_dari_ayah">Father\'s father (Grandmother)</string>
+    <string name="txt_ibu_dari_ayah">Mother\'s father (Grandfather)</string>
+    <string name="txt_ibu_dari_ibu">Mother\'s Mother (Grandmother)</string>
     <string name="txt_suami">Husband</string>
     <string name="txt_istri">Wife</string>
     <string name="txt_saudara_seayah_seibu">Brother</string>
