@@ -97,7 +97,7 @@ class HartaActivity : AppCompatActivity() {
                 binding.inputBiayaPerawatanJenazah.text.toString().toLongOrNull() ?: 0
             val wasiat = binding.inputWasiat.text.toString().toLongOrNull() ?: 0
             val hutang = binding.inputHutang.text.toString().toLongOrNull() ?: 0
-            val hartaBersih = harta - hutang - wasiat - biayaPerawatanJenazah
+            val hartaBersih = harta - hutang - biayaPerawatanJenazah - wasiat
             if (hartaBersih <= 0 || harta <= hutang || wasiat >= ((1.0 / 3.0) * (harta - hutang))) {
                 if (hartaBersih <= 0) {
                     Toast.makeText(this, "Harta habis!", Toast.LENGTH_SHORT).show()
