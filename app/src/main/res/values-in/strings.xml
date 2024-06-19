@@ -44,7 +44,7 @@
     <string name="txt_total">Total Harta</string>
     <string name="txt_hint_harta">Masukkan Harta Pewaris</string>
     <string name="txt_hint_hutang">Masukkan Hutang Pewaris</string>
-    <string name="txt_wasiat">Wasiat Pewaris</string>
+    <string name="txt_wasiat">Wasiat Pewaris (Maksimal ⅓ Harta Waris)</string>
     <string name="txt_hint_wasiat">Masukkan Wasiat Pewaris</string>
     <string name="txt_hint_jenazah">Masukkan Perawatan Jenazah</string>
     <string name="txt_selanjutnya">Selanjutnya</string>
@@ -141,7 +141,7 @@
     <string name="heading_materi_8">Ashobah dan Mahjub</string>
     <string name="desc_materi_8">Ashabah dari segi istilah bermakna ahli waris yang tidak mendapatkan bagian tertentu tetapi mendapatkan bagian sisa dari pihak yang mendapatkan bagian tertentu (dzawil furudh).\n\nMahjub yaitu ahli waris yang terhalang oleh ahli waris yang dekat hubungan kekerabatannya. Jika tidak ada hambatan, maka mahjub tersebut berhak mendapatkan warisan.</string>
     <string name="subheading_materi_8">Baitul Mal</string>
-    <string name="subdesc_materi_8">Organisasi yang dikenal sebagai Baitul Mal, juga dikenal sebagai al-jihat, bertugas mengelola seluruh aset publik, termasuk pendapatan dan pengeluaran pemerintah.</string>
+    <string name="subdesc_materi_8">Balai Harta Keagamaan. \n\n Bila pewaris tidak meninggalkan ahli waris sama sekali atau tidak diketauhi maka harta tersebut atas putusan Pengadilan Agama diserahkan kepada Baitul Mal untuk kepentingan agaman islam dan kesejahteraan umum.</string>
 
     <!--    TODO: TUTORIAL-->
     <string name="title_tutorial_1">Panduan Penggunaan Kalkulator</string>

@@ -44,7 +44,7 @@
     <string name="txt_total">Total Assets</string>
     <string name="txt_hint_harta">Enter the assets</string>
     <string name="txt_hint_hutang">Enter the debt</string>
-    <string name="txt_wasiat">Testament</string>
+    <string name="txt_wasiat">Testament (Maximum ⅓ Total Assets)</string>
     <string name="txt_hint_wasiat">Enter the testment</string>
     <string name="txt_hint_jenazah">Enter mortuary care</string>
     <string name="txt_selanjutnya">Next</string>
@@ -140,7 +140,7 @@
     <string name="heading_materi_8">Ashobah and Mahjub</string>
     <string name="desc_materi_8">Ashabah in terms of terms means heirs who do not get a certain share but get the remaining part of the party who gets a certain share.\n\nA closely related heir is blocking Mahjub. Mahjub is entitled to inherit under the circumstances that there are no barriers.</string>
     <string name="subheading_materi_8">Baitul Mal</string>
-    <string name="subdesc_materi_8">Baitul Mal, alternatively known as al-jihad, is the organization of public assets management, comprising the revenues and expenditures of the government.</string>
+    <string name="subdesc_materi_8">Religious Hall Treasures. If the heir leaves absolutely no heir or is not identifiable, then the assets, according to the discretion of the Religious Court, are transferred to Baitul Mal for the interest of Islamic religion and general welfare.</string>
 
     <!--    TODO: TUTORIAL-->
     <string name="title_tutorial_1">Calculator Usage Guide</string>
