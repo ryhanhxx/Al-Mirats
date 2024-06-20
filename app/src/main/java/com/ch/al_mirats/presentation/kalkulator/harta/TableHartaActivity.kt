@@ -40,7 +40,7 @@ class TableHartaActivity : AppCompatActivity() {
         val angkaBiayaPerawatanJenazah =
             ConvertToRupiah().convertToRupiahFormat(biayaPerawatanJenazah.toDouble())
         val angkaHartaBersih =
-            ConvertToRupiah().convertToRupiahFormat((harta - hutang - wasiat - biayaPerawatanJenazah).toDouble())
+            ConvertToRupiah().convertToRupiahFormat((harta - hutang - biayaPerawatanJenazah - wasiat).toDouble())
 
         val fragmentDefault = TableHartaDefaultFragment()
         fragmentDefault.setData(
