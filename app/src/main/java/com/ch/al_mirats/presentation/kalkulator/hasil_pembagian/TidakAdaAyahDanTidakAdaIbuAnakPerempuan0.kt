@@ -1178,7 +1178,7 @@ fun TidakAdaAyahDanTidakAdaIbuAnakPerempuan0Logic(
                             }
                         }
                     }else if(cucuLaki >= 1 && cucuPerempuan == 0){
-                        bagianSaudariSeayahSeibu = "mahjub"
+                        bagianSaudariSeayahSeibu = "Mahjub"
                         if (!adaIbunyaIbu){
                             bagianSuami = "1/4 → 3/12"
                             bagianIstri = "1/8 → 3/24"
@@ -1217,7 +1217,7 @@ fun TidakAdaAyahDanTidakAdaIbuAnakPerempuan0Logic(
                             }
                         }
                     }else if(cucuLaki >= 1 && cucuPerempuan >= 1){
-                        bagianSaudariSeayahSeibu = "mahjub"
+                        bagianSaudariSeayahSeibu = "Mahjub"
                         bagianCucuLaki = "Ashobah"
                         bagianCucuPerempuan = "Ashobah"
                         if (!adaIbunyaIbu){
@@ -1432,7 +1432,7 @@ fun TidakAdaAyahDanTidakAdaIbuAnakPerempuan0Logic(
                             }
                         }
                     }else if(cucuLaki >= 1 && cucuPerempuan >= 1){
-                        bagianSaudariSeayahSeibu = "mahjub"
+                        bagianSaudariSeayahSeibu = "Mahjub"
                         bagianCucuLaki = "Ashobah"
                         bagianCucuPerempuan = "Ashobah"
                         if (!adaIbunyaIbu){

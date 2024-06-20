@@ -219,24 +219,24 @@ class HasilKalkulatorActivity : AppCompatActivity() {
             }
             if (adaAyahnyaAyah) {
                 data.add(
-                    WarisData("Ayahnya ayah", bagianAyahnyaAyah, 1,
+                    WarisData("Ayah dari ayah (Kakek)", bagianAyahnyaAyah, 1,
                         ConvertToRupiah().convertToRupiahFormat(hartaAyahnyaAyah), ConvertToRupiah().convertToRupiahFormat(hartaAyahnyaAyah), keterangan)
                 )
             }
             if (adaIbunyaAyah) {
-                data.add(WarisData("Ibunya ayah", bagianIbunyaAyah, 1,
+                data.add(WarisData("Ibu dari ayah (Nenek)", bagianIbunyaAyah, 1,
                     ConvertToRupiah().convertToRupiahFormat(hartaIbunyaAyah), ConvertToRupiah().convertToRupiahFormat(hartaIbunyaAyah), keterangan))
             }
             if (adaSaudaraSeayahSeibu >= 1) {
-                data.add(WarisData("Saudara seayah-seibu", bagianSaudaraSeayahSeibu, adaSaudaraSeayahSeibu,
+                data.add(WarisData("Saudara sekandung", bagianSaudaraSeayahSeibu, adaSaudaraSeayahSeibu,
                     ConvertToRupiah().convertToRupiahFormat(hartaSaudaraSeayahSeibu), ConvertToRupiah().convertToRupiahFormat(hartaSaudaraSeayahSeibu/adaSaudaraSeayahSeibu), keterangan))
             }
             if (adaSaudariSeayahSeibu >= 1) {
-                data.add(WarisData("Saudari seayah-seibu", bagianSaudariSeayahSeibu, adaSaudariSeayahSeibu,
+                data.add(WarisData("Saudari sekandung", bagianSaudariSeayahSeibu, adaSaudariSeayahSeibu,
                     ConvertToRupiah().convertToRupiahFormat(hartaSaudariSeayahSeibu), ConvertToRupiah().convertToRupiahFormat(hartaSaudariSeayahSeibu/adaSaudariSeayahSeibu), keterangan))
             }
             if (adaIbunyaIbu) {
-                data.add(WarisData("Ibunya Ibu", bagianIbunyaIbu, 1,
+                data.add(WarisData("Ibu dari ibu (Nenek)", bagianIbunyaIbu, 1,
                     ConvertToRupiah().convertToRupiahFormat(hartaIbunyaIbu), ConvertToRupiah().convertToRupiahFormat(hartaIbunyaIbu), keterangan))
             }
             if (anakLaki >= 1) {
