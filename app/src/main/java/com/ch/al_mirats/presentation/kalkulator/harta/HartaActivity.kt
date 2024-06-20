@@ -98,14 +98,14 @@ class HartaActivity : AppCompatActivity() {
             val wasiat = binding.inputWasiat.text.toString().toLongOrNull() ?: 0
             val hutang = binding.inputHutang.text.toString().toLongOrNull() ?: 0
             val hartaBersih = harta - hutang - biayaPerawatanJenazah - wasiat
-            if (hartaBersih <= 0 || harta <= hutang || wasiat >= ((1.0 / 3.0) * (harta - hutang))) {
+            if (hartaBersih <= 0 || harta <= hutang || wasiat >= ((1.0 / 3.0) * (harta - hutang - biayaPerawatanJenazah))) {
                 if (hartaBersih <= 0) {
                     Toast.makeText(this, "Harta habis!", Toast.LENGTH_SHORT).show()
                 } else if (wasiat > 0) {
-                    if (wasiat >= ((1.0 / 3.0) * (harta - hutang))) {
+                    if (wasiat >= ((1.0 / 3.0) * (harta - hutang - biayaPerawatanJenazah))) {
                         Toast.makeText(
                             this,
-                            "Wasiat tidak boleh lebih dari 1/3 setelah Harta dikurang dengan Hutang!",
+                            "Wasiat tidak boleh lebih dari 1/3",
                             Toast.LENGTH_SHORT
                         ).show()
                     }
