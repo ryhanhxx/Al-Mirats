@@ -90,7 +90,6 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto"
                     android:justificationMode="inter_word"
-                    android:padding="4dp"
                     android:textSize="16sp"
                     tools:text="Description Material" />
 
@@ -117,7 +116,6 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto"
                     android:justificationMode="inter_word"
-                    android:padding="4dp"
                     android:textSize="16sp"
                     tools:text="Source" />
             </androidx.appcompat.widget.LinearLayoutCompat>

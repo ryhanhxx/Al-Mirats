@@ -25,7 +25,16 @@
     <string name="txt_klien">Klien</string>
     <string name="txt_nama_klien">Dr. H. Karimulloh, M.A</string>
     <string name="txt_sumber">Sumber Konten:</string>
-    <string name="txt_sumber_desc"><![CDATA[Kementrian Agama Republik Indonesia 2022. Al-Quran Digital. \nSupradiin.2020Fikih Mewaris & Hukum Kewarisan (Studi Analsisi Perbandingan)Sulawesi Selatan. Pustaka Almaida.]]></string>
+    <string name="txt_sumber_desc">Hassan Saleh. Kajian Fiqh Nabawi dan Fiqh Kontemporer. Jakarta: PT Raja Grafindo Persada, 2008;
+        \n\nIrma Devita Purnamasari. Kiat-Kiat Cerdas, Mudah dan Bijak Memahami Masalah Hukum Waris. Bandung: Penerbit Kaifa, 2012;
+        \n\nMaimun Nawawi. Pengantar Hukum Kewarisan Islam. Surabaya: Pustaka Radja, 2016;
+        \n\nSajuti Thalib. Hukum Kewarisan Islam di Indonesia, Jakarta: PT. Bina Aksara, 1984;
+        \n\nSudarsono. Hukum Perkawinan Nasional. Jakarta: Rineka Cipta, 2010.
+        \n\nAbu Muslim. Faraidh: Ayat Al Qur’an Seputar Warisan, 2022.
+        \n\nAhmad Azhar Basyir. Hukum Waris Islam. Yogyakarta: Penerbit Ekonisia, 2001.
+        \n\nMohammad Daud Ali. 2004. Hukum Islam: Pengantar Ilmu Hukum dan Tata Hukum Islam di Indonesia, Edisi Keenam. Jakarta: PT. RajaGrafindo Persada.
+        \n\nSayuti Thalib. 2016. Hukum Kewarisan Islam di Indonesia. Jakarta: Sinar Grafika.
+        \n\nan-nur.ac.id. Pengertian Ashabah dan Pembagiannya, 2022.</string>
     <string name="txt_kalkulator">Kalkulator Waris</string>
     <string name="txt_about">Tentang</string>
     <string name="txt_materi_teratas">Materi Teratas</string>
@@ -139,7 +148,7 @@
     <string name="title_materi_8">Pengertian Ashobah, Mahjub dan Baitul Mal</string>
     <string name="heading_materi_8">Ashobah, Mahjub dan Baitul Mal</string>
     <string name="desc_materi_8">Ashabah dari segi istilah bermakna ahli waris yang tidak mendapatkan bagian tertentu tetapi mendapatkan bagian sisa dari pihak yang mendapatkan bagian tertentu (dzawil furudh).\n\nMahjub yaitu ahli waris yang terhalang oleh ahli waris yang dekat hubungan kekerabatannya. Jika tidak ada hambatan, maka mahjub tersebut berhak mendapatkan warisan.
-    \n\nBaitul Mal adalah Balai Harta Keagamaan. Bila pewaris tidak meninggalkan ahli waris sama sekali atau tidak diketauhi maka harta tersebut atas putusan Pengadilan Agama diserahkan kepada Baitul Mal untuk kepentingan agaman islam dan kesejahteraan umum.</string>
+        \n\nBaitul Mal adalah Balai Harta Keagamaan. Bila pewaris tidak meninggalkan ahli waris sama sekali atau tidak diketauhi maka harta tersebut atas putusan Pengadilan Agama diserahkan kepada Baitul Mal untuk kepentingan agaman islam dan kesejahteraan umum.</string>
     <string name="source_materi_8">https://an-nur.ac.id/ashabah-pengertian-dan-pembagiannya/\nhttps://eprints.walisongo.ac.id/id/eprint/6717/3/BAB%20II.pdf\n</string>
 
     <!--    TODO: TUTORIAL-->
@@ -178,5 +187,6 @@
         \n\nSumber: ChatGPT</string>
     <string name="desc_fatwa_6">Wasiat dalam Islam diperbolehkan, tetapi ada batasan dan ketentuan tertentu yang harus diikuti. Wasiat hanya dapat mencakup sepertiga dari harta peninggalan dan tidak boleh merugikan ahli waris yang sudah ditentukan oleh hukum waris Islam. Dalam hal ini, wasiat tidak wajib dilaksanakan sepenuhnya, namun harus mematuhi ketentuan-ketentuan tersebut.
         \n\nSumber: ChatGPT</string>
+    <string name="txt_copyright">Copyright © by Rumah Fiqih Indonesia</string>
 
 </resources>

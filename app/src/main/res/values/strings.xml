@@ -25,7 +25,16 @@
     <string name="txt_klien">Client:</string>
     <string name="txt_nama_klien">Dr. H. Karimulloh, M.A</string>
     <string name="txt_sumber">Content Source:</string>
-    <string name="txt_sumber_desc"><![CDATA[Kementrian Agama Republik Indonesia 2022. Al-Quran Digital. \nSupradiin.2020Fikih Mewaris & Hukum Kewarisan (Studi Analsisi Perbandingan)Sulawesi Selatan. Pustaka Almaida.]]></string>
+    <string name="txt_sumber_desc">Hassan Saleh. Kajian Fiqh Nabawi dan Fiqh Kontemporer. Jakarta: PT Raja Grafindo Persada, 2008;
+        \n\nIrma Devita Purnamasari. Kiat-Kiat Cerdas, Mudah dan Bijak Memahami Masalah Hukum Waris. Bandung: Penerbit Kaifa, 2012;
+        \n\nMaimun Nawawi. Pengantar Hukum Kewarisan Islam. Surabaya: Pustaka Radja, 2016;
+        \n\nSajuti Thalib. Hukum Kewarisan Islam di Indonesia, Jakarta: PT. Bina Aksara, 1984;
+        \n\nSudarsono. Hukum Perkawinan Nasional. Jakarta: Rineka Cipta, 2010.
+        \n\nAbu Muslim. Faraidh: Ayat Al Qur’an Seputar Warisan, 2022.
+        \n\nAhmad Azhar Basyir. Hukum Waris Islam. Yogyakarta: Penerbit Ekonisia, 2001.
+        \n\nMohammad Daud Ali. 2004. Hukum Islam: Pengantar Ilmu Hukum dan Tata Hukum Islam di Indonesia, Edisi Keenam. Jakarta: PT. RajaGrafindo Persada.
+        \n\nSayuti Thalib. 2016. Hukum Kewarisan Islam di Indonesia. Jakarta: Sinar Grafika.
+        \n\nan-nur.ac.id. Pengertian Ashabah dan Pembagiannya, 2022.</string>
     <string name="txt_kalkulator">Inheritance Calculator</string>
     <string name="txt_about">About</string>
     <string name="txt_materi_teratas">Top Material</string>
@@ -176,5 +185,6 @@
         \n\nSource: ChatGPT</string>
     <string name="desc_fatwa_6">In Islam, you can definitely make a will, but there are some ground rules. You can only give away a third of your stuff, and it cannot mess with who gets what according to Islamic inheritance law. Basically, your will cannot leave your loved ones (heirs) out in the cold.
         \n\nSource: ChatGPT</string>
+    <string name="txt_copyright">Copyright © by Rumah Fiqih Indonesia</string>
 
 </resources>
