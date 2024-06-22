@@ -18,6 +18,7 @@ import com.ch.al_mirats.databinding.ActivityHartaBinding
 import com.ch.al_mirats.presentation.kalkulator.data_waris.AppDatabase
 import com.ch.al_mirats.presentation.kalkulator.data_waris.WarisDataDao
 import com.ch.al_mirats.presentation.main.MainActivity
+import com.ch.al_mirats.utils.ConvertToRupiah
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
@@ -98,14 +99,15 @@ class HartaActivity : AppCompatActivity() {
             val wasiat = binding.inputWasiat.text.toString().toLongOrNull() ?: 0
             val hutang = binding.inputHutang.text.toString().toLongOrNull() ?: 0
             val hartaBersih = harta - hutang - biayaPerawatanJenazah - wasiat
-            if (hartaBersih <= 0 || harta <= hutang || wasiat >= ((1.0 / 3.0) * (harta - hutang - biayaPerawatanJenazah))) {
+            val hartaBersihSementara = (1.0 / 3.0) * (harta - hutang - biayaPerawatanJenazah)
+            if (hartaBersih <= 0 || harta <= hutang || wasiat > ((1.0 / 3.0) * (harta - hutang - biayaPerawatanJenazah))) {
                 if (hartaBersih <= 0) {
                     Toast.makeText(this, "Harta habis!", Toast.LENGTH_SHORT).show()
                 } else if (wasiat > 0) {
-                    if (wasiat >= ((1.0 / 3.0) * (harta - hutang - biayaPerawatanJenazah))) {
+                    if (wasiat > ((1.0 / 3.0) * (harta - hutang - biayaPerawatanJenazah))) {
                         Toast.makeText(
                             this,
-                            "Wasiat tidak boleh lebih dari 1/3",
+                            "Wasiat tidak boleh lebih dari " + convertToRupiahFormat2(hartaBersihSementara) ,
                             Toast.LENGTH_SHORT
                         ).show()
                     }
@@ -255,5 +257,15 @@ class HartaActivity : AppCompatActivity() {
         val intent = Intent(this, MainActivity::class.java)
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
         startActivity(intent)
+    }
+
+    fun convertToRupiahFormat2(angka: Double): String {
+        val localeID = Locale("id", "ID")
+        val currencyFormat = NumberFormat.getCurrencyInstance(localeID)
+
+        currencyFormat.currency = Currency.getInstance("IDR")
+        currencyFormat.maximumFractionDigits = 0
+
+        return "Rp. " + currencyFormat.format(angka).substring(2)
     }
 }
