@@ -21,7 +21,6 @@ class WarisAdapterDefault(private val dataList: ArrayList<WarisData>) : Recycler
         holder.jumlahOrangTextView.text = data.jumlahOrang.toString()
         holder.hartaPerOrangTextView.text = data.hartaPerOrang
         holder.hartaBagian.text = data.hartaBagian
-        holder.keterangan.text = data.keterangan
     }
 
     override fun getItemCount(): Int {

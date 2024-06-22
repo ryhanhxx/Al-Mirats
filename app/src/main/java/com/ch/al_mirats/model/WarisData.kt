@@ -6,5 +6,4 @@ data class WarisData(
     val jumlahOrang: Int,
     val hartaBagian: String,
     val hartaPerOrang: String,
-    val keterangan: String
 )

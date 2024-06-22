@@ -11,5 +11,4 @@ class WarisViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
     val jumlahOrangTextView: TextView = itemView.findViewById(R.id.txt_jumlahOrang)
     val hartaPerOrangTextView: TextView = itemView.findViewById(R.id.txt_hartaPerOrang)
     val hartaBagian: TextView = itemView.findViewById(R.id.txt_hartaBagian)
-    val keterangan: TextView = itemView.findViewById(R.id.txt_keterangan)
 }

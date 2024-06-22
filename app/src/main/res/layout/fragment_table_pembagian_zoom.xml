@@ -80,16 +80,6 @@
                     android:gravity="center"
                     android:text="@string/txt_harta_perorang"
                     android:textColor="@color/white" />
-
-                <TextView
-                    style="@style/TeksTablePembagianZoom"
-                    android:layout_width="120dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginStart="4dp"
-                    android:background="@drawable/table_primary"
-                    android:gravity="center"
-                    android:text="@string/txt_keterangan"
-                    android:textColor="@color/white" />
             </LinearLayout>
 
             <androidx.recyclerview.widget.RecyclerView
