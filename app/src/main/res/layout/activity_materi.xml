@@ -93,6 +93,7 @@
                     android:padding="4dp"
                     android:textSize="16sp"
                     tools:text="Description Material" />
+
             </androidx.appcompat.widget.LinearLayoutCompat>
 
             <androidx.appcompat.widget.LinearLayoutCompat
@@ -102,23 +103,23 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/tv_subHeading"
+                    android:id="@+id/tv_heading_source"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_medium"
                     android:textColor="?android:textColorPrimary"
                     android:textSize="18sp"
-                    tools:text="Subtitle Material" />
+                    android:text="@string/source" />
 
                 <TextView
-                    android:id="@+id/tv_subDesc"
+                    android:id="@+id/tv_source"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto"
                     android:justificationMode="inter_word"
                     android:padding="4dp"
                     android:textSize="16sp"
-                    tools:text="Description Material" />
+                    tools:text="Source" />
             </androidx.appcompat.widget.LinearLayoutCompat>
 
 <!--            <TextView-->

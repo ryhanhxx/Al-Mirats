@@ -11,7 +11,6 @@ data class Materi(
     val title: String,
     val heading: String,
     val desc: String,
-    val subHeading: String,
-    val subDesc: String,
+    val source: String,
     val imgUrl2: String,
 ) : Parcelable

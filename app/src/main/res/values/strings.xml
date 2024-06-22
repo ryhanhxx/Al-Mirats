@@ -80,67 +80,65 @@
     <string name="txt_anak_perempuan">Daughter</string>
     <string name="txt_cucu_laki">Grand Son</string>
     <string name="txt_cucu_perempuan">Grand Daughter</string>
+    <string name="txt_mail">*Send feedback via Gmail method.</string>
+    <string name="source">Source</string>
 
-    <!--    TODO: MATERI-->
+    <!--    TODO: MATERI -->
     <string name="title_materi_1">What is Inheritance</string>
     <string name="heading_materi_1">Definition Inheritance</string>
-    <string name="desc_materi_1">The word "inheritance" means the property or money left by the deceased. Inheritance will be constituted of many things, such as money, investments, or any other value. The contrasts that are here are between the words "inheritance" and the word "will." This means that inheritance is a property given by law, whether Islamic or civil. A will, on the other hand, is a document that explains the individual desires of the property owner and must be executed by the relevant law.</string>
-    <string name="subheading_materi_1">Inheritance According to Islamic Law</string>
-    <string name="subdesc_materi_1">The provisions related to inheritance under the principles of the Qur\'an, which are provided for in Islamic law, provide specific provisions. The laws would generally relate to the disposal of the assets upon the death of a person to their successors. In an Islamic inheritance, the system is based on considerations of justice. In Islamic law, the heirs are a husband, wife, children, parents, and siblings. The main aim of the Islamic inheritance system is that the family relationships and the level of dependence of the beneficiaries justify the level of inheritance assets received.</string>
+    <string name="desc_materi_1">The word "inheritance" means the property or money left by the deceased. Inheritance will be constituted of many things, such as money, investments, or any other value. The contrasts that are here are between the words "inheritance" and the word "will." This means that inheritance is a property given by law, whether Islamic or civil. A will, on the other hand, is a document that explains the individual desires of the property owner and must be executed by the relevant law.
+        \n\n The provisions related to inheritance under the principles of the Qur an, which are provided for in Islamic law, provide specific provisions. The laws would generally relate to the disposal of the assets upon the death of a person to their successors. In an Islamic inheritance, the system is based on considerations of justice. In Islamic law, the heirs are a husband, wife, children, parents, and siblings. The main aim of the Islamic inheritance system is that the family relationships and the level of dependence of the beneficiaries justify the level of inheritance assets received.</string>
+    <string name="source_materi_1">https://www.prudentialsyariah.co.id/id/pulse/article/apa-itu-warisan/#:~:text=Pengertian%20Warisan,investasi%2C%20dan%20benda%20berharga%20lainnya.</string>
 
     <string name="title_materi_2">Verses Explaining About Inheritance</string>
     <string name="heading_materi_2">Verses from the Qur-an about Inheritance</string>
     <string name="desc_materi_2">There are several verses in the Qur-an that explain the distribution of inheritance. Among them is the word of Allah\n
          \nلِلرِّجَالِ نَصِيبٌ مِمَّا تَرَكَ الْوَالِدَانِ وَالْأَقْرَبُون َ وَلِلنِّسَاءِ نَصِيبٌ مِمَّا تَرَكَ الْوَالِدَانِ وَالْأَقْروبَُُ \n
-         \nFor men there is the right to share in the assets inherited from their parents and relatives, and for women there is the right to share (also) in the assets inherited from their parents and relatives, whether a little or a lot according to the portion that has been determined. (QS. An Nisaa : 7)</string>
-    <string name="subheading_materi_2">Reference</string>
-    <string name="subdesc_materi_2">In the pre-Islamic period, the Arabs being unreasonable and rude in behavior used to inherit the stronger ones like men. The weak people, like women and children, remain ignorant just on behalf of being cowardly. According to their opinion, men are those who make war and peace, and besides, men only have the right to obtain the assets they get through their endless efforts. Thus, the Most Merciful, the All-wise, wanted a law that brings everybody on one level about men and women, strong people and weak people, a law initiated by Ar-Rabb. (Taisir Al-Karim Ar-Rahman fi Tafsir Kalam Al-Mannan, Page 201</string>
+         \nFor men there is the right to share in the assets inherited from their parents and relatives, and for women there is the right to share (also) in the assets inherited from their parents and relatives, whether a little or a lot according to the portion that has been determined. (QS. An Nisaa : 7)
+         \n\n In the pre-Islamic period, the Arabs being unreasonable and rude in behavior used to inherit the stronger ones like men. The weak people, like women and children, remain ignorant just on behalf of being cowardly. According to their opinion, men are those who make war and peace, and besides, men only have the right to obtain the assets they get through their endless efforts. Thus, the Most Merciful, the All-wise, wanted a law that brings everybody on one level about men and women, strong people and weak people, a law initiated by Ar-Rabb. (Taisir Al-Karim Ar-Rahman fi Tafsir Kalam Al-Mannan, Page 201</string>
+    <string name="source_materi_2">https://alukhuwah.com/2022/06/24/faraidh-ayat-al-quran-seputar-warisan/#:~:text=Dahulu%20bangsa%20Arab%20di%20masa,kepada%20laki%2Dlaki%20yang%20kuat.</string>
 
     <string name="title_materi_3">Which Parties Have the Right to Receive Inheritance</string>
     <string name="heading_materi_3">the party entitled to receive it</string>
-    <string name="desc_materi_3">Those who receive the inheritance are called heirs, and Islamic inheritance law has determined the order and portion of each heir. Heirs can either consist of the nuclear family, such as children, husband, or wife, or even wider members of the family, like the parents, siblings, and even distant relatives.</string>
-    <string name="subheading_materi_3">Reference</string>
-    <string name="subdesc_materi_3">1. Al-Qur\'an, Surah An-Nisa (4:11-12)\n2. Hadis Riwayat Bukhari dan Muslim\n3. Hukum Waris Islam oleh Prof. Dr. Quraish Shihab\n4. Fatwa Majelis Ulama Indonesia (MUI) atau otoritas keagamaan setempat.</string>
+    <string name="desc_materi_3">Those who receive the inheritance are called heirs, and Islamic inheritance law has determined the order and portion of each heir. Heirs can either consist of the nuclear family, such as children, husband, or wife, or even wider members of the family, like the parents, siblings, and even distant relatives.
+        \n\nReference\n1. Al-Qur an, Surah An-Nisa (4:11-12)\n2. Hadith History of Bukhari and Muslim\n3. Islamic Inheritance Law by Prof. Dr. Quraish Shihab\n4. Fatwa of the Indonesian Ulema Council (MUI) or local religious authority.</string>
+    <string name="source_materi_3"></string>
 
     <string name="title_materi_4">What is the Structure of the Main Inheritance Division</string>
     <string name="heading_materi_4">Section for primary heirs</string>
-    <string name="desc_materi_4">A. Husband: He is due a part of the inheritance from the estate of the wife who has passed away if the wife has no children or any descendant from her children. The shares of the husband, in this case, are equal to a quarter of the wife\'s estate if she did not have children and an eighth if she has.\n
-            \nB. Wife: If the husband has no children, the share of the inheritance that has to go to the wife is from the left-over part of the deceased husband\'s assets. In the absence of children, the wife\'s share is one-fourth of the husband\'s property; in the presence of children, the share is one-eighth.\n
+    <string name="desc_materi_4">A. Husband: He is due a part of the inheritance from the estate of the wife who has passed away if the wife has no children or any descendant from her children. The shares of the husband, in this case, are equal to a quarter of the wifes estate if she did not have children and an eighth if she has.\n
+            \nB. Wife: If the husband has no children, the share of the inheritance that has to go to the wife is from the left-over part of the deceased husbands assets. In the absence of children, the wifes share is one-fourth of the husbands property; in the presence of children, the share is one-eighth.\n
             \nC. Children: The inheritance rights are excellent for children in Islam. For example, the boys get double the amount that the girls get. The amount that children get depends on the number of children that died and the number of sons and daughters surviving.\n
             \nD. Parents: The legal heirs also include parents whose portion would be determined depending on if their deceased child had children.\n
             \nE. Siblings: Both brothers and sisters, whether few or many in number, inherit a portion of the share of the property left by a brother or sister.</string>
-    <string name="subheading_materi_4"></string>
-    <string name="subdesc_materi_4"></string>
+    <string name="source_materi_4">https://www.hukumonline.com/klinik/a/cara-hitung-pembagian-harta-warisan-anak-menurut-hukum-islam-lt5b7021295093e/</string>
 
     <string name="title_materi_5">Whose Parties are Blocked by the Main Heirs</string>
     <string name="heading_materi_5">Whose Party is Obstructed</string>
-    <string name="desc_materi_5">In Islam, there are some folks who can\'t inherit unless they\'re the absolute last ones left. These folks are called "mahrum." They can\'t get the main share of the inheritance if there are other relatives around. Here\'s why some people might be in this category:\n1. Not Muslim: If someone isn\'t Muslim, they usually can\'t inherit from a Muslim relative. This includes parents, siblings, or even kids who haven\'t converted to Islam.\n\n2. Killer: If you kill someone who might inherit, you\'re automatically kicked out of the inheritance line. There\'s a whole rule about it called "murder through inheritance rights." Basically, don\'t kill for money!\n\n3. Guardian: If you\'re chosen in a will to take care of inherited stuff, that doesn\'t mean you get to keep it. You\'re just there to manage things, not take them for yourself.</string>
-    <string name="subheading_materi_5">Reference</string>
-    <string name="subdesc_materi_5">A reference website that can provide further information regarding Islamic inheritance law is the Fatwa Institute of the Indonesian Ulema Council (MUI):
-        https://www.fatwamui.or.id/</string>
+    <string name="desc_materi_5">In Islam, there are some folks who cant inherit unless they are the absolute last ones left. These folks are called "mahrum." They cant get the main share of the inheritance if there are other relatives around. Here is why some people might be in this category:\n1. Not Muslim: If someone isnt Muslim, they usually cant inherit from a Muslim relative. This includes parents, siblings, or even kids who havent converted to Islam.\n\n2. Killer: If you kill someone who might inherit, you are automatically kicked out of the inheritance line. Theres a whole rule about it called "murder through inheritance rights." Basically, dont kill for money!\n\n3. This statement refers to a time in history when people were forced into servitude.  People who were enslaved had no control over their lives and couldnt build a future for themselves or their families.</string>
+    <string name="source_materi_5">https://www.hukumonline.com/klinik/a/sebab-penghalang-waris-dalam-hukum-islam-lt50d46b1276aca/</string>
 
     <string name="title_materi_6">Understanding Aul and Radd in Waris</string>
-    <string name="heading_materi_6">What is meant by Aul</string>
-    <string name="desc_materi_6">Aul is a recalculation carried out to ensure that all heirs receive their fair share in accordance with Islamic law.\n\nAul\'s example is:\nThe share of a husband who should get half ½ can change to one third ⅓ in certain circumstances, such as if the subject matter is increased from the original six 6 to nine 9. So in this case a husband who should get 3/ 6 half only gets 3/9 one third.</string>
-    <string name="subheading_materi_6">What is meant by Radd</string>
-    <string name="subdesc_materi_6">Radd, on the other hand, is the return of all or part of the inherited assets received by unrightful heirs.\n\nFor example, in a situation (in the distribution of inheritance rights) the heirs have received their respective rights, but it turns out that the inheritance still remains while there is no other relative as ashabah, then the remaining inheritance is given or returned again. to the ashhabul furudh according to their respective parts.</string>
+    <string name="heading_materi_6">What is meant by Aul and Radd</string>
+    <string name="desc_materi_6">Aul is a recalculation carried out to ensure that all heirs receive their fair share in accordance with Islamic law.\n\nAuls example is:\nThe share of a husband who should get half ½ can change to one third ⅓ in certain circumstances, such as if the subject matter is increased from the original six 6 to nine 9. So in this case a husband who should get 3/ 6 half only gets 3/9 one third.
+    \n\nRadd, on the other hand, is the return of all or part of the inherited assets received by unrightful heirs.\n\nFor example, in a situation (in the distribution of inheritance rights) the heirs have received their respective rights, but it turns out that the inheritance still remains while there is no other relative as ashabah, then the remaining inheritance is given or returned again. to the ashhabul furudh according to their respective parts.</string>
+    <string name="source_materi_6">https://www.hukumonline.com/klinik/a/pengaturan-iaul-i-dan-irad-i-dalam-kewarisan-islam-lt59658753e1272/</string>
 
     <string name="title_materi_7">Main Heir Section</string>
     <string name="heading_materi_7">Calculation of Main Heirs Share</string>
-    <string name="desc_materi_7">1. Distribution of inheritance to sons\na. Forever be Ashobah (remnant).\nb. Kadiah Ashobah (remainder) for men is like the share of two women.\n
-        \n2. Distribution of inheritance to daughters\na. Ashobah (Ashobah bil Ghoir) if with boys.\nb. 1/2 if alone and not with boys.\nc. 2/3 if two or more and not with boys.\n
-        \n3. Distribution of inheritance to Husband\na. 1/2 (Half), if not with children or grandchildren (Male / Female).\nb. 1/4 (Quarter), if with children or grandchildren (Male / Female).\n
-        \n4. Distribution of inheritance to Wife:\na. 1/4 (Quarter), if not with children or grandchildren (Male / Female).\nb. 1/8 (One eighth), if with children or grandchildren (Male / Female).\n
-        \n5. Distribution of inheritance to father:\na. Ashobah (remnant), if there are no children (male/female).\nb. 1/6 (One Sixth) + Ashobah, if with a son daughter/granddaughter.\nc. 1/6 (One sixth), if with sons / grandsons.\n
-        \n6. Distribution of inheritance to mother:\na. 1/3 (One third), if not with children or grandchildren, either male or female or 2 / more siblings.\nb. 1/6 (One sixth), if with children or grandchildren, either male/female or 2/more siblings.</string>
-    <string name="subheading_materi_7"></string>
-    <string name="subdesc_materi_7"></string>
+    <string name="desc_materi_7">1. If there is one daughter, she takes 1/2 share; if two or more than that jointly take 2/3 share, if the daughter is in addition to the son, then the sons share is double in proportion to one daughter.\n
+        \n2. The father takes 1/3 share in case the heir leaves no children, but if children exist then, the father can take up to one-sixth of the share.\n
+        \n3. Mother gets 1/6 share if she has children or two or more sisters or brothers. If she has no children or two or more sisters, you will get 1/3 of the share. After that, the mother gets 1/3 of what remains after the widow or widower takes together with the father.\n
+        \n4. Share of the heir: 1/2 for the widower in the absence of children and 1/4 if there are children.\n
+        \n5. Share of the heir is reduced to half if children remain and reduced to one-eighth if children are left.\n
+        \n6. For a person dying and no children and fathers in that estate, then brothers and sisters get 1/6 each of the shares. And when two or more persons are found together, they shall receive 1/3 of the share.\n
+        \n7. If a person dies leaving no children and father, and he has one biological sister or father, he will be given 1/2 share. It is that if the sister is with two or more biological or paternal sisters, then they both jointly get 2/3 share. If the sister is a partner with a biological brother or father, then the brothers share is two to one with the sister.</string>
+    <string name="source_materi_7">https://www.hukumonline.com/klinik/a/cara-hitung-pembagian-harta-warisan-anak-menurut-hukum-islam-lt5b7021295093e/</string>
 
     <string name="title_materi_8">Definition of Ashobah, Mahjub, and Baitul Mal</string>
-    <string name="heading_materi_8">Ashobah and Mahjub</string>
-    <string name="desc_materi_8">Ashabah in terms of terms means heirs who do not get a certain share but get the remaining part of the party who gets a certain share.\n\nA closely related heir is blocking Mahjub. Mahjub is entitled to inherit under the circumstances that there are no barriers.</string>
-    <string name="subheading_materi_8">Baitul Mal</string>
-    <string name="subdesc_materi_8">Religious Hall Treasures. If the heir leaves absolutely no heir or is not identifiable, then the assets, according to the discretion of the Religious Court, are transferred to Baitul Mal for the interest of Islamic religion and general welfare.</string>
+    <string name="heading_materi_8">Ashobah, Mahjub, and Baitul Mal</string>
+    <string name="desc_materi_8">Ashabah in terms of terms means heirs who do not get a certain share but get the remaining part of the party who gets a certain share.\n\nA closely related heir is blocking Mahjub. Mahjub is entitled to inherit under the circumstances that there are no barriers. \n\nReligious Hall Treasures. If the heir leaves absolutely no heir or is not identifiable, then the assets, according to the discretion of the Religious Court, are transferred to Baitul Mal for the interest of Islamic religion and general welfare.</string>
+    <string name="source_materi_8">https://an-nur.ac.id/ashabah-pengertian-dan-pembagiannya/\nhttps://eprints.walisongo.ac.id/id/eprint/6717/3/BAB%20II.pdf\n</string>
 
     <!--    TODO: TUTORIAL-->
     <string name="title_tutorial_1">Calculator Usage Guide</string>
@@ -153,25 +151,30 @@
     <string name="desc_tutorial_3">1. Press the following button to view the material in a list or grid.\n2. Select an available material to view material details.</string>
 
     <string name="title_tutorial_4">Guide How to Read About the App</string>
-    <string name="desc_tutorial_4">1. You can see various kinds of information from this application.\n2. This app lets you explore all sorts of details about it, like what it\'s for, who built it, and where they got their info.</string>
+    <string name="desc_tutorial_4">1. You can see various kinds of information from this application.\n2. This app lets you explore all sorts of details about it, like what it s for, who built it, and where they got their info.</string>
 
     <string name="title_tutorial_5">Guide on How to Read Fatwas</string>
     <string name="desc_tutorial_5">1. You can watch the fatwa video\n2. You can read the summary of the video</string>
 
     <!--    TODO: FATWA-->
-    <string name="title_fatwa_1">Haven\'t paid the fasting debt and then dies, will the heirs make up for it or what?</string>
+    <string name="title_fatwa_1">Havent paid the fasting debt and then dies, will the heirs make up for it or what?</string>
     <string name="title_fatwa_2">Can male and female inheritance be equal?</string>
     <string name="title_fatwa_3">What if the inheritance is greater for those who have contributed more to the deceased?</string>
     <string name="title_fatwa_4">Is there a verse in the Koran that requires us to divide inheritance according to Sharia?</string>
-    <string name="title_fatwa_5">What is the Law on Distributing Inheritance Not According to Allah SWT\'s Law?</string>
+    <string name="title_fatwa_5">What is the Law on Distributing Inheritance Not According to Allah SWT s Law?</string>
     <string name="title_fatwa_6">Wills for Heirs, Are They Required to Be Executed</string>
 
-    <string name="desc_fatwa_1">Most Islamic scholars agree that their loved ones (heirs) shouldn\'t have to fast for them. Fasting is a very personal act of devotion, and it can\'t be done by someone else after you\'re gone..</string>
-    <string name="desc_fatwa_2">Dividing inheritance in Islam can be complicated. Sometimes sons inherit more than daughters. Imagine a family inheritance as a pie. In certain situations, a son might get a bigger slice than a daughter. There are reasons behind this in Islamic law, but it\'s important to remember that women can still inherit property and money in Islam.</string>
-    <string name="desc_fatwa_3">Dividing inheritance in Islam is meant to be fair, following guidelines laid out in the Quran. Even if someone took care of their loved one a lot, the inheritance gets split according to these established rules. You can\'t give someone extra just because they helped out more..</string>
-    <string name="desc_fatwa_4">In the Al Qur\'an there are verses that regulate the distribution of inheritance according to sharia. One verse that explains this is in Surah An–Nisa (4:11–12):"11. Allah conveys His command to you regarding (distribution of inheritance) to your children: the share of one son is equal to the share of two daughters, and if there are more than two daughters, then they get two-thirds of the property who is left behind; and if she is only a daughter, then she will share half. And to the parents (heirs) of each of them one-sixth of the property he left behind, if he has children; and if he has no children and his parents inherit the property then his mother gets one-third. And if the one who leaves him has brothers or sisters, then each of them gets one-sixth. And if the person who leaves him has many brothers and sisters, then his sister gets one-sixth ; and to each of his brothers a portion. (That is) Allah\'s decree which He has given you; and Allah is All-Knowing, All-Wise."</string>
-    <string name="desc_fatwa_5">There are specific ways of dividing inheritance according to Allah\'s teachings in Islam. Going against those guidelines is quite a big deal; it is like changing the rules in the middle of the game. These inheritance laws are obligatory, and ignorance often causes problems on this planet and in the world hereafter.</string>
-    <string name="desc_fatwa_6">In Islam, you can definitely make a will, but there are some ground rules. You can only give away a third of your stuff, and it can\'t mess with who gets what according to Islamic inheritance law. Basically, your will can\'t leave your loved ones (heirs) out in the cold.</string>
-    <string name="txt_mail">*Send feedback via Gmail method.</string>
+    <string name="desc_fatwa_1">Most Islamic scholars agree that their loved ones (heirs) shouldnt have to fast for them. Fasting is a very personal act of devotion, and it cannot be done by someone else after you re gone.
+        \n\nSource: ChatGPT</string>
+    <string name="desc_fatwa_2">Dividing inheritance in Islam can be complicated. Sometimes sons inherit more than daughters. Imagine a family inheritance as a pie. In certain situations, a son might get a bigger slice than a daughter. There are reasons behind this in Islamic law, but its important to remember that women can still inherit property and money in Islam.
+        \n\nSource: ChatGPT</string>
+    <string name="desc_fatwa_3">Dividing inheritance in Islam is meant to be fair, following guidelines laid out in the Quran. Even if someone took care of their loved one a lot, the inheritance gets split according to these established rules. You cannot give someone extra just because they helped out more.
+        \n\nSource: ChatGPT</string>
+    <string name="desc_fatwa_4">In the Al Qur an there are verses that regulate the distribution of inheritance according to sharia. One verse that explains this is in Surah An–Nisa (4:11–12):"11. Allah conveys His command to you regarding (distribution of inheritance) to your children: the share of one son is equal to the share of two daughters, and if there are more than two daughters, then they get two-thirds of the property who is left behind, and if she is only a daughter, then she will share half. And to the parents (heirs) of each of them one-sixth of the property he left behind, if he has children, and if he has no children and his parents inherit the property then his mother gets one-third. And if the one who leaves him has brothers or sisters, then each of them gets one-sixth. And if the person who leaves him has many brothers and sisters, then his sister gets one-sixth ; and to each of his brothers a portion. (That is) Allah s decree which He has given you; and Allah is All-Knowing, All-Wise."
+        \n\nSource: ChatGPT</string>
+    <string name="desc_fatwa_5">There are specific ways of dividing inheritance according to Allah s teachings in Islam. Going against those guidelines is quite a big deal; it is like changing the rules in the middle of the game. These inheritance laws are obligatory, and ignorance often causes problems on this planet and in the world hereafter.
+        \n\nSource: ChatGPT</string>
+    <string name="desc_fatwa_6">In Islam, you can definitely make a will, but there are some ground rules. You can only give away a third of your stuff, and it cannot mess with who gets what according to Islamic inheritance law. Basically, your will cannot leave your loved ones (heirs) out in the cold.
+        \n\nSource: ChatGPT</string>
 
 </resources>
