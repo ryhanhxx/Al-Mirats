@@ -46,8 +46,8 @@ class TableHartaActivity : AppCompatActivity() {
         fragmentDefault.setData(
             angkaHarta,
             angkaHutang,
-            angkaWasiat,
             angkaBiayaPerawatanJenazah,
+            angkaWasiat,
             angkaHartaBersih
         )
         loadFragment(fragmentDefault)
@@ -57,8 +57,8 @@ class TableHartaActivity : AppCompatActivity() {
             fragment.setData(
                 angkaHarta,
                 angkaHutang,
-                angkaWasiat,
                 angkaBiayaPerawatanJenazah,
+                angkaWasiat,
                 angkaHartaBersih
             )
             loadFragment(fragment)
@@ -70,8 +70,8 @@ class TableHartaActivity : AppCompatActivity() {
             fragment.setData(
                 angkaHarta,
                 angkaHutang,
-                angkaWasiat,
                 angkaBiayaPerawatanJenazah,
+                angkaWasiat,
                 angkaHartaBersih
             )
             loadFragment(fragment)
@@ -82,8 +82,8 @@ class TableHartaActivity : AppCompatActivity() {
             val intent = Intent(this, JenisKelaminPewarisActivity::class.java)
             intent.putExtra("harta", harta)
             intent.putExtra("hutang", hutang)
-            intent.putExtra("wasiat", wasiat)
             intent.putExtra("biayaPerawatanJenazah", biayaPerawatanJenazah)
+            intent.putExtra("wasiat", wasiat)
             startActivity(intent)
         }
         buttonBack.setOnClickListener {

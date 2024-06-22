@@ -35,14 +35,14 @@ class TableHartaZoomFragment : Fragment() {
     fun setData(
         harta: String,
         hutang: String,
-        wasiat: String,
         biayaPerawatanJenazah: String,
+        wasiat: String,
         hartaBersih: String
     ) {
         this.harta = harta
         this.hutang = hutang
-        this.wasiat = wasiat
         this.biayaPerawatanJenazah = biayaPerawatanJenazah
+        this.wasiat = wasiat
         this.hartaBersih = hartaBersih
     }
 }
