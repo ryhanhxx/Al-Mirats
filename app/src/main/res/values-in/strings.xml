@@ -76,9 +76,9 @@
     <string name="txt_title">Masukkan Judul</string>
     <string name="txt_ayah">Ayah</string>
     <string name="txt_ibu">Ibu</string>
-    <string name="txt_ayah_dari_ayah">Ayah dari ayah (Kakek)</string>
-    <string name="txt_ibu_dari_ayah">Ibu dari ayah (Nenek)</string>
-    <string name="txt_ibu_dari_ibu">Ibu dari ibu (Nenek)</string>
+    <string name="txt_ayah_dari_ayah">Kakek dari ayah</string>
+    <string name="txt_ibu_dari_ayah">Nenek dari ayah</string>
+    <string name="txt_ibu_dari_ibu">Nenek dari ibu</string>
     <string name="txt_suami">Suami</string>
     <string name="txt_istri">Istri</string>
     <string name="txt_saudara_seayah_seibu">Saudara Sekandung</string>
