@@ -3360,7 +3360,7 @@ fun TidakAdaSuamiDanIstriSamaDenganNolLogic(
                         if (cucuLaki == 0 && cucuPerempuan == 0){
                             if(!adaIbunyaIbu){
                                 bagianAnakPerempuan = "2/3 → 2/3"
-                                hartaAnakPerempuan = harta * 3/3
+                                hartaAnakPerempuan = harta * 2/3
                                 bagianSaudariSeayahSeibu = "Ashobah"
                                 hartaSaudariSeayahSeibu = harta * 1/3
                             }else{
@@ -6599,7 +6599,7 @@ fun TidakAdaSuamiDanIstriSamaDenganNolLogic(
                 //garis baru 1 31/05/2024
             }else if(anakLaki == 0){
                 if((!adaIbunyaAyah && !adaAyahnyaAyah) || (adaIbunyaAyah && !adaAyahnyaAyah) || (!adaIbunyaAyah && adaAyahnyaAyah) || (adaIbunyaAyah && adaAyahnyaAyah)){
-                    if ((adaSaudaraSeayahSeibu == 0 && adaSaudariSeayahSeibu == 0) || (adaSaudaraSeayahSeibu >= 1 && adaSaudariSeayahSeibu == 0) || (adaSaudaraSeayahSeibu == 0 && adaSaudariSeayahSeibu >= 1) || (adaSaudaraSeayahSeibu >= 1 && adaSaudariSeayahSeibu >=1 )){
+                    if ((adaSaudaraSeayahSeibu == 0 && adaSaudariSeayahSeibu == 0)){
                         if (cucuLaki == 0 && cucuPerempuan == 0){
                             if (!adaIbunyaIbu || adaIbunyaIbu){
                                 bagianAyah = "Ashobah"
@@ -6627,12 +6627,256 @@ fun TidakAdaSuamiDanIstriSamaDenganNolLogic(
                             }
                         }else if(cucuPerempuan == 0 && cucuLaki >= 1){
                             if (!adaIbunyaIbu || adaIbunyaIbu){
+                                bagianAyah = "Ashobah"
+                                hartaAyah = harta * 5/12
+                                bagianIbu = "1/6 → 1/6"
+                                hartaIbu = harta * 2/12
+                                bagianCucuLaki = "Ashobah"
+                                hartaCucuLaki = harta * 5/12
+                            }
+                        }else{
+                            if (!adaIbunyaIbu || adaIbunyaIbu){
                                 bagianAyah = "1/6 → 1/6"
                                 hartaAyah = harta * 1/6
                                 bagianIbu = "1/6 → 1/6"
                                 hartaIbu = harta * 1/6
                                 bagianCucuLaki = "Ashobah"
-                                hartaCucuLaki = harta * 4/6
+                                bagianCucuPerempuan = "Ashobah"
+                                sisaHarta = harta - hartaAyah - hartaIbu
+                                hartaCucuLaki = sisaHarta * (cucuLaki + cucuLaki) / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()
+                                hartaCucuPerempuan = (sisaHarta * (cucuPerempuan / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()))
+                            }
+                        }
+                    }else if(adaSaudaraSeayahSeibu >= 1 && adaSaudariSeayahSeibu == 0){
+                        if(adaSaudaraSeayahSeibu == 1 && adaSaudariSeayahSeibu == 0){
+                            if (cucuLaki == 0 && cucuPerempuan == 0){
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianAyah = "Ashobah"
+                                    hartaAyah = harta * 2/3
+                                    bagianIbu = "1/3 → 1/3"
+                                    hartaIbu = harta * 1/3
+                                }
+                            }else if(cucuPerempuan == 1 && cucuLaki == 0){
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianAyah = "1/6 → 1/5"
+                                    hartaAyah = harta * 1/5
+                                    bagianIbu = "1/6 → 1/5"
+                                    hartaIbu = harta * 1/5
+                                    bagianCucuPerempuan = "1/2 → 3/5"
+                                    hartaCucuPerempuan = harta * 3/5
+                                }
+                            }else if (cucuPerempuan > 1 && cucuLaki == 0){
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianAyah = "1/6 → 1/6"
+                                    hartaAyah = harta * 1/6
+                                    bagianIbu = "1/6 → 1/6"
+                                    hartaIbu = harta * 1/6
+                                    bagianCucuPerempuan = "2/3 → 4/6"
+                                    hartaCucuPerempuan = harta * 4/6
+                                }
+                            }else if(cucuPerempuan == 0 && cucuLaki >= 1){
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianAyah = "Ashobah"
+                                    hartaAyah = harta * 5/12
+                                    bagianIbu = "1/6 → 1/6"
+                                    hartaIbu = harta * 2/12
+                                    bagianCucuLaki = "Ashobah"
+                                    hartaCucuLaki = harta * 5/12
+                                }
+                            }else{
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianAyah = "1/6 → 1/6"
+                                    hartaAyah = harta * 1/6
+                                    bagianIbu = "1/6 → 1/6"
+                                    hartaIbu = harta * 1/6
+                                    bagianCucuLaki = "Ashobah"
+                                    bagianCucuPerempuan = "Ashobah"
+                                    sisaHarta = harta - hartaAyah - hartaIbu
+                                    hartaCucuLaki = sisaHarta * (cucuLaki + cucuLaki) / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()
+                                    hartaCucuPerempuan = (sisaHarta * (cucuPerempuan / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()))
+                                }
+                            }
+                        }else{
+                            if (cucuLaki == 0 && cucuPerempuan == 0){
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianAyah = "Ashobah"
+                                    hartaAyah = harta * 5/6
+                                    bagianIbu = "1/6 → 1/6"
+                                    hartaIbu = harta * 1/6
+                                }
+                            }else if(cucuPerempuan == 1 && cucuLaki == 0){
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianAyah = "1/6 → 1/5"
+                                    hartaAyah = harta * 1/5
+                                    bagianIbu = "1/6 → 1/5"
+                                    hartaIbu = harta * 1/5
+                                    bagianCucuPerempuan = "1/2 → 3/5"
+                                    hartaCucuPerempuan = harta * 3/5
+                                }
+                            }else if (cucuPerempuan > 1 && cucuLaki == 0){
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianAyah = "1/6 → 1/6"
+                                    hartaAyah = harta * 1/6
+                                    bagianIbu = "1/6 → 1/6"
+                                    hartaIbu = harta * 1/6
+                                    bagianCucuPerempuan = "2/3 → 4/6"
+                                    hartaCucuPerempuan = harta * 4/6
+                                }
+                            }else if(cucuPerempuan == 0 && cucuLaki >= 1){
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianAyah = "Ashobah"
+                                    hartaAyah = harta * 5/12
+                                    bagianIbu = "1/6 → 1/6"
+                                    hartaIbu = harta * 2/12
+                                    bagianCucuLaki = "Ashobah"
+                                    hartaCucuLaki = harta * 5/12
+                                }
+                            }else{
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianAyah = "1/6 → 1/6"
+                                    hartaAyah = harta * 1/6
+                                    bagianIbu = "1/6 → 1/6"
+                                    hartaIbu = harta * 1/6
+                                    bagianCucuLaki = "Ashobah"
+                                    bagianCucuPerempuan = "Ashobah"
+                                    sisaHarta = harta - hartaAyah - hartaIbu
+                                    hartaCucuLaki = sisaHarta * (cucuLaki + cucuLaki) / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()
+                                    hartaCucuPerempuan = (sisaHarta * (cucuPerempuan / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()))
+                                }
+                            }
+                        }
+                    }else if(adaSaudaraSeayahSeibu == 0 && adaSaudariSeayahSeibu >= 1){
+                        if(adaSaudaraSeayahSeibu == 0 && adaSaudariSeayahSeibu == 1){
+                            if (cucuLaki == 0 && cucuPerempuan == 0){
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianAyah = "1/6 → 1/3"
+                                    hartaAyah = harta * 1/3
+                                    bagianIbu = "1/3 → 2/3"
+                                    hartaIbu = harta * 2/3
+                                }
+                            }else if(cucuPerempuan == 1 && cucuLaki == 0){
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianAyah = "1/6 → 1/5"
+                                    hartaAyah = harta * 1/5
+                                    bagianIbu = "1/6 → 1/5"
+                                    hartaIbu = harta * 1/5
+                                    bagianCucuPerempuan = "1/2 → 3/5"
+                                    hartaCucuPerempuan = harta * 3/5
+                                }
+                            }else if (cucuPerempuan > 1 && cucuLaki == 0){
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianAyah = "1/6 → 1/6"
+                                    hartaAyah = harta * 1/6
+                                    bagianIbu = "1/6 → 1/6"
+                                    hartaIbu = harta * 1/6
+                                    bagianCucuPerempuan = "2/3 → 4/6"
+                                    hartaCucuPerempuan = harta * 4/6
+                                }
+                            }else if(cucuPerempuan == 0 && cucuLaki >= 1){
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianAyah = "Ashobah"
+                                    hartaAyah = harta * 5/12
+                                    bagianIbu = "1/6 → 1/6"
+                                    hartaIbu = harta * 2/12
+                                    bagianCucuLaki = "Ashobah"
+                                    hartaCucuLaki = harta * 5/12
+                                }
+                            }else{
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianAyah = "1/6 → 1/6"
+                                    hartaAyah = harta * 1/6
+                                    bagianIbu = "1/6 → 1/6"
+                                    hartaIbu = harta * 1/6
+                                    bagianCucuLaki = "Ashobah"
+                                    bagianCucuPerempuan = "Ashobah"
+                                    sisaHarta = harta - hartaAyah - hartaIbu
+                                    hartaCucuLaki = sisaHarta * (cucuLaki + cucuLaki) / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()
+                                    hartaCucuPerempuan = (sisaHarta * (cucuPerempuan / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()))
+                                }
+                            }
+                        }else{
+                            if (cucuLaki == 0 && cucuPerempuan == 0){
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianAyah = "1/6 → 1/2"
+                                    hartaAyah = harta * 1/2
+                                    bagianIbu = "1/6 → 1/2"
+                                    hartaIbu = harta * 1/2
+                                }
+                            }else if(cucuPerempuan == 1 && cucuLaki == 0){
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianAyah = "1/6 → 1/5"
+                                    hartaAyah = harta * 1/5
+                                    bagianIbu = "1/6 → 1/5"
+                                    hartaIbu = harta * 1/5
+                                    bagianCucuPerempuan = "1/2 → 3/5"
+                                    hartaCucuPerempuan = harta * 3/5
+                                }
+                            }else if (cucuPerempuan > 1 && cucuLaki == 0){
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianAyah = "1/6 → 1/6"
+                                    hartaAyah = harta * 1/6
+                                    bagianIbu = "1/6 → 1/6"
+                                    hartaIbu = harta * 1/6
+                                    bagianCucuPerempuan = "2/3 → 4/6"
+                                    hartaCucuPerempuan = harta * 4/6
+                                }
+                            }else if(cucuPerempuan == 0 && cucuLaki >= 1){
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianAyah = "Ashobah"
+                                    hartaAyah = harta * 5/12
+                                    bagianIbu = "1/6 → 1/6"
+                                    hartaIbu = harta * 2/12
+                                    bagianCucuLaki = "Ashobah"
+                                    hartaCucuLaki = harta * 5/12
+                                }
+                            }else{
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianAyah = "1/6 → 1/6"
+                                    hartaAyah = harta * 1/6
+                                    bagianIbu = "1/6 → 1/6"
+                                    hartaIbu = harta * 1/6
+                                    bagianCucuLaki = "Ashobah"
+                                    bagianCucuPerempuan = "Ashobah"
+                                    sisaHarta = harta - hartaAyah - hartaIbu
+                                    hartaCucuLaki = sisaHarta * (cucuLaki + cucuLaki) / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()
+                                    hartaCucuPerempuan = (sisaHarta * (cucuPerempuan / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()))
+                                }
+                            }
+                        }
+                    }else{
+                        if (cucuLaki == 0 && cucuPerempuan == 0){
+                            if (!adaIbunyaIbu || adaIbunyaIbu){
+                                bagianAyah = "1/6 → 1/2"
+                                hartaAyah = harta * 1/2
+                                bagianIbu = "1/6 → 1/2"
+                                hartaIbu = harta * 1/2
+                            }
+                        }else if(cucuPerempuan == 1 && cucuLaki == 0){
+                            if (!adaIbunyaIbu || adaIbunyaIbu){
+                                bagianAyah = "1/6 → 1/5"
+                                hartaAyah = harta * 1/5
+                                bagianIbu = "1/6 → 1/5"
+                                hartaIbu = harta * 1/5
+                                bagianCucuPerempuan = "1/2 → 3/5"
+                                hartaCucuPerempuan = harta * 3/5
+                            }
+                        }else if (cucuPerempuan > 1 && cucuLaki == 0){
+                            if (!adaIbunyaIbu || adaIbunyaIbu){
+                                bagianAyah = "1/6 → 1/6"
+                                hartaAyah = harta * 1/6
+                                bagianIbu = "1/6 → 1/6"
+                                hartaIbu = harta * 1/6
+                                bagianCucuPerempuan = "2/3 → 4/6"
+                                hartaCucuPerempuan = harta * 4/6
+                            }
+                        }else if(cucuPerempuan == 0 && cucuLaki >= 1){
+                            if (!adaIbunyaIbu || adaIbunyaIbu){
+                                bagianAyah = "Ashobah"
+                                hartaAyah = harta * 5/12
+                                bagianIbu = "1/6 → 1/6"
+                                hartaIbu = harta * 2/12
+                                bagianCucuLaki = "Ashobah"
+                                hartaCucuLaki = harta * 5/12
                             }
                         }else{
                             if (!adaIbunyaIbu || adaIbunyaIbu){
