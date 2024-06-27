@@ -4511,7 +4511,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                 //garis baru 1 31/05/2024
             }else if(anakLaki == 0){
                 if((!adaIbunyaAyah && !adaAyahnyaAyah) || (adaIbunyaAyah && !adaAyahnyaAyah) || (!adaIbunyaAyah && adaAyahnyaAyah) || (adaIbunyaAyah && adaAyahnyaAyah)){
-                    if ((adaSaudaraSeayahSeibu == 0 && adaSaudariSeayahSeibu == 0) || (adaSaudaraSeayahSeibu >= 1 && adaSaudariSeayahSeibu == 0) || (adaSaudaraSeayahSeibu == 0 && adaSaudariSeayahSeibu >= 1) || (adaSaudaraSeayahSeibu >= 1 && adaSaudariSeayahSeibu >=1 )){
+                    if ((adaSaudaraSeayahSeibu == 0 && adaSaudariSeayahSeibu == 0)){
                         if (cucuLaki == 0 && cucuPerempuan == 0){
                             if (!adaIbunyaIbu || adaIbunyaIbu){
                                 bagianSuami = "1/2 → 1/2"
@@ -4528,6 +4528,570 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaAyah = harta * 2/6
                                     bagianIbu = "U"
                                     hartaIbu = harta * 1/6
+                                }
+                            }
+                        }else if(cucuPerempuan == 1 && cucuLaki == 0){
+                            if (!adaIbunyaIbu || adaIbunyaIbu){
+                                bagianSuami = "1/4 → 3/13"
+                                bagianIstri = "1/8 → 1/8"
+                                if (jenisKelaminPewaris.equals("Laki-Laki")){
+                                    hartaIstri = harta * 5/40
+                                    bagianAyah = "1/6 → 7/40"
+                                    hartaAyah = harta * 7/40
+                                    bagianIbu = "1/6 → 7/40"
+                                    hartaIbu = harta * 7/40
+                                    bagianCucuPerempuan = "1/2 → 21/40"
+                                    hartaCucuPerempuan = harta * 21/40
+                                }else if(jenisKelaminPewaris.equals("Perempuan")){
+                                    hartaSuami = harta*(3.0/13.0)
+                                    bagianAyah = "1/6 → 2/13"
+                                    hartaAyah = harta * 2/13
+                                    bagianIbu = "1/6 → 2/13"
+                                    hartaIbu = harta * 2/13
+                                    bagianCucuPerempuan = "1/2 → 6/13"
+                                    hartaCucuPerempuan = harta * 6/13
+                                }
+                            }
+                        }else if (cucuPerempuan > 1 && cucuLaki == 0){
+                            if (!adaIbunyaIbu || adaIbunyaIbu){
+                                bagianSuami = "1/4 → 3/15"
+                                bagianIstri = "1/8 → 3/27"
+                                if (jenisKelaminPewaris.equals("Laki-Laki")){
+                                    hartaIstri = harta * 3/27
+                                    bagianAyah = "1/6 → 4/27"
+                                    hartaAyah = harta * 4/27
+                                    bagianIbu = "1/6 → 4/27"
+                                    hartaIbu = harta * 4/27
+                                    bagianCucuPerempuan = "2/3 → 16/27"
+                                    hartaCucuPerempuan = harta * 16/27
+                                }else if(jenisKelaminPewaris.equals("Perempuan")){
+                                    hartaSuami = harta*(3.0/15.0)
+                                    bagianAyah = "1/6 → 2/15"
+                                    hartaAyah = harta * 2/15
+                                    bagianIbu = "1/6 → 2/15"
+                                    hartaIbu = harta * 2/15
+                                    bagianCucuPerempuan = "2/3 → 8/15"
+                                    hartaCucuPerempuan = harta * 8/15
+                                }
+                            }
+                        }else if(cucuPerempuan == 0 && cucuLaki >= 1){
+                            if (!adaIbunyaIbu || adaIbunyaIbu){
+                                bagianSuami = "1/4 → 3/12"
+                                bagianIstri = "1/8 → 3/24"
+                                if (jenisKelaminPewaris.equals("Laki-Laki")){
+                                    hartaIstri = harta * 3/24
+                                    bagianAyah = "1/6 → 4/24"
+                                    hartaAyah = harta * 4/24
+                                    bagianIbu = "1/6 → 4/24"
+                                    hartaIbu = harta * 4/24
+                                    bagianCucuLaki = "Ashobah"
+                                    hartaCucuLaki = harta * 13/24
+                                }else if(jenisKelaminPewaris.equals("Perempuan")){
+                                    hartaSuami = harta*(3.0/12.0)
+                                    bagianAyah = "1/6 → 2/12"
+                                    hartaAyah = harta * 2/12
+                                    bagianIbu = "1/6 → 2/12"
+                                    hartaIbu = harta * 2/12
+                                    bagianCucuLaki = "Ashobah"
+                                    hartaCucuLaki = harta * 5/12
+                                }
+                            }
+                        }else{
+                            if (!adaIbunyaIbu || adaIbunyaIbu){
+                                bagianCucuLaki = "Ashobah"
+                                bagianCucuPerempuan = "Ashobah"
+                                bagianSuami = "1/4 → 3/12"
+                                bagianIstri = "1/8 → 3/24"
+                                if (jenisKelaminPewaris.equals("Laki-Laki")){
+                                    hartaIstri = harta * 3/24
+                                    bagianAyah = "1/6 → 4/24"
+                                    hartaAyah = harta * 4/24
+                                    bagianIbu = "1/6 → 4/24"
+                                    hartaIbu = harta * 4/24
+                                    sisaHarta = harta - hartaAyah - hartaIbu - hartaIstri
+                                    hartaCucuLaki = sisaHarta * (cucuLaki + cucuLaki) / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()
+                                    hartaCucuPerempuan = (sisaHarta * (cucuPerempuan / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()))
+                                }else if(jenisKelaminPewaris.equals("Perempuan")){
+                                    hartaSuami = harta*(3.0/12.0)
+                                    bagianAyah = "1/6 → 2/12"
+                                    hartaAyah = harta * 2/12
+                                    bagianIbu = "1/6 → 2/12"
+                                    hartaIbu = harta * 2/12
+                                    sisaHarta = harta - hartaAyah - hartaIbu - hartaSuami
+                                    hartaCucuLaki = sisaHarta * (cucuLaki + cucuLaki) / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()
+                                    hartaCucuPerempuan = (sisaHarta * (cucuPerempuan / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()))
+                                }
+                            }
+                        }
+                    }else if(adaSaudaraSeayahSeibu >= 1 && adaSaudariSeayahSeibu == 0){
+                        if(adaSaudaraSeayahSeibu == 1 && adaSaudariSeayahSeibu == 0){
+                            if (cucuLaki == 0 && cucuPerempuan == 0){
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianSuami = "1/2 → 1/2"
+                                    bagianIstri = "1/4 → 1/4"
+                                    if (jenisKelaminPewaris.equals("Laki-Laki")){
+                                        hartaIstri = harta * 2/8
+                                        bagianAyah = "Ashobah"
+                                        hartaAyah = harta * 4/8
+                                        bagianIbu = "U"
+                                        hartaIbu = harta * 2/8
+                                    }else if(jenisKelaminPewaris.equals("Perempuan")){
+                                        hartaSuami = harta*(3.0/6.0)
+                                        bagianAyah = "Ashobah"
+                                        hartaAyah = harta * 2/6
+                                        bagianIbu = "U"
+                                        hartaIbu = harta * 1/6
+                                    }
+                                }
+                            }else if(cucuPerempuan == 1 && cucuLaki == 0){
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianSuami = "1/4 → 3/13"
+                                    bagianIstri = "1/8 → 1/8"
+                                    if (jenisKelaminPewaris.equals("Laki-Laki")){
+                                        hartaIstri = harta * 5/40
+                                        bagianAyah = "1/6 → 7/40"
+                                        hartaAyah = harta * 7/40
+                                        bagianIbu = "1/6 → 7/40"
+                                        hartaIbu = harta * 7/40
+                                        bagianCucuPerempuan = "1/2 → 21/40"
+                                        hartaCucuPerempuan = harta * 21/40
+                                    }else if(jenisKelaminPewaris.equals("Perempuan")){
+                                        hartaSuami = harta*(3.0/13.0)
+                                        bagianAyah = "1/6 → 2/13"
+                                        hartaAyah = harta * 2/13
+                                        bagianIbu = "1/6 → 2/13"
+                                        hartaIbu = harta * 2/13
+                                        bagianCucuPerempuan = "1/2 → 6/13"
+                                        hartaCucuPerempuan = harta * 6/13
+                                    }
+                                }
+                            }else if (cucuPerempuan > 1 && cucuLaki == 0){
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianSuami = "1/4 → 3/15"
+                                    bagianIstri = "1/8 → 3/27"
+                                    if (jenisKelaminPewaris.equals("Laki-Laki")){
+                                        hartaIstri = harta * 3/27
+                                        bagianAyah = "1/6 → 4/27"
+                                        hartaAyah = harta * 4/27
+                                        bagianIbu = "1/6 → 4/27"
+                                        hartaIbu = harta * 4/27
+                                        bagianCucuPerempuan = "2/3 → 16/27"
+                                        hartaCucuPerempuan = harta * 16/27
+                                    }else if(jenisKelaminPewaris.equals("Perempuan")){
+                                        hartaSuami = harta*(3.0/15.0)
+                                        bagianAyah = "1/6 → 2/15"
+                                        hartaAyah = harta * 2/15
+                                        bagianIbu = "1/6 → 2/15"
+                                        hartaIbu = harta * 2/15
+                                        bagianCucuPerempuan = "2/3 → 8/15"
+                                        hartaCucuPerempuan = harta * 8/15
+                                    }
+                                }
+                            }else if(cucuPerempuan == 0 && cucuLaki >= 1){
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianSuami = "1/4 → 3/12"
+                                    bagianIstri = "1/8 → 3/24"
+                                    if (jenisKelaminPewaris.equals("Laki-Laki")){
+                                        hartaIstri = harta * 3/24
+                                        bagianAyah = "1/6 → 4/24"
+                                        hartaAyah = harta * 4/24
+                                        bagianIbu = "1/6 → 4/24"
+                                        hartaIbu = harta * 4/24
+                                        bagianCucuLaki = "Ashobah"
+                                        hartaCucuLaki = harta * 13/24
+                                    }else if(jenisKelaminPewaris.equals("Perempuan")){
+                                        hartaSuami = harta*(3.0/12.0)
+                                        bagianAyah = "1/6 → 2/12"
+                                        hartaAyah = harta * 2/12
+                                        bagianIbu = "1/6 → 2/12"
+                                        hartaIbu = harta * 2/12
+                                        bagianCucuLaki = "Ashobah"
+                                        hartaCucuLaki = harta * 5/12
+                                    }
+                                }
+                            }else{
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianCucuLaki = "Ashobah"
+                                    bagianCucuPerempuan = "Ashobah"
+                                    bagianSuami = "1/4 → 3/12"
+                                    bagianIstri = "1/8 → 3/24"
+                                    if (jenisKelaminPewaris.equals("Laki-Laki")){
+                                        hartaIstri = harta * 3/24
+                                        bagianAyah = "1/6 → 4/24"
+                                        hartaAyah = harta * 4/24
+                                        bagianIbu = "1/6 → 4/24"
+                                        hartaIbu = harta * 4/24
+                                        sisaHarta = harta - hartaAyah - hartaIbu - hartaIstri
+                                        hartaCucuLaki = sisaHarta * (cucuLaki + cucuLaki) / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()
+                                        hartaCucuPerempuan = (sisaHarta * (cucuPerempuan / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()))
+                                    }else if(jenisKelaminPewaris.equals("Perempuan")){
+                                        hartaSuami = harta*(3.0/12.0)
+                                        bagianAyah = "1/6 → 2/12"
+                                        hartaAyah = harta * 2/12
+                                        bagianIbu = "1/6 → 2/12"
+                                        hartaIbu = harta * 2/12
+                                        sisaHarta = harta - hartaAyah - hartaIbu - hartaSuami
+                                        hartaCucuLaki = sisaHarta * (cucuLaki + cucuLaki) / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()
+                                        hartaCucuPerempuan = (sisaHarta * (cucuPerempuan / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()))
+                                    }
+                                }
+                            }
+                        }else{
+                            if (cucuLaki == 0 && cucuPerempuan == 0){
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianSuami = "1/2 → 3/6"
+                                    bagianIstri = "1/4 → 3/12"
+                                    if (jenisKelaminPewaris.equals("Laki-Laki")){
+                                        hartaIstri = harta * 3/12
+                                        bagianAyah = "Ashobah"
+                                        hartaAyah = harta * 7/12
+                                        bagianIbu = "1/6 → 2/12"
+                                        hartaIbu = harta * 2/12
+                                    }else if(jenisKelaminPewaris.equals("Perempuan")){
+                                        hartaSuami = harta*(3.0/6.0)
+                                        bagianAyah = "Ashobah"
+                                        hartaAyah = harta * 2/6
+                                        bagianIbu = "1/6 → 1/6"
+                                        hartaIbu = harta * 1/6
+                                    }
+                                }
+                            }else if(cucuPerempuan == 1 && cucuLaki == 0){
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianSuami = "1/4 → 3/13"
+                                    bagianIstri = "1/8 → 1/8"
+                                    if (jenisKelaminPewaris.equals("Laki-Laki")){
+                                        hartaIstri = harta * 5/40
+                                        bagianAyah = "1/6 → 7/40"
+                                        hartaAyah = harta * 7/40
+                                        bagianIbu = "1/6 → 7/40"
+                                        hartaIbu = harta * 7/40
+                                        bagianCucuPerempuan = "1/2 → 21/40"
+                                        hartaCucuPerempuan = harta * 21/40
+                                    }else if(jenisKelaminPewaris.equals("Perempuan")){
+                                        hartaSuami = harta*(3.0/13.0)
+                                        bagianAyah = "1/6 → 2/13"
+                                        hartaAyah = harta * 2/13
+                                        bagianIbu = "1/6 → 2/13"
+                                        hartaIbu = harta * 2/13
+                                        bagianCucuPerempuan = "1/2 → 6/13"
+                                        hartaCucuPerempuan = harta * 6/13
+                                    }
+                                }
+                            }else if (cucuPerempuan > 1 && cucuLaki == 0){
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianSuami = "1/4 → 3/15"
+                                    bagianIstri = "1/8 → 3/27"
+                                    if (jenisKelaminPewaris.equals("Laki-Laki")){
+                                        hartaIstri = harta * 3/27
+                                        bagianAyah = "1/6 → 4/27"
+                                        hartaAyah = harta * 4/27
+                                        bagianIbu = "1/6 → 4/27"
+                                        hartaIbu = harta * 4/27
+                                        bagianCucuPerempuan = "2/3 → 16/27"
+                                        hartaCucuPerempuan = harta * 16/27
+                                    }else if(jenisKelaminPewaris.equals("Perempuan")){
+                                        hartaSuami = harta*(3.0/15.0)
+                                        bagianAyah = "1/6 → 2/15"
+                                        hartaAyah = harta * 2/15
+                                        bagianIbu = "1/6 → 2/15"
+                                        hartaIbu = harta * 2/15
+                                        bagianCucuPerempuan = "2/3 → 8/15"
+                                        hartaCucuPerempuan = harta * 8/15
+                                    }
+                                }
+                            }else if(cucuPerempuan == 0 && cucuLaki >= 1){
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianSuami = "1/4 → 3/12"
+                                    bagianIstri = "1/8 → 3/24"
+                                    if (jenisKelaminPewaris.equals("Laki-Laki")){
+                                        hartaIstri = harta * 3/24
+                                        bagianAyah = "1/6 → 4/24"
+                                        hartaAyah = harta * 4/24
+                                        bagianIbu = "1/6 → 4/24"
+                                        hartaIbu = harta * 4/24
+                                        bagianCucuLaki = "Ashobah"
+                                        hartaCucuLaki = harta * 13/24
+                                    }else if(jenisKelaminPewaris.equals("Perempuan")){
+                                        hartaSuami = harta*(3.0/12.0)
+                                        bagianAyah = "1/6 → 2/12"
+                                        hartaAyah = harta * 2/12
+                                        bagianIbu = "1/6 → 2/12"
+                                        hartaIbu = harta * 2/12
+                                        bagianCucuLaki = "Ashobah"
+                                        hartaCucuLaki = harta * 5/12
+                                    }
+                                }
+                            }else{
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianCucuLaki = "Ashobah"
+                                    bagianCucuPerempuan = "Ashobah"
+                                    bagianSuami = "1/4 → 3/12"
+                                    bagianIstri = "1/8 → 3/24"
+                                    if (jenisKelaminPewaris.equals("Laki-Laki")){
+                                        hartaIstri = harta * 3/24
+                                        bagianAyah = "1/6 → 4/24"
+                                        hartaAyah = harta * 4/24
+                                        bagianIbu = "1/6 → 4/24"
+                                        hartaIbu = harta * 4/24
+                                        sisaHarta = harta - hartaAyah - hartaIbu - hartaIstri
+                                        hartaCucuLaki = sisaHarta * (cucuLaki + cucuLaki) / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()
+                                        hartaCucuPerempuan = (sisaHarta * (cucuPerempuan / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()))
+                                    }else if(jenisKelaminPewaris.equals("Perempuan")){
+                                        hartaSuami = harta*(3.0/12.0)
+                                        bagianAyah = "1/6 → 2/12"
+                                        hartaAyah = harta * 2/12
+                                        bagianIbu = "1/6 → 2/12"
+                                        hartaIbu = harta * 2/12
+                                        sisaHarta = harta - hartaAyah - hartaIbu - hartaSuami
+                                        hartaCucuLaki = sisaHarta * (cucuLaki + cucuLaki) / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()
+                                        hartaCucuPerempuan = (sisaHarta * (cucuPerempuan / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()))
+                                    }
+                                }
+                            }
+                        }
+                    }else if(adaSaudaraSeayahSeibu == 0 && adaSaudariSeayahSeibu >= 1){
+                        if(adaSaudaraSeayahSeibu == 0 && adaSaudariSeayahSeibu == 1){
+                            if (cucuLaki == 0 && cucuPerempuan == 0){
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianSuami = "1/2 → 1/2"
+                                    bagianIstri = "1/4 → 1/4"
+                                    if (jenisKelaminPewaris.equals("Laki-Laki")){
+                                        hartaIstri = harta * 6/24
+                                        bagianAyah = "1/6 → 1/6"
+                                        hartaAyah = harta * 4/24
+                                        bagianIbu = "U"
+                                        hartaIbu = harta * 14/24
+                                    }else if(jenisKelaminPewaris.equals("Perempuan")){
+                                        hartaSuami = harta*(3.0/6.0)
+                                        bagianAyah = "1/6 → 1/6"
+                                        hartaAyah = harta * 1/6
+                                        bagianIbu = "U"
+                                        hartaIbu = harta * 2/6
+                                    }
+                                }
+                            }else if(cucuPerempuan == 1 && cucuLaki == 0){
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianSuami = "1/4 → 3/13"
+                                    bagianIstri = "1/8 → 1/8"
+                                    if (jenisKelaminPewaris.equals("Laki-Laki")){
+                                        hartaIstri = harta * 5/40
+                                        bagianAyah = "1/6 → 7/40"
+                                        hartaAyah = harta * 7/40
+                                        bagianIbu = "1/6 → 7/40"
+                                        hartaIbu = harta * 7/40
+                                        bagianCucuPerempuan = "1/2 → 21/40"
+                                        hartaCucuPerempuan = harta * 21/40
+                                    }else if(jenisKelaminPewaris.equals("Perempuan")){
+                                        hartaSuami = harta*(3.0/13.0)
+                                        bagianAyah = "1/6 → 2/13"
+                                        hartaAyah = harta * 2/13
+                                        bagianIbu = "1/6 → 2/13"
+                                        hartaIbu = harta * 2/13
+                                        bagianCucuPerempuan = "1/2 → 6/13"
+                                        hartaCucuPerempuan = harta * 6/13
+                                    }
+                                }
+                            }else if (cucuPerempuan > 1 && cucuLaki == 0){
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianSuami = "1/4 → 3/15"
+                                    bagianIstri = "1/8 → 3/27"
+                                    if (jenisKelaminPewaris.equals("Laki-Laki")){
+                                        hartaIstri = harta * 3/27
+                                        bagianAyah = "1/6 → 4/27"
+                                        hartaAyah = harta * 4/27
+                                        bagianIbu = "1/6 → 4/27"
+                                        hartaIbu = harta * 4/27
+                                        bagianCucuPerempuan = "2/3 → 16/27"
+                                        hartaCucuPerempuan = harta * 16/27
+                                    }else if(jenisKelaminPewaris.equals("Perempuan")){
+                                        hartaSuami = harta*(3.0/15.0)
+                                        bagianAyah = "1/6 → 2/15"
+                                        hartaAyah = harta * 2/15
+                                        bagianIbu = "1/6 → 2/15"
+                                        hartaIbu = harta * 2/15
+                                        bagianCucuPerempuan = "2/3 → 8/15"
+                                        hartaCucuPerempuan = harta * 8/15
+                                    }
+                                }
+                            }else if(cucuPerempuan == 0 && cucuLaki >= 1){
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianSuami = "1/4 → 3/12"
+                                    bagianIstri = "1/8 → 3/24"
+                                    if (jenisKelaminPewaris.equals("Laki-Laki")){
+                                        hartaIstri = harta * 3/24
+                                        bagianAyah = "1/6 → 4/24"
+                                        hartaAyah = harta * 4/24
+                                        bagianIbu = "1/6 → 4/24"
+                                        hartaIbu = harta * 4/24
+                                        bagianCucuLaki = "Ashobah"
+                                        hartaCucuLaki = harta * 13/24
+                                    }else if(jenisKelaminPewaris.equals("Perempuan")){
+                                        hartaSuami = harta*(3.0/12.0)
+                                        bagianAyah = "1/6 → 2/12"
+                                        hartaAyah = harta * 2/12
+                                        bagianIbu = "1/6 → 2/12"
+                                        hartaIbu = harta * 2/12
+                                        bagianCucuLaki = "Ashobah"
+                                        hartaCucuLaki = harta * 5/12
+                                    }
+                                }
+                            }else{
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianCucuLaki = "Ashobah"
+                                    bagianCucuPerempuan = "Ashobah"
+                                    bagianSuami = "1/4 → 3/12"
+                                    bagianIstri = "1/8 → 3/24"
+                                    if (jenisKelaminPewaris.equals("Laki-Laki")){
+                                        hartaIstri = harta * 3/24
+                                        bagianAyah = "1/6 → 4/24"
+                                        hartaAyah = harta * 4/24
+                                        bagianIbu = "1/6 → 4/24"
+                                        hartaIbu = harta * 4/24
+                                        sisaHarta = harta - hartaAyah - hartaIbu - hartaIstri
+                                        hartaCucuLaki = sisaHarta * (cucuLaki + cucuLaki) / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()
+                                        hartaCucuPerempuan = (sisaHarta * (cucuPerempuan / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()))
+                                    }else if(jenisKelaminPewaris.equals("Perempuan")){
+                                        hartaSuami = harta*(3.0/12.0)
+                                        bagianAyah = "1/6 → 2/12"
+                                        hartaAyah = harta * 2/12
+                                        bagianIbu = "1/6 → 2/12"
+                                        hartaIbu = harta * 2/12
+                                        sisaHarta = harta - hartaAyah - hartaIbu - hartaSuami
+                                        hartaCucuLaki = sisaHarta * (cucuLaki + cucuLaki) / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()
+                                        hartaCucuPerempuan = (sisaHarta * (cucuPerempuan / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()))
+                                    }
+                                }
+                            }
+                        }else{
+                            if (cucuLaki == 0 && cucuPerempuan == 0){
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianSuami = "1/2 → 1/2"
+                                    bagianIstri = "1/4 → 1/4"
+                                    if (jenisKelaminPewaris.equals("Laki-Laki")){
+                                        hartaIstri = harta * 2/8
+                                        bagianAyah = "1/6 → 3/8"
+                                        hartaAyah = harta * 3/8
+                                        bagianIbu = "1/6 → 3/8"
+                                        hartaIbu = harta * 3/8
+                                    }else if(jenisKelaminPewaris.equals("Perempuan")){
+                                        hartaSuami = harta*(2.0/4.0)
+                                        bagianAyah = "1/6 → 1/4"
+                                        hartaAyah = harta * 1/4
+                                        bagianIbu = "1/6 → 1/4"
+                                        hartaIbu = harta * 1/4
+                                    }
+                                }
+                            }else if(cucuPerempuan == 1 && cucuLaki == 0){
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianSuami = "1/4 → 3/13"
+                                    bagianIstri = "1/8 → 1/8"
+                                    if (jenisKelaminPewaris.equals("Laki-Laki")){
+                                        hartaIstri = harta * 5/40
+                                        bagianAyah = "1/6 → 7/40"
+                                        hartaAyah = harta * 7/40
+                                        bagianIbu = "1/6 → 7/40"
+                                        hartaIbu = harta * 7/40
+                                        bagianCucuPerempuan = "1/2 → 21/40"
+                                        hartaCucuPerempuan = harta * 21/40
+                                    }else if(jenisKelaminPewaris.equals("Perempuan")){
+                                        hartaSuami = harta*(3.0/13.0)
+                                        bagianAyah = "1/6 → 2/13"
+                                        hartaAyah = harta * 2/13
+                                        bagianIbu = "1/6 → 2/13"
+                                        hartaIbu = harta * 2/13
+                                        bagianCucuPerempuan = "1/2 → 6/13"
+                                        hartaCucuPerempuan = harta * 6/13
+                                    }
+                                }
+                            }else if (cucuPerempuan > 1 && cucuLaki == 0){
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianSuami = "1/4 → 3/15"
+                                    bagianIstri = "1/8 → 3/27"
+                                    if (jenisKelaminPewaris.equals("Laki-Laki")){
+                                        hartaIstri = harta * 3/27
+                                        bagianAyah = "1/6 → 4/27"
+                                        hartaAyah = harta * 4/27
+                                        bagianIbu = "1/6 → 4/27"
+                                        hartaIbu = harta * 4/27
+                                        bagianCucuPerempuan = "2/3 → 16/27"
+                                        hartaCucuPerempuan = harta * 16/27
+                                    }else if(jenisKelaminPewaris.equals("Perempuan")){
+                                        hartaSuami = harta*(3.0/15.0)
+                                        bagianAyah = "1/6 → 2/15"
+                                        hartaAyah = harta * 2/15
+                                        bagianIbu = "1/6 → 2/15"
+                                        hartaIbu = harta * 2/15
+                                        bagianCucuPerempuan = "2/3 → 8/15"
+                                        hartaCucuPerempuan = harta * 8/15
+                                    }
+                                }
+                            }else if(cucuPerempuan == 0 && cucuLaki >= 1){
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianSuami = "1/4 → 3/12"
+                                    bagianIstri = "1/8 → 3/24"
+                                    if (jenisKelaminPewaris.equals("Laki-Laki")){
+                                        hartaIstri = harta * 3/24
+                                        bagianAyah = "1/6 → 4/24"
+                                        hartaAyah = harta * 4/24
+                                        bagianIbu = "1/6 → 4/24"
+                                        hartaIbu = harta * 4/24
+                                        bagianCucuLaki = "Ashobah"
+                                        hartaCucuLaki = harta * 13/24
+                                    }else if(jenisKelaminPewaris.equals("Perempuan")){
+                                        hartaSuami = harta*(3.0/12.0)
+                                        bagianAyah = "1/6 → 2/12"
+                                        hartaAyah = harta * 2/12
+                                        bagianIbu = "1/6 → 2/12"
+                                        hartaIbu = harta * 2/12
+                                        bagianCucuLaki = "Ashobah"
+                                        hartaCucuLaki = harta * 5/12
+                                    }
+                                }
+                            }else{
+                                if (!adaIbunyaIbu || adaIbunyaIbu){
+                                    bagianCucuLaki = "Ashobah"
+                                    bagianCucuPerempuan = "Ashobah"
+                                    bagianSuami = "1/4 → 3/12"
+                                    bagianIstri = "1/8 → 3/24"
+                                    if (jenisKelaminPewaris.equals("Laki-Laki")){
+                                        hartaIstri = harta * 3/24
+                                        bagianAyah = "1/6 → 4/24"
+                                        hartaAyah = harta * 4/24
+                                        bagianIbu = "1/6 → 4/24"
+                                        hartaIbu = harta * 4/24
+                                        sisaHarta = harta - hartaAyah - hartaIbu - hartaIstri
+                                        hartaCucuLaki = sisaHarta * (cucuLaki + cucuLaki) / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()
+                                        hartaCucuPerempuan = (sisaHarta * (cucuPerempuan / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()))
+                                    }else if(jenisKelaminPewaris.equals("Perempuan")){
+                                        hartaSuami = harta*(3.0/12.0)
+                                        bagianAyah = "1/6 → 2/12"
+                                        hartaAyah = harta * 2/12
+                                        bagianIbu = "1/6 → 2/12"
+                                        hartaIbu = harta * 2/12
+                                        sisaHarta = harta - hartaAyah - hartaIbu - hartaSuami
+                                        hartaCucuLaki = sisaHarta * (cucuLaki + cucuLaki) / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()
+                                        hartaCucuPerempuan = (sisaHarta * (cucuPerempuan / (cucuLaki + cucuLaki + cucuPerempuan).toDouble()))
+                                    }
+                                }
+                            }
+                        }
+                    }else if(adaSaudaraSeayahSeibu >= 1 && adaSaudariSeayahSeibu >=1 ){
+                        if (cucuLaki == 0 && cucuPerempuan == 0){
+                            if (!adaIbunyaIbu || adaIbunyaIbu){
+                                bagianSuami = "1/2 → 1/2"
+                                bagianIstri = "1/4 → 1/4"
+                                if (jenisKelaminPewaris.equals("Laki-Laki")){
+                                    hartaIstri = harta * 2/8
+                                    bagianAyah = "1/6 → 3/8"
+                                    hartaAyah = harta * 3/8
+                                    bagianIbu = "1/6 → 3/8"
+                                    hartaIbu = harta * 3/8
+                                }else if(jenisKelaminPewaris.equals("Perempuan")){
+                                    hartaSuami = harta*(2.0/4.0)
+                                    bagianAyah = "1/6 → 1/4"
+                                    hartaAyah = harta * 1/4
+                                    bagianIbu = "1/6 → 1/4"
+                                    hartaIbu = harta * 1/4
                                 }
                             }
                         }else if(cucuPerempuan == 1 && cucuLaki == 0){
