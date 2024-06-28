@@ -12,7 +12,7 @@
     <string name="txt_email">Enter your email</string>
     <string name="txt_materi_desc">Following are some practical details on inheritance and related laws and a guideline that helps you understand the process of dividing the assets better manner</string>
     <string name="txt_card_desc_calculator">Quickly calibrate the inheritance by distribution using our easy-to-use, accurate calculator feature.</string>
-    <string name="txt_panduan">Guide</string>
+    <string name="txt_panduan">Tutorial</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="txt_tentang_aplikasi">About Application</string>
@@ -54,6 +54,7 @@
     <string name="txt_hint_harta">Enter the assets</string>
     <string name="txt_hint_hutang">Enter the debt</string>
     <string name="txt_wasiat">Testament (Maximum ⅓ Total Assets)</string>
+    <string name="txt_wasiat_2">Testament</string>
     <string name="txt_hint_wasiat">Enter the testment</string>
     <string name="txt_hint_jenazah">Enter mortuary care</string>
     <string name="txt_selanjutnya">Next</string>

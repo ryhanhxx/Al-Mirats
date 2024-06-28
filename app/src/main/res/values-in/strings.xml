@@ -54,6 +54,7 @@
     <string name="txt_hint_harta">Masukkan Harta Pewaris</string>
     <string name="txt_hint_hutang">Masukkan Hutang Pewaris</string>
     <string name="txt_wasiat">Wasiat Pewaris (Maksimal ⅓ Harta Waris)</string>
+    <string name="txt_wasiat_2">Wasiat Pewaris</string>
     <string name="txt_hint_wasiat">Masukkan Wasiat Pewaris</string>
     <string name="txt_hint_jenazah">Masukkan Perawatan Jenazah</string>
     <string name="txt_selanjutnya">Selanjutnya</string>

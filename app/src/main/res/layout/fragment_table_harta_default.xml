@@ -173,7 +173,7 @@
                     android:background="@drawable/table_content"
                     android:gravity="start|center"
                     android:paddingLeft="5dp"
-                    android:text="@string/txt_wasiat"
+                    android:text="@string/txt_wasiat_2"
                     android:textColor="@color/white" />
 
                 <TextView
