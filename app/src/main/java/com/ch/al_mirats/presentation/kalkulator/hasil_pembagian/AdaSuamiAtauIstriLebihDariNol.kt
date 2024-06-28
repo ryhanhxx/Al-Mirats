@@ -410,11 +410,11 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                 bagianIstri = "1/8 → 1/8"
                                 if (jenisKelaminPewaris.equals("Laki-Laki")){
                                     hartaIstri = harta * 1/8
-                                    bagianAnakPerempuan = "1/2 → 7/8"
+                                    bagianAnakPerempuan = "2/3 → 7/8"
                                     hartaAnakPerempuan = harta * 7/8
                                 }else if(jenisKelaminPewaris.equals("Perempuan")){
                                     hartaSuami = harta*(1.0/4.0)
-                                    bagianAnakPerempuan = "1/2 → 3/4"
+                                    bagianAnakPerempuan = "2/3 → 3/4"
                                     hartaAnakPerempuan = harta * 3/4
                                 }
                             }else{
@@ -424,13 +424,13 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaIstri = harta * 5/40
                                     bagianIbunyaIbu = "1/6 → 7/40"
                                     hartaIbunyaIbu = harta * 7/40
-                                    bagianAnakPerempuan = "1/2 → 28/40"
+                                    bagianAnakPerempuan = "2/3 → 7/10"
                                     hartaAnakPerempuan = harta * 28/40
                                 }else if(jenisKelaminPewaris.equals("Perempuan")){
                                     hartaSuami = harta*(3.0/13.0)
                                     bagianIbunyaIbu = "1/6 → 2/13"
                                     hartaIbunyaIbu = harta * 2/13
-                                    bagianAnakPerempuan = "1/2 → 8/13"
+                                    bagianAnakPerempuan = "2/3 → 8/13"
                                     hartaAnakPerempuan = harta * 8/13
                                 }
                             }
@@ -456,13 +456,13 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaIstri = harta * 5/40
                                     bagianIbunyaIbu = "1/6 → 7/40"
                                     hartaIbunyaIbu = harta * 7/40
-                                    bagianAnakPerempuan = "1/2 → 28/40"
+                                    bagianAnakPerempuan = "2/3 → 7/10"
                                     hartaAnakPerempuan = harta * 28/40
                                 }else if(jenisKelaminPewaris.equals("Perempuan")){
                                     hartaSuami = harta*(3.0/13.0)
                                     bagianIbunyaIbu = "1/6 → 2/13"
                                     hartaIbunyaIbu = harta * 2/13
-                                    bagianAnakPerempuan = "1/2 → 8/13"
+                                    bagianAnakPerempuan = "2/3 → 8/13"
                                     hartaAnakPerempuan = harta * 8/13
                                 }
                             }
@@ -478,7 +478,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaCucuLaki = harta * 5/24
                                 }else if(jenisKelaminPewaris.equals("Perempuan")){
                                     hartaSuami = harta*(3.0/12.0)
-                                    bagianAnakPerempuan = "1/2 → 8/12"
+                                    bagianAnakPerempuan = "2/3 → 8/12"
                                     hartaAnakPerempuan = harta * 8/12
                                     bagianCucuLaki = "Ashobah"
                                     hartaCucuLaki = harta * 1/12
@@ -556,7 +556,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                 bagianIstri = "1/8 → 3/24"
                                 if (jenisKelaminPewaris.equals("Laki-Laki")){
                                     hartaIstri = harta * 3/24
-                                    bagianAnakPerempuan = "1/2 → 16/24"
+                                    bagianAnakPerempuan = "2/3 → 16/24"
                                     hartaAnakPerempuan = harta * 16/24
                                     hartaSaudariSeayahSeibu = harta * 5/24
                                 }else if(jenisKelaminPewaris.equals("Perempuan")){
@@ -579,7 +579,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaSuami = harta*(3.0/13.0)
                                     bagianIbunyaIbu = "1/6 → 2/13"
                                     hartaIbunyaIbu = harta * 2/13
-                                    bagianAnakPerempuan = "1/2 → 8/13"
+                                    bagianAnakPerempuan = "2/3 → 8/13"
                                     hartaAnakPerempuan = harta * 8/13
                                 }
                             }
@@ -596,7 +596,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     bagianCucuPerempuan = "Mahjub"
                                 }else if(jenisKelaminPewaris.equals("Perempuan")){
                                     hartaSuami = harta*(3.0/12.0)
-                                    bagianAnakPerempuan = "1/2 → 6/12"
+                                    bagianAnakPerempuan = "2/3 → 8/12"
                                     hartaAnakPerempuan = harta * 8/12
                                     hartaSaudariSeayahSeibu = harta * 1/12
                                     bagianCucuPerempuan = "Mahjub"
@@ -616,7 +616,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaSuami = harta*(3.0/13.0)
                                     bagianIbunyaIbu = "1/6 → 2/13"
                                     hartaIbunyaIbu = harta * 2/13
-                                    bagianAnakPerempuan = "1/2 → 8/13"
+                                    bagianAnakPerempuan = "2/3 → 8/13"
                                     hartaAnakPerempuan = harta * 8/13
                                     bagianCucuPerempuan = "Mahjub"
                                 }
@@ -654,7 +654,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaSuami = harta*(3.0/13.0)
                                     bagianIbunyaIbu = "1/6 → 2/13"
                                     hartaIbunyaIbu = harta * 2/13
-                                    bagianAnakPerempuan = "1/2 → 8/13"
+                                    bagianAnakPerempuan = "2/3 → 8/13"
                                     hartaAnakPerempuan = harta * 8/13
                                     bagianCucuLaki = "Ashobah"
                                 }
@@ -697,7 +697,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaSuami = harta*(3.0/13.0)
                                     bagianIbunyaIbu = "1/6 → 2/13"
                                     hartaIbunyaIbu = harta * 2/13
-                                    bagianAnakPerempuan = "1/2 → 8/13"
+                                    bagianAnakPerempuan = "2/3 → 8/13"
                                     hartaAnakPerempuan = harta * 8/13
                                 }
                             }
@@ -734,7 +734,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaSuami = harta*(3.0/13.0)
                                     bagianIbunyaIbu = "1/6 → 2/13"
                                     hartaIbunyaIbu = harta * 2/13
-                                    bagianAnakPerempuan = "1/2 → 8/13"
+                                    bagianAnakPerempuan = "2/3 → 8/13"
                                     hartaAnakPerempuan = harta * 8/13
                                 }
                             }
@@ -808,7 +808,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaSuami = harta*(3.0/13.0)
                                     bagianIbunyaIbu = "1/6 → 2/13"
                                     hartaIbunyaIbu = harta * 2/13
-                                    bagianAnakPerempuan = "1/2 → 8/13"
+                                    bagianAnakPerempuan = "2/3 → 8/13"
                                     hartaAnakPerempuan = harta * 8/13
                                     bagianCucuLaki = "Ashobah"
                                 }
@@ -851,7 +851,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaSuami = harta*(3.0/13.0)
                                     bagianIbunyaIbu = "1/6 → 2/13"
                                     hartaIbunyaIbu = harta * 2/13
-                                    bagianAnakPerempuan = "1/2 → 8/13"
+                                    bagianAnakPerempuan = "2/3 → 8/13"
                                     hartaAnakPerempuan = harta * 8/13
                                 }
                             }
@@ -894,7 +894,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaSuami = harta*(3.0/13.0)
                                     bagianIbunyaIbu = "1/6 → 2/13"
                                     hartaIbunyaIbu = harta * 2/13
-                                    bagianAnakPerempuan = "1/2 → 8/13"
+                                    bagianAnakPerempuan = "2/3 → 8/13"
                                     hartaAnakPerempuan = harta * 8/13
                                 }
                             }
@@ -914,7 +914,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaSaudariSeayahSeibu = (sisaHarta * (adaSaudariSeayahSeibu / (adaSaudaraSeayahSeibu + adaSaudaraSeayahSeibu + adaSaudariSeayahSeibu).toDouble()))
                                 }else if(jenisKelaminPewaris.equals("Perempuan")){
                                     hartaSuami = harta*(3.0/12.0)
-                                    bagianAnakPerempuan = "1/2 → 8/12"
+                                    bagianAnakPerempuan = "2/3 → 8/12"
                                     hartaAnakPerempuan = harta * 8/12
                                     sisaHarta = harta - hartaAnakPerempuan - hartaSuami - hartaCucuPerempuan
                                     hartaSaudaraSeayahSeibu = sisaHarta * (adaSaudaraSeayahSeibu + adaSaudaraSeayahSeibu) / (adaSaudaraSeayahSeibu + adaSaudaraSeayahSeibu + adaSaudariSeayahSeibu).toDouble()
@@ -936,7 +936,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaSuami = harta*(3.0/13.0)
                                     bagianIbunyaIbu = "1/6 → 2/13"
                                     hartaIbunyaIbu = harta * 2/13
-                                    bagianAnakPerempuan = "1/2 → 8/13"
+                                    bagianAnakPerempuan = "2/3 → 8/13"
                                     hartaAnakPerempuan = harta * 8/13
                                 }
                             }
@@ -972,7 +972,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaSuami = harta*(3.0/13.0)
                                     bagianIbunyaIbu = "1/6 → 2/13"
                                     hartaIbunyaIbu = harta * 2/13
-                                    bagianAnakPerempuan = "1/2 → 8/13"
+                                    bagianAnakPerempuan = "2/3 → 8/13"
                                     hartaAnakPerempuan = harta * 8/13
                                 }
                             }
@@ -1015,7 +1015,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaSuami = harta*(3.0/13.0)
                                     bagianIbunyaIbu = "1/6 → 2/13"
                                     hartaIbunyaIbu = harta * 2/12
-                                    bagianAnakPerempuan = "1/2 → 8/13"
+                                    bagianAnakPerempuan = "2/3 → 8/13"
                                     hartaAnakPerempuan = harta * 8/13
                                 }
                             }
@@ -1057,7 +1057,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaSuami = harta*(3.0/15.0)
                                     bagianIbunyaIbu = "1/6 → 2/15"
                                     hartaIbunyaIbu = harta * 2/15
-                                    bagianAnakPerempuan = "1/2 → 8/15"
+                                    bagianAnakPerempuan = "2/3 → 8/15"
                                     hartaAnakPerempuan = harta * 8/15
                                     bagianIbunyaAyah = "1/6 → 2/15"
                                     hartaIbunyaAyah = harta * 2/15
@@ -1116,7 +1116,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaIbunyaAyah = harta * 4/24
                                 }else if(jenisKelaminPewaris.equals("Perempuan")){
                                     hartaSuami = harta*(3.0/13.0)
-                                    bagianAnakPerempuan = "1/2 → 8/13"
+                                    bagianAnakPerempuan = "2/3 → 8/13"
                                     hartaAnakPerempuan = harta * 8/13
                                     bagianCucuLaki = "Ashobah"
                                     bagianIbunyaAyah = "1/6 → 2/13"
@@ -1227,7 +1227,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaSuami = harta*(3.0/15.0)
                                     bagianIbunyaIbu = "1/6 → 2/15"
                                     hartaIbunyaIbu = harta * 2/15
-                                    bagianAnakPerempuan = "1/2 → 8/15"
+                                    bagianAnakPerempuan = "2/3 → 8/15"
                                     hartaAnakPerempuan = harta * 8/15
                                     bagianIbunyaAyah = "1/6 → 2/15"
                                     hartaIbunyaAyah = harta * 2/15
@@ -1268,7 +1268,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaSuami = harta*(3.0/15.0)
                                     bagianIbunyaIbu = "1/6 → 2/15"
                                     hartaIbunyaIbu = harta * 2/15
-                                    bagianAnakPerempuan = "1/2 → 8/15"
+                                    bagianAnakPerempuan = "2/3 → 8/15"
                                     hartaAnakPerempuan = harta * 8/15
                                     bagianIbunyaAyah = "1/6 → 2/15"
                                     hartaIbunyaAyah = harta * 2/15
@@ -1309,7 +1309,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaSuami = harta*(3.0/15.0)
                                     bagianIbunyaIbu = "1/6 → 2/15"
                                     hartaIbunyaIbu = harta * 2/15
-                                    bagianAnakPerempuan = "1/2 → 8/15"
+                                    bagianAnakPerempuan = "2/3 → 8/15"
                                     hartaAnakPerempuan = harta * 8/15
                                     bagianIbunyaAyah = "1/6 → 2/15"
                                     hartaIbunyaAyah = harta * 2/15
@@ -1353,7 +1353,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaSuami = harta*(3.0/15.0)
                                     bagianIbunyaIbu = "1/6 → 2/15"
                                     hartaIbunyaIbu = harta * 2/15
-                                    bagianAnakPerempuan = "1/2 → 8/15"
+                                    bagianAnakPerempuan = "2/3 → 8/15"
                                     hartaAnakPerempuan = harta * 8/15
                                     bagianIbunyaAyah = "1/6 → 2/15"
                                     hartaIbunyaAyah = harta * 2/15
@@ -1395,7 +1395,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaSuami = harta*(3.0/15.0)
                                     bagianIbunyaIbu = "1/6 → 2/15"
                                     hartaIbunyaIbu = harta * 2/15
-                                    bagianAnakPerempuan = "1/2 → 8/15"
+                                    bagianAnakPerempuan = "2/3 → 8/15"
                                     hartaAnakPerempuan = harta * 8/15
                                     bagianIbunyaAyah = "1/6 → 2/15"
                                     hartaIbunyaAyah = harta * 2/15
@@ -1436,7 +1436,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaSuami = harta*(3.0/15.0)
                                     bagianIbunyaIbu = "1/6 → 2/15"
                                     hartaIbunyaIbu = harta * 2/15
-                                    bagianAnakPerempuan = "1/2 → 8/15"
+                                    bagianAnakPerempuan = "2/3 → 8/15"
                                     hartaAnakPerempuan = harta * 8/15
                                     bagianIbunyaAyah = "1/6 → 2/15"
                                     hartaIbunyaAyah = harta * 2/15
@@ -1477,7 +1477,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaSuami = harta*(3.0/15.0)
                                     bagianIbunyaIbu = "1/6 → 2/15"
                                     hartaIbunyaIbu = harta * 2/15
-                                    bagianAnakPerempuan = "1/2 → 8/15"
+                                    bagianAnakPerempuan = "2/3 → 8/15"
                                     hartaAnakPerempuan = harta * 8/15
                                     bagianIbunyaAyah = "1/6 → 2/15"
                                     hartaIbunyaAyah = harta * 2/15
@@ -1521,7 +1521,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaSuami = harta*(3.0/15.0)
                                     bagianIbunyaIbu = "1/6 → 2/15"
                                     hartaIbunyaIbu = harta * 2/15
-                                    bagianAnakPerempuan = "1/2 → 8/15"
+                                    bagianAnakPerempuan = "2/3 → 8/15"
                                     hartaAnakPerempuan = harta * 8/15
                                     bagianIbunyaAyah = "1/6 → 2/15"
                                     hartaIbunyaAyah = harta * 2/15
@@ -1566,7 +1566,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaSuami = harta*(3.0/15.0)
                                     bagianIbunyaIbu = "1/6 → 2/15"
                                     hartaIbunyaIbu = harta * 2/15
-                                    bagianAnakPerempuan = "1/2 → 8/15"
+                                    bagianAnakPerempuan = "2/3 → 8/15"
                                     hartaAnakPerempuan = harta * 8/15
                                     bagianIbunyaAyah = "1/6 → 2/15"
                                     hartaIbunyaAyah = harta * 2/15
@@ -1610,7 +1610,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaSuami = harta*(3.0/15.0)
                                     bagianIbunyaIbu = "1/6 → 2/15"
                                     hartaIbunyaIbu = harta * 2/15
-                                    bagianAnakPerempuan = "1/2 → 8/15"
+                                    bagianAnakPerempuan = "2/3 → 8/15"
                                     hartaAnakPerempuan = harta * 8/15
                                     bagianIbunyaAyah = "1/6 → 2/15"
                                     hartaIbunyaAyah = harta * 2/15
@@ -1653,7 +1653,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaSuami = harta*(3.0/15.0)
                                     bagianIbunyaIbu = "1/6 → 2/15"
                                     hartaIbunyaIbu = harta * 2/15
-                                    bagianAnakPerempuan = "1/2 → 8/15"
+                                    bagianAnakPerempuan = "2/3 → 8/15"
                                     hartaAnakPerempuan = harta * 8/15
                                     bagianIbunyaAyah = "1/6 → 2/15"
                                     hartaIbunyaAyah = harta * 2/15
@@ -1698,7 +1698,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaSuami = harta*(3.0/15.0)
                                     bagianIbunyaIbu = "1/6 → 2/15"
                                     hartaIbunyaIbu = harta * 2/15
-                                    bagianAnakPerempuan = "1/2 → 8/15"
+                                    bagianAnakPerempuan = "2/3 → 8/15"
                                     hartaAnakPerempuan = harta * 8/15
                                     bagianIbunyaAyah = "1/6 → 2/15"
                                     hartaIbunyaAyah = harta * 2/15
@@ -1894,7 +1894,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaSuami = harta*(3.0/15.0)
                                     bagianAnakPerempuan = "2/3 → 8/15"
                                     hartaAnakPerempuan = harta * 8/15
-                                    bagianAyahnyaAyah = "1/6 → 2/18"
+                                    bagianAyahnyaAyah = "1/6 → 2/15"
                                     hartaAyahnyaAyah = harta * 2/15
                                     bagianIbunyaAyah = "1/6 → 2/15"
                                     hartaIbunyaAyah = harta * 2/15
@@ -1920,7 +1920,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaAnakPerempuan = harta * 8/17
                                     bagianAyahnyaAyah = "1/6 → 2/17"
                                     hartaAyahnyaAyah = harta * 2/17
-                                    bagianIbunyaAyah = "1/6 → 2/15"
+                                    bagianIbunyaAyah = "1/6 → 2/17"
                                     hartaIbunyaAyah = harta * 2/17
                                 }
                             }
@@ -1941,7 +1941,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaSuami = harta*(3.0/15.0)
                                     bagianAnakPerempuan = "2/3 → 8/15"
                                     hartaAnakPerempuan = harta * 8/15
-                                    bagianAyahnyaAyah = "1/6 → 2/18"
+                                    bagianAyahnyaAyah = "1/6 → 2/15"
                                     hartaAyahnyaAyah = harta * 2/15
                                     bagianIbunyaAyah = "1/6 → 2/15"
                                     hartaIbunyaAyah = harta * 2/15
@@ -1967,7 +1967,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaAnakPerempuan = harta * 8/17
                                     bagianAyahnyaAyah = "1/6 → 2/17"
                                     hartaAyahnyaAyah = harta * 2/17
-                                    bagianIbunyaAyah = "1/6 → 2/15"
+                                    bagianIbunyaAyah = "1/6 → 2/17"
                                     hartaIbunyaAyah = harta * 2/17
                                 }
                             }
@@ -1988,7 +1988,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaSuami = harta*(3.0/15.0)
                                     bagianAnakPerempuan = "2/3 → 8/15"
                                     hartaAnakPerempuan = harta * 8/15
-                                    bagianAyahnyaAyah = "1/6 → 2/18"
+                                    bagianAyahnyaAyah = "1/6 → 2/15"
                                     hartaAyahnyaAyah = harta * 2/15
                                     bagianIbunyaAyah = "1/6 → 2/15"
                                     hartaIbunyaAyah = harta * 2/15
@@ -2014,7 +2014,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaAnakPerempuan = harta * 8/17
                                     bagianAyahnyaAyah = "1/6 → 2/17"
                                     hartaAyahnyaAyah = harta * 2/17
-                                    bagianIbunyaAyah = "1/6 → 2/15"
+                                    bagianIbunyaAyah = "1/6 → 2/17"
                                     hartaIbunyaAyah = harta * 2/17
                                 }
                             }
@@ -2036,7 +2036,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaSuami = harta*(3.0/15.0)
                                     bagianAnakPerempuan = "2/3 → 8/15"
                                     hartaAnakPerempuan = harta * 8/15
-                                    bagianAyahnyaAyah = "1/6 → 2/18"
+                                    bagianAyahnyaAyah = "1/6 → 2/15"
                                     hartaAyahnyaAyah = harta * 2/15
                                     bagianIbunyaAyah = "1/6 → 2/15"
                                     hartaIbunyaAyah = harta * 2/15
@@ -2062,7 +2062,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaAnakPerempuan = harta * 8/17
                                     bagianAyahnyaAyah = "1/6 → 2/17"
                                     hartaAyahnyaAyah = harta * 2/17
-                                    bagianIbunyaAyah = "1/6 → 2/15"
+                                    bagianIbunyaAyah = "1/6 → 2/17"
                                     hartaIbunyaAyah = harta * 2/17
                                 }
                             }
@@ -4068,7 +4068,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaAyah = harta * 4/24
                                     bagianIbunyaIbu = "1/6 → 4/24"
                                     hartaIbunyaIbu = harta * 4/24
-                                    sisaHarta = harta - hartaIbu - hartaIstri - hartaIbunyaIbu
+                                    sisaHarta = harta - hartaAyah - hartaIstri - hartaIbunyaIbu
                                     hartaAnakLaki = sisaHarta * (anakLaki + anakLaki) / (anakLaki + anakLaki + anakPerempuan).toDouble()
                                     hartaAnakPerempuan = (sisaHarta * (anakPerempuan / (anakLaki + anakLaki + anakPerempuan).toDouble()))
                                 }else if(jenisKelaminPewaris.equals("Perempuan")){
@@ -4077,7 +4077,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaAyah = harta * 2/12
                                     bagianIbunyaIbu = "1/6 → 2/12"
                                     hartaIbunyaIbu = harta * 2/12
-                                    sisaHarta = harta - hartaIbu - hartaSuami - hartaIbunyaIbu
+                                    sisaHarta = harta - hartaAyah - hartaSuami - hartaIbunyaIbu
                                     hartaAnakLaki = sisaHarta * (anakLaki + anakLaki) / (anakLaki + anakLaki + anakPerempuan).toDouble()
                                     hartaAnakPerempuan = (sisaHarta * (anakPerempuan / (anakLaki + anakLaki + anakPerempuan).toDouble()))
                                 }
@@ -4315,7 +4315,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaAyah = harta * 4/24
                                     bagianIbunyaIbu = "1/6 → 4/24"
                                     hartaIbunyaIbu = harta * 4/24
-                                    sisaHarta = harta - hartaIbu - hartaIstri - hartaIbunyaIbu
+                                    sisaHarta = harta - hartaAyah - hartaIstri - hartaIbunyaIbu
                                     hartaAnakLaki = sisaHarta * (anakLaki + anakLaki) / (anakLaki + anakLaki + anakPerempuan).toDouble()
                                     hartaAnakPerempuan = (sisaHarta * (anakPerempuan / (anakLaki + anakLaki + anakPerempuan).toDouble()))
                                 }else if(jenisKelaminPewaris.equals("Perempuan")){
@@ -4324,7 +4324,7 @@ fun AdaSuamiAtauIstriLebihDariNolLogic(
                                     hartaAyah = harta * 2/12
                                     bagianIbunyaIbu = "1/6 → 2/12"
                                     hartaIbunyaIbu = harta * 2/12
-                                    sisaHarta = harta - hartaIbu - hartaSuami - hartaIbunyaIbu
+                                    sisaHarta = harta - hartaAyah - hartaSuami - hartaIbunyaIbu
                                     hartaAnakLaki = sisaHarta * (anakLaki + anakLaki) / (anakLaki + anakLaki + anakPerempuan).toDouble()
                                     hartaAnakPerempuan = (sisaHarta * (anakPerempuan / (anakLaki + anakLaki + anakPerempuan).toDouble()))
                                 }
