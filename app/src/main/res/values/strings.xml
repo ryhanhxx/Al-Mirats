@@ -187,5 +187,6 @@
     <string name="desc_fatwa_6">In Islam, you can definitely make a will, but there are some ground rules. You can only give away a third of your stuff, and it cannot mess with who gets what according to Islamic inheritance law. Basically, your will cannot leave your loved ones (heirs) out in the cold.
         \n\nSource: ChatGPT</string>
     <string name="txt_copyright">Copyright © by Rumah Fiqih Indonesia</string>
+    <string name="txt_selesai">Finish</string>
 
 </resources>
