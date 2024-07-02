@@ -19,7 +19,8 @@
     <string name="txt_desc_app">Kalkulator Al-Mirats merupakan aplikasi mobile hasil proyek yang di hasilkan pada Mata Kuliah Terk Pengembangan Aplikasi Mobile yang dibuat sesuai ajaran Agama Islam. Aplikasi ini akan memudahkan anda untuk menghitung pembagian waris, dalam aplikasi ini anda juga bisa mempelajari terkait waris.</string>
     <string name="txt_nama_aplikasi">Nama Aplikasi: Al-Mirats</string>
     <string name="txt_tim">Tim Pengembang:</string>
-    <string name="txt_nama_pengembang">1. Arfan Prihardiasyah \n2. Bayu Mahesa \n3. Ryan Hidayat \n4. Haibraiel Rabbany F.Z \n5. Farhan Nur Fauziy \n6. Muhammad Rayhan Hakim</string>
+    <string name="txt_nama_pengembang">Arfan Prihardiasyah \nBayu Mahesa \nRyan Hidayat</string>
+    <string name="txt_nama_pengembang_2">Haibraiel Rabbany F.Z \nFarhan Nur Fauziy \nMuhammad Rayhan Hakim</string>
     <string name="txt_dosen">Herika Hayurani, S.Kom., M.Kom</string>
     <string name="txt_dosen_pembimbing">Dosen Pembimbing:</string>
     <string name="txt_klien">Klien</string>
@@ -190,5 +191,7 @@
         \n\nSumber: ChatGPT</string>
     <string name="txt_copyright">Copyright © by Rumah Fiqih Indonesia</string>
     <string name="txt_selesai">Selesai</string>
+    <string name="txt_team_alqudra">Team AL-QUDRA</string>
+    <string name="txt_team_marbay">Team MARBAY</string>
 
 </resources>

@@ -19,7 +19,8 @@
     <string name="txt_desc_app"> Al-Mirats Calculator is a Mobile Phone Application. This project was done during the Terk Course of Mobile Application Development and was developed according to the teachings of the Islamic religion. This application helps you to quickly calculate the distribution of inheritance. In this application, you can also learn about inheritance.</string>
     <string name="txt_nama_aplikasi">Application Name: Al-Mirats</string>
     <string name="txt_tim">Development Team:</string>
-    <string name="txt_nama_pengembang">1. Arfan Prihardiasyah \n2. Bayu Mahesa \n3. Ryan Hidayat \n4. Haibraiel Rabbany F.Z \n5. Farhan Nur Fauziy \n6. Muhammad Rayhan Hakim</string>
+    <string name="txt_nama_pengembang">Arfan Prihardiasyah \nBayu Mahesa \nRyan Hidayat</string>
+    <string name="txt_nama_pengembang_2">Haibraiel Rabbany F.Z \nFarhan Nur Fauziy \nMuhammad Rayhan Hakim</string>
     <string name="txt_dosen">Herika Hayurani, S.Kom., M.Kom</string>
     <string name="txt_dosen_pembimbing">Supervisor:</string>
     <string name="txt_klien">Client:</string>
@@ -188,5 +189,7 @@
         \n\nSource: ChatGPT</string>
     <string name="txt_copyright">Copyright © by Rumah Fiqih Indonesia</string>
     <string name="txt_selesai">Finish</string>
+    <string name="txt_team_alqudra">©2024, Team AL-QUDRA</string>
+    <string name="txt_team_marbay">©2023, Team MARBAY</string>
 
 </resources>
