@@ -33,7 +33,7 @@ class WarisUtamaActivity : AppCompatActivity() {
         val buttonBack: ImageView = binding.btnBack
         val buttonDelete: ImageView = binding.btnDelete
         binding.edIstri.filters = arrayOf(InputFilter.LengthFilter(1))
-        buttonDelete.visibility = View.GONE
+//        buttonDelete.visibility = View.GONE
 
         val harta = intent.getLongExtra("harta", 0)
         val hutang = intent.getLongExtra("hutang", 0)
@@ -80,6 +80,27 @@ class WarisUtamaActivity : AppCompatActivity() {
         buttonBack.setOnClickListener {
             finish()
         }
+
+        buttonDelete.setOnClickListener{
+            val nilaiKosong: Editable = Editable.Factory.getInstance().newEditable("")
+
+            binding.cbAyah.isChecked = false
+            binding.cbIbu.isChecked = false
+            binding.cbAyahnyaAyah.isChecked = false
+            binding.cbIbunyaAyah.isChecked = false
+            binding.cbIbunyaIbu.isChecked = false
+            binding.cbSuami.isChecked = false
+
+            binding.edIstri.text = nilaiKosong
+            binding.edLaki.text = nilaiKosong
+            binding.edPerempuan.text = nilaiKosong
+            binding.edSaudaraSeayahSeibu.text = nilaiKosong
+            binding.edSaudariSeayahSeibu.text = nilaiKosong
+            binding.edCucuLaki.text = nilaiKosong
+            binding.edCucuPerempuan.text = nilaiKosong
+        }
+
+
 
         warisDataDao = AppDatabase.getDatabase(this).warisDataDao()
         checkIfDatabaseNotEmpty()
@@ -301,4 +322,6 @@ class WarisUtamaActivity : AppCompatActivity() {
             }
         }
     }
+
+
 }
