@@ -7,6 +7,7 @@ import android.os.Looper
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.AdapterView
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
@@ -16,14 +17,18 @@ import androidx.viewpager2.widget.ViewPager2
 import com.ch.al_mirats.R
 import com.ch.al_mirats.databinding.FragmentHomeBinding
 import com.ch.al_mirats.dummy.DummyTopMateriDataSourceImpl
+import com.ch.al_mirats.model.Language
 import com.ch.al_mirats.model.Materi
 import com.ch.al_mirats.presentation.about.AboutActivity
 import com.ch.al_mirats.presentation.feedback.FeedbackActivity
 import com.ch.al_mirats.presentation.home.adapter.CarouselAdapter
 import com.ch.al_mirats.presentation.home.adapter.HomeAdapter
+import com.ch.al_mirats.presentation.home.adapter.LanguageAdapter
 import com.ch.al_mirats.presentation.kalkulator.harta.HartaActivity
+import com.ch.al_mirats.presentation.main.MainActivity
 import com.ch.al_mirats.presentation.materi.MateriActivity
 import com.ch.al_mirats.presentation.tutorial.TutorialActivity
+import java.util.Locale
 
 
 class HomeFragment : Fragment() {
@@ -61,6 +66,7 @@ class HomeFragment : Fragment() {
         setupCarousel()
         setupTransformer()
         runningCarousel()
+        setSpinner()
     }
 
     private fun setupNavigate() {
@@ -81,6 +87,34 @@ class HomeFragment : Fragment() {
             val intent = Intent(activity, HartaActivity::class.java)
             activity?.startActivity(intent)
         }
+    }
+
+    private fun setSpinner() {
+        val myAdapter = LanguageAdapter(requireContext(), Language.getLanguageList())
+        binding.spinner.adapter = myAdapter
+
+        binding.spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(adapterView: AdapterView<*>, view: View?, position: Int, l: Long) {
+                val language = adapterView.adapter.getItem(position) as Language
+                if (position != 0) {
+                    setLocale(language.code)
+                }
+            }
+
+            override fun onNothingSelected(adapterView: AdapterView<*>) {}
+        }
+    }
+
+    fun setLocale(lang: String?) {
+        val myLocale = Locale(lang)
+        val res = resources
+        val conf = res.configuration
+        conf.locale = myLocale
+        res.updateConfiguration(conf, res.displayMetrics)
+
+        val intent = Intent(activity, MainActivity::class.java)
+        startActivity(intent)
+        activity?.finish()
     }
 
     private fun setupRecyclerView() {

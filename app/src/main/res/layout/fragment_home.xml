@@ -102,16 +102,39 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <TextView
-                android:id="@+id/tv_fitur"
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cl_lang"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="12dp"
-                android:fontFamily="@font/roboto_bold"
-                android:text="@string/txt_fitur_utama"
-                android:textColor="?android:textColorPrimary"
-                android:textSize="24sp"
-                app:layout_constraintTop_toBottomOf="@id/v_bg" />
+                app:layout_constraintTop_toBottomOf="@id/v_bg">
+
+                <TextView
+                    android:id="@+id/tv_fitur"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:gravity="start"
+                    android:layout_marginEnd="20dp"
+                    android:text="@string/txt_fitur_utama"
+                    app:layout_constraintEnd_toStartOf="@id/spinner"
+                    android:textColor="?android:textColorPrimary"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/tv_fitur"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
 
             <androidx.appcompat.widget.LinearLayoutCompat
                 android:id="@+id/ll_fitur_utama"
@@ -120,7 +143,7 @@
                 android:layout_marginHorizontal="8dp"
                 android:gravity="center"
                 android:orientation="horizontal"
-                app:layout_constraintTop_toBottomOf="@id/tv_fitur">
+                app:layout_constraintTop_toBottomOf="@id/cl_lang">
 
                 <androidx.appcompat.widget.LinearLayoutCompat
                     android:id="@+id/ll_kalkulator"
