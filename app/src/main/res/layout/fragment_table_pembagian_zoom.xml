@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -38,6 +37,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="20"
                         android:background="@drawable/table_primary"
+                        android:fontFamily="@font/poppins_medium"
                         android:gravity="center"
                         android:text="@string/txt_ahli_waris"
                         android:textColor="@color/white" />
@@ -49,6 +49,7 @@
                         android:layout_marginStart="4dp"
                         android:layout_weight="17.5"
                         android:background="@drawable/table_primary"
+                        android:fontFamily="@font/poppins_medium"
                         android:gravity="center"
                         android:text="@string/txt_bagian"
                         android:textColor="@color/white" />
@@ -60,6 +61,7 @@
                         android:layout_marginStart="4dp"
                         android:layout_weight="12.5"
                         android:background="@drawable/table_primary"
+                        android:fontFamily="@font/poppins_medium"
                         android:gravity="center"
                         android:text="@string/txt_jumlah_orang"
                         android:textColor="@color/white" />
@@ -71,6 +73,7 @@
                         android:layout_marginStart="4dp"
                         android:layout_weight="20"
                         android:background="@drawable/table_primary"
+                        android:fontFamily="@font/poppins_medium"
                         android:gravity="center"
                         android:text="@string/txt_harta_bagian"
                         android:textColor="@color/white" />
@@ -82,6 +85,7 @@
                         android:layout_marginStart="4dp"
                         android:layout_weight="20"
                         android:background="@drawable/table_primary"
+                        android:fontFamily="@font/poppins_medium"
                         android:gravity="center"
                         android:text="@string/txt_harta_perorang"
                         android:textColor="@color/white" />
@@ -106,6 +110,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="24.3"
                         android:background="@drawable/table_primary"
+                        android:fontFamily="@font/poppins_medium"
                         android:gravity="center"
                         android:text="@string/txt_total_pembagian"
                         android:textColor="@color/white" />
@@ -118,6 +123,7 @@
                         android:layout_marginStart="4dp"
                         android:layout_weight="25.7"
                         android:background="@drawable/table_primary"
+                        android:fontFamily="@font/poppins_medium"
                         android:gravity="center"
                         android:text="Rp. 100.000"
                         android:textColor="@color/white" />

@@ -3,11 +3,11 @@
 
     <style name="TeksTableDefault" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="android:textSize">12sp</item>
-        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:fontFamily">@font/poppins</item>
     </style>
     <style name="TeksTableZoom" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="android:textSize">23sp</item>
-        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:fontFamily">@font/poppins</item>
     </style>
 
     <style name="SizeTable" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -28,11 +28,11 @@
 
     <style name="TeksTablePembagianDefault" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="android:textSize">10sp</item>
-        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:fontFamily">@font/poppins</item>
     </style>
     <style name="TeksTablePembagianZoom" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="android:textSize">17sp</item>
-        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:fontFamily">@font/poppins</item>
     </style>
 
 </resources>

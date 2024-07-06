@@ -32,7 +32,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:fontFamily="@font/roboto_bold"
+            android:fontFamily="@font/poppins_semibold"
             android:text="@string/txt_kalkulator"
             android:textColor="?android:textColorSecondary"
             android:textSize="24sp"
@@ -69,7 +69,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/roboto_medium"
+                android:fontFamily="@font/poppins_medium"
                 android:text="@string/txt_harta"
                 android:textSize="14sp" />
 
@@ -100,7 +100,7 @@
                 android:id="@+id/number_hartaPewaris"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/roboto_medium"
+                android:fontFamily="@font/poppins_medium"
                 android:text="Rp.0"
                 android:textAlignment="textEnd"
                 android:textColor="@color/color_on_secondary_light"
@@ -116,7 +116,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/roboto_medium"
+                android:fontFamily="@font/poppins_medium"
                 android:text="@string/txt_hutang"
                 android:textSize="14sp" />
 
@@ -147,7 +147,7 @@
                 android:id="@+id/number_hutang"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/roboto_medium"
+                android:fontFamily="@font/poppins_medium"
                 android:text="Rp.0"
                 android:textAlignment="textEnd"
                 android:textColor="@color/color_on_secondary_light"
@@ -163,7 +163,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/roboto_medium"
+                android:fontFamily="@font/poppins_medium"
                 android:text="@string/txt_jenazah"
                 android:textSize="14sp" />
 
@@ -194,7 +194,7 @@
                 android:id="@+id/number_biayaPerawatanJenazah"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/roboto_medium"
+                android:fontFamily="@font/poppins_medium"
                 android:text="Rp.0"
                 android:textAlignment="textEnd"
                 android:textColor="@color/color_on_secondary_light"
@@ -210,7 +210,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/roboto_medium"
+                android:fontFamily="@font/poppins_medium"
                 android:text="@string/txt_wasiat"
                 android:textSize="14sp" />
 
@@ -241,7 +241,7 @@
                 android:id="@+id/number_wasiat"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/roboto_medium"
+                android:fontFamily="@font/poppins_medium"
                 android:text="Rp.0"
                 android:textAlignment="textEnd"
                 android:textColor="@color/color_on_secondary_light"
@@ -257,7 +257,7 @@
         android:layout_width="match_parent"
         android:layout_height="62dp"
         android:backgroundTint="@color/primary_dark_blue"
-        android:fontFamily="@font/roboto_bold"
+        android:fontFamily="@font/poppins_semibold"
         android:text="@string/txt_selanjutnya"
         android:textColor="@color/primary_white"
         app:cornerRadius="10dp"
