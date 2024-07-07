@@ -59,7 +59,7 @@
                         android:fontFamily="@font/poppins_semibold"
                         android:text="@string/txt_name"
                         android:textColor="@color/primary_white"
-                        android:textSize="24sp"
+                        android:textSize="20sp"
                         app:layout_constraintTop_toBottomOf="@id/tv_welcome" />
                 </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -118,7 +118,7 @@
                     android:gravity="start"
                     android:text="@string/txt_fitur_utama"
                     android:textColor="?android:textColorPrimary"
-                    android:textSize="24sp"
+                    android:textSize="20sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@id/spinner"
                     app:layout_constraintStart_toStartOf="parent"
@@ -266,7 +266,7 @@
                 android:fontFamily="@font/poppins_semibold"
                 android:text="@string/txt_materi_teratas"
                 android:textColor="?android:textColorPrimary"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 app:layout_constraintTop_toBottomOf="@id/viewPager2" />
 
             <androidx.recyclerview.widget.RecyclerView
