@@ -54,7 +54,6 @@ class HomeFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         binding = FragmentHomeBinding.inflate(inflater, container, false)
         return binding.root
     }
@@ -68,6 +67,9 @@ class HomeFragment : Fragment() {
         setupTransformer()
         runningCarousel()
         setSpinner()
+
+
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
     }
 
     private fun setupNavigate() {
