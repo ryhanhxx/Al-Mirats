@@ -33,7 +33,7 @@
             android:layout_gravity="center"
             android:fontFamily="@font/poppins_semibold"
             android:maxLines="2"
-            android:textColor="?android:textColorSecondary"
+            android:textColor="?android:textColorPrimary"
             android:textSize="24sp"
             app:layout_constraintStart_toEndOf="@id/iv_back"
             app:layout_constraintTop_toTopOf="parent"
