@@ -14,7 +14,7 @@ class DummyTutorialDataSourceImpl() : DummyTutorialDataSource {
         return mutableListOf(
             Tutorial(
                 title = context.getString(R.string.title_tutorial_1),
-                videoUrl = "pYy69BYUIxw",
+                videoUrl = "V_01X45d91g",
                 imgUrl = "https://raw.githubusercontent.com/ryhanhxx/img_asset/main/IMG_KALKULATOR.png",
                 desc = context.getString(R.string.desc_tutorial_1)
             ),
