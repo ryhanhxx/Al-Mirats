@@ -34,7 +34,7 @@
             android:fontFamily="@font/poppins_semibold"
             android:text="@string/txt_materi"
             android:textColor="?android:textColorPrimary"
-            android:textSize="24sp"
+            android:textSize="20sp"
             app:layout_constraintStart_toEndOf="@id/iv_back"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.appcompat.widget.LinearLayoutCompat>
@@ -70,7 +70,7 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/poppins_semibold"
                     android:textColor="?android:textColorSecondary"
-                    android:textSize="22sp"
+                    android:textSize="20sp"
                     app:layout_constraintStart_toEndOf="@id/iv_back"
                     app:layout_constraintTop_toTopOf="parent"
                     tools:text="Title" />

@@ -34,7 +34,7 @@
             android:fontFamily="@font/poppins_semibold"
             android:text="@string/txt_fatwa"
             android:textColor="?android:textColorPrimary"
-            android:textSize="24sp"
+            android:textSize="20sp"
             app:layout_constraintStart_toEndOf="@id/iv_back"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.appcompat.widget.LinearLayoutCompat>

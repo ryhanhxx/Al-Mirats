@@ -20,7 +20,7 @@
             android:fontFamily="@font/poppins_medium"
             android:maxLines="1"
             android:textColor="?android:textColorSecondary"
-            android:textSize="18sp"
+            android:textSize="14sp"
             tools:text="Title" />
 
     </androidx.appcompat.widget.LinearLayoutCompat>
