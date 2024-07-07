@@ -114,7 +114,6 @@ class HomeFragment : Fragment() {
 
         val intent = Intent(activity, MainActivity::class.java)
         startActivity(intent)
-        activity?.finish()
     }
 
     private fun setupRecyclerView() {
