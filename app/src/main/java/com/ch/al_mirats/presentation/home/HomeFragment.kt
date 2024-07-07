@@ -54,6 +54,7 @@ class HomeFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         binding = FragmentHomeBinding.inflate(inflater, container, false)
         return binding.root
     }
