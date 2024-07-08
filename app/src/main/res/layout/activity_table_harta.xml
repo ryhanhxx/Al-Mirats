@@ -35,8 +35,8 @@
             android:layout_gravity="center"
             android:fontFamily="@font/poppins_semibold"
             android:text="@string/txt_kalkulator"
-            android:textColor="?android:textColorSecondary"
-            android:textSize="24sp"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="20sp"
             app:layout_constraintEnd_toStartOf="@+id/btn_delete"
             app:layout_constraintStart_toEndOf="@id/btn_back"
             app:layout_constraintTop_toTopOf="parent" />

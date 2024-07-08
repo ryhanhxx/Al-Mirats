@@ -47,7 +47,7 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/poppins_semibold"
                     android:text="@string/txt_kalkulator"
-                    android:textColor="?android:textColorSecondary"
+                    android:textColor="?android:textColorPrimary"
                     android:textSize="20sp"
                     app:layout_constraintEnd_toStartOf="@+id/btn_delete"
                     app:layout_constraintStart_toEndOf="@id/btn_back"
@@ -508,12 +508,12 @@
             <Button
                 android:id="@+id/btn_lanjut"
                 android:layout_width="match_parent"
-                android:layout_height="54dp"
                 android:backgroundTint="@color/primary_dark_blue"
                 android:fontFamily="@font/poppins_semibold"
                 android:text="@string/txt_selanjutnya"
                 android:textColor="@color/primary_white"
                 app:cornerRadius="10dp"
+                android:layout_height="62dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
