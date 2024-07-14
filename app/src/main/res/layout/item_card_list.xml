@@ -24,7 +24,7 @@
             android:id="@+id/ll_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="12dp"
+            android:padding="12dp"
             android:orientation="vertical">
 
             <TextView
@@ -33,7 +33,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppins_medium"
                 android:textColor="?android:textColorSecondary"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:maxLines="2"
                 tools:text="Title" />
 

@@ -112,7 +112,7 @@
         android:layout_height="62dp"
         android:backgroundTint="@color/primary_dark_blue"
         android:fontFamily="@font/poppins_semibold"
-        android:text="Kirim Masukan"
+        android:text="@string/txt_kirim"
         android:textColor="@color/primary_white"
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"

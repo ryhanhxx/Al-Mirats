@@ -193,5 +193,6 @@
     <string name="txt_selesai">Selesai</string>
     <string name="txt_team_alqudra">Team AL-QUDRA</string>
     <string name="txt_team_marbay">Team MARBAY</string>
+    <string name="txt_kirim">Kirim</string>
 
 </resources>
