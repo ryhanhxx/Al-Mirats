@@ -32,11 +32,11 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:fontFamily="@font/poppins_semibold"
+            android:text="@string/txt_tutorial"
             android:textColor="?android:textColorPrimary"
             android:textSize="20sp"
             app:layout_constraintStart_toEndOf="@id/iv_back"
-            app:layout_constraintTop_toTopOf="parent"
-            android:text="@string/txt_tutorial" />
+            app:layout_constraintTop_toTopOf="parent" />
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <TextView
@@ -52,11 +52,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        tools:itemCount="4"
         android:orientation="vertical"
         android:visibility="visible"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintTop_toBottomOf="@id/tv_desc"
+        tools:itemCount="4"
         tools:listitem="@layout/item_tutorial_card" />
 
 

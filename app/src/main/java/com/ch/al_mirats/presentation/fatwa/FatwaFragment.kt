@@ -24,7 +24,7 @@ class FatwaFragment : Fragment() {
     }
 
     private val adapter: FatwaAdapter by lazy {
-        FatwaAdapter(AdapterLayoutMode.LINEAR){ fatwa: Fatwa ->
+        FatwaAdapter(AdapterLayoutMode.LINEAR) { fatwa: Fatwa ->
             navigateToDetailFragment(fatwa)
         }
     }
@@ -32,6 +32,7 @@ class FatwaFragment : Fragment() {
     private fun navigateToDetailFragment(fatwa: Fatwa) {
         FatwaActivity.startActivity(requireContext(), fatwa)
     }
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -49,9 +50,9 @@ class FatwaFragment : Fragment() {
     }
 
     private fun setupList() {
-        val span = if(adapter.adapterLayoutMode == AdapterLayoutMode.LINEAR) 1 else 2
+        val span = if (adapter.adapterLayoutMode == AdapterLayoutMode.LINEAR) 1 else 2
         binding.rvMateri.apply {
-            layoutManager = GridLayoutManager(requireContext(),span)
+            layoutManager = GridLayoutManager(requireContext(), span)
             adapter = this@FatwaFragment.adapter
         }
         adapter.setItems(datasource.getFatwaData(requireContext()))
@@ -59,8 +60,10 @@ class FatwaFragment : Fragment() {
 
     private fun setupSwitch() {
         binding.swGrid.setOnCheckedChangeListener { _, isChecked ->
-            (binding.rvMateri.layoutManager as GridLayoutManager).spanCount = if (isChecked) 2 else 1
-            adapter.adapterLayoutMode = if(isChecked) AdapterLayoutMode.GRID else AdapterLayoutMode.LINEAR
+            (binding.rvMateri.layoutManager as GridLayoutManager).spanCount =
+                if (isChecked) 2 else 1
+            adapter.adapterLayoutMode =
+                if (isChecked) AdapterLayoutMode.GRID else AdapterLayoutMode.LINEAR
             adapter.refreshList()
         }
     }

@@ -1,11 +1,11 @@
 package com.ch.al_mirats.presentation.kalkulator.harta
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.fragment.app.Fragment
 import com.ch.al_mirats.R
 
 class TableHartaDefaultFragment : Fragment() {

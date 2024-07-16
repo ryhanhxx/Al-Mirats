@@ -106,9 +106,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_medium"
+                    android:text="@string/source"
                     android:textColor="?android:textColorPrimary"
-                    android:textSize="18sp"
-                    android:text="@string/source" />
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/tv_source"
@@ -120,14 +120,14 @@
                     tools:text="Source" />
             </androidx.appcompat.widget.LinearLayoutCompat>
 
-<!--            <TextView-->
-<!--                android:id="@+id/tv_source"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginVertical="8dp"-->
-<!--                android:fontFamily="@font/poppins"-->
-<!--                android:textSize="14sp"-->
-<!--                tools:text="Source" />-->
+            <!--            <TextView-->
+            <!--                android:id="@+id/tv_source"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginVertical="8dp"-->
+            <!--                android:fontFamily="@font/poppins"-->
+            <!--                android:textSize="14sp"-->
+            <!--                tools:text="Source" />-->
 
             <ImageView
                 android:id="@+id/iv_img2"

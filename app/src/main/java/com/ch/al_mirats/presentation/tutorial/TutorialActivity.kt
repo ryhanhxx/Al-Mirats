@@ -30,7 +30,7 @@ class TutorialActivity : AppCompatActivity() {
         setOnClickBack()
     }
 
-    private fun setOnClickBack(){
+    private fun setOnClickBack() {
         binding.ivBack.setOnClickListener {
             finish()
         }

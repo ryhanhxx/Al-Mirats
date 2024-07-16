@@ -81,7 +81,7 @@ class WarisUtamaActivity : AppCompatActivity() {
             finish()
         }
 
-        buttonDelete.setOnClickListener{
+        buttonDelete.setOnClickListener {
             val nilaiKosong: Editable = Editable.Factory.getInstance().newEditable("")
 
             binding.cbAyah.isChecked = false

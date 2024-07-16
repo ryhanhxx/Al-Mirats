@@ -52,13 +52,13 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.appcompat.widget.LinearLayoutCompat
-        app:layout_constraintTop_toBottomOf="@id/ll_header"
-        app:layout_constraintBottom_toBottomOf="@id/btn_lanjut"
         android:id="@+id/ll_gender"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginVertical="4dp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@id/btn_lanjut"
+        app:layout_constraintTop_toBottomOf="@id/ll_header">
 
         <TextView
             android:id="@+id/txt_jenis_kelamin"
@@ -79,14 +79,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_laki"
-                android:textSize="18sp"/>
+                android:textSize="18sp" />
 
             <RadioButton
                 android:id="@+id/rb_perempuan"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_perempuan"
-                android:textSize="18sp"/>
+                android:textSize="18sp" />
         </RadioGroup>
 
     </androidx.appcompat.widget.LinearLayoutCompat>

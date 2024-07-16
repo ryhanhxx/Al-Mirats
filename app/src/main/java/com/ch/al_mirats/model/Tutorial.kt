@@ -4,9 +4,9 @@ import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize
-data class Tutorial (
+data class Tutorial(
     val title: String,
     val videoUrl: String,
     val imgUrl: String,
     val desc: String,
-): Parcelable
+) : Parcelable

@@ -1,11 +1,10 @@
 package com.ch.al_mirats.presentation.splash
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import androidx.appcompat.app.AppCompatActivity
 import com.ch.al_mirats.R
-import com.ch.al_mirats.databinding.ActivityMainBinding
 import com.ch.al_mirats.databinding.ActivitySplashScreenBinding
 import com.ch.al_mirats.presentation.main.MainActivity
 
@@ -20,7 +19,10 @@ class SplashScreen : AppCompatActivity() {
 
         Handler().postDelayed({
             // Aksi yang akan dilakukan setelah splash screen selesai
-            val intent = Intent(this, MainActivity::class.java) // Ganti dengan activity tujuan setelah splash screen
+            val intent = Intent(
+                this,
+                MainActivity::class.java
+            ) // Ganti dengan activity tujuan setelah splash screen
             startActivity(intent)
             finish()
         }, SPLASH_TIME_OUT)

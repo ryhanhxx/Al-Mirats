@@ -94,7 +94,12 @@ class HomeFragment : Fragment() {
         binding.spinner.adapter = myAdapter
 
         binding.spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
-            override fun onItemSelected(adapterView: AdapterView<*>, view: View?, position: Int, l: Long) {
+            override fun onItemSelected(
+                adapterView: AdapterView<*>,
+                view: View?,
+                position: Int,
+                l: Long
+            ) {
                 val language = adapterView.adapter.getItem(position) as Language
                 if (position != 0) {
                     setLocale(language.code)

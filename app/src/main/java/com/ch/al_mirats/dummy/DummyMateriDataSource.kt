@@ -5,12 +5,12 @@ import com.ch.al_mirats.R
 import com.ch.al_mirats.model.Materi
 
 interface DummyMateriDataSource {
-    fun getMateriData(context:Context): List<Materi>
+    fun getMateriData(context: Context): List<Materi>
 
 }
 
 class DummyMateriDataSourceImpl() : DummyMateriDataSource {
-    override fun getMateriData(context:Context): List<Materi> {
+    override fun getMateriData(context: Context): List<Materi> {
         return mutableListOf(
             Materi(
                 imgUrl = "https://raw.githubusercontent.com/HaibraielRabbany/img_asset/main/img_materi.jpg",
@@ -24,7 +24,7 @@ class DummyMateriDataSourceImpl() : DummyMateriDataSource {
                 imgUrl = "https://raw.githubusercontent.com/HaibraielRabbany/img_asset/main/img_materi1.jpg",
                 title = context.getString(R.string.title_materi_2),
                 heading = context.getString(R.string.heading_materi_2),
-                desc =  context.getString(R.string.desc_materi_2),
+                desc = context.getString(R.string.desc_materi_2),
                 imgUrl2 = "",
                 source = context.getString(R.string.source_materi_2)
             ),
@@ -32,7 +32,7 @@ class DummyMateriDataSourceImpl() : DummyMateriDataSource {
                 imgUrl = "https://raw.githubusercontent.com/HaibraielRabbany/img_asset/main/img_materi2.jpg",
                 title = context.getString(R.string.title_materi_3),
                 heading = context.getString(R.string.heading_materi_3),
-                desc =  context.getString(R.string.desc_materi_3),
+                desc = context.getString(R.string.desc_materi_3),
                 imgUrl2 = "",
                 source = context.getString(R.string.source_materi_3)
             ),
@@ -72,7 +72,7 @@ class DummyMateriDataSourceImpl() : DummyMateriDataSource {
                 imgUrl = "https://raw.githubusercontent.com/HaibraielRabbany/img_asset/main/img_materi6.jpg",
                 title = context.getString(R.string.title_materi_7),
                 heading = context.getString(R.string.heading_materi_7),
-                desc =  context.getString(R.string.desc_materi_7),
+                desc = context.getString(R.string.desc_materi_7),
                 imgUrl2 = "",
                 source = context.getString(R.string.source_materi_8)
             )

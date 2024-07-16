@@ -13,7 +13,7 @@ import com.ch.al_mirats.presentation.materi.viewholder.LinearMateriViewHolder
 import com.ch.al_mirats.utils.AdapterLayoutMode
 import com.ch.al_mirats.utils.ViewHolderBinder
 
-class MateriAdapter (
+class MateriAdapter(
     var adapterLayoutMode: AdapterLayoutMode,
     private val onClickListener: (Materi) -> Unit
 ) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {

@@ -7,10 +7,12 @@ import com.ch.al_mirats.R
 import com.ch.al_mirats.model.WarisData
 import com.ch.al_mirats.presentation.kalkulator.data_waris.WarisViewHolder
 
-class WarisAdapterDefault(private val dataList: ArrayList<WarisData>) : RecyclerView.Adapter<WarisViewHolder>() {
+class WarisAdapterDefault(private val dataList: ArrayList<WarisData>) :
+    RecyclerView.Adapter<WarisViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): WarisViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.table_hasil_default_recycle_view, parent, false)
+        val view = LayoutInflater.from(parent.context)
+            .inflate(R.layout.table_hasil_default_recycle_view, parent, false)
         return WarisViewHolder(view)
     }
 

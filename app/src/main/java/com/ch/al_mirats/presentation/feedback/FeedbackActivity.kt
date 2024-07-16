@@ -11,7 +11,7 @@ import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 
 class FeedbackActivity : AppCompatActivity() {
-    private val binding: ActivityFeedbackBinding by lazy{
+    private val binding: ActivityFeedbackBinding by lazy {
         ActivityFeedbackBinding.inflate(layoutInflater)
     }
 
@@ -43,17 +43,16 @@ class FeedbackActivity : AppCompatActivity() {
             intent.putExtra(Intent.EXTRA_SUBJECT, subject)
             intent.putExtra(Intent.EXTRA_TEXT, comment)
 
-            try{
+            try {
                 startActivity(intent)
-            }catch (e: Exception){
+            } catch (e: Exception) {
                 Toast.makeText(this, "Required app is not installed", Toast.LENGTH_SHORT).show()
             }
         }
     }
 
 
-
-    private fun setOnClickBack(){
+    private fun setOnClickBack() {
         binding.ivBack.setOnClickListener {
             finish()
         }

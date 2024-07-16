@@ -7,9 +7,10 @@ import com.ch.al_mirats.databinding.ActivityAboutBinding
 import com.ch.al_mirats.databinding.ActivityFeedbackBinding
 
 class AboutActivity : AppCompatActivity() {
-    private val binding: ActivityAboutBinding by lazy{
+    private val binding: ActivityAboutBinding by lazy {
         ActivityAboutBinding.inflate(layoutInflater)
     }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
@@ -17,7 +18,7 @@ class AboutActivity : AppCompatActivity() {
 
     }
 
-    private fun setOnClickBack(){
+    private fun setOnClickBack() {
         binding.ivBack.setOnClickListener {
             finish()
         }

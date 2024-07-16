@@ -344,8 +344,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginHorizontal="4dp"
-                            android:text="0"
-                            android:hint="0"/>
+                            android:hint="0"
+                            android:text="0" />
 
                         <ImageView
                             android:id="@+id/btn_addCucuLaki"
@@ -508,12 +508,12 @@
             <Button
                 android:id="@+id/btn_lanjut"
                 android:layout_width="match_parent"
+                android:layout_height="62dp"
                 android:backgroundTint="@color/primary_dark_blue"
                 android:fontFamily="@font/poppins_semibold"
                 android:text="@string/txt_selanjutnya"
                 android:textColor="@color/primary_white"
                 app:cornerRadius="10dp"
-                android:layout_height="62dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>

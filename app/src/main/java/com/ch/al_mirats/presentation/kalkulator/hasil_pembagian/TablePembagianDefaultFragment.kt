@@ -29,7 +29,8 @@ class TablePembagianDefaultFragment : Fragment() {
         recyclerView.adapter = adapter
         return view
     }
-    fun setData(data: ArrayList<WarisData>, totalPembagianHarta: String){
+
+    fun setData(data: ArrayList<WarisData>, totalPembagianHarta: String) {
         this.data = data
         this.totalPembagianHarta = totalPembagianHarta
     }

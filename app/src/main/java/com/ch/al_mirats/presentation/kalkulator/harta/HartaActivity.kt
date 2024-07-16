@@ -13,12 +13,10 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
-import com.ch.al_mirats.R
 import com.ch.al_mirats.databinding.ActivityHartaBinding
 import com.ch.al_mirats.presentation.kalkulator.data_waris.AppDatabase
 import com.ch.al_mirats.presentation.kalkulator.data_waris.WarisDataDao
 import com.ch.al_mirats.presentation.main.MainActivity
-import com.ch.al_mirats.utils.ConvertToRupiah
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
@@ -107,7 +105,9 @@ class HartaActivity : AppCompatActivity() {
                     if (wasiat > ((1.0 / 3.0) * (harta - hutang - biayaPerawatanJenazah))) {
                         Toast.makeText(
                             this,
-                            "Wasiat tidak boleh lebih dari " + convertToRupiahFormat2(hartaBersihSementara) ,
+                            "Wasiat tidak boleh lebih dari " + convertToRupiahFormat2(
+                                hartaBersihSementara
+                            ),
                             Toast.LENGTH_SHORT
                         ).show()
                     }
