@@ -2,8 +2,6 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("kotlin-parcelize")
-    id("androidx.navigation.safeargs.kotlin")
-//    id("kotlin-kapt")
     id("com.google.devtools.ksp")
 }
 
@@ -88,6 +86,9 @@ dependencies {
 
     implementation("androidx.room:room-runtime:2.6.1")
     implementation("com.uncopt:android.justified:1.0")
+
+    //fragment ktx
+    implementation("androidx.fragment:fragment-ktx:1.6.1")
 
     ksp("androidx.room:room-compiler:2.5.2")
 
