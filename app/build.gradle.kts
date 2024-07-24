@@ -64,23 +64,37 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.6.2")
 
+    //coroutines
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.2")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.2")
 
+    //coil
     implementation("io.coil-kt:coil:2.4.0")
 
+    //room
     implementation("androidx.room:room-ktx:2.6.1")
 
+    //rv
     implementation("androidx.recyclerview:recyclerview:1.3.1")
 
+    //coroutine
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.2")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.2")
+
+    //viewpager
     implementation ("androidx.viewpager2:viewpager2:1.0.0")
 
     implementation ("com.pierfrancescosoffritti.androidyoutubeplayer:chromecast-sender:0.28")
 
     implementation("androidx.room:room-runtime:2.6.1")
     implementation("com.uncopt:android.justified:1.0")
-//    kapt("androidx.room:room-compiler:2.6.1")
+
     ksp("androidx.room:room-compiler:2.5.2")
+
+    //room
     implementation ("androidx.room:room-paging:2.6.1")
+
+    //data store
+    implementation("androidx.datastore:datastore-preferences:1.0.0")
 
 }

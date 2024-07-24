@@ -100,8 +100,6 @@ class WarisUtamaActivity : AppCompatActivity() {
             binding.edCucuPerempuan.text = nilaiKosong
         }
 
-
-
         warisDataDao = AppDatabase.getDatabase(this).warisDataDao()
         checkIfDatabaseNotEmpty()
 
@@ -322,6 +320,4 @@ class WarisUtamaActivity : AppCompatActivity() {
             }
         }
     }
-
-
 }
