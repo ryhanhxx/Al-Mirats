@@ -19,7 +19,6 @@ import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 
 class SettingsDialogFragment : BottomSheetDialogFragment() {
 
-
     private lateinit var binding: FragmentSettingsDialogBinding
 
     private val viewModel: SettingsViewModel by viewModels {
