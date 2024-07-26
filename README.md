@@ -12,6 +12,8 @@
     <li>Feedback </li>
     <li>Tutorial App</li>
     <li>About App</li>
+    <li>Dark Mode</li>
+    <li>Support Dual Language (English & Indonesia)</li>
 </ul>
 
 <h2>Contact</h2>
