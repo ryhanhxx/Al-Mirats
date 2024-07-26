@@ -27,6 +27,7 @@ import com.ch.al_mirats.presentation.home.adapter.LanguageAdapter
 import com.ch.al_mirats.presentation.kalkulator.harta.HartaActivity
 import com.ch.al_mirats.presentation.main.MainActivity
 import com.ch.al_mirats.presentation.materi.MateriActivity
+import com.ch.al_mirats.presentation.settings.SettingsDialogFragment
 import com.ch.al_mirats.presentation.tutorial.TutorialActivity
 import java.util.Locale
 
@@ -61,7 +62,6 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         setupRecyclerView()
-        setupDarkMode()
         setupNavigate()
         setupCarousel()
         setupTransformer()
@@ -70,22 +70,26 @@ class HomeFragment : Fragment() {
     }
 
     private fun setupNavigate() {
+        binding.ivSettings.setOnClickListener {
+            SettingsDialogFragment().show(childFragmentManager, null)
+        }
+
         binding.llFeedback.setOnClickListener {
             val intent = Intent(activity, FeedbackActivity::class.java)
-            activity?.startActivity(intent)
+            startActivity(intent)
         }
 
         binding.llAbout.setOnClickListener {
             val intent = Intent(activity, AboutActivity::class.java)
-            activity?.startActivity(intent)
+            startActivity(intent)
         }
         binding.llTutorial.setOnClickListener {
             val intent = Intent(activity, TutorialActivity::class.java)
-            activity?.startActivity(intent)
+            startActivity(intent)
         }
         binding.llKalkulator.setOnClickListener {
             val intent = Intent(activity, HartaActivity::class.java)
-            activity?.startActivity(intent)
+            startActivity(intent)
         }
     }
 
@@ -175,13 +179,13 @@ class HomeFragment : Fragment() {
         binding.viewPager2.getChildAt(0).overScrollMode = RecyclerView.OVER_SCROLL_NEVER
     }
 
-    private fun setupDarkMode() {
-        binding.swDarkMode.setOnCheckedChangeListener { _, isChecked ->
-            if (isChecked) {
-                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
-            } else {
-                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
-            }
-        }
-    }
+//    private fun setupDarkMode() {
+//        binding.swDarkMode.setOnCheckedChangeListener { _, isChecked ->
+//            if (isChecked) {
+//                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+//            } else {
+//                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+//            }
+//        }
+//    }
 }
