@@ -1,6 +1,6 @@
 <h1><b>Al Mirats</b></h1>
 
-![alt text](https://github.com/ryhanhxx/Al-Mirats/blob/master/app/screenshot/Thumbnail.png)
+![alt text](https://github.com/ryhanhxx/Al-Mirats/blob/master/app/screenshot/AlMiratsThumbnail.png)
 
 <h2>Description</h2>
 <p>Feeling overwhelmed by how to divide your belongings after you're gone?  The Al Mirats is a handy tool that helps you figure out how to split things up among your loved ones.</p>
