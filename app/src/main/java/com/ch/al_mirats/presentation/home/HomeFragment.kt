@@ -83,10 +83,12 @@ class HomeFragment : Fragment() {
             val intent = Intent(activity, AboutActivity::class.java)
             startActivity(intent)
         }
+
         binding.llTutorial.setOnClickListener {
             val intent = Intent(activity, TutorialActivity::class.java)
             startActivity(intent)
         }
+
         binding.llKalkulator.setOnClickListener {
             val intent = Intent(activity, HartaActivity::class.java)
             startActivity(intent)
