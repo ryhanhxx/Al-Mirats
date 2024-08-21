@@ -93,6 +93,11 @@
     <string name="txt_jumlah_saudari_seayah_seibu">Jumlah Saudari Sekandung</string>
     <string name="txt_mail">*Kirim feedback melalui metode email.</string>
     <string name="source">Sumber</string>
+    <string name="txt_copyright">Copyright © by Rumah Fiqih Indonesia</string>
+    <string name="txt_selesai">Selesai</string>
+    <string name="txt_team_alqudra">Team AL-QUDRA</string>
+    <string name="txt_team_marbay">Team MARBAY</string>
+    <string name="txt_kirim">Kirim</string>
 
     <!--    TODO: MATERI-->
     <string name="title_materi_1">Apa Itu Waris</string>
@@ -178,21 +183,17 @@
     <string name="title_fatwa_6">Wasiat Untuk Ahli Waris, Apakah Wajib Dilaksanakan</string>
 
     <string name="desc_fatwa_1">Mengenai hutang puasa yang belum dibayar sebelum seseorang meninggal, pendapat mayoritas ulama adalah bahwa Ahli Waris tidak berkewajiban untuk mengqadha (mengganti) puasa yang belum dilakukan oleh si almarhum. Ini karena kewajiban ibadah puasa adalah personal dan tidak dapat digantikan oleh orang lain setelah kematian seseorang.
-        \n\nSumber: ChatGPT</string>
+        \n\nSumber: \nhttps://konsultasisyariah.com/34953-utang-puasa-orang-yang-sudah-meninggal-bolehkah-qadhanya-dibagi.html</string>
     <string name="desc_fatwa_2">Dalam Islam, bagian waris antara laki-laki dan perempuan tidak disamakan. Bagian waris laki-laki lebih besar dibandingkan perempuan dalam beberapa situasi. Dalam warisan, seorang anak perempuan mendapatkan setengah bagian waris dari anak laki-laki.
-        \n\nSumber: ChatGPT</string>
+        \n\nSumber: \nhttps://islam.nu.or.id/warisan/tata-cara-pembagian-harta-warisan-dalam-islam-sEdAg</string>
     <string name="desc_fatwa_3">Dalam Islam, prinsip dasar pembagian harta waris adalah adil dan sesuai dengan ketentuan yang telah ditetapkan dalam Al-Qur an. Meskipun seseorang lebih berjasa kepada almarhum, pembagian harta waris tetap mengikuti ketentuan hukum waris Islam yang telah ditetapkan. \n\nTidak diperbolehkan memberikan porsi lebih besar kepada satu ahli waris hanya berdasarkan jasa-jasa tertentu.
-        \n\nSumber: ChatGPT</string>
-    <string name="desc_fatwa_4">dalam Al Qur an terdapat ayat–ayat yang mengatur pembagian harta waris secara syar i. Salah satu ayat yang menjelaskan hal ini terdapat dalam Surah An–Nisa (4:11–12):"11. Allah menyampaikan perintah-Nya kepadamu tentang (pembagian harta pusaka) anak-anakmu: bahagian seorang anak laki-laki sama dengan bahagian dua orang anak perempuan, dan jika anak-anak perempuan itu lebih dari dua, maka mereka mendapat dua pertiga harta yang ditinggalkan itu; dan jika dia hanya seorang anak perempuan, maka baginya separo. Dan kepada orang tua (pewaris) masing-masing dari keduanya seperenam dari harta yang ditinggalkannya, jika dia mempunyai anak; dan jika dia tidak mempunyai anak dan orang tuanya mewarisi harta itu, maka ibunya mendapat sepertiga. \n\nDan jika yang meninggalkan itu mempunyai saudara laki-laki atau saudara perempuan, maka masing-masing dari keduanya mendapat seperenam. Dan jika yang meninggalkan itu mempunyai banyak saudara laki-laki dan saudara perempuan, maka bagi saudara perempuannya seperenam; dan bagi saudara laki-lakinya masing-masinglah sebahagian. (Itu adalah) ketetapan Allah yang diberikan-Nya kepadamu; dan Allah Maha Mengetahui lagi Maha Bijaksana."
-        \n\nSumber: ChatGPT</string>
+        \n\nSumber: \nhttps://www.prudentialsyariah.co.id/id/pulse/article/pembagian-harta-warisan-menurut-islam/</string>
+    <string name="desc_fatwa_4">Dalam Al Qur an terdapat ayat–ayat yang mengatur pembagian harta waris secara syar i. Salah satu ayat yang menjelaskan hal ini terdapat dalam Surah An–Nisa (4:11–12):"11. Allah menyampaikan perintah-Nya kepadamu tentang (pembagian harta pusaka) anak-anakmu: bahagian seorang anak laki-laki sama dengan bahagian dua orang anak perempuan, dan jika anak-anak perempuan itu lebih dari dua, maka mereka mendapat dua pertiga harta yang ditinggalkan itu; dan jika dia hanya seorang anak perempuan, maka baginya separo. Dan kepada orang tua (pewaris) masing-masing dari keduanya seperenam dari harta yang ditinggalkannya, jika dia mempunyai anak; dan jika dia tidak mempunyai anak dan orang tuanya mewarisi harta itu, maka ibunya mendapat sepertiga. \n\nDan jika yang meninggalkan itu mempunyai saudara laki-laki atau saudara perempuan, maka masing-masing dari keduanya mendapat seperenam. Dan jika yang meninggalkan itu mempunyai banyak saudara laki-laki dan saudara perempuan, maka bagi saudara perempuannya seperenam; dan bagi saudara laki-lakinya masing-masinglah sebahagian. (Itu adalah) ketetapan Allah yang diberikan-Nya kepadamu; dan Allah Maha Mengetahui lagi Maha Bijaksana."
+        \n\nSumber: \nhttps://quran.nu.or.id/an-nisa/11</string>
     <string name="desc_fatwa_5">Membagi waris tidak sesuai dengan hukum Allah SWT (syar i) dianggap sebagai pelanggaran serius dalam Islam. Membatalkan atau mengubah ketentuan waris yang telah ditetapkan oleh syariat Islam dapat dianggap sebagai tindakan yang tidak sah dan dapat mendatangkan dosa. \n\nDalam Islam, ketaatan terhadap hukum waris Allah adalah kewajiban, dan pelanggaran terhadapnya dapat mengakibatkan konsekuensi hukum dan moral.
-        \n\nSumber: ChatGPT</string>
+        \n\nSumber: \nhttps://www.cahayaislam.id/pembagian-warisan/</string>
     <string name="desc_fatwa_6">Wasiat dalam Islam diperbolehkan, tetapi ada batasan dan ketentuan tertentu yang harus diikuti. Wasiat hanya dapat mencakup sepertiga dari harta peninggalan dan tidak boleh merugikan ahli waris yang sudah ditentukan oleh hukum waris Islam. Dalam hal ini, wasiat tidak wajib dilaksanakan sepenuhnya, namun harus mematuhi ketentuan-ketentuan tersebut.
-        \n\nSumber: ChatGPT</string>
-    <string name="txt_copyright">Copyright © by Rumah Fiqih Indonesia</string>
-    <string name="txt_selesai">Selesai</string>
-    <string name="txt_team_alqudra">Team AL-QUDRA</string>
-    <string name="txt_team_marbay">Team MARBAY</string>
-    <string name="txt_kirim">Kirim</string>
+        \n\nSumber: \nhttps://www.prudentialsyariah.co.id/id/pulse/article/pembagian-harta-warisan-menurut-islam/</string>
+
 
 </resources>
