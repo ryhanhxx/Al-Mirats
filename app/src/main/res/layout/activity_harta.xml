@@ -103,7 +103,7 @@
                 android:fontFamily="@font/poppins_medium"
                 android:text="Rp.0"
                 android:textAlignment="textEnd"
-                android:textColor="@color/color_on_secondary_light"
+                android:textColor="@color/color_secondary_red"
                 android:textSize="14sp" />
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -150,7 +150,7 @@
                 android:fontFamily="@font/poppins_medium"
                 android:text="Rp.0"
                 android:textAlignment="textEnd"
-                android:textColor="@color/color_on_secondary_light"
+                android:textColor="@color/color_secondary_red"
                 android:textSize="14sp" />
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -197,7 +197,7 @@
                 android:fontFamily="@font/poppins_medium"
                 android:text="Rp.0"
                 android:textAlignment="textEnd"
-                android:textColor="@color/color_on_secondary_light"
+                android:textColor="@color/color_secondary_red"
                 android:textSize="14sp" />
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -244,7 +244,7 @@
                 android:fontFamily="@font/poppins_medium"
                 android:text="Rp.0"
                 android:textAlignment="textEnd"
-                android:textColor="@color/color_on_secondary_light"
+                android:textColor="@color/color_secondary_red"
                 android:textSize="14sp" />
         </androidx.appcompat.widget.LinearLayoutCompat>
 

@@ -66,8 +66,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="16dp"
+        app:tint="@color/white"
         android:layout_marginBottom="80dp"
-        android:backgroundTint="@color/primary_lighten_blue"
+        android:backgroundTint="@color/primary_dark_blue"
         android:src="@drawable/ic_zoomin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -80,10 +81,11 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="80dp"
-        android:backgroundTint="@color/primary_lighten_blue"
+        android:backgroundTint="@color/primary_dark_blue"
         android:src="@drawable/ic_zoomout"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:tint="@color/white" />
 
     <Button
         android:id="@+id/btn_lanjut"

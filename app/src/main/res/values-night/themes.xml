@@ -5,6 +5,7 @@
         <item name="colorPrimary">@color/primary_light_blue</item>
         <item name="colorPrimaryVariant">@color/primary_lighten_blue</item>
         <item name="colorOnPrimary">@color/primary_light_blue</item>
+
         <!-- Customize your theme here. -->
         <item name="android:windowBackground">@color/background_dark</item>
         <item name="android:textColorPrimary">@color/white</item>
