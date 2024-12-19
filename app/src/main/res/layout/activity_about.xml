@@ -42,7 +42,7 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/poppins_semibold"
                     android:text="@string/txt_tentang_aplikasi"
-                    android:textColor="?android:textColorSecondary"
+                    android:textColor="?android:textColorPrimary"
                     android:textSize="20sp"
                     app:layout_constraintStart_toEndOf="@id/iv_back"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -74,7 +74,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_medium"
                     android:text="@string/txt_nama_aplikasi"
-                    android:textColor="?android:textColorSecondary"
+                    android:textColor="?android:textColorPrimary"
                     android:textSize="18sp" />
 
                 <TextView
@@ -98,7 +98,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_medium"
                     android:text="@string/txt_tim"
-                    android:textColor="?android:textColorSecondary"
+                    android:textColor="?android:textColorPrimary"
                     android:textSize="18sp" />
 
                 <TextView
@@ -122,7 +122,7 @@
                     android:layout_marginTop="8dp"
                     android:fontFamily="@font/poppins_medium"
                     android:text="@string/txt_tim"
-                    android:textColor="?android:textColorSecondary"
+                    android:textColor="?android:textColorPrimary"
                     android:textSize="18sp" />
 
                 <TextView
@@ -155,7 +155,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_medium"
                     android:text="@string/txt_dosen_pembimbing"
-                    android:textColor="?android:textColorSecondary"
+                    android:textColor="?android:textColorPrimary"
                     android:textSize="18sp" />
 
                 <TextView
@@ -179,7 +179,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_medium"
                     android:text="@string/txt_klien"
-                    android:textColor="?android:textColorSecondary"
+                    android:textColor="?android:textColorPrimary"
                     android:textSize="18sp" />
 
                 <TextView
@@ -203,7 +203,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_medium"
                     android:text="@string/txt_sumber"
-                    android:textColor="?android:textColorSecondary"
+                    android:textColor="?android:textColorPrimary"
                     android:textSize="18sp" />
 
                 <TextView
