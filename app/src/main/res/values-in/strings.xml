@@ -98,6 +98,10 @@
     <string name="txt_team_alqudra">Team AL-QUDRA</string>
     <string name="txt_team_marbay">Team MARBAY</string>
     <string name="txt_kirim">Kirim</string>
+    <string name="txt_selamat">Selamat datang, di Al-Mirats!</string>
+    <string name="txt_welcome_2">Hitung pembagian warisan sesuai syariah dengan mudah, cepat, dan akurat.</string>
+    <string name="txt_mulai">Mulai</string>
+    <string name="txt_dark_mode">Mode Gelap</string>
 
     <!--    TODO: MATERI-->
     <string name="title_materi_1">Apa Itu Waris</string>

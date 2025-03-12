@@ -5,19 +5,23 @@ import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
 import com.ch.al_mirats.R
+import com.ch.al_mirats.databinding.ActivityFeedbackBinding
 import com.ch.al_mirats.databinding.ActivitySplashScreenBinding
 import com.ch.al_mirats.presentation.about.AboutActivity
+import com.ch.al_mirats.presentation.home.HomeFragment
 import com.ch.al_mirats.presentation.main.MainActivity
 import com.ch.al_mirats.presentation.settings.SettingsDialogFragment
 
 class SplashScreen : AppCompatActivity() {
-    private lateinit var binding: ActivitySplashScreenBinding
+    private val binding: ActivitySplashScreenBinding by lazy{
+        ActivitySplashScreenBinding.inflate(layoutInflater)
+    }
 
 //    private val SPLASH_TIME_OUT: Long = 1000 // Durasi splash screen dalam milidetik (3 detik)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_splash_screen)
+        setContentView(binding.root)
 
 //        Handler().postDelayed({
 //            // Aksi yang akan dilakukan setelah splash screen selesai
@@ -34,8 +38,8 @@ class SplashScreen : AppCompatActivity() {
     }
 
     private fun navigateToHome(){
-        binding.ivStart.setOnClickListener {
-            val intent = Intent(this, AboutActivity::class.java)
+        binding.btnStart.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
     }
