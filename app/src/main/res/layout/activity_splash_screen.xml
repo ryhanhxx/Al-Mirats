@@ -3,17 +3,59 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="12dp"
     android:layout_height="match_parent"
     android:background="?android:windowBackground"
     tools:context=".presentation.splash.SplashScreen">
 
-    <ImageView
-        android:layout_width="360px"
-        android:layout_height="360px"
-        android:src="@drawable/ic_splash_screen"
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/btn_kirimMasukan"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="12dp">
+
+        <TextView
+            android:id="@+id/tv_welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/txt_selamat"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="34sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="40dp"
+            android:src="@drawable/img_onboard" />
+
+        <TextView
+            android:id="@+id/tv_welcome_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="@string/tv_welcome_2"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="16sp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <Button
+        android:id="@+id/btn_kirimMasukan"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:backgroundTint="@color/primary_dark_blue"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/txt_mulai"
+        android:textColor="@color/primary_white"
+        app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
